@@ -1,12 +1,24 @@
 {
   "version": 1,
   "updated": "2026-07-21",
-  "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas.",
+  "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
-    {"date": "SEX 17 JUL", "title": "Xi abre a WAIC em Xangai e endossa IA open-source; WAICO lançada com 29 países."},
-    {"date": "SÁB 18 JUL", "title": "Alibaba provoca o Qwen 3.8 (~2,4T parâmetros) e promete pesos abertos."},
-    {"date": "DOM 19 JUL", "title": "Kimi K3 esgota: Moonshot pausa novas assinaturas — \"nossas GPUs estão sentindo\"."},
-    {"date": "SEG 20 JUL", "title": "Axios: administração Trump sinaliza possível banimento de modelos chineses."}
+    {
+      "date": "SEX 17 JUL",
+      "title": "Xi abre a WAIC em Xangai e endossa IA open-source; WAICO lançada com 29 países."
+    },
+    {
+      "date": "SÁB 18 JUL",
+      "title": "Alibaba provoca o Qwen 3.8 (~2,4T parâmetros) e promete pesos abertos."
+    },
+    {
+      "date": "DOM 19 JUL",
+      "title": "Kimi K3 esgota: Moonshot pausa novas assinaturas — \"nossas GPUs estão sentindo\"."
+    },
+    {
+      "date": "SEG 20 JUL",
+      "title": "Axios: administração Trump sinaliza possível banimento de modelos chineses."
+    }
   ],
   "signals": [
     {
@@ -14,56 +26,120 @@
       "date": "27 JUL",
       "title": "Pesos do K3 publicados no prazo",
       "note": "Cumprir a promessa discrimina pouco — até o teatro publicaria.",
-      "L": {"coord": 0.90, "market": 0.90, "theater": 0.50},
-      "resolved": null
+      "L": {
+        "coord": 0.9,
+        "market": 0.9,
+        "theater": 0.5
+      },
+      "resolved": null,
+      "queries": [
+        "Kimi K3 open weights",
+        "Moonshot AI pesos abertos",
+        "Kimi K3 release"
+      ],
+      "evidence": []
     },
     {
       "id": "qwen",
       "date": "A DEFINIR",
       "title": "Benchmarks do Qwen 3.8 auditados de forma independente",
       "note": "Capacidade real enfraquece a leitura de puro teatro.",
-      "L": {"coord": 0.75, "market": 0.80, "theater": 0.30},
-      "resolved": null
+      "L": {
+        "coord": 0.75,
+        "market": 0.8,
+        "theater": 0.3
+      },
+      "resolved": null,
+      "queries": [
+        "Qwen 3.8 benchmark",
+        "Alibaba Qwen 3.8"
+      ],
+      "evidence": []
     },
     {
       "id": "ban",
       "date": "A DEFINIR",
       "title": "Texto de banimento dos EUA publicado (não só sinal)",
       "note": "Transforma o Lance 2 de rumor em política com escopo legível.",
-      "L": {"coord": 0.70, "market": 0.55, "theater": 0.45},
-      "resolved": null
+      "L": {
+        "coord": 0.7,
+        "market": 0.55,
+        "theater": 0.45
+      },
+      "resolved": null,
+      "queries": [
+        "US ban Chinese AI models",
+        "banimento modelos IA chineses"
+      ],
+      "evidence": []
     },
     {
       "id": "labs",
       "date": "A DEFINIR",
       "title": "Outros labs chineses abrem flagships antes fechados",
       "note": "Mudança de ecossistema, não específica da Moonshot.",
-      "L": {"coord": 0.80, "market": 0.85, "theater": 0.20},
-      "resolved": null
+      "L": {
+        "coord": 0.8,
+        "market": 0.85,
+        "theater": 0.2
+      },
+      "resolved": null,
+      "queries": [
+        "Chinese AI lab open source model",
+        "China open weights flagship"
+      ],
+      "evidence": []
     },
     {
       "id": "waico",
       "date": "A DEFINIR",
       "title": "WAICO fecha compromissos concretos de adoção",
       "note": "Canal de Estado funcionando aponta coordenação.",
-      "L": {"coord": 0.85, "market": 0.40, "theater": 0.25},
-      "resolved": null
+      "L": {
+        "coord": 0.85,
+        "market": 0.4,
+        "theater": 0.25
+      },
+      "resolved": null,
+      "queries": [
+        "WAICO artificial intelligence",
+        "WAICO adoption countries"
+      ],
+      "evidence": []
     },
     {
       "id": "ipo",
       "date": "A DEFINIR",
       "title": "IPO da Moonshot precifica no alvo (~US$30 bi+)",
       "note": "Narrativa de escassez pagando — sustenta teatro.",
-      "L": {"coord": 0.55, "market": 0.55, "theater": 0.85},
-      "resolved": null
+      "L": {
+        "coord": 0.55,
+        "market": 0.55,
+        "theater": 0.85
+      },
+      "resolved": null,
+      "queries": [
+        "Moonshot AI IPO",
+        "Moonshot IPO valuation"
+      ],
+      "evidence": []
     },
     {
       "id": "saturation",
       "date": "A DEFINIR",
       "title": "Saturação de GPU verificada como genuína",
       "note": "Datacenters terceiros (ex.: Databricks) confirmam a escassez.",
-      "L": {"coord": 0.60, "market": 0.70, "theater": 0.20},
-      "resolved": null
+      "L": {
+        "coord": 0.6,
+        "market": 0.7,
+        "theater": 0.2
+      },
+      "resolved": null,
+      "queries": [
+        "Moonshot GPU shortage",
+        "China AI inference capacity"
+      ],
+      "evidence": []
     }
   ]
 }
