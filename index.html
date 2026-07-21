@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Livro-Razão — Corrida de Modelos Abertos China × EUA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&family=Archivo:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0E141B;
+    --bg-2:#131B23;
+    --card:#18222C;
+    --line:#26333F;
+    --line-soft:rgba(38,51,63,.55);
+    --txt:#C7D0D7;
+    --dim:#75858F;
+    --bright:#EDF1F4;
+    --cn:#D5493E;
+    --cn-soft:rgba(213,73,62,.14);
+    --us:#4187B5;
+    --us-soft:rgba(65,135,181,.13);
+    --amber:#CE9A38;
+    --amber-soft:rgba(206,154,56,.12);
+    --ok:#5FA372;
+    --no:#8A5560;
+    --r:4px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:linear-gradient(180deg,#111922 0%,var(--bg) 340px),var(--bg);
+    color:var(--txt);
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:13.5px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    padding:30px 20px 70px;
+  }
+  .wrap{max-width:1180px;margin:0 auto}
+  .caps{font-family:"Archivo",sans-serif;text-transform:uppercase;letter-spacing:.14em}
+
+  /* ================= HEADER ================= */
+  header{margin-bottom:26px}
+  .masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:18px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:20px}
+  .masthead .left{max-width:640px}
+  .kicker{font-size:10.5px;color:var(--dim);letter-spacing:.3em;text-transform:uppercase;display:flex;gap:10px;align-items:center}
+  .kicker::before{content:"";width:22px;height:1px;background:var(--amber)}
+  h1{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:clamp(30px,4.6vw,46px);line-height:1.04;color:var(--bright);margin:10px 0 8px;letter-spacing:.005em}
+  h1 em{font-style:italic;color:var(--amber)}
+  .lede{font-size:12.5px;color:var(--dim);max-width:62ch}
+  .session{text-align:right;font-size:11px;color:var(--dim);line-height:1.7;min-width:180px}
+  .session b{color:var(--txt);font-weight:500}
+  .session .delta{color:var(--amber)}
+
+  .arc-band{
+    margin-top:20px;background:var(--bg-2);border:1px solid var(--line);border-radius:var(--r);
+    padding:16px 20px 12px;display:grid;grid-template-columns:1fr 300px;gap:20px;align-items:center;
+  }
+  @media(max-width:860px){.arc-band{grid-template-columns:1fr}}
+  .arc-title{font-size:10px;color:var(--dim);letter-spacing:.24em;text-transform:uppercase;margin-bottom:8px}
+  .arc-verdict{font-family:"Instrument Serif",Georgia,serif;font-size:19px;color:var(--bright);line-height:1.3}
+  .arc-verdict b{color:var(--amber);font-weight:400;font-style:italic}
+  #arc-svg{width:100%;display:block}
+
+  /* ================= LAYOUT ================= */
+  .grid{display:grid;grid-template-columns:1fr 372px;gap:24px;align-items:start}
+  @media(max-width:980px){.grid{grid-template-columns:1fr}}
+  .panel{background:var(--bg-2);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin-bottom:20px}
+  .panel>h2{font-family:"Archivo",sans-serif;font-weight:600;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--bright);margin:0 0 3px;display:flex;gap:9px;align-items:baseline}
+  .panel>h2 .n{color:var(--amber);font-family:"IBM Plex Mono",monospace;font-size:10.5px}
+  .panel .cap{font-size:11.5px;color:var(--dim);margin:0 0 15px;line-height:1.5}
+  .panel .cap b{color:var(--txt);font-weight:500}
+
+  /* ================= LEDGER ================= */
+  .ledger{position:relative;padding-left:26px}
+  .ledger::before{content:"";position:absolute;left:8px;top:6px;bottom:6px;width:1px;background:linear-gradient(180deg,var(--line),var(--line) 60%,transparent)}
+  .lentry{position:relative;margin-bottom:14px}
+  .lentry::before{content:"";position:absolute;left:-23px;top:7px;width:9px;height:9px;border-radius:50%;background:var(--bg-2);border:2px solid var(--dim)}
+  .lentry.past::before{background:var(--dim);border-color:var(--dim)}
+  .lentry.res-yes::before{background:var(--ok);border-color:var(--ok)}
+  .lentry.res-no::before{background:var(--no);border-color:var(--no)}
+  .lentry.watch-top::before{border-color:var(--amber);box-shadow:0 0 0 3px var(--amber-soft)}
+  .ldate{font-size:10px;color:var(--dim);letter-spacing:.18em;text-transform:uppercase}
+  .ldate .flag{color:var(--amber)}
+  .lcard{background:var(--card);border:1px solid var(--line-soft);border-radius:var(--r);padding:11px 13px;margin-top:4px}
+  .lentry.past .lcard{background:transparent;border-style:dashed;padding:8px 13px}
+  .ltitle{font-size:12.5px;color:var(--bright);line-height:1.4}
+  .lnote{font-size:11px;color:var(--dim);margin-top:3px;line-height:1.45}
+  .lmeta{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:9px;flex-wrap:wrap}
+  .impact{font-size:10px;color:var(--dim);letter-spacing:.06em}
+  .impact b{color:var(--amber);font-weight:600}
+  .tri{display:flex;border:1px solid var(--line);border-radius:3px;overflow:hidden}
+  .tri button{background:transparent;border:none;color:var(--dim);font-family:inherit;font-size:10.5px;letter-spacing:.05em;padding:6px 10px;cursor:pointer;transition:all .12s;border-left:1px solid var(--line)}
+  .tri button:first-child{border-left:none}
+  .tri button:focus-visible{outline:2px solid var(--amber);outline-offset:-2px}
+  .tri button[aria-pressed=true].b-yes{background:rgba(95,163,114,.18);color:#9FD0AD}
+  .tri button[aria-pressed=true].b-no{background:rgba(138,85,96,.22);color:#D9A0AC}
+  .tri button[aria-pressed=true].b-un{background:rgba(117,133,143,.16);color:var(--txt)}
+
+  /* ---- previsões travadas ---- */
+  .pred{margin-top:9px;border-top:1px dashed var(--line-soft);padding-top:8px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .pred-label{font-size:10px;color:var(--dim);letter-spacing:.04em}
+  .pred-label.dim{font-style:italic}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+  .chip{background:transparent;border:1px solid var(--line);border-radius:3px;color:var(--dim);font-family:inherit;font-size:10.5px;padding:5px 8px;cursor:pointer;transition:all .12s}
+  .chip[aria-pressed=true]{border-color:var(--amber);color:var(--amber);background:var(--amber-soft)}
+  .chip:focus-visible,.lockbtn:focus-visible{outline:2px solid var(--amber);outline-offset:-2px}
+  .lockbtn{background:var(--amber-soft);border:1px solid var(--amber);color:var(--amber);font-family:"Archivo",sans-serif;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:6px 10px;border-radius:3px;cursor:pointer;font-weight:600;transition:opacity .12s}
+  .lockbtn:disabled{opacity:.35;cursor:not-allowed}
+  .pred-locked{font-size:11px;color:var(--txt)}
+  .pred-locked b{color:var(--amber)}
+  .pred-score{font-size:11px;font-weight:600}
+  .pred-score.good{color:#9FD0AD}
+  .pred-score.bad{color:#D9A0AC}
+  .score-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center;margin-bottom:10px}
+  .score-grid div{background:var(--card);border:1px solid var(--line-soft);border-radius:3px;padding:8px 4px}
+  .score-grid b{display:block;font-size:16px;color:var(--bright);font-weight:600;font-variant-numeric:tabular-nums}
+  .score-grid span{font-size:9px;color:var(--dim);letter-spacing:.08em;text-transform:uppercase}
+  .score-verdict{font-size:11px;color:var(--dim);line-height:1.5}
+  .score-verdict b{color:var(--txt)}
+
+  /* ================= READOUTS ================= */
+  .bar{margin-bottom:12px}
+  .bar:last-child{margin-bottom:0}
+  .bar .row{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:4px}
+  .bar .name{font-size:12px;color:var(--txt)}
+  .bar .name b{color:var(--bright);font-weight:600;font-family:"Archivo",sans-serif;font-size:11.5px;letter-spacing:.02em}
+  .bar .pct{font-size:12.5px;font-weight:600;color:var(--bright);font-variant-numeric:tabular-nums}
+  .track{height:8px;background:var(--bg);border:1px solid var(--line-soft);border-radius:4px;overflow:hidden}
+  .fill{height:100%;border-radius:4px;transition:width .5s cubic-bezier(.4,0,.2,1);min-width:2px}
+  .bar .desc{font-size:10.5px;color:var(--dim);margin-top:4px;line-height:1.4}
+  .spark{margin-top:5px;height:22px;width:100%;display:block}
+
+  .watch-item{display:flex;gap:10px;align-items:baseline;padding:8px 0;border-top:1px solid var(--line-soft)}
+  .watch-item:first-child{border-top:none}
+  .watch-rank{font-size:11px;color:var(--amber);font-weight:600;flex:none;width:18px}
+  .watch-txt{font-size:11.5px;color:var(--txt);line-height:1.4}
+  .watch-txt small{display:block;color:var(--dim);font-size:10px;margin-top:1px}
+  .watch-empty{font-size:11.5px;color:var(--dim);font-style:italic}
+
+  details.drawer{border:1px solid var(--line);border-radius:var(--r);background:var(--bg-2);margin-bottom:20px}
+  details.drawer summary{cursor:pointer;list-style:none;padding:13px 18px;font-family:"Archivo",sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);display:flex;justify-content:space-between;align-items:center;transition:color .12s}
+  details.drawer summary:hover{color:var(--txt)}
+  details.drawer summary::-webkit-details-marker{display:none}
+  details.drawer summary::after{content:"+";font-size:14px;color:var(--amber)}
+  details.drawer[open] summary::after{content:"–"}
+  .drawer-body{padding:4px 18px 18px;border-top:1px solid var(--line-soft)}
+  .ctl{margin:13px 0}
+  .ctl .row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:5px;gap:10px}
+  .ctl label{font-size:11.5px;color:var(--txt)}
+  .ctl .val{font-size:11.5px;color:var(--amber);font-weight:600;font-variant-numeric:tabular-nums}
+  input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:3px;background:var(--line);border-radius:2px;outline:none;cursor:pointer;margin:2px 0}
+  input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:var(--txt);border:2px solid var(--bg);cursor:pointer}
+  input[type=range]::-moz-range-thumb{width:14px;height:14px;border-radius:50%;background:var(--txt);border:2px solid var(--bg);cursor:pointer}
+  input[type=range]:focus-visible{box-shadow:0 0 0 3px var(--amber-soft)}
+  .seg{display:flex;border:1px solid var(--line);border-radius:3px;overflow:hidden;margin-top:5px}
+  .seg button{flex:1;background:transparent;border:none;color:var(--dim);font-family:inherit;font-size:10.5px;padding:8px 6px;cursor:pointer;transition:all .12s}
+  .seg button[aria-pressed=true]{background:var(--us-soft);color:#CBDFEC}
+  .seg button:focus-visible{outline:2px solid var(--amber);outline-offset:-2px}
+
+  .tree-wrap{background:var(--card);border:1px solid var(--line-soft);border-radius:var(--r);padding:8px}
+  #tree{width:100%;display:block}
+  .tree-note{font-size:11px;color:var(--dim);line-height:1.55;margin-top:10px}
+  .tree-note b{color:var(--txt)}
+
+  .btn{width:100%;background:transparent;border:1px solid var(--amber);color:var(--amber);font-family:"Archivo",sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;padding:11px;border-radius:3px;cursor:pointer;transition:all .14s;font-weight:600}
+  .btn:hover{background:var(--amber-soft)}
+  .btn.share{border-color:var(--line);color:var(--txt);margin-top:8px;font-weight:500}
+  .btn.share:hover{border-color:var(--us);color:#CBDFEC;background:var(--us-soft)}
+  .btn.share.copied{border-color:var(--ok);color:#9FD0AD}
+  .btn.ghost{border-color:var(--line);color:var(--dim);margin-top:8px;font-weight:500}
+  .btn.ghost:hover{border-color:var(--no);color:#D9A0AC;background:transparent}
+  .journal-log{font-size:10.5px;color:var(--dim);margin-top:10px;line-height:1.7}
+  .journal-log b{color:var(--txt);font-weight:500}
+  .storage-note{font-size:10px;color:var(--dim);margin-top:8px;font-style:italic}
+
+  footer{border-top:1px dashed var(--line);margin-top:8px;padding-top:16px;font-size:11px;color:var(--dim);line-height:1.65;max-width:88ch}
+  footer b{color:var(--txt)}
+  footer code{color:var(--amber);font-size:10.5px}
+
+  @media (prefers-reduced-motion: reduce){.fill{transition:none}*{transition-duration:.01ms !important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="masthead">
+    <div class="left">
+      <div class="kicker">Livro-razão de sinais · atualizado por você, a cada notícia</div>
+      <h1>A corrida dos modelos abertos, <em>lida como um jogo</em></h1>
+      <p class="lede">China moveu primeiro e queimou as pontes. Os EUA respondem depois. Cada manchete nova é um sinal: resolva-o abaixo e veja sua leitura do regime — e a projeção de desfechos — se mover. O painel de vigia diz qual sinal observar em seguida.</p>
+    </div>
+    <div class="session">
+      <span class="caps" style="font-size:9.5px">Sessão</span><br>
+      <b id="sess-date">—</b><br>
+      <span id="sess-delta">primeira visita</span>
+    </div>
+  </div>
+
+  <div class="arc-band">
+    <div>
+      <div class="arc-title">Restrição vinculante — o arco do vídeo</div>
+      <div class="arc-verdict" id="arc-verdict">—</div>
+    </div>
+    <svg id="arc-svg" viewBox="0 0 300 74" role="img" aria-label="Arco de restrição: capacidade, computação, permissão"></svg>
+  </div>
+</header>
+
+<div class="grid">
+  <!-- ============ COLUNA PRINCIPAL ============ -->
+  <div>
+    <div class="panel">
+      <h2><span class="n">01</span>Cronologia & sinais pendentes</h2>
+      <p class="cap">O que já aconteceu está fixado. O que está pendente é seu para resolver quando a notícia sair: <b>confirmado</b>, <b>refutado</b> ou aberto. Refutar também move o modelo. Sinais com <b>resolução oficial</b> vêm do catálogo do repositório e valem como gabarito comum.</p>
+      <div class="lnote" id="catalog-note" style="margin:-8px 0 14px"></div>
+      <div class="ledger" id="ledger"></div>
+    </div>
+
+    <details class="drawer">
+      <summary>Priors & premissas do jogo — abrir para calibrar</summary>
+      <div class="drawer-body">
+        <div class="ctl"><div class="row"><label>Prior: estratégia de Estado coordenada</label><span class="val" id="v-pc">35%</span></div><input type="range" id="p-coord" min="0" max="100" value="35"></div>
+        <div class="ctl"><div class="row"><label>Prior: comoditização de mercado</label><span class="val" id="v-pm">45%</span></div><input type="range" id="p-market" min="0" max="100" value="45"></div>
+        <div class="ctl"><div class="row"><label>Prior: teatro pré-IPO</label><span class="val" id="v-pt">20%</span></div><input type="range" id="p-theater" min="0" max="100" value="20"></div>
+        <div class="ctl" style="margin-top:18px"><div class="row"><label>Um banimento dos EUA alcança os pesos?</label></div>
+          <div class="seg" id="seg-ban"><button data-v="0" aria-pressed="true">Não — só camada hospedada</button><button data-v="1" aria-pressed="false">Sim — extraterritorial</button></div>
+        </div>
+        <div class="ctl"><div class="row"><label>Independência de chips de inferência (China)</label><span class="val" id="v-chip">40%</span></div><input type="range" id="pr-chip" min="0" max="100" value="40"></div>
+        <div class="ctl"><div class="row"><label>Velocidade de adoção (WAICO / Sul Global)</label><span class="val" id="v-adopt">50%</span></div><input type="range" id="pr-adopt" min="0" max="100" value="50"></div>
+        <div class="ctl"><div class="row"><label>Propensão a uso clandestino no Ocidente</label><span class="val" id="v-covert">45%</span></div><input type="range" id="pr-covert" min="0" max="100" value="45"></div>
+      </div>
+    </details>
+
+    <div class="panel">
+      <h2><span class="n">04</span>Árvore do jogo — por que a ordem importa</h2>
+      <p class="cap">Compromisso irreversível no Lance 1; a mordida do Lance 2 depende da premissa do banimento.</p>
+      <div class="tree-wrap"><svg id="tree" viewBox="0 0 700 240" role="img" aria-label="Árvore sequencial China-EUA"></svg></div>
+      <div class="tree-note" id="tree-note"></div>
+    </div>
+  </div>
+
+  <!-- ============ COLUNA LATERAL ============ -->
+  <div>
+    <div class="panel">
+      <h2><span class="n">02</span>Vigia — o que observar em seguida</h2>
+      <p class="cap">Sinais abertos, ranqueados pelo impacto esperado na projeção. É a sua lista de leitura de notícias.</p>
+      <div id="watch"></div>
+    </div>
+
+    <div class="panel">
+      <h2><span class="n">07</span>Placar</h2>
+      <p class="cap">Previsões travadas <b>antes</b> da notícia, pontuadas pela realidade. Brier: 0 = perfeito; 0,25 = responder 50% sempre.</p>
+      <div class="score-grid">
+        <div><b id="sc-locked">0</b><span>travadas</span></div>
+        <div><b id="sc-scored">0</b><span>pontuadas</span></div>
+        <div><b id="sc-hits">—</b><span>acertos</span></div>
+        <div><b id="sc-brier">—</b><span>Brier médio</span></div>
+      </div>
+      <div class="score-verdict" id="sc-verdict"></div>
+    </div>
+
+    <div class="panel">
+      <h2><span class="n">03</span>Leitura do regime</h2>
+      <p class="cap">P(estado | sinais resolvidos)</p>
+      <div id="post-bars"></div>
+    </div>
+
+    <div class="panel">
+      <h2><span class="n">05</span>Projeção de desfechos</h2>
+      <p class="cap">Distribuição, nunca previsão pontual. Sparklines: sua trajetória entre visitas.</p>
+      <div id="out-bars"></div>
+    </div>
+
+    <div class="panel">
+      <h2><span class="n">06</span>Diário de leituras</h2>
+      <p class="cap">Registre a leitura de hoje; na próxima visita, compare.</p>
+      <button class="btn" id="snap">Registrar leitura de hoje</button>
+      <button class="btn share" id="share-link">Copiar link do cenário</button>
+      <button class="btn share" id="share-text">Copiar leitura em texto</button>
+      <button class="btn ghost" id="clear">Apagar diário e resetar</button>
+      <div class="journal-log" id="journal-log"></div>
+      <div class="storage-note" id="storage-note"></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <b>Modelo de brinquedo, assumido como tal.</b> Bayes ingênuo com verossimilhanças escolhidas para serem plausíveis, não medidas — cada uma está no objeto <code>SIGNALS</code> do código, editável em uma linha. O esqueleto reflete a moldura do vídeo da Turing Post (jul/2026), não fatos verificados. O valor do instrumento é tornar explícito o seu modelo causal: quais priors, quais sinais mexem em quê, e quanto.
+</footer>
+</div>
+
+<script>
+"use strict";
+
+/* ============ DADOS ============ */
+const H=["coord","market","theater"];
+const HMETA={
+  coord:{name:"Estratégia de Estado",color:"var(--cn)",desc:"Xi + WAICO + pesos abertos como plano dirigido."},
+  market:{name:"Comoditização de mercado",color:"#B06058",desc:"Três lógicas convergindo sem direção central."},
+  theater:{name:"Teatro pré-IPO",color:"#7E4B46",desc:"Escassez encenada a serviço do IPO da Moonshot."}
+};
+let PAST=[
+  {date:"SEX 17 JUL",title:"Xi abre a WAIC em Xangai e endossa IA open-source; WAICO lançada com 29 países."},
+  {date:"SÁB 18 JUL",title:"Alibaba provoca o Qwen 3.8 (~2,4T parâmetros) e promete pesos abertos."},
+  {date:"DOM 19 JUL",title:"Kimi K3 esgota: Moonshot pausa novas assinaturas — \"nossas GPUs estão sentindo\"."},
+  {date:"SEG 20 JUL",title:"Axios: administração Trump sinaliza possível banimento de modelos chineses."}
+];
+let SIGNALS=[
+  {id:"weights",date:"27 JUL",title:"Pesos do K3 publicados no prazo",
+   note:"Cumprir a promessa discrimina pouco — até o teatro publicaria.",
+   L:{coord:.90,market:.90,theater:.50}},
+  {id:"qwen",date:"A DEFINIR",title:"Benchmarks do Qwen 3.8 auditados de forma independente",
+   note:"Capacidade real enfraquece a leitura de puro teatro.",
+   L:{coord:.75,market:.80,theater:.30}},
+  {id:"ban",date:"A DEFINIR",title:"Texto de banimento dos EUA publicado (não só sinal)",
+   note:"Transforma o Lance 2 de rumor em política com escopo legível.",
+   L:{coord:.70,market:.55,theater:.45}},
+  {id:"labs",date:"A DEFINIR",title:"Outros labs chineses abrem flagships antes fechados",
+   note:"Mudança de ecossistema, não específica da Moonshot.",
+   L:{coord:.80,market:.85,theater:.20}},
+  {id:"waico",date:"A DEFINIR",title:"WAICO fecha compromissos concretos de adoção",
+   note:"Canal de Estado funcionando aponta coordenação.",
+   L:{coord:.85,market:.40,theater:.25}},
+  {id:"ipo",date:"A DEFINIR",title:"IPO da Moonshot precifica no alvo (~US$30 bi+)",
+   note:"Narrativa de escassez pagando — sustenta teatro.",
+   L:{coord:.55,market:.55,theater:.85}},
+  {id:"saturation",date:"A DEFINIR",title:"Saturação de GPU verificada como genuína",
+   note:"Datacenters terceiros (ex.: Databricks) confirmam a escassez.",
+   L:{coord:.60,market:.70,theater:.20}}
+];
+let OFFICIAL={}; // resoluções oficiais vindas do catálogo remoto — valem como gabarito comum
+const OUT=[
+  {id:"substrate",name:"Substrato aberto chinês domina",desc:"Pesos abertos viram a camada-padrão global.",color:"var(--cn)"},
+  {id:"bifurcated",name:"Mundo bifurcado",desc:"Aberto no Sul Global, clandestino no Ocidente.",color:"var(--amber)"},
+  {id:"containment",name:"Contenção dos EUA se sustenta",desc:"Bans + chips marginalizam os modelos chineses.",color:"var(--us)"},
+  {id:"stalemate",name:"Impasse fragmentado",desc:"Multipolaridade sem vencedor definido.",color:"#75858F"}
+];
+const BASE={
+  coord:{substrate:.40,bifurcated:.30,containment:.10,stalemate:.20},
+  market:{substrate:.35,bifurcated:.30,containment:.12,stalemate:.23},
+  theater:{substrate:.15,bifurcated:.20,containment:.30,stalemate:.35}
+};
+
+/* ============ ESTADO ============ */
+function makeDefaults(){
+  return {
+    priors:{coord:35,market:45,theater:20},
+    sig:Object.fromEntries(SIGNALS.map(s=>[s.id,"un"])),
+    pred:Object.fromEntries(SIGNALS.map(s=>[s.id,null])),
+    ban:0, chip:.40, adopt:.50, covert:.45
+  };
+}
+let DEFAULTS=makeDefaults();
+let S=structuredClone(DEFAULTS);
+let journal=[];
+let pendingPred={}; // seleção de chip ainda não travada — só UI, não persiste
+
+/* ============ ARMAZENAMENTO SEGURO ============ */
+const store=(()=>{
+  try{
+    const k="__t";window.localStorage.setItem(k,"1");window.localStorage.removeItem(k);
+    return {
+      ok:true,
+      load(){try{return JSON.parse(window.localStorage.getItem("airace-ledger-v1"))}catch(e){return null}},
+      save(d){try{window.localStorage.setItem("airace-ledger-v1",JSON.stringify(d))}catch(e){}},
+      wipe(){try{window.localStorage.removeItem("airace-ledger-v1")}catch(e){}}
+    };
+  }catch(e){
+    let mem=null;
+    return {ok:false,load:()=>mem,save:d=>{mem=d},wipe:()=>{mem=null}};
+  }
+})();
+
+/* ============ MODELO ============ */
+function normPriors(){
+  const s=S.priors.coord+S.priors.market+S.priors.theater;
+  if(s<=0)return{coord:1/3,market:1/3,theater:1/3};
+  return{coord:S.priors.coord/s,market:S.priors.market/s,theater:S.priors.theater/s};
+}
+function posterior(sigOverride){
+  const sig=sigOverride||S.sig;
+  const pr=normPriors();const p={};
+  H.forEach(h=>{
+    let v=pr[h];
+    SIGNALS.forEach(sg=>{
+      const st=sig[sg.id];
+      if(st==="yes")v*=sg.L[h];
+      else if(st==="no")v*=(1-sg.L[h]);
+    });
+    p[h]=v;
+  });
+  const s=p.coord+p.market+p.theater;
+  H.forEach(h=>p[h]=s>0?p[h]/s:1/3);
+  return p;
+}
+function premiseFactors(){
+  const f={substrate:1,bifurcated:1,containment:1,stalemate:1};
+  if(S.ban){f.containment*=1.8;f.substrate*=0.6;f.bifurcated*=0.8;}
+  else{f.bifurcated*=1.15;}
+  f.substrate*=(1+0.8*S.chip);
+  f.containment*=(1-0.4*S.chip);
+  f.substrate*=(1+0.6*S.adopt);
+  f.bifurcated*=(1+0.5*S.adopt);
+  f.stalemate*=(1+0.5*(1-S.adopt));
+  f.bifurcated*=(1+0.7*S.covert);
+  return f;
+}
+function outcomeDist(sigOverride){
+  const post=posterior(sigOverride);const f=premiseFactors();
+  const mix={substrate:0,bifurcated:0,containment:0,stalemate:0};
+  H.forEach(h=>{
+    const row={};let s=0;
+    OUT.forEach(o=>{row[o.id]=BASE[h][o.id]*f[o.id];s+=row[o.id];});
+    OUT.forEach(o=>{mix[o.id]+=post[h]*(s>0?row[o.id]/s:0);});
+  });
+  const t=OUT.reduce((a,o)=>a+mix[o.id],0);
+  OUT.forEach(o=>mix[o.id]=t>0?mix[o.id]/t:0);
+  return{post,mix};
+}
+function signalImpact(id){
+  const cur=outcomeDist();
+  const post=cur.post;
+  const sg=SIGNALS.find(x=>x.id===id);
+  const pYes=H.reduce((a,h)=>a+post[h]*sg.L[h],0);
+  const mk=v=>{const o={...S.sig};o[id]=v;return outcomeDist(o).mix;};
+  const tv=(a,b)=>0.5*OUT.reduce((s,o)=>s+Math.abs(a[o.id]-b[o.id]),0);
+  return pYes*tv(mk("yes"),cur.mix)+(1-pYes)*tv(mk("no"),cur.mix);
+}
+
+/* ============ RENDER ============ */
+const $=id=>document.getElementById(id);
+const pct=x=>Math.round(x*100)+"%";
+const fmtDate=t=>new Date(t).toLocaleDateString("pt-BR",{day:"2-digit",month:"short"});
+
+function buildLedger(){
+  const box=$("ledger");
+  const past=PAST.map(p=>`
+    <div class="lentry past">
+      <div class="ldate">${p.date} · registrado</div>
+      <div class="lcard"><div class="ltitle">${p.title}</div></div>
+    </div>`).join("");
+  const pend=SIGNALS.map(s=>{
+    const off=OFFICIAL[s.id];
+    const dis=off?"disabled":"";
+    return `
+    <div class="lentry" id="le-${s.id}">
+      <div class="ldate"><span class="flag" id="lf-${s.id}"></span>${s.date} · ${off?"resolução oficial do catálogo":"sinal pendente"}</div>
+      <div class="lcard">
+        <div class="ltitle">${s.title}</div>
+        <div class="lnote">${s.note}</div>
+        <div class="lmeta">
+          <span class="impact">impacto esperado <b id="imp-${s.id}">—</b></span>
+          <div class="tri" role="group" aria-label="Resolver sinal">
+            <button class="b-yes" data-sig="${s.id}" data-v="yes" ${dis}>Confirmado</button>
+            <button class="b-no" data-sig="${s.id}" data-v="no" ${dis}>Refutado</button>
+            <button class="b-un" data-sig="${s.id}" data-v="un" aria-pressed="true" ${dis}>Aberto</button>
+          </div>
+        </div>
+        <div class="pred" id="pred-${s.id}"></div>
+      </div>
+    </div>`;}).join("");
+  box.innerHTML=past+pend;
+  box.querySelectorAll(".tri button").forEach(b=>{
+    b.addEventListener("click",()=>{
+      S.sig[b.dataset.sig]=b.dataset.v;
+      persist();render();
+    });
+  });
+  // delegação para chips de previsão e botões de travar (re-renderizados a cada render)
+  box.addEventListener("click",e=>{
+    const c=e.target.closest(".chip");
+    if(c){pendingPred[c.dataset.chip]=+c.dataset.p;render();return;}
+    const l=e.target.closest(".lockbtn");
+    if(l&&!l.disabled){
+      const id=l.dataset.lock;const p=pendingPred[id];
+      if(p!=null){S.pred[id]={p,t:Date.now()};delete pendingPred[id];persist();render();}
+    }
+  });
+}
+function buildBars(){
+  $("post-bars").innerHTML=H.map(h=>`
+    <div class="bar">
+      <div class="row"><span class="name"><b>${HMETA[h].name}</b></span><span class="pct" id="pp-${h}">0%</span></div>
+      <div class="track"><div class="fill" id="pf-${h}" style="background:${HMETA[h].color}"></div></div>
+      <div class="desc">${HMETA[h].desc}</div>
+    </div>`).join("");
+  $("out-bars").innerHTML=OUT.map(o=>`
+    <div class="bar">
+      <div class="row"><span class="name"><b>${o.name}</b></span><span class="pct" id="op-${o.id}">0%</span></div>
+      <div class="track"><div class="fill" id="of-${o.id}" style="background:${o.color}"></div></div>
+      <svg class="spark" id="sp-${o.id}" viewBox="0 0 100 22" preserveAspectRatio="none" aria-hidden="true"></svg>
+      <div class="desc">${o.desc}</div>
+    </div>`).join("");
+}
+function bindInputs(){
+  [["p-coord","coord"],["p-market","market"],["p-theater","theater"]].forEach(([el,k])=>{
+    $(el).addEventListener("input",e=>{S.priors[k]=+e.target.value;persist();render();});
+  });
+  [["pr-chip","chip"],["pr-adopt","adopt"],["pr-covert","covert"]].forEach(([el,k])=>{
+    $(el).addEventListener("input",e=>{S[k]=+e.target.value/100;persist();render();});
+  });
+  $("seg-ban").querySelectorAll("button").forEach(b=>{
+    b.addEventListener("click",()=>{
+      S.ban=+b.dataset.v;
+      persist();render();
+    });
+  });
+  $("snap").addEventListener("click",takeSnapshot);
+  $("share-link").addEventListener("click",()=>{
+    updateHash();
+    copyWithFeedback("share-link",window.location.origin+window.location.pathname+hashFromState());
+  });
+  $("share-text").addEventListener("click",()=>{
+    updateHash();
+    copyWithFeedback("share-text",readingAsText());
+  });
+  $("clear").addEventListener("click",()=>{
+    store.wipe();journal=[];S=structuredClone(DEFAULTS);
+    try{history.replaceState(null,"",window.location.pathname);}catch(e){}
+    render();
+  });
+}
+function syncInputs(){
+  $("p-coord").value=S.priors.coord;$("p-market").value=S.priors.market;$("p-theater").value=S.priors.theater;
+  $("pr-chip").value=Math.round(S.chip*100);$("pr-adopt").value=Math.round(S.adopt*100);$("pr-covert").value=Math.round(S.covert*100);
+  $("seg-ban").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",String(+x.dataset.v===S.ban)));
+  document.querySelectorAll(".tri button").forEach(b=>{
+    b.setAttribute("aria-pressed",String(S.sig[b.dataset.sig]===b.dataset.v));
+  });
+}
+
+/* ---- arco ---- */
+function drawArc(mix,post){
+  const svg=$("arc-svg");svg.innerHTML="";
+  const ns="http://www.w3.org/2000/svg";
+  const el=(t,a,txt)=>{const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);if(txt!=null)n.textContent=txt;svg.appendChild(n);return n;};
+  const permission=mix.containment+0.55*mix.bifurcated;
+  let pos=0.5+0.48*Math.min(1,permission*1.7);
+  if(post.theater>0.5)pos=0.18+(pos-0.18)*0.4;
+  const x0=14,x1=286,y=34;
+  el("line",{x1:x0,y1:y,x2:x1,y2:y,stroke:"var(--line)","stroke-width":2});
+  [[0,"CAPACIDADE"],[0.5,"COMPUTAÇÃO"],[1,"PERMISSÃO"]].forEach(([p,t])=>{
+    const x=x0+(x1-x0)*p;
+    el("line",{x1:x,y1:y-5,x2:x,y2:y+5,stroke:"var(--dim)","stroke-width":1.5});
+    el("text",{x,y:y+24,fill:"var(--dim)","font-size":8.5,"font-family":"Archivo, sans-serif","letter-spacing":"1.5","text-anchor":p===0?"start":(p===1?"end":"middle")},t);
+  });
+  const mx=x0+(x1-x0)*pos;
+  el("circle",{cx:mx,cy:y,r:7,fill:"var(--amber)",stroke:"var(--bg-2)","stroke-width":2.5});
+  el("text",{x:mx,y:y-14,fill:"var(--amber)","font-size":9,"font-family":"IBM Plex Mono, monospace","text-anchor":"middle","font-weight":"600"},"AGORA");
+  const zone=pos<0.34?"cap":(pos<0.72?"comp":"perm");
+  const texts={
+    cap:"A leitura atual sugere que a restrição real ainda é <b>capacidade</b> — se o teatro domina, os modelos importam menos do que parecem.",
+    comp:"A restrição vinculante hoje é <b>computação</b>: os modelos são bons o bastante; o gargalo são GPUs e inferência.",
+    perm:"A restrição migrou para <b>permissão</b>: a pergunta não é mais se você pode rodar o modelo, e sim se será permitido escolhê-lo."
+  };
+  $("arc-verdict").innerHTML=texts[zone];
+}
+
+/* ---- árvore ---- */
+function drawTree(){
+  const svg=$("tree");svg.innerHTML="";
+  const ns="http://www.w3.org/2000/svg";
+  const el=(t,a,txt)=>{const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);if(txt!=null)n.textContent=txt;svg.appendChild(n);return n;};
+  const CN="#D5493E",US="#4187B5",AM="#CE9A38",DIM="#5B6B76",TXT="#C7D0D7";
+  const line=(x1,y1,x2,y2,c,w,d)=>el("line",{x1,y1,x2,y2,stroke:c,"stroke-width":w,"stroke-linecap":"round",...(d?{"stroke-dasharray":d}:{})});
+  const txt=(x,y,s,c,sz,a,w)=>el("text",{x,y,fill:c,"font-size":sz||11,"font-family":"IBM Plex Mono, monospace","text-anchor":a||"start","font-weight":w||400},s);
+  const ban=!!S.ban;
+  const CX=70,CY=70,UX=310,UY=70,LX=520;
+  line(CX,CY,230,190,DIM,1.6,"4 5");
+  txt(150,200,"manter fechado — não tomado",DIM,9.5,"middle");
+  line(CX,CY,UX,UY,CN,3);
+  txt(190,56,"PUBLICAR PESOS (27/jul)",CN,10.5,"middle",600);
+  txt(190,86,"compromisso irreversível",CN,9,"middle");
+  line(UX,UY,LX,36,US,2);txt(415,30,"sem banimento",US,9.5,"middle");
+  line(UX,UY,LX,120,US,2);txt(415,130,"banir",US,9.5,"middle");
+  const leaf=(y,t1,t2,hot)=>{
+    el("rect",{x:LX+8,y:y-18,width:164,height:38,rx:3,fill:hot?"rgba(213,73,62,.12)":"rgba(65,135,181,.12)",stroke:hot?CN:US,"stroke-width":hot?1.6:1});
+    txt(LX+16,y-3,t1,hot?CN:US,10,"start",600);
+    txt(LX+16,y+11,t2,TXT,8.5,"start");
+  };
+  leaf(36,"Pesos circulam","uso aberto e legível",true);
+  if(ban)leaf(120,"Pesos alcançados","contenção morde",false);
+  else leaf(120,"Só camada hospedada","pesos sobrevivem",true);
+  el("circle",{cx:CX,cy:CY,r:9,fill:CN});txt(CX,CY-16,"CHINA · move 1º",CN,9.5,"middle",600);
+  el("circle",{cx:UX,cy:UY,r:9,fill:US});txt(UX,UY-16,"EUA · move 2º",US,9.5,"middle",600);
+  txt(70,228,ban?"⟲ premissa flipada: a alavanca do 2º lance reaparece.":"▸ indução reversa: publicar é dominante — o 2º lance não muda o resultado.",AM,9.5,"start",600);
+
+  $("tree-note").innerHTML=ban
+    ?"Com enforcement <b>extraterritorial</b>, o Lance 2 volta a morder e a dominância de publicar deixa de ser garantida. Toda a conclusão de \"alavanca perdida\" era contingente nesta única premissa — flipar este seletor é o teste de estresse do argumento."
+    :"Enquanto o banimento alcança só a camada hospedada, o pior caso pós-publicação (uso clandestino) ainda supera manter fechado. Os EUA movem por último e não mudam o resultado — só decidem quem constrói abertamente e quem constrói sem admitir.";
+}
+
+/* ---- vigia ---- */
+function drawWatch(){
+  const open=SIGNALS.filter(s=>S.sig[s.id]==="un");
+  const box=$("watch");
+  document.querySelectorAll(".lentry").forEach(e=>e.classList.remove("watch-top"));
+  SIGNALS.forEach(s=>{const el=$("imp-"+s.id);if(el)el.textContent="—";});
+  if(!open.length){
+    box.innerHTML='<div class="watch-empty">Todos os sinais resolvidos. O modelo agora só se move por priors e premissas — hora de esperar o mundo produzir novos sinais.</div>';
+    return;
+  }
+  const ranked=open.map(s=>({s,imp:signalImpact(s.id)})).sort((a,b)=>b.imp-a.imp);
+  ranked.forEach(({s,imp})=>{
+    const el=$("imp-"+s.id);if(el)el.textContent="±"+(imp*100).toFixed(1)+" pp";
+  });
+  const le=$("le-"+ranked[0].s.id);if(le)le.classList.add("watch-top");
+  box.innerHTML=ranked.slice(0,4).map((r,i)=>`
+    <div class="watch-item">
+      <span class="watch-rank">${i+1}.</span>
+      <span class="watch-txt">${r.s.title}<small>move a projeção em ±${(r.imp*100).toFixed(1)} pontos esperados</small></span>
+    </div>`).join("");
+}
+
+/* ---- previsões & placar ---- */
+function brierOf(id){
+  const lock=S.pred[id];const res=S.sig[id];
+  if(!lock||res==="un")return null;
+  const out=res==="yes"?1:0;
+  return Math.pow(lock.p/100-out,2);
+}
+function drawPred(s){
+  const box=$("pred-"+s.id);if(!box)return;
+  const lock=S.pred[s.id];const res=S.sig[s.id];
+  if(lock){
+    const when=lock.t?("travada em "+fmtDate(lock.t)):"importada de link";
+    let html=`<span class="pred-locked">🔒 previsão ${when}: <b>${lock.p}%</b> de confirmação</span>`;
+    if(res!=="un"){
+      const b=brierOf(s.id);
+      const push=lock.p===50;
+      const hit=(lock.p>50&&res==="yes")||(lock.p<50&&res==="no");
+      html+=` <span class="pred-score ${push?"":(hit?"good":"bad")}">${push?"neutra":(hit?"✓ acertou":"✕ errou")} · Brier ${b.toFixed(2)}</span>`;
+    }
+    box.innerHTML=html;
+  }else if(res==="un"){
+    const sel=pendingPred[s.id];
+    box.innerHTML=`<span class="pred-label">Trave sua previsão antes da notícia:</span>
+      <div class="chips">${[10,30,50,70,90].map(p=>`<button class="chip" data-chip="${s.id}" data-p="${p}" aria-pressed="${sel===p}">${p}%</button>`).join("")}
+      <button class="lockbtn" data-lock="${s.id}" ${sel==null?"disabled":""}>Travar</button></div>`;
+  }else{
+    box.innerHTML=`<span class="pred-label dim">Resolvido sem previsão travada — sem pontos.</span>`;
+  }
+}
+function drawScore(){
+  const locked=SIGNALS.filter(s=>S.pred[s.id]);
+  const scored=locked.filter(s=>S.sig[s.id]!=="un");
+  $("sc-locked").textContent=locked.length;
+  $("sc-scored").textContent=scored.length;
+  if(!scored.length){
+    $("sc-hits").textContent="—";$("sc-brier").textContent="—";
+    $("sc-verdict").innerHTML=locked.length
+      ?"Previsões travadas aguardando resolução. Quando a notícia sair, resolva o sinal e a realidade te pontua."
+      :"Nenhuma previsão travada. Escolha uma probabilidade em qualquer sinal aberto e trave — só vale antes da notícia.";
+    return;
+  }
+  let bsum=0,hits=0,pushes=0;
+  scored.forEach(s=>{
+    bsum+=brierOf(s.id);
+    const p=S.pred[s.id].p,res=S.sig[s.id];
+    if(p===50)pushes++;
+    else if((p>50&&res==="yes")||(p<50&&res==="no"))hits++;
+  });
+  const mean=bsum/scored.length;
+  const decisive=scored.length-pushes;
+  $("sc-hits").textContent=decisive?hits+"/"+decisive:"—";
+  $("sc-brier").textContent=mean.toFixed(2).replace(".",",");
+  let v;
+  if(scored.length<3)v="Amostra pequena ("+scored.length+") — Brier ainda diz pouco; trave e resolva mais sinais antes de se gabar.";
+  else if(mean<=0.10)v="<b>Calibração excelente.</b> Suas previsões estão consistentemente do lado certo e com confiança adequada.";
+  else if(mean<=0.20)v="<b>Melhor que a moeda.</b> Você está extraindo sinal real do fluxo de notícias.";
+  else if(mean<=0.27)v="Na zona da moeda — responder 50% em tudo daria 0,25. Suas convicções ainda não pagam.";
+  else v="<b>Pior que a moeda.</b> Convicção alta no lado errado: seus priors merecem revisão, não reforço.";
+  $("sc-verdict").innerHTML=v;
+}
+
+/* ---- estado na URL (padrão HTML tools) ---- */
+const SIGCODES={un:"u",yes:"y",no:"n"};
+const SIGDECODE={u:"un",y:"yes",n:"no"};
+function hashFromState(){
+  const p=S.priors;
+  // v3: tokens por id (id~estado~previsão) — sobrevive a mudanças no catálogo de sinais
+  const toks=SIGNALS.map(s=>s.id+"~"+SIGCODES[S.sig[s.id]]+"~"+(S.pred[s.id]?S.pred[s.id].p:"x")).join("*");
+  return "#v3."+[p.coord,p.market,p.theater].join("-")+"."+toks+"."+S.ban+"."
+    +Math.round(S.chip*100)+"-"+Math.round(S.adopt*100)+"-"+Math.round(S.covert*100);
+}
+function stateFromHash(){
+  const h=window.location.hash;
+  const isV1=h.startsWith("#v1."),isV2=h.startsWith("#v2."),isV3=h.startsWith("#v3.");
+  if(!isV1&&!isV2&&!isV3)return null;
+  try{
+    const parts=h.slice(1).split(".");
+    const [,pri,sigseg,ban,prem]=parts;
+    const [c,m,t]=pri.split("-").map(Number);
+    const [chip,adopt,covert]=prem.split("-").map(Number);
+    if([c,m,t,chip,adopt,covert].some(isNaN))return null;
+    const st=structuredClone(DEFAULTS);
+    st.priors={coord:c,market:m,theater:t};
+    st.ban=+ban?1:0;
+    st.chip=chip/100;st.adopt=adopt/100;st.covert=covert/100;
+    if(isV3){
+      sigseg.split("*").forEach(tok=>{
+        const [id,code,p]=tok.split("~");
+        if(!(id in st.sig)||!SIGDECODE[code])return; // sinal desconhecido no catálogo atual: ignora
+        st.sig[id]=SIGDECODE[code];
+        if(p!=="x"&&!isNaN(+p))st.pred[id]={p:Math.max(0,Math.min(100,+p)),t:null};
+      });
+    }else{
+      // v1/v2 posicionais: só válidos se o catálogo ainda tiver o mesmo comprimento
+      if(sigseg.length!==SIGNALS.length||[...sigseg].some(ch=>!SIGDECODE[ch]))return null;
+      SIGNALS.forEach((s,i)=>st.sig[s.id]=SIGDECODE[sigseg[i]]);
+      if(isV2&&parts[5]){
+        const preds=parts[5].split("-");
+        if(preds.length===SIGNALS.length){
+          SIGNALS.forEach((s,i)=>{
+            const v=preds[i];
+            if(v!=="x"&&!isNaN(+v))st.pred[s.id]={p:Math.max(0,Math.min(100,+v)),t:null};
+          });
+        }
+      }
+    }
+    return st;
+  }catch(e){return null;}
+}
+function updateHash(){
+  try{history.replaceState(null,"",hashFromState());}catch(e){}
+}
+function readingAsText(){
+  const {post,mix}=outcomeDist();
+  const lead=Object.entries(post).sort((a,b)=>b[1]-a[1])[0];
+  const resolved=SIGNALS.filter(s=>S.sig[s.id]!=="un");
+  const lines=[
+    "LEITURA — corrida de modelos abertos China × EUA",
+    new Date().toLocaleDateString("pt-BR")+" · "+resolved.length+"/"+SIGNALS.length+" sinais resolvidos",
+    "",
+    "Regime mais provável: "+HMETA[lead[0]].name+" ("+pct(lead[1])+")",
+    "",
+    "Projeção de desfechos:"
+  ];
+  OUT.forEach(o=>lines.push("· "+o.name+": "+pct(mix[o.id])));
+  if(resolved.length){
+    lines.push("","Sinais resolvidos:");
+    resolved.forEach(s=>lines.push("· "+(S.sig[s.id]==="yes"?"✓":"✕")+" "+s.title));
+  }
+  lines.push("","Premissa central: banimento dos EUA "+(S.ban?"ALCANÇA":"NÃO alcança")+" os pesos.");
+  const scored=SIGNALS.filter(s=>S.pred[s.id]&&S.sig[s.id]!=="un");
+  if(scored.length){
+    const mean=scored.reduce((a,s)=>a+brierOf(s.id),0)/scored.length;
+    const hits=scored.filter(s=>{const p=S.pred[s.id].p,r=S.sig[s.id];return(p>50&&r==="yes")||(p<50&&r==="no");}).length;
+    const decisive=scored.filter(s=>S.pred[s.id].p!==50).length;
+    lines.push("Placar: "+(decisive?hits+"/"+decisive+" acertos · ":"")+"Brier médio "+mean.toFixed(2)+" (0 = perfeito, 0,25 = moeda)");
+  }
+  lines.push("Cenário completo: "+window.location.origin+window.location.pathname+hashFromState());
+  lines.push("(modelo de brinquedo — priors e verossimilhanças são suposições editáveis)");
+  return lines.join("\n");
+}
+function copyWithFeedback(btnId,text){
+  const btn=$(btnId);const orig=btn.textContent;
+  const done=()=>{btn.textContent="Copiado ✓";btn.classList.add("copied");
+    setTimeout(()=>{btn.textContent=orig;btn.classList.remove("copied");},1600);};
+  const fail=()=>{btn.textContent="Falhou — copie da URL";setTimeout(()=>{btn.textContent=orig;},2000);};
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(done).catch(fail);
+  }else{fail();}
+}
+
+/* ---- diário ---- */
+function persist(){store.save({S,journal});updateHash();}
+function takeSnapshot(){
+  const {mix,post}=outcomeDist();
+  journal.push({t:Date.now(),mix,post,resolved:SIGNALS.filter(s=>S.sig[s.id]!=="un").length});
+  persist();render();
+}
+function drawJournal(){
+  const log=$("journal-log");
+  if(!journal.length){log.innerHTML="Nenhuma leitura registrada ainda.";}
+  else{
+    const last=journal[journal.length-1];
+    log.innerHTML=`<b>${journal.length}</b> leitura(s) · última em <b>${fmtDate(last.t)}</b> com <b>${last.resolved}</b> sinal(is) resolvido(s).`;
+  }
+  $("storage-note").textContent=store.ok
+    ?"Persistência ativa neste navegador."
+    :"Ambiente sem persistência — o diário vive só nesta sessão. No GitHub Pages ele fica salvo.";
+  OUT.forEach(o=>{
+    const svg=$("sp-"+o.id);if(!svg)return;svg.innerHTML="";
+    if(journal.length<2)return;
+    const pts=journal.map((j,i)=>{
+      const x=(i/(journal.length-1))*96+2;
+      const y=20-j.mix[o.id]*17;
+      return x.toFixed(1)+","+y.toFixed(1);
+    }).join(" ");
+    const p=document.createElementNS("http://www.w3.org/2000/svg","polyline");
+    p.setAttribute("points",pts);p.setAttribute("fill","none");
+    p.setAttribute("stroke","var(--dim)");p.setAttribute("stroke-width","1.4");
+    p.setAttribute("vector-effect","non-scaling-stroke");
+    svg.appendChild(p);
+  });
+}
+function drawSession(){
+  $("sess-date").textContent=new Date().toLocaleDateString("pt-BR",{weekday:"short",day:"2-digit",month:"short",year:"numeric"});
+  const box=$("sess-delta");
+  if(!journal.length){box.textContent="primeira visita — registre uma leitura";return;}
+  const last=journal[journal.length-1];
+  const {mix}=outcomeDist();
+  let maxD=0,maxO=null;
+  OUT.forEach(o=>{const d=mix[o.id]-last.mix[o.id];if(Math.abs(d)>Math.abs(maxD)){maxD=d;maxO=o;}});
+  if(maxO&&Math.abs(maxD)>=0.005){
+    box.innerHTML=`desde ${fmtDate(last.t)}: <span class="delta">${maxO.name.toLowerCase()} ${maxD>0?"+":""}${Math.round(maxD*100)} pp</span>`;
+  }else{
+    box.innerHTML=`sem mudança material desde ${fmtDate(last.t)}`;
+  }
+}
+
+/* ---- loop ---- */
+function render(){
+  const pr=normPriors();
+  $("v-pc").textContent=pct(pr.coord);$("v-pm").textContent=pct(pr.market);$("v-pt").textContent=pct(pr.theater);
+  $("v-chip").textContent=Math.round(S.chip*100)+"%";
+  $("v-adopt").textContent=Math.round(S.adopt*100)+"%";
+  $("v-covert").textContent=Math.round(S.covert*100)+"%";
+  const {post,mix}=outcomeDist();
+  H.forEach(h=>{$("pf-"+h).style.width=pct(post[h]);$("pp-"+h).textContent=pct(post[h]);});
+  OUT.forEach(o=>{$("of-"+o.id).style.width=pct(mix[o.id]);$("op-"+o.id).textContent=pct(mix[o.id]);});
+  SIGNALS.forEach(s=>{
+    const le=$("le-"+s.id);
+    le.classList.toggle("res-yes",S.sig[s.id]==="yes");
+    le.classList.toggle("res-no",S.sig[s.id]==="no");
+    const off=OFFICIAL[s.id]?"OFICIAL ":"";
+    $("lf-"+s.id).textContent=S.sig[s.id]==="yes"?("✓ "+off+"CONFIRMADO · "):(S.sig[s.id]==="no"?("✕ "+off+"REFUTADO · "):"");
+    drawPred(s);
+  });
+  syncInputs();
+  drawArc(mix,post);drawTree();drawWatch();drawJournal();drawSession();drawScore();
+}
+
+/* ---- catálogo remoto (padrão HTML tools: fetch same-origin, fallback embutido) ---- */
+let catalogSource="embutido no HTML";
+function validCatalog(j){
+  if(!j||!Array.isArray(j.signals)||!j.signals.length)return false;
+  return j.signals.every(s=>
+    s.id&&s.title&&s.L&&["coord","market","theater"].every(h=>typeof s.L[h]==="number"&&s.L[h]>0&&s.L[h]<1)
+    &&(s.resolved==null||s.resolved==="yes"||s.resolved==="no"));
+}
+async function loadCatalog(){
+  try{
+    const ctrl=new AbortController();
+    const to=setTimeout(()=>ctrl.abort(),2500);
+    const r=await fetch("signals.json",{cache:"no-store",signal:ctrl.signal});
+    clearTimeout(to);
+    if(!r.ok)return;
+    const j=await r.json();
+    if(!validCatalog(j))return;
+    SIGNALS=j.signals.map(s=>({id:s.id,date:s.date||"A DEFINIR",title:s.title,note:s.note||"",L:s.L}));
+    if(Array.isArray(j.past)&&j.past.length)PAST=j.past;
+    OFFICIAL={};
+    j.signals.forEach(s=>{if(s.resolved)OFFICIAL[s.id]=s.resolved;});
+    DEFAULTS=makeDefaults();
+    catalogSource="remoto"+(j.updated?(" · atualizado em "+j.updated):"");
+  }catch(e){/* fallback silencioso para o catálogo embutido */}
+}
+
+/* ---- boot ---- */
+async function init(){
+  await loadCatalog();
+  // prioridade: cenário na URL (link compartilhado) > estado salvo > defaults.
+  // o diário é sempre o local — um link compartilha o cenário, não o histórico de quem enviou.
+  const saved=store.load();
+  if(saved&&Array.isArray(saved.journal))journal=saved.journal;
+  const fromUrl=stateFromHash();
+  if(fromUrl){
+    S=fromUrl;
+  }else if(saved&&saved.S){
+    try{
+      S={...structuredClone(DEFAULTS),...saved.S,
+         priors:{...DEFAULTS.priors,...(saved.S.priors||{})},
+         sig:{...DEFAULTS.sig,...(saved.S.sig||{})},
+         pred:{...DEFAULTS.pred,...(saved.S.pred||{})}};
+      // sinais que saíram do catálogo não devem sobrar no estado
+      Object.keys(S.sig).forEach(k=>{if(!(k in DEFAULTS.sig))delete S.sig[k];});
+      Object.keys(S.pred).forEach(k=>{if(!(k in DEFAULTS.pred))delete S.pred[k];});
+    }catch(e){S=structuredClone(DEFAULTS);}
+  }else{
+    S=structuredClone(DEFAULTS);
+  }
+  // resoluções oficiais são gabarito comum: sobrescrevem qualquer estado local ou de link
+  SIGNALS.forEach(s=>{if(OFFICIAL[s.id])S.sig[s.id]=OFFICIAL[s.id];});
+  const note=$("catalog-note");
+  if(note)note.textContent="Catálogo de sinais: "+catalogSource+".";
+  buildLedger();buildBars();bindInputs();render();updateHash();
+}
+init();
+</script>
+</body>
+</html>
