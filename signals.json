@@ -5,19 +5,27 @@
   "past": [
     {
       "date": "SEX 17 JUL",
-      "title": "Xi abre a WAIC em Xangai e endossa IA open-source; WAICO lançada com 29 países."
+      "title": "Xi abre a WAIC em Xangai e endossa IA open-source; WAICO lançada com 29 países.",
+      "date_en": "FRI JUL 17",
+      "title_en": "Xi opens WAIC in Shanghai endorsing open-source AI; WAICO launched with 29 countries."
     },
     {
       "date": "SÁB 18 JUL",
-      "title": "Alibaba provoca o Qwen 3.8 (~2,4T parâmetros) e promete pesos abertos."
+      "title": "Alibaba provoca o Qwen 3.8 (~2,4T parâmetros) e promete pesos abertos.",
+      "date_en": "SAT JUL 18",
+      "title_en": "Alibaba teases Qwen 3.8 (~2.4T params) and promises open weights."
     },
     {
       "date": "DOM 19 JUL",
-      "title": "Kimi K3 esgota: Moonshot pausa novas assinaturas — \"nossas GPUs estão sentindo\"."
+      "title": "Kimi K3 esgota: Moonshot pausa novas assinaturas — \"nossas GPUs estão sentindo\".",
+      "date_en": "SUN JUL 19",
+      "title_en": "Kimi K3 sells out: Moonshot pauses new signups — \"our GPUs are feeling it\"."
     },
     {
       "date": "SEG 20 JUL",
-      "title": "Axios: administração Trump sinaliza possível banimento de modelos chineses."
+      "title": "Axios: administração Trump sinaliza possível banimento de modelos chineses.",
+      "date_en": "MON JUL 20",
+      "title_en": "Axios: Trump administration signals a possible ban on Chinese models."
     }
   ],
   "signals": [
@@ -88,7 +96,9 @@
           "title": "Explosão de uso do Kimi K3 sobrecarrega GPUs da Moonshot AI em apenas 48 horas - Yellow.com",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSllENW52UWdiN19ENE9CcjF3dFVkT2EybU4wcUxITlpiRUNMR3lGN2tyS2VrMkozVVhRbTFuTjdZZnpFQzh2UDluWUIxYXNiRXd6LXNQcWRJcjE1dmNjaktyVDZSc09Yb3JzZjVOR0dCVHIzaDdDeEV5a05IT2hUZGM4TmZmMDdEXzJYVWhSUXJ6ejdoYlVoWFk5YXJ2SWY2UHJIUDVzZTJaX0JhY1J1a2tNdw?oc=5"
         }
-      ]
+      ],
+      "title_en": "K3 weights published on schedule",
+      "note_en": "Keeping the promise discriminates little — even theater would publish."
     },
     {
       "id": "qwen",
@@ -111,7 +121,9 @@
           "title": "Hang Seng sobe com esperanças de estímulo na China; ações da Alibaba disparam - Invezz",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc0dlZFZRa0dYcUZCVU9OSVFCRDFudmZLbGFhSVQzaF84WklMVHNWdDI3TGkydGl3eFo3Rk1rSXhmUnRjU2kxWjZVT3BiQWtDb0oyVk52QzJiNTUzM0NCSzA1S09oX1ZWbTNQaFFBdDdMT0NqeEgtWkRTWmJxQUhQN3k5d0VMekpCY0JsRjlsWGhaM2RzMjhZZ2ZYcXdEdUxIVkFPTEtmTmJPQ1JtZ3VNYTRrNGQ4c1VfcUo0?oc=5"
         }
-      ]
+      ],
+      "title_en": "Qwen 3.8 benchmarks independently audited",
+      "note_en": "Real capability weakens the pure-theater reading."
     },
     {
       "id": "ban",
@@ -164,7 +176,9 @@
           "title": "China proíbe namorados virtuais de IA e gera lamento - Diário do Estado",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHVuYlEyMlM3LVlJejdiVHhoSXhqZk5PMTBNeHp6UThNb3R4c05yTkZDYzJPM1cwV1lLZXpScmtaRG9Nc1BxOGFjdEdmMlFkSVMyUGxXak5FdF8xYnFmUm1TVzZxOXBreTJWaWJZNmJXNlBEXzdCN3A2aWJIc1VDb2tkb2FmVTZFWFhqdDdR?oc=5"
         }
-      ]
+      ],
+      "title_en": "US ban text actually published (not just signaling)",
+      "note_en": "Turns Move 2 from rumor into policy with legible scope."
     },
     {
       "id": "labs",
@@ -197,7 +211,9 @@
           "title": "IA chinesa Kimi K3 é desmascarada e se identifica como o Claude da Anthropic - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQmoyLXNqQlowR3o1RmU3aVRzQVh2TkFkQWFuUFhkdlY2YlhmRlQ0TERXdVV4aHJTdktPQlNVNjc1dFo5M2RBZW9nSWRIMmVaaXJoMnAwQy1fT0ozZXhwVDBkMGVZZGFQZWNrTTdzTU44OGRHLW9HRkZxVnBwd1VxelNYeXdLcnNoMjk2OFRqQUlKdDhBeEhjZzNqY2VpbWRXM2k2bA?oc=5"
         }
-      ]
+      ],
+      "title_en": "Other Chinese labs open previously closed flagships",
+      "note_en": "An ecosystem shift, not Moonshot-specific."
     },
     {
       "id": "waico",
@@ -265,7 +281,9 @@
           "title": "China lança ofensiva de IA aberta para enfrentar gigantes dos EUA - Olhar Digital",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYTRTWDBEM1BlOEE5blpqS3BOdUhlaDJkTU1NYTZTbTBRYTNZRUJGbEFDQldNeWg3bG5iRkVEOEZwQXVsUERsZ0tMTkIzNDBEWU5NWGpiZXhVdzdCbVNZWFk2WVFEYzRZUVBxcnRmTjRtZzk4aTB2MHFOUVlFQXFkaGlYYXptQkNtcFpRUEt6V3BjV3lzWWpDNDNzNzI3eWdFcTBHRllZNjZ6SDcxTGc4TFlHdk1mcWNDRHJ5cm15ZERQT0tIb3dKYw?oc=5"
         }
-      ]
+      ],
+      "title_en": "WAICO lands concrete adoption commitments",
+      "note_en": "A working state channel points to coordination."
     },
     {
       "id": "ipo",
@@ -333,7 +351,9 @@
           "title": "Moonshot AI suspende novas assinaturas do Kimi K3 após demanda sobrecarregar capacidade - Invezz",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVl94YkpMYVd4NWJzenVJWS1tbGlfTnJRYVRBdmNoMU1qWGk2a3ZJdXgxWU1Nd090cE5TTW5mZlB5OHpDSFc2MUxrTHNZd2JHSmN0UFRRU1pmQ0EzVElpaktBMmp5MEJ3MElxaUo4cWd0UThfNjJORGZPTDFHMG5VelJNZFZ1Q0YzN1o1dF94dV8zLTVOR0xWTzRwNWRSSmFTdzhXcGJLdFBHYi1IVE5lZDhvS2VvQzRkXzcyYmRjc0JQQ04yeDFETzNB?oc=5"
         }
-      ]
+      ],
+      "title_en": "Moonshot IPO prices at target (~US$30B+)",
+      "note_en": "The scarcity narrative paying off — supports theater."
     },
     {
       "id": "saturation",
@@ -350,7 +370,9 @@
         "Moonshot GPU shortage",
         "China AI inference capacity"
       ],
-      "evidence": []
+      "evidence": [],
+      "title_en": "GPU saturation verified as genuine",
+      "note_en": "Third-party datacenters (e.g. Databricks) confirm the crunch."
     }
   ]
 }

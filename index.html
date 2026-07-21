@@ -49,9 +49,13 @@
   h1{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:clamp(30px,4.6vw,46px);line-height:1.04;color:var(--bright);margin:10px 0 8px;letter-spacing:.005em}
   h1 em{font-style:italic;color:var(--amber)}
   .lede{font-size:12.5px;color:var(--dim);max-width:62ch}
+  .lede a{color:var(--amber);text-decoration:none}
   .session{text-align:right;font-size:11px;color:var(--dim);line-height:1.7;min-width:180px}
   .session b{color:var(--txt);font-weight:500}
   .session .delta{color:var(--amber)}
+  .langbtn{background:transparent;border:1px solid var(--line);color:var(--dim);font-family:inherit;font-size:10.5px;padding:4px 10px;border-radius:3px;cursor:pointer;margin-bottom:6px}
+  .langbtn:hover{border-color:var(--amber);color:var(--amber)}
+  .langbtn:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
 
   .arc-band{
     margin-top:20px;background:var(--bg-2);border:1px solid var(--line);border-radius:var(--r);
@@ -194,20 +198,21 @@
 <header>
   <div class="masthead">
     <div class="left">
-      <div class="kicker">Livro-razão de sinais · atualizado por você, a cada notícia</div>
-      <h1>A corrida dos modelos abertos, <em>lida como um jogo</em></h1>
-      <p class="lede">China moveu primeiro e queimou as pontes. Os EUA respondem depois. Cada manchete nova é um sinal: resolva-o abaixo e veja sua leitura do regime — e a projeção de desfechos — se mover. O painel de vigia diz qual sinal observar em seguida. <a href="play.html" style="color:var(--amber);text-decoration:none">▸ ou jogue “as GPUs estão sentindo”</a></p>
+      <div class="kicker" data-i18n="kicker">Livro-razão de sinais · atualizado por você, a cada notícia</div>
+      <h1 data-i18n="h1">A corrida dos modelos abertos, <em>lida como um jogo</em></h1>
+      <p class="lede" data-i18n="lede">China moveu primeiro e queimou as pontes. Os EUA respondem depois. Cada manchete nova é um sinal: resolva-o abaixo e veja sua leitura do regime — e a projeção de desfechos — se mover. O painel de vigia diz qual sinal observar em seguida. <a href="play.html">▸ ou jogue “as GPUs estão sentindo”</a></p>
     </div>
     <div class="session">
-      <span class="caps" style="font-size:9.5px">Sessão</span><br>
+      <button class="langbtn" id="langbtn" aria-label="Switch language">EN</button><br>
+      <span class="caps" style="font-size:9.5px" data-i18n="session">Sessão</span><br>
       <b id="sess-date">—</b><br>
-      <span id="sess-delta">primeira visita</span>
+      <span id="sess-delta">—</span>
     </div>
   </div>
 
   <div class="arc-band">
     <div>
-      <div class="arc-title">Restrição vinculante — o arco do vídeo</div>
+      <div class="arc-title" data-i18n="arcTitle">Restrição vinculante — o arco do vídeo</div>
       <div class="arc-verdict" id="arc-verdict">—</div>
     </div>
     <svg id="arc-svg" viewBox="0 0 300 74" role="img" aria-label="Arco de restrição: capacidade, computação, permissão"></svg>
@@ -218,30 +223,30 @@
   <!-- ============ COLUNA PRINCIPAL ============ -->
   <div>
     <div class="panel">
-      <h2><span class="n">01</span>Cronologia & sinais pendentes</h2>
-      <p class="cap">O que já aconteceu está fixado. O que está pendente é seu para resolver quando a notícia sair: <b>confirmado</b>, <b>refutado</b> ou aberto. Refutar também move o modelo. Sinais com <b>resolução oficial</b> vêm do catálogo do repositório e valem como gabarito comum.</p>
+      <h2><span class="n">01</span><span data-i18n="p01t">Cronologia &amp; sinais pendentes</span></h2>
+      <p class="cap" data-i18n="p01c">O que já aconteceu está fixado. O que está pendente é seu para resolver quando a notícia sair: <b>confirmado</b>, <b>refutado</b> ou aberto. Refutar também move o modelo. Sinais com <b>resolução oficial</b> vêm do catálogo do repositório e valem como gabarito comum.</p>
       <div class="lnote" id="catalog-note" style="margin:-8px 0 14px"></div>
       <div class="ledger" id="ledger"></div>
     </div>
 
     <details class="drawer">
-      <summary>Priors & premissas do jogo — abrir para calibrar</summary>
+      <summary data-i18n="drawer">Priors &amp; premissas do jogo — abrir para calibrar</summary>
       <div class="drawer-body">
-        <div class="ctl"><div class="row"><label>Prior: estratégia de Estado coordenada</label><span class="val" id="v-pc">35%</span></div><input type="range" id="p-coord" min="0" max="100" value="35"></div>
-        <div class="ctl"><div class="row"><label>Prior: comoditização de mercado</label><span class="val" id="v-pm">45%</span></div><input type="range" id="p-market" min="0" max="100" value="45"></div>
-        <div class="ctl"><div class="row"><label>Prior: teatro pré-IPO</label><span class="val" id="v-pt">20%</span></div><input type="range" id="p-theater" min="0" max="100" value="20"></div>
-        <div class="ctl" style="margin-top:18px"><div class="row"><label>Um banimento dos EUA alcança os pesos?</label></div>
-          <div class="seg" id="seg-ban"><button data-v="0" aria-pressed="true">Não — só camada hospedada</button><button data-v="1" aria-pressed="false">Sim — extraterritorial</button></div>
+        <div class="ctl"><div class="row"><label data-i18n="prCoord">Prior: estratégia de Estado coordenada</label><span class="val" id="v-pc">35%</span></div><input type="range" id="p-coord" min="0" max="100" value="35"></div>
+        <div class="ctl"><div class="row"><label data-i18n="prMarket">Prior: comoditização de mercado</label><span class="val" id="v-pm">45%</span></div><input type="range" id="p-market" min="0" max="100" value="45"></div>
+        <div class="ctl"><div class="row"><label data-i18n="prTheater">Prior: teatro pré-IPO</label><span class="val" id="v-pt">20%</span></div><input type="range" id="p-theater" min="0" max="100" value="20"></div>
+        <div class="ctl" style="margin-top:18px"><div class="row"><label data-i18n="banQ">Um banimento dos EUA alcança os pesos?</label></div>
+          <div class="seg" id="seg-ban"><button data-v="0" aria-pressed="true" data-i18n="ban0">Não — só camada hospedada</button><button data-v="1" aria-pressed="false" data-i18n="ban1">Sim — extraterritorial</button></div>
         </div>
-        <div class="ctl"><div class="row"><label>Independência de chips de inferência (China)</label><span class="val" id="v-chip">40%</span></div><input type="range" id="pr-chip" min="0" max="100" value="40"></div>
-        <div class="ctl"><div class="row"><label>Velocidade de adoção (WAICO / Sul Global)</label><span class="val" id="v-adopt">50%</span></div><input type="range" id="pr-adopt" min="0" max="100" value="50"></div>
-        <div class="ctl"><div class="row"><label>Propensão a uso clandestino no Ocidente</label><span class="val" id="v-covert">45%</span></div><input type="range" id="pr-covert" min="0" max="100" value="45"></div>
+        <div class="ctl"><div class="row"><label data-i18n="prChip">Independência de chips de inferência (China)</label><span class="val" id="v-chip">40%</span></div><input type="range" id="pr-chip" min="0" max="100" value="40"></div>
+        <div class="ctl"><div class="row"><label data-i18n="prAdopt">Velocidade de adoção (WAICO / Sul Global)</label><span class="val" id="v-adopt">50%</span></div><input type="range" id="pr-adopt" min="0" max="100" value="50"></div>
+        <div class="ctl"><div class="row"><label data-i18n="prCovert">Propensão a uso clandestino no Ocidente</label><span class="val" id="v-covert">45%</span></div><input type="range" id="pr-covert" min="0" max="100" value="45"></div>
       </div>
     </details>
 
     <div class="panel">
-      <h2><span class="n">04</span>Árvore do jogo — por que a ordem importa</h2>
-      <p class="cap">Compromisso irreversível no Lance 1; a mordida do Lance 2 depende da premissa do banimento.</p>
+      <h2><span class="n">04</span><span data-i18n="p04t">Árvore do jogo — por que a ordem importa</span></h2>
+      <p class="cap" data-i18n="p04c">Compromisso irreversível no Lance 1; a mordida do Lance 2 depende da premissa do banimento.</p>
       <div class="tree-wrap"><svg id="tree" viewBox="0 0 700 240" role="img" aria-label="Árvore sequencial China-EUA"></svg></div>
       <div class="tree-note" id="tree-note"></div>
     </div>
@@ -250,49 +255,49 @@
   <!-- ============ COLUNA LATERAL ============ -->
   <div>
     <div class="panel">
-      <h2><span class="n">02</span>Vigia — o que observar em seguida</h2>
-      <p class="cap">Sinais abertos, ranqueados pelo impacto esperado na projeção. É a sua lista de leitura de notícias.</p>
+      <h2><span class="n">02</span><span data-i18n="p02t">Vigia — o que observar em seguida</span></h2>
+      <p class="cap" data-i18n="p02c">Sinais abertos, ranqueados pelo impacto esperado na projeção. É a sua lista de leitura de notícias.</p>
       <div id="watch"></div>
     </div>
 
     <div class="panel">
-      <h2><span class="n">07</span>Placar</h2>
-      <p class="cap">Previsões travadas <b>antes</b> da notícia, pontuadas pela realidade. Brier: 0 = perfeito; 0,25 = responder 50% sempre.</p>
+      <h2><span class="n">07</span><span data-i18n="p07t">Placar</span></h2>
+      <p class="cap" data-i18n="p07c">Previsões travadas <b>antes</b> da notícia, pontuadas pela realidade. Brier: 0 = perfeito; 0,25 = responder 50% sempre.</p>
       <div class="score-grid">
-        <div><b id="sc-locked">0</b><span>travadas</span></div>
-        <div><b id="sc-scored">0</b><span>pontuadas</span></div>
-        <div><b id="sc-hits">—</b><span>acertos</span></div>
-        <div><b id="sc-brier">—</b><span>Brier médio</span></div>
+        <div><b id="sc-locked">0</b><span data-i18n="scLocked">travadas</span></div>
+        <div><b id="sc-scored">0</b><span data-i18n="scScored">pontuadas</span></div>
+        <div><b id="sc-hits">—</b><span data-i18n="scHits">acertos</span></div>
+        <div><b id="sc-brier">—</b><span data-i18n="scBrier">Brier médio</span></div>
       </div>
       <div class="score-verdict" id="sc-verdict"></div>
     </div>
 
     <div class="panel">
-      <h2><span class="n">03</span>Leitura do regime</h2>
-      <p class="cap">P(estado | sinais resolvidos)</p>
+      <h2><span class="n">03</span><span data-i18n="p03t">Leitura do regime</span></h2>
+      <p class="cap" data-i18n="p03c">P(estado | sinais resolvidos)</p>
       <div id="post-bars"></div>
     </div>
 
     <div class="panel">
-      <h2><span class="n">05</span>Projeção de desfechos</h2>
-      <p class="cap">Distribuição, nunca previsão pontual. Sparklines: sua trajetória entre visitas.</p>
+      <h2><span class="n">05</span><span data-i18n="p05t">Projeção de desfechos</span></h2>
+      <p class="cap" data-i18n="p05c">Distribuição, nunca previsão pontual. Sparklines: sua trajetória entre visitas.</p>
       <div id="out-bars"></div>
     </div>
 
     <div class="panel">
-      <h2><span class="n">06</span>Diário de leituras</h2>
-      <p class="cap">Registre a leitura de hoje; na próxima visita, compare.</p>
-      <button class="btn" id="snap">Registrar leitura de hoje</button>
-      <button class="btn share" id="share-link">Copiar link do cenário</button>
-      <button class="btn share" id="share-text">Copiar leitura em texto</button>
-      <button class="btn ghost" id="clear">Apagar diário e resetar</button>
+      <h2><span class="n">06</span><span data-i18n="p06t">Diário de leituras</span></h2>
+      <p class="cap" data-i18n="p06c">Registre a leitura de hoje; na próxima visita, compare.</p>
+      <button class="btn" id="snap" data-i18n="btnSnap">Registrar leitura de hoje</button>
+      <button class="btn share" id="share-link" data-i18n="btnLink">Copiar link do cenário</button>
+      <button class="btn share" id="share-text" data-i18n="btnText">Copiar leitura em texto</button>
+      <button class="btn ghost" id="clear" data-i18n="btnClear">Apagar diário e resetar</button>
       <div class="journal-log" id="journal-log"></div>
       <div class="storage-note" id="storage-note"></div>
     </div>
   </div>
 </div>
 
-<footer>
+<footer data-i18n="footer">
   <b>Modelo de brinquedo, assumido como tal.</b> Bayes ingênuo com verossimilhanças escolhidas para serem plausíveis, não medidas — cada uma está no objeto <code>SIGNALS</code> do código, editável em uma linha. O esqueleto reflete a moldura do vídeo da Turing Post (jul/2026), não fatos verificados. O valor do instrumento é tornar explícito o seu modelo causal: quais priors, quais sinais mexem em quê, e quanto.
 </footer>
 </div>
@@ -300,48 +305,228 @@
 <script>
 "use strict";
 
+/* ============ IDIOMA ============ */
+const LANGKEY="airace-lang";
+let LANG=(()=>{try{return window.localStorage.getItem(LANGKEY)==="en"?"en":"pt"}catch(e){return "pt"}})();
+const TXT={
+pt:{
+  docTitle:"Livro-Razão — Corrida de Modelos Abertos China × EUA",
+  kicker:"Livro-razão de sinais · atualizado por você, a cada notícia",
+  h1:"A corrida dos modelos abertos, <em>lida como um jogo</em>",
+  lede:"China moveu primeiro e queimou as pontes. Os EUA respondem depois. Cada manchete nova é um sinal: resolva-o abaixo e veja sua leitura do regime — e a projeção de desfechos — se mover. O painel de vigia diz qual sinal observar em seguida. <a href=\"play.html\">▸ ou jogue “as GPUs estão sentindo”</a>",
+  session:"Sessão",
+  arcTitle:"Restrição vinculante — o arco do vídeo",
+  p01t:"Cronologia &amp; sinais pendentes",
+  p01c:"O que já aconteceu está fixado. O que está pendente é seu para resolver quando a notícia sair: <b>confirmado</b>, <b>refutado</b> ou aberto. Refutar também move o modelo. Sinais com <b>resolução oficial</b> vêm do catálogo do repositório e valem como gabarito comum.",
+  drawer:"Priors &amp; premissas do jogo — abrir para calibrar",
+  prCoord:"Prior: estratégia de Estado coordenada",prMarket:"Prior: comoditização de mercado",prTheater:"Prior: teatro pré-IPO",
+  banQ:"Um banimento dos EUA alcança os pesos?",ban0:"Não — só camada hospedada",ban1:"Sim — extraterritorial",
+  prChip:"Independência de chips de inferência (China)",prAdopt:"Velocidade de adoção (WAICO / Sul Global)",prCovert:"Propensão a uso clandestino no Ocidente",
+  p04t:"Árvore do jogo — por que a ordem importa",
+  p04c:"Compromisso irreversível no Lance 1; a mordida do Lance 2 depende da premissa do banimento.",
+  p02t:"Vigia — o que observar em seguida",
+  p02c:"Sinais abertos, ranqueados pelo impacto esperado na projeção. É a sua lista de leitura de notícias.",
+  p07t:"Placar",
+  p07c:"Previsões travadas <b>antes</b> da notícia, pontuadas pela realidade. Brier: 0 = perfeito; 0,25 = responder 50% sempre.",
+  scLocked:"travadas",scScored:"pontuadas",scHits:"acertos",scBrier:"Brier médio",
+  p03t:"Leitura do regime",p03c:"P(estado | sinais resolvidos)",
+  p05t:"Projeção de desfechos",p05c:"Distribuição, nunca previsão pontual. Sparklines: sua trajetória entre visitas.",
+  p06t:"Diário de leituras",p06c:"Registre a leitura de hoje; na próxima visita, compare.",
+  btnSnap:"Registrar leitura de hoje",btnLink:"Copiar link do cenário",btnText:"Copiar leitura em texto",btnClear:"Apagar diário e resetar",
+  footer:"<b>Modelo de brinquedo, assumido como tal.</b> Bayes ingênuo com verossimilhanças escolhidas para serem plausíveis, não medidas — cada uma está no objeto <code>SIGNALS</code> do código, editável em uma linha. O esqueleto reflete a moldura do vídeo da Turing Post (jul/2026), não fatos verificados. O valor do instrumento é tornar explícito o seu modelo causal: quais priors, quais sinais mexem em quê, e quanto.",
+  firstVisit:"primeira visita — registre uma leitura",
+  sessDelta:d=>"desde "+d+": ",
+  sessNoChange:d=>"sem mudança material desde "+d,
+  catalog:s=>"Catálogo de sinais: "+s+".",
+  srcEmbedded:"embutido no HTML",
+  srcRemote:d=>"remoto"+(d?" · atualizado em "+d:""),
+  axCap:"CAPACIDADE",axComp:"COMPUTAÇÃO",axPerm:"PERMISSÃO",now:"AGORA",
+  arcCap:"A leitura atual sugere que a restrição real ainda é <b>capacidade</b> — se o teatro domina, os modelos importam menos do que parecem.",
+  arcComp:"A restrição vinculante hoje é <b>computação</b>: os modelos são bons o bastante; o gargalo são GPUs e inferência.",
+  arcPerm:"A restrição migrou para <b>permissão</b>: a pergunta não é mais se você pode rodar o modelo, e sim se será permitido escolhê-lo.",
+  tKeepClosed:"manter fechado — não tomado",tPublish:"PUBLICAR PESOS (27/jul)",tIrrev:"compromisso irreversível",
+  tNoBan:"sem banimento",tBan:"banir",
+  tLeaf1a:"Pesos circulam",tLeaf1b:"uso aberto e legível",
+  tLeaf2a:"Pesos alcançados",tLeaf2b:"contenção morde",
+  tLeaf3a:"Só camada hospedada",tLeaf3b:"pesos sobrevivem",
+  tChina:"CHINA · move 1º",tUSA:"EUA · move 2º",
+  tBottomBan:"⟲ premissa flipada: a alavanca do 2º lance reaparece.",
+  tBottomNoBan:"▸ indução reversa: publicar é dominante — o 2º lance não muda o resultado.",
+  treeNoteBan:"Com enforcement <b>extraterritorial</b>, o Lance 2 volta a morder e a dominância de publicar deixa de ser garantida. Toda a conclusão de \"alavanca perdida\" era contingente nesta única premissa — flipar este seletor é o teste de estresse do argumento.",
+  treeNoteNoBan:"Enquanto o banimento alcança só a camada hospedada, o pior caso pós-publicação (uso clandestino) ainda supera manter fechado. Os EUA movem por último e não mudam o resultado — só decidem quem constrói abertamente e quem constrói sem admitir.",
+  watchEmpty:"Todos os sinais resolvidos. O modelo agora só se move por priors e premissas — hora de esperar o mundo produzir novos sinais.",
+  watchMove:imp=>"move a projeção em ±"+imp+" pontos esperados",
+  impLabel:"impacto esperado",
+  lRegistered:"registrado",lPending:"sinal pendente",lOfficial:"resolução oficial do catálogo",
+  triYes:"Confirmado",triNo:"Refutado",triOpen:"Aberto",
+  predAsk:"Trave sua previsão antes da notícia:",lock:"Travar",
+  predAt:d=>"travada em "+d,predImported:"importada de link",
+  predLine:(when,p)=>"🔒 previsão "+when+": <b>"+p+"%</b> de confirmação",
+  neutral:"neutra",hit:"✓ acertou",miss:"✕ errou",
+  resolvedNoPred:"Resolvido sem previsão travada — sem pontos.",
+  flagOfficial:"OFICIAL ",flagYes:"CONFIRMADO",flagNo:"REFUTADO",
+  novidade:"novidade",tbd:"A DEFINIR",
+  scWait:"Previsões travadas aguardando resolução. Quando a notícia sair, resolva o sinal e a realidade te pontua.",
+  scNone:"Nenhuma previsão travada. Escolha uma probabilidade em qualquer sinal aberto e trave — só vale antes da notícia.",
+  vSmall:n=>"Amostra pequena ("+n+") — Brier ainda diz pouco; trave e resolva mais sinais antes de se gabar.",
+  vExcellent:"<b>Calibração excelente.</b> Suas previsões estão consistentemente do lado certo e com confiança adequada.",
+  vBetter:"<b>Melhor que a moeda.</b> Você está extraindo sinal real do fluxo de notícias.",
+  vCoin:"Na zona da moeda — responder 50% em tudo daria 0,25. Suas convicções ainda não pagam.",
+  vWorse:"<b>Pior que a moeda.</b> Convicção alta no lado errado: seus priors merecem revisão, não reforço.",
+  jNone:"Nenhuma leitura registrada ainda.",
+  jLog:(n,d,r)=>"<b>"+n+"</b> leitura(s) · última em <b>"+d+"</b> com <b>"+r+"</b> sinal(is) resolvido(s).",
+  storeOk:"Persistência ativa neste navegador.",
+  storeNo:"Ambiente sem persistência — o diário vive só nesta sessão. No GitHub Pages ele fica salvo.",
+  copied:"Copiado ✓",copyFail:"Falhou — copie da URL",
+  xTitle:"LEITURA — corrida de modelos abertos China × EUA",
+  xResolved:(n,t)=>n+"/"+t+" sinais resolvidos",
+  xRegime:"Regime mais provável: ",
+  xProj:"Projeção de desfechos:",
+  xResolvedList:"Sinais resolvidos:",
+  xPremise:ban=>"Premissa central: banimento dos EUA "+(ban?"ALCANÇA":"NÃO alcança")+" os pesos.",
+  xScore:(hitsPart,b)=>"Placar: "+hitsPart+"Brier médio "+b+" (0 = perfeito, 0,25 = moeda)",
+  xHits:(h,d)=>h+"/"+d+" acertos · ",
+  xScenario:"Cenário completo: ",
+  xToy:"(modelo de brinquedo — priors e verossimilhanças são suposições editáveis)"
+},
+en:{
+  docTitle:"The Ledger — China × US Open-Model Race",
+  kicker:"A ledger of signals · updated by you, with every headline",
+  h1:"The open-model race, <em>read as a game</em>",
+  lede:"China moved first and burned the bridges. The US responds second. Every new headline is a signal: resolve it below and watch your regime reading — and the outcome projection — move. The watch panel tells you which signal to read next. <a href=\"play.html\">▸ or play “the GPUs are feeling it”</a>",
+  session:"Session",
+  arcTitle:"Binding constraint — the video's arc",
+  p01t:"Timeline &amp; pending signals",
+  p01c:"What already happened is fixed. What's pending is yours to resolve when the news breaks: <b>confirmed</b>, <b>refuted</b>, or open. Refuting moves the model too. Signals with an <b>official resolution</b> come from the repo catalog and count as the shared answer key.",
+  drawer:"Priors &amp; game premises — open to calibrate",
+  prCoord:"Prior: coordinated state strategy",prMarket:"Prior: market commoditization",prTheater:"Prior: pre-IPO theater",
+  banQ:"Does a US ban reach the weights?",ban0:"No — hosted layer only",ban1:"Yes — extraterritorial",
+  prChip:"Inference-chip independence (China)",prAdopt:"Adoption speed (WAICO / Global South)",prCovert:"Covert-use propensity in the West",
+  p04t:"Game tree — why order matters",
+  p04c:"Irreversible commitment at Move 1; how hard Move 2 bites depends on the ban premise.",
+  p02t:"Watch — what to read next",
+  p02c:"Open signals, ranked by expected impact on the projection. It's your news reading list.",
+  p07t:"Scoreboard",
+  p07c:"Predictions locked <b>before</b> the news, scored by reality. Brier: 0 = perfect; 0.25 = always answering 50%.",
+  scLocked:"locked",scScored:"scored",scHits:"hits",scBrier:"mean Brier",
+  p03t:"Regime reading",p03c:"P(state | resolved signals)",
+  p05t:"Outcome projection",p05c:"A distribution, never a point forecast. Sparklines: your trajectory between visits.",
+  p06t:"Reading journal",p06c:"Log today's reading; compare on your next visit.",
+  btnSnap:"Log today's reading",btnLink:"Copy scenario link",btnText:"Copy reading as text",btnClear:"Wipe journal and reset",
+  footer:"<b>A toy model, and it knows it.</b> Naive Bayes with likelihoods chosen to be plausible, not measured — each one lives in the code's <code>SIGNALS</code> object, editable in one line. The skeleton mirrors the Turing Post video's framing (Jul 2026), not verified facts. The instrument's value is making your causal model explicit: which priors, which signals move what, and by how much.",
+  firstVisit:"first visit — log a reading",
+  sessDelta:d=>"since "+d+": ",
+  sessNoChange:d=>"no material change since "+d,
+  catalog:s=>"Signal catalog: "+s+".",
+  srcEmbedded:"embedded in HTML",
+  srcRemote:d=>"remote"+(d?" · updated "+d:""),
+  axCap:"CAPABILITY",axComp:"COMPUTE",axPerm:"PERMISSION",now:"NOW",
+  arcCap:"The current reading suggests the binding constraint is still <b>capability</b> — if theater dominates, the models matter less than they seem.",
+  arcComp:"Today's binding constraint is <b>compute</b>: the models are good enough; the bottleneck is GPUs and inference.",
+  arcPerm:"The constraint has migrated to <b>permission</b>: the question is no longer whether you can run the model, but whether you'll be allowed to choose it.",
+  tKeepClosed:"keep closed — not taken",tPublish:"PUBLISH WEIGHTS (Jul 27)",tIrrev:"irreversible commitment",
+  tNoBan:"no ban",tBan:"ban",
+  tLeaf1a:"Weights circulate",tLeaf1b:"open, legible use",
+  tLeaf2a:"Weights reached",tLeaf2b:"containment bites",
+  tLeaf3a:"Hosted layer only",tLeaf3b:"weights survive",
+  tChina:"CHINA · moves 1st",tUSA:"US · moves 2nd",
+  tBottomBan:"⟲ premise flipped: Move-2 leverage reappears.",
+  tBottomNoBan:"▸ backward induction: publishing is dominant — Move 2 doesn't change the outcome.",
+  treeNoteBan:"With <b>extraterritorial</b> enforcement, Move 2 bites again and publishing's dominance is no longer guaranteed. The entire \"lost leverage\" conclusion was contingent on this single premise — flipping this switch is the argument's stress test.",
+  treeNoteNoBan:"As long as the ban only reaches the hosted layer, the post-publication worst case (covert use) still beats staying closed. The US moves last and doesn't change the outcome — it only decides who builds openly and who builds without admitting it.",
+  watchEmpty:"All signals resolved. The model now only moves via priors and premises — time to wait for the world to produce new signals.",
+  watchMove:imp=>"moves the projection by ±"+imp+" expected points",
+  impLabel:"expected impact",
+  lRegistered:"logged",lPending:"pending signal",lOfficial:"official catalog resolution",
+  triYes:"Confirmed",triNo:"Refuted",triOpen:"Open",
+  predAsk:"Lock your prediction before the news:",lock:"Lock",
+  predAt:d=>"locked on "+d,predImported:"imported from link",
+  predLine:(when,p)=>"🔒 prediction "+when+": <b>"+p+"%</b> confirmation",
+  neutral:"neutral",hit:"✓ hit",miss:"✕ missed",
+  resolvedNoPred:"Resolved with no locked prediction — no points.",
+  flagOfficial:"OFFICIAL ",flagYes:"CONFIRMED",flagNo:"REFUTED",
+  novidade:"new",tbd:"TBD",
+  scWait:"Locked predictions awaiting resolution. When the news breaks, resolve the signal and reality scores you.",
+  scNone:"No locked predictions. Pick a probability on any open signal and lock it — it only counts before the news.",
+  vSmall:n=>"Small sample ("+n+") — Brier says little yet; lock and resolve more signals before bragging.",
+  vExcellent:"<b>Excellent calibration.</b> Your predictions are consistently on the right side with appropriate confidence.",
+  vBetter:"<b>Better than the coin.</b> You're extracting real signal from the news flow.",
+  vCoin:"In coin territory — answering 50% on everything scores 0.25. Your convictions aren't paying yet.",
+  vWorse:"<b>Worse than the coin.</b> High conviction on the wrong side: your priors deserve revision, not reinforcement.",
+  jNone:"No readings logged yet.",
+  jLog:(n,d,r)=>"<b>"+n+"</b> reading(s) · last on <b>"+d+"</b> with <b>"+r+"</b> signal(s) resolved.",
+  storeOk:"Persistence active in this browser.",
+  storeNo:"No persistence in this environment — the journal lives only in this session. On GitHub Pages it sticks.",
+  copied:"Copied ✓",copyFail:"Failed — copy from the URL",
+  xTitle:"READING — China × US open-model race",
+  xResolved:(n,t)=>n+"/"+t+" signals resolved",
+  xRegime:"Most likely regime: ",
+  xProj:"Outcome projection:",
+  xResolvedList:"Resolved signals:",
+  xPremise:ban=>"Core premise: a US ban "+(ban?"REACHES":"does NOT reach")+" the weights.",
+  xScore:(hitsPart,b)=>"Score: "+hitsPart+"mean Brier "+b+" (0 = perfect, 0.25 = coin)",
+  xHits:(h,d)=>h+"/"+d+" hits · ",
+  xScenario:"Full scenario: ",
+  xToy:"(toy model — priors and likelihoods are editable assumptions)"
+}};
+const T=k=>{const v=TXT[LANG][k];return v!==undefined?v:TXT.pt[k];};
+const L10=o=>(LANG==="en"&&o.en!==undefined)?o.en:o.pt;
+const sTitle=s=>(LANG==="en"&&s.title_en)?s.title_en:s.title;
+const sNote=s=>(LANG==="en"&&s.note_en)?s.note_en:(s.note||"");
+const sDate=s=>s.date==="A DEFINIR"?T("tbd"):s.date;
+const pDate=p=>(LANG==="en"&&p.date_en)?p.date_en:p.date;
+const pTitle=p=>(LANG==="en"&&p.title_en)?p.title_en:p.title;
+const LOC=()=>LANG==="pt"?"pt-BR":"en-US";
+
 /* ============ DADOS ============ */
 const H=["coord","market","theater"];
 const HMETA={
-  coord:{name:"Estratégia de Estado",color:"var(--cn)",desc:"Xi + WAICO + pesos abertos como plano dirigido."},
-  market:{name:"Comoditização de mercado",color:"#B06058",desc:"Três lógicas convergindo sem direção central."},
-  theater:{name:"Teatro pré-IPO",color:"#7E4B46",desc:"Escassez encenada a serviço do IPO da Moonshot."}
+  coord:{name:{pt:"Estratégia de Estado",en:"State strategy"},color:"var(--cn)",
+    desc:{pt:"Xi + WAICO + pesos abertos como plano dirigido.",en:"Xi + WAICO + open weights as a directed plan."}},
+  market:{name:{pt:"Comoditização de mercado",en:"Market commoditization"},color:"#B06058",
+    desc:{pt:"Três lógicas convergindo sem direção central.",en:"Three logics converging without central direction."}},
+  theater:{name:{pt:"Teatro pré-IPO",en:"Pre-IPO theater"},color:"#7E4B46",
+    desc:{pt:"Escassez encenada a serviço do IPO da Moonshot.",en:"Staged scarcity in service of Moonshot's IPO."}}
 };
 let PAST=[
-  {date:"SEX 17 JUL",title:"Xi abre a WAIC em Xangai e endossa IA open-source; WAICO lançada com 29 países."},
-  {date:"SÁB 18 JUL",title:"Alibaba provoca o Qwen 3.8 (~2,4T parâmetros) e promete pesos abertos."},
-  {date:"DOM 19 JUL",title:"Kimi K3 esgota: Moonshot pausa novas assinaturas — \"nossas GPUs estão sentindo\"."},
-  {date:"SEG 20 JUL",title:"Axios: administração Trump sinaliza possível banimento de modelos chineses."}
+  {date:"SEX 17 JUL",date_en:"FRI JUL 17",title:"Xi abre a WAIC em Xangai e endossa IA open-source; WAICO lançada com 29 países.",title_en:"Xi opens WAIC in Shanghai endorsing open-source AI; WAICO launched with 29 countries."},
+  {date:"SÁB 18 JUL",date_en:"SAT JUL 18",title:"Alibaba provoca o Qwen 3.8 (~2,4T parâmetros) e promete pesos abertos.",title_en:"Alibaba teases Qwen 3.8 (~2.4T params) and promises open weights."},
+  {date:"DOM 19 JUL",date_en:"SUN JUL 19",title:"Kimi K3 esgota: Moonshot pausa novas assinaturas — \"nossas GPUs estão sentindo\".",title_en:"Kimi K3 sells out: Moonshot pauses new signups — \"our GPUs are feeling it\"."},
+  {date:"SEG 20 JUL",date_en:"MON JUL 20",title:"Axios: administração Trump sinaliza possível banimento de modelos chineses.",title_en:"Axios: Trump administration signals a possible ban on Chinese models."}
 ];
 let SIGNALS=[
-  {id:"weights",date:"27 JUL",title:"Pesos do K3 publicados no prazo",
-   note:"Cumprir a promessa discrimina pouco — até o teatro publicaria.",
+  {id:"weights",date:"27 JUL",title:"Pesos do K3 publicados no prazo",title_en:"K3 weights published on schedule",
+   note:"Cumprir a promessa discrimina pouco — até o teatro publicaria.",note_en:"Keeping the promise discriminates little — even theater would publish.",
    L:{coord:.90,market:.90,theater:.50}},
-  {id:"qwen",date:"A DEFINIR",title:"Benchmarks do Qwen 3.8 auditados de forma independente",
-   note:"Capacidade real enfraquece a leitura de puro teatro.",
+  {id:"qwen",date:"A DEFINIR",title:"Benchmarks do Qwen 3.8 auditados de forma independente",title_en:"Qwen 3.8 benchmarks independently audited",
+   note:"Capacidade real enfraquece a leitura de puro teatro.",note_en:"Real capability weakens the pure-theater reading.",
    L:{coord:.75,market:.80,theater:.30}},
-  {id:"ban",date:"A DEFINIR",title:"Texto de banimento dos EUA publicado (não só sinal)",
-   note:"Transforma o Lance 2 de rumor em política com escopo legível.",
+  {id:"ban",date:"A DEFINIR",title:"Texto de banimento dos EUA publicado (não só sinal)",title_en:"US ban text actually published (not just signaling)",
+   note:"Transforma o Lance 2 de rumor em política com escopo legível.",note_en:"Turns Move 2 from rumor into policy with legible scope.",
    L:{coord:.70,market:.55,theater:.45}},
-  {id:"labs",date:"A DEFINIR",title:"Outros labs chineses abrem flagships antes fechados",
-   note:"Mudança de ecossistema, não específica da Moonshot.",
+  {id:"labs",date:"A DEFINIR",title:"Outros labs chineses abrem flagships antes fechados",title_en:"Other Chinese labs open previously closed flagships",
+   note:"Mudança de ecossistema, não específica da Moonshot.",note_en:"An ecosystem shift, not Moonshot-specific.",
    L:{coord:.80,market:.85,theater:.20}},
-  {id:"waico",date:"A DEFINIR",title:"WAICO fecha compromissos concretos de adoção",
-   note:"Canal de Estado funcionando aponta coordenação.",
+  {id:"waico",date:"A DEFINIR",title:"WAICO fecha compromissos concretos de adoção",title_en:"WAICO lands concrete adoption commitments",
+   note:"Canal de Estado funcionando aponta coordenação.",note_en:"A working state channel points to coordination.",
    L:{coord:.85,market:.40,theater:.25}},
-  {id:"ipo",date:"A DEFINIR",title:"IPO da Moonshot precifica no alvo (~US$30 bi+)",
-   note:"Narrativa de escassez pagando — sustenta teatro.",
+  {id:"ipo",date:"A DEFINIR",title:"IPO da Moonshot precifica no alvo (~US$30 bi+)",title_en:"Moonshot IPO prices at target (~US$30B+)",
+   note:"Narrativa de escassez pagando — sustenta teatro.",note_en:"The scarcity narrative paying off — supports theater.",
    L:{coord:.55,market:.55,theater:.85}},
-  {id:"saturation",date:"A DEFINIR",title:"Saturação de GPU verificada como genuína",
-   note:"Datacenters terceiros (ex.: Databricks) confirmam a escassez.",
+  {id:"saturation",date:"A DEFINIR",title:"Saturação de GPU verificada como genuína",title_en:"GPU saturation verified as genuine",
+   note:"Datacenters terceiros (ex.: Databricks) confirmam a escassez.",note_en:"Third-party datacenters (e.g. Databricks) confirm the crunch.",
    L:{coord:.60,market:.70,theater:.20}}
 ];
 let OFFICIAL={}; // resoluções oficiais vindas do catálogo remoto — valem como gabarito comum
 const OUT=[
-  {id:"substrate",name:"Substrato aberto chinês domina",desc:"Pesos abertos viram a camada-padrão global.",color:"var(--cn)"},
-  {id:"bifurcated",name:"Mundo bifurcado",desc:"Aberto no Sul Global, clandestino no Ocidente.",color:"var(--amber)"},
-  {id:"containment",name:"Contenção dos EUA se sustenta",desc:"Bans + chips marginalizam os modelos chineses.",color:"var(--us)"},
-  {id:"stalemate",name:"Impasse fragmentado",desc:"Multipolaridade sem vencedor definido.",color:"#75858F"}
+  {id:"substrate",name:{pt:"Substrato aberto chinês domina",en:"Chinese open substrate dominates"},
+   desc:{pt:"Pesos abertos viram a camada-padrão global.",en:"Open weights become the global default layer."},color:"var(--cn)"},
+  {id:"bifurcated",name:{pt:"Mundo bifurcado",en:"Bifurcated world"},
+   desc:{pt:"Aberto no Sul Global, clandestino no Ocidente.",en:"Open in the Global South, covert in the West."},color:"var(--amber)"},
+  {id:"containment",name:{pt:"Contenção dos EUA se sustenta",en:"US containment holds"},
+   desc:{pt:"Bans + chips marginalizam os modelos chineses.",en:"Bans + chips marginalize Chinese models."},color:"var(--us)"},
+  {id:"stalemate",name:{pt:"Impasse fragmentado",en:"Fragmented stalemate"},
+   desc:{pt:"Multipolaridade sem vencedor definido.",en:"Multipolarity with no clear winner."},color:"#75858F"}
 ];
 const BASE={
   coord:{substrate:.40,bifurcated:.30,containment:.10,stalemate:.20},
@@ -438,14 +623,25 @@ function signalImpact(id){
 /* ============ RENDER ============ */
 const $=id=>document.getElementById(id);
 const pct=x=>Math.round(x*100)+"%";
-const fmtDate=t=>new Date(t).toLocaleDateString("pt-BR",{day:"2-digit",month:"short"});
+const fmtDate=t=>new Date(t).toLocaleDateString(LOC(),{day:"2-digit",month:"short"});
+const fmtBrier=x=>LANG==="pt"?x.toFixed(2).replace(".",","):x.toFixed(2);
+
+function applyStatic(){
+  document.querySelectorAll("[data-i18n]").forEach(el=>{el.innerHTML=T(el.dataset.i18n);});
+  const de=document.documentElement;
+  if(de)de.lang=LANG==="pt"?"pt-BR":"en";
+  document.title=T("docTitle");
+  const lb=$("langbtn");if(lb)lb.textContent=LANG==="pt"?"EN":"PT";
+  const note=$("catalog-note");
+  if(note)note.textContent=T("catalog")(catalogSource.kind==="remote"?T("srcRemote")(catalogSource.updated):T("srcEmbedded"));
+}
 
 function buildLedger(){
   const box=$("ledger");
   const past=PAST.map(p=>`
     <div class="lentry past">
-      <div class="ldate">${p.date} · registrado</div>
-      <div class="lcard"><div class="ltitle">${p.title}</div></div>
+      <div class="ldate">${pDate(p)} · ${T("lRegistered")}</div>
+      <div class="lcard"><div class="ltitle">${pTitle(p)}</div></div>
     </div>`).join("");
   const lastSnap=journal.length?journal[journal.length-1].t:0;
   const pend=SIGNALS.map(s=>{
@@ -458,16 +654,16 @@ function buildLedger(){
       `<a href="${esc(e.url)}" target="_blank" rel="noopener"><b>${esc(e.date.slice(5))}</b>${esc(e.title)}</a>`).join("")}</div>`:"";
     return `
     <div class="lentry" id="le-${s.id}">
-      <div class="ldate"><span class="flag" id="lf-${s.id}"></span>${s.date} · ${off?"resolução oficial do catálogo":"sinal pendente"}</div>
+      <div class="ldate"><span class="flag" id="lf-${s.id}"></span>${sDate(s)} · ${off?T("lOfficial"):T("lPending")}</div>
       <div class="lcard">
-        <div class="ltitle">${s.title}${isNew?'<span class="newbadge">novidade</span>':''}</div>
-        <div class="lnote">${s.note}</div>${evHtml}
+        <div class="ltitle">${sTitle(s)}${isNew?'<span class="newbadge">'+T("novidade")+'</span>':''}</div>
+        <div class="lnote">${sNote(s)}</div>${evHtml}
         <div class="lmeta">
-          <span class="impact">impacto esperado <b id="imp-${s.id}">—</b></span>
+          <span class="impact">${T("impLabel")} <b id="imp-${s.id}">—</b></span>
           <div class="tri" role="group" aria-label="Resolver sinal">
-            <button class="b-yes" data-sig="${s.id}" data-v="yes" ${dis}>Confirmado</button>
-            <button class="b-no" data-sig="${s.id}" data-v="no" ${dis}>Refutado</button>
-            <button class="b-un" data-sig="${s.id}" data-v="un" aria-pressed="true" ${dis}>Aberto</button>
+            <button class="b-yes" data-sig="${s.id}" data-v="yes" ${dis}>${T("triYes")}</button>
+            <button class="b-no" data-sig="${s.id}" data-v="no" ${dis}>${T("triNo")}</button>
+            <button class="b-un" data-sig="${s.id}" data-v="un" aria-pressed="true" ${dis}>${T("triOpen")}</button>
           </div>
         </div>
         <div class="pred" id="pred-${s.id}"></div>
@@ -480,8 +676,8 @@ function buildLedger(){
       persist();render();
     });
   });
-  // delegação para chips de previsão e botões de travar (re-renderizados a cada render)
-  box.addEventListener("click",e=>{
+  // delegação para chips de previsão e botões de travar (onclick: idempotente em rebuilds)
+  box.onclick=e=>{
     const c=e.target.closest(".chip");
     if(c){pendingPred[c.dataset.chip]=+c.dataset.p;render();return;}
     const l=e.target.closest(".lockbtn");
@@ -489,21 +685,21 @@ function buildLedger(){
       const id=l.dataset.lock;const p=pendingPred[id];
       if(p!=null){S.pred[id]={p,t:Date.now()};delete pendingPred[id];persist();render();}
     }
-  });
+  };
 }
 function buildBars(){
   $("post-bars").innerHTML=H.map(h=>`
     <div class="bar">
-      <div class="row"><span class="name"><b>${HMETA[h].name}</b></span><span class="pct" id="pp-${h}">0%</span></div>
+      <div class="row"><span class="name"><b>${L10(HMETA[h].name)}</b></span><span class="pct" id="pp-${h}">0%</span></div>
       <div class="track"><div class="fill" id="pf-${h}" style="background:${HMETA[h].color}"></div></div>
-      <div class="desc">${HMETA[h].desc}</div>
+      <div class="desc">${L10(HMETA[h].desc)}</div>
     </div>`).join("");
   $("out-bars").innerHTML=OUT.map(o=>`
     <div class="bar">
-      <div class="row"><span class="name"><b>${o.name}</b></span><span class="pct" id="op-${o.id}">0%</span></div>
+      <div class="row"><span class="name"><b>${L10(o.name)}</b></span><span class="pct" id="op-${o.id}">0%</span></div>
       <div class="track"><div class="fill" id="of-${o.id}" style="background:${o.color}"></div></div>
       <svg class="spark" id="sp-${o.id}" viewBox="0 0 100 22" preserveAspectRatio="none" aria-hidden="true"></svg>
-      <div class="desc">${o.desc}</div>
+      <div class="desc">${L10(o.desc)}</div>
     </div>`).join("");
 }
 function bindInputs(){
@@ -533,6 +729,12 @@ function bindInputs(){
     try{history.replaceState(null,"",window.location.pathname);}catch(e){}
     render();
   });
+  const lb=$("langbtn");
+  if(lb)lb.addEventListener("click",()=>{
+    LANG=LANG==="pt"?"en":"pt";
+    try{window.localStorage.setItem(LANGKEY,LANG)}catch(e){}
+    applyStatic();buildLedger();buildBars();render();
+  });
 }
 function syncInputs(){
   $("p-coord").value=S.priors.coord;$("p-market").value=S.priors.market;$("p-theater").value=S.priors.theater;
@@ -553,20 +755,16 @@ function drawArc(mix,post){
   if(post.theater>0.5)pos=0.18+(pos-0.18)*0.4;
   const x0=14,x1=286,y=34;
   el("line",{x1:x0,y1:y,x2:x1,y2:y,stroke:"var(--line)","stroke-width":2});
-  [[0,"CAPACIDADE"],[0.5,"COMPUTAÇÃO"],[1,"PERMISSÃO"]].forEach(([p,t])=>{
+  [[0,T("axCap")],[0.5,T("axComp")],[1,T("axPerm")]].forEach(([p,t])=>{
     const x=x0+(x1-x0)*p;
     el("line",{x1:x,y1:y-5,x2:x,y2:y+5,stroke:"var(--dim)","stroke-width":1.5});
     el("text",{x,y:y+24,fill:"var(--dim)","font-size":8.5,"font-family":"Archivo, sans-serif","letter-spacing":"1.5","text-anchor":p===0?"start":(p===1?"end":"middle")},t);
   });
   const mx=x0+(x1-x0)*pos;
   el("circle",{cx:mx,cy:y,r:7,fill:"var(--amber)",stroke:"var(--bg-2)","stroke-width":2.5});
-  el("text",{x:mx,y:y-14,fill:"var(--amber)","font-size":9,"font-family":"IBM Plex Mono, monospace","text-anchor":"middle","font-weight":"600"},"AGORA");
+  el("text",{x:mx,y:y-14,fill:"var(--amber)","font-size":9,"font-family":"IBM Plex Mono, monospace","text-anchor":"middle","font-weight":"600"},T("now"));
   const zone=pos<0.34?"cap":(pos<0.72?"comp":"perm");
-  const texts={
-    cap:"A leitura atual sugere que a restrição real ainda é <b>capacidade</b> — se o teatro domina, os modelos importam menos do que parecem.",
-    comp:"A restrição vinculante hoje é <b>computação</b>: os modelos são bons o bastante; o gargalo são GPUs e inferência.",
-    perm:"A restrição migrou para <b>permissão</b>: a pergunta não é mais se você pode rodar o modelo, e sim se será permitido escolhê-lo."
-  };
+  const texts={cap:T("arcCap"),comp:T("arcComp"),perm:T("arcPerm")};
   $("arc-verdict").innerHTML=texts[zone];
 }
 
@@ -575,33 +773,31 @@ function drawTree(){
   const svg=$("tree");svg.innerHTML="";
   const ns="http://www.w3.org/2000/svg";
   const el=(t,a,txt)=>{const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);if(txt!=null)n.textContent=txt;svg.appendChild(n);return n;};
-  const CN="#D5493E",US="#4187B5",AM="#CE9A38",DIM="#5B6B76",TXT="#C7D0D7";
+  const CN="#D5493E",US="#4187B5",AM="#CE9A38",DIM="#5B6B76",TXTC="#C7D0D7";
   const line=(x1,y1,x2,y2,c,w,d)=>el("line",{x1,y1,x2,y2,stroke:c,"stroke-width":w,"stroke-linecap":"round",...(d?{"stroke-dasharray":d}:{})});
   const txt=(x,y,s,c,sz,a,w)=>el("text",{x,y,fill:c,"font-size":sz||11,"font-family":"IBM Plex Mono, monospace","text-anchor":a||"start","font-weight":w||400},s);
   const ban=!!S.ban;
   const CX=70,CY=70,UX=310,UY=70,LX=520;
   line(CX,CY,230,190,DIM,1.6,"4 5");
-  txt(150,200,"manter fechado — não tomado",DIM,9.5,"middle");
+  txt(150,200,T("tKeepClosed"),DIM,9.5,"middle");
   line(CX,CY,UX,UY,CN,3);
-  txt(190,56,"PUBLICAR PESOS (27/jul)",CN,10.5,"middle",600);
-  txt(190,86,"compromisso irreversível",CN,9,"middle");
-  line(UX,UY,LX,36,US,2);txt(415,30,"sem banimento",US,9.5,"middle");
-  line(UX,UY,LX,120,US,2);txt(415,130,"banir",US,9.5,"middle");
+  txt(190,56,T("tPublish"),CN,10.5,"middle",600);
+  txt(190,86,T("tIrrev"),CN,9,"middle");
+  line(UX,UY,LX,36,US,2);txt(415,30,T("tNoBan"),US,9.5,"middle");
+  line(UX,UY,LX,120,US,2);txt(415,130,T("tBan"),US,9.5,"middle");
   const leaf=(y,t1,t2,hot)=>{
     el("rect",{x:LX+8,y:y-18,width:164,height:38,rx:3,fill:hot?"rgba(213,73,62,.12)":"rgba(65,135,181,.12)",stroke:hot?CN:US,"stroke-width":hot?1.6:1});
     txt(LX+16,y-3,t1,hot?CN:US,10,"start",600);
-    txt(LX+16,y+11,t2,TXT,8.5,"start");
+    txt(LX+16,y+11,t2,TXTC,8.5,"start");
   };
-  leaf(36,"Pesos circulam","uso aberto e legível",true);
-  if(ban)leaf(120,"Pesos alcançados","contenção morde",false);
-  else leaf(120,"Só camada hospedada","pesos sobrevivem",true);
-  el("circle",{cx:CX,cy:CY,r:9,fill:CN});txt(CX,CY-16,"CHINA · move 1º",CN,9.5,"middle",600);
-  el("circle",{cx:UX,cy:UY,r:9,fill:US});txt(UX,UY-16,"EUA · move 2º",US,9.5,"middle",600);
-  txt(70,228,ban?"⟲ premissa flipada: a alavanca do 2º lance reaparece.":"▸ indução reversa: publicar é dominante — o 2º lance não muda o resultado.",AM,9.5,"start",600);
+  leaf(36,T("tLeaf1a"),T("tLeaf1b"),true);
+  if(ban)leaf(120,T("tLeaf2a"),T("tLeaf2b"),false);
+  else leaf(120,T("tLeaf3a"),T("tLeaf3b"),true);
+  el("circle",{cx:CX,cy:CY,r:9,fill:CN});txt(CX,CY-16,T("tChina"),CN,9.5,"middle",600);
+  el("circle",{cx:UX,cy:UY,r:9,fill:US});txt(UX,UY-16,T("tUSA"),US,9.5,"middle",600);
+  txt(70,228,ban?T("tBottomBan"):T("tBottomNoBan"),AM,9.5,"start",600);
 
-  $("tree-note").innerHTML=ban
-    ?"Com enforcement <b>extraterritorial</b>, o Lance 2 volta a morder e a dominância de publicar deixa de ser garantida. Toda a conclusão de \"alavanca perdida\" era contingente nesta única premissa — flipar este seletor é o teste de estresse do argumento."
-    :"Enquanto o banimento alcança só a camada hospedada, o pior caso pós-publicação (uso clandestino) ainda supera manter fechado. Os EUA movem por último e não mudam o resultado — só decidem quem constrói abertamente e quem constrói sem admitir.";
+  $("tree-note").innerHTML=ban?T("treeNoteBan"):T("treeNoteNoBan");
 }
 
 /* ---- vigia ---- */
@@ -611,7 +807,7 @@ function drawWatch(){
   document.querySelectorAll(".lentry").forEach(e=>e.classList.remove("watch-top"));
   SIGNALS.forEach(s=>{const el=$("imp-"+s.id);if(el)el.textContent="—";});
   if(!open.length){
-    box.innerHTML='<div class="watch-empty">Todos os sinais resolvidos. O modelo agora só se move por priors e premissas — hora de esperar o mundo produzir novos sinais.</div>';
+    box.innerHTML='<div class="watch-empty">'+T("watchEmpty")+'</div>';
     return;
   }
   const ranked=open.map(s=>({s,imp:signalImpact(s.id)})).sort((a,b)=>b.imp-a.imp);
@@ -622,7 +818,7 @@ function drawWatch(){
   box.innerHTML=ranked.slice(0,4).map((r,i)=>`
     <div class="watch-item">
       <span class="watch-rank">${i+1}.</span>
-      <span class="watch-txt">${r.s.title}<small>move a projeção em ±${(r.imp*100).toFixed(1)} pontos esperados</small></span>
+      <span class="watch-txt">${sTitle(r.s)}<small>${T("watchMove")((r.imp*100).toFixed(1))}</small></span>
     </div>`).join("");
 }
 
@@ -637,22 +833,22 @@ function drawPred(s){
   const box=$("pred-"+s.id);if(!box)return;
   const lock=S.pred[s.id];const res=S.sig[s.id];
   if(lock){
-    const when=lock.t?("travada em "+fmtDate(lock.t)):"importada de link";
-    let html=`<span class="pred-locked">🔒 previsão ${when}: <b>${lock.p}%</b> de confirmação</span>`;
+    const when=lock.t?T("predAt")(fmtDate(lock.t)):T("predImported");
+    let html=`<span class="pred-locked">${T("predLine")(when,lock.p)}</span>`;
     if(res!=="un"){
       const b=brierOf(s.id);
       const push=lock.p===50;
       const hit=(lock.p>50&&res==="yes")||(lock.p<50&&res==="no");
-      html+=` <span class="pred-score ${push?"":(hit?"good":"bad")}">${push?"neutra":(hit?"✓ acertou":"✕ errou")} · Brier ${b.toFixed(2)}</span>`;
+      html+=` <span class="pred-score ${push?"":(hit?"good":"bad")}">${push?T("neutral"):(hit?T("hit"):T("miss"))} · Brier ${fmtBrier(b)}</span>`;
     }
     box.innerHTML=html;
   }else if(res==="un"){
     const sel=pendingPred[s.id];
-    box.innerHTML=`<span class="pred-label">Trave sua previsão antes da notícia:</span>
+    box.innerHTML=`<span class="pred-label">${T("predAsk")}</span>
       <div class="chips">${[10,30,50,70,90].map(p=>`<button class="chip" data-chip="${s.id}" data-p="${p}" aria-pressed="${sel===p}">${p}%</button>`).join("")}
-      <button class="lockbtn" data-lock="${s.id}" ${sel==null?"disabled":""}>Travar</button></div>`;
+      <button class="lockbtn" data-lock="${s.id}" ${sel==null?"disabled":""}>${T("lock")}</button></div>`;
   }else{
-    box.innerHTML=`<span class="pred-label dim">Resolvido sem previsão travada — sem pontos.</span>`;
+    box.innerHTML=`<span class="pred-label dim">${T("resolvedNoPred")}</span>`;
   }
 }
 function drawScore(){
@@ -662,9 +858,7 @@ function drawScore(){
   $("sc-scored").textContent=scored.length;
   if(!scored.length){
     $("sc-hits").textContent="—";$("sc-brier").textContent="—";
-    $("sc-verdict").innerHTML=locked.length
-      ?"Previsões travadas aguardando resolução. Quando a notícia sair, resolva o sinal e a realidade te pontua."
-      :"Nenhuma previsão travada. Escolha uma probabilidade em qualquer sinal aberto e trave — só vale antes da notícia.";
+    $("sc-verdict").innerHTML=locked.length?T("scWait"):T("scNone");
     return;
   }
   let bsum=0,hits=0,pushes=0;
@@ -677,13 +871,13 @@ function drawScore(){
   const mean=bsum/scored.length;
   const decisive=scored.length-pushes;
   $("sc-hits").textContent=decisive?hits+"/"+decisive:"—";
-  $("sc-brier").textContent=mean.toFixed(2).replace(".",",");
+  $("sc-brier").textContent=fmtBrier(mean);
   let v;
-  if(scored.length<3)v="Amostra pequena ("+scored.length+") — Brier ainda diz pouco; trave e resolva mais sinais antes de se gabar.";
-  else if(mean<=0.10)v="<b>Calibração excelente.</b> Suas previsões estão consistentemente do lado certo e com confiança adequada.";
-  else if(mean<=0.20)v="<b>Melhor que a moeda.</b> Você está extraindo sinal real do fluxo de notícias.";
-  else if(mean<=0.27)v="Na zona da moeda — responder 50% em tudo daria 0,25. Suas convicções ainda não pagam.";
-  else v="<b>Pior que a moeda.</b> Convicção alta no lado errado: seus priors merecem revisão, não reforço.";
+  if(scored.length<3)v=T("vSmall")(scored.length);
+  else if(mean<=0.10)v=T("vExcellent");
+  else if(mean<=0.20)v=T("vBetter");
+  else if(mean<=0.27)v=T("vCoin");
+  else v=T("vWorse");
   $("sc-verdict").innerHTML=v;
 }
 
@@ -743,35 +937,35 @@ function readingAsText(){
   const lead=Object.entries(post).sort((a,b)=>b[1]-a[1])[0];
   const resolved=SIGNALS.filter(s=>S.sig[s.id]!=="un");
   const lines=[
-    "LEITURA — corrida de modelos abertos China × EUA",
-    new Date().toLocaleDateString("pt-BR")+" · "+resolved.length+"/"+SIGNALS.length+" sinais resolvidos",
+    T("xTitle"),
+    new Date().toLocaleDateString(LOC())+" · "+T("xResolved")(resolved.length,SIGNALS.length),
     "",
-    "Regime mais provável: "+HMETA[lead[0]].name+" ("+pct(lead[1])+")",
+    T("xRegime")+L10(HMETA[lead[0]].name)+" ("+pct(lead[1])+")",
     "",
-    "Projeção de desfechos:"
+    T("xProj")
   ];
-  OUT.forEach(o=>lines.push("· "+o.name+": "+pct(mix[o.id])));
+  OUT.forEach(o=>lines.push("· "+L10(o.name)+": "+pct(mix[o.id])));
   if(resolved.length){
-    lines.push("","Sinais resolvidos:");
-    resolved.forEach(s=>lines.push("· "+(S.sig[s.id]==="yes"?"✓":"✕")+" "+s.title));
+    lines.push("",T("xResolvedList"));
+    resolved.forEach(s=>lines.push("· "+(S.sig[s.id]==="yes"?"✓":"✕")+" "+sTitle(s)));
   }
-  lines.push("","Premissa central: banimento dos EUA "+(S.ban?"ALCANÇA":"NÃO alcança")+" os pesos.");
+  lines.push("",T("xPremise")(!!S.ban));
   const scored=SIGNALS.filter(s=>S.pred[s.id]&&S.sig[s.id]!=="un");
   if(scored.length){
     const mean=scored.reduce((a,s)=>a+brierOf(s.id),0)/scored.length;
     const hits=scored.filter(s=>{const p=S.pred[s.id].p,r=S.sig[s.id];return(p>50&&r==="yes")||(p<50&&r==="no");}).length;
     const decisive=scored.filter(s=>S.pred[s.id].p!==50).length;
-    lines.push("Placar: "+(decisive?hits+"/"+decisive+" acertos · ":"")+"Brier médio "+mean.toFixed(2)+" (0 = perfeito, 0,25 = moeda)");
+    lines.push(T("xScore")(decisive?T("xHits")(hits,decisive):"",fmtBrier(mean)));
   }
-  lines.push("Cenário completo: "+window.location.origin+window.location.pathname+hashFromState());
-  lines.push("(modelo de brinquedo — priors e verossimilhanças são suposições editáveis)");
+  lines.push(T("xScenario")+window.location.origin+window.location.pathname+hashFromState());
+  lines.push(T("xToy"));
   return lines.join("\n");
 }
 function copyWithFeedback(btnId,text){
   const btn=$(btnId);const orig=btn.textContent;
-  const done=()=>{btn.textContent="Copiado ✓";btn.classList.add("copied");
+  const done=()=>{btn.textContent=T("copied");btn.classList.add("copied");
     setTimeout(()=>{btn.textContent=orig;btn.classList.remove("copied");},1600);};
-  const fail=()=>{btn.textContent="Falhou — copie da URL";setTimeout(()=>{btn.textContent=orig;},2000);};
+  const fail=()=>{btn.textContent=T("copyFail");setTimeout(()=>{btn.textContent=orig;},2000);};
   if(navigator.clipboard&&navigator.clipboard.writeText){
     navigator.clipboard.writeText(text).then(done).catch(fail);
   }else{fail();}
@@ -786,14 +980,12 @@ function takeSnapshot(){
 }
 function drawJournal(){
   const log=$("journal-log");
-  if(!journal.length){log.innerHTML="Nenhuma leitura registrada ainda.";}
+  if(!journal.length){log.innerHTML=T("jNone");}
   else{
     const last=journal[journal.length-1];
-    log.innerHTML=`<b>${journal.length}</b> leitura(s) · última em <b>${fmtDate(last.t)}</b> com <b>${last.resolved}</b> sinal(is) resolvido(s).`;
+    log.innerHTML=T("jLog")(journal.length,fmtDate(last.t),last.resolved);
   }
-  $("storage-note").textContent=store.ok
-    ?"Persistência ativa neste navegador."
-    :"Ambiente sem persistência — o diário vive só nesta sessão. No GitHub Pages ele fica salvo.";
+  $("storage-note").textContent=store.ok?T("storeOk"):T("storeNo");
   OUT.forEach(o=>{
     const svg=$("sp-"+o.id);if(!svg)return;svg.innerHTML="";
     if(journal.length<2)return;
@@ -810,17 +1002,17 @@ function drawJournal(){
   });
 }
 function drawSession(){
-  $("sess-date").textContent=new Date().toLocaleDateString("pt-BR",{weekday:"short",day:"2-digit",month:"short",year:"numeric"});
+  $("sess-date").textContent=new Date().toLocaleDateString(LOC(),{weekday:"short",day:"2-digit",month:"short",year:"numeric"});
   const box=$("sess-delta");
-  if(!journal.length){box.textContent="primeira visita — registre uma leitura";return;}
+  if(!journal.length){box.textContent=T("firstVisit");return;}
   const last=journal[journal.length-1];
   const {mix}=outcomeDist();
   let maxD=0,maxO=null;
   OUT.forEach(o=>{const d=mix[o.id]-last.mix[o.id];if(Math.abs(d)>Math.abs(maxD)){maxD=d;maxO=o;}});
   if(maxO&&Math.abs(maxD)>=0.005){
-    box.innerHTML=`desde ${fmtDate(last.t)}: <span class="delta">${maxO.name.toLowerCase()} ${maxD>0?"+":""}${Math.round(maxD*100)} pp</span>`;
+    box.innerHTML=T("sessDelta")(fmtDate(last.t))+`<span class="delta">${L10(maxO.name).toLowerCase()} ${maxD>0?"+":""}${Math.round(maxD*100)} pp</span>`;
   }else{
-    box.innerHTML=`sem mudança material desde ${fmtDate(last.t)}`;
+    box.innerHTML=T("sessNoChange")(fmtDate(last.t));
   }
 }
 
@@ -838,8 +1030,8 @@ function render(){
     const le=$("le-"+s.id);
     le.classList.toggle("res-yes",S.sig[s.id]==="yes");
     le.classList.toggle("res-no",S.sig[s.id]==="no");
-    const off=OFFICIAL[s.id]?"OFICIAL ":"";
-    $("lf-"+s.id).textContent=S.sig[s.id]==="yes"?("✓ "+off+"CONFIRMADO · "):(S.sig[s.id]==="no"?("✕ "+off+"REFUTADO · "):"");
+    const off=OFFICIAL[s.id]?T("flagOfficial"):"";
+    $("lf-"+s.id).textContent=S.sig[s.id]==="yes"?("✓ "+off+T("flagYes")+" · "):(S.sig[s.id]==="no"?("✕ "+off+T("flagNo")+" · "):"");
     drawPred(s);
   });
   syncInputs();
@@ -847,7 +1039,7 @@ function render(){
 }
 
 /* ---- catálogo remoto (padrão HTML tools: fetch same-origin, fallback embutido) ---- */
-let catalogSource="embutido no HTML";
+let catalogSource={kind:"embedded",updated:null};
 function validCatalog(j){
   if(!j||!Array.isArray(j.signals)||!j.signals.length)return false;
   return j.signals.every(s=>
@@ -863,12 +1055,13 @@ async function loadCatalog(){
     if(!r.ok)return;
     const j=await r.json();
     if(!validCatalog(j))return;
-    SIGNALS=j.signals.map(s=>({id:s.id,date:s.date||"A DEFINIR",title:s.title,note:s.note||"",L:s.L,evidence:Array.isArray(s.evidence)?s.evidence:[]}));
+    SIGNALS=j.signals.map(s=>({id:s.id,date:s.date||"A DEFINIR",title:s.title,title_en:s.title_en||"",
+      note:s.note||"",note_en:s.note_en||"",L:s.L,evidence:Array.isArray(s.evidence)?s.evidence:[]}));
     if(Array.isArray(j.past)&&j.past.length)PAST=j.past;
     OFFICIAL={};
     j.signals.forEach(s=>{if(s.resolved)OFFICIAL[s.id]=s.resolved;});
     DEFAULTS=makeDefaults();
-    catalogSource="remoto"+(j.updated?(" · atualizado em "+j.updated):"");
+    catalogSource={kind:"remote",updated:j.updated||null};
   }catch(e){/* fallback silencioso para o catálogo embutido */}
 }
 
@@ -897,8 +1090,7 @@ async function init(){
   }
   // resoluções oficiais são gabarito comum: sobrescrevem qualquer estado local ou de link
   SIGNALS.forEach(s=>{if(OFFICIAL[s.id])S.sig[s.id]=OFFICIAL[s.id];});
-  const note=$("catalog-note");
-  if(note)note.textContent="Catálogo de sinais: "+catalogSource+".";
+  applyStatic();
   buildLedger();buildBars();bindInputs();render();updateHash();
 }
 init();

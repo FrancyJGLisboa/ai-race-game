@@ -123,6 +123,7 @@ const I18N={
     loseTitle:'IPO <em>abaixo do alvo</em>',
     loseBody:v=>"US$ "+v.toFixed(1)+" bi — abaixo dos US$ 30 bi. A escassez era real demais: as GPUs sentiram, os usuários também.",
     endQuote:m=>m+" meltdown(s) · cada pausa de assinaturas custou 8% do múltiplo",
+    best:(v,n)=>"recorde pessoal: US$ "+v.toFixed(1)+" bi"+(n?" — novo recorde!":""),
     foot:'Arte 100% canvas/CSS. Sem estoque, sem pena das GPUs. Parte do <a href="index.html">livro-razão da corrida</a>.'
   },
   en:{
@@ -145,6 +146,7 @@ const I18N={
     loseTitle:'IPO <em>below target</em>',
     loseBody:v=>"$"+v.toFixed(1)+"B — under $30B. The scarcity was a little too real: the GPUs felt it, so did the users.",
     endQuote:m=>m+" meltdown(s) · each signup pause cost 8% of the multiple",
+    best:(v,n)=>"personal best: $"+v.toFixed(1)+"B"+(n?" — new best!":""),
     foot:'Art is 100% canvas/CSS. No stock assets, no mercy for the GPUs. Part of the <a href="index.html">race ledger</a>.'
   }
 };
@@ -211,6 +213,7 @@ const Game={newGame,step,valuationOf,CFG};
   const $=id=>document.getElementById(id);
   let L=(function(){try{return window.localStorage.getItem("airace-lang")||"pt"}catch(e){return "pt"}})();
   let st=Game.newGame(),running=false,inputX=CFG.W/2,wantFreeze=false,muted=false,last=0;
+  let best=(()=>{try{return +window.localStorage.getItem("airace-best")||0}catch(e){return 0}})(),newBest=false;
 
   /* ---- i18n ---- */
   function T(){return I18N[L];}
@@ -350,7 +353,7 @@ const Game={newGame,step,valuationOf,CFG};
       const win=st.valuation>=CFG.TARGET;
       $("o-title").innerHTML=win?T().winTitle:T().loseTitle;
       $("o-body").textContent=(win?T().winBody:T().loseBody)(st.valuation);
-      $("o-quote").textContent=T().endQuote(st.meltdowns);
+      $("o-quote").textContent=T().endQuote(st.meltdowns)+(best>0?" · "+T().best(best,newBest):"");
       $("startbtn").textContent=T().again;
     }else{
       $("o-title").innerHTML=T().introTitle;
@@ -373,7 +376,12 @@ const Game={newGame,step,valuationOf,CFG};
       st=Game.step(st,dt,inputX,wantFreeze);
       wantFreeze=false;
       st.events.forEach(sfx);
-      if(st.over){running=false;drawOverlay();}
+      if(st.over){
+        running=false;
+        newBest=st.valuation>best;
+        if(newBest){best=st.valuation;try{window.localStorage.setItem("airace-best",String(best))}catch(e){}}
+        drawOverlay();
+      }
     }
     draw();drawHud();fanUpdate();
     requestAnimationFrame(frame);
