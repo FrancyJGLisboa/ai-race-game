@@ -33,7 +33,7 @@ const sandboxHistory = { replaceState() {} };
 const fetchStub = async () => { throw new Error("offline smoke"); };
 
 const body = js + `
-;return { get S(){ return S; }, get SIGNALS(){ return SIGNALS; }, outcomeDist };`;
+;return { get S(){ return S; }, get SIGNALS(){ return SIGNALS; }, outcomeDist, solveTree };`;
 // eslint-disable-next-line no-new-func
 const run = new Function("document", "window", "history", "fetch", "navigator", body);
 const page = run(document, window, sandboxHistory, fetchStub, {});
@@ -49,5 +49,18 @@ setTimeout(() => {  // init() is async; let it settle, then read live bindings
   const { mix } = outcomeDist();
   const total = Object.values(mix).reduce((a, b) => a + b, 0);
   assert.ok(Math.abs(total - 1) < 1e-9, "outcome distribution sums to 1");
-  console.log("C3 smoke OK — frozen #v3 hash parses, model renders");
+
+  // Game theory earns its name: SPE computed, and it flips on the ban premise.
+  const hosted = page.solveTree(false);
+  assert.ok(hosted.chinaPublishes && !hosted.usBans, "SPE hosted-only: publish → no ban");
+  const extra = page.solveTree(true);
+  assert.ok(!extra.chinaPublishes && extra.usBans, "SPE extraterritorial: keep closed (ban off-path)");
+  // Strategic signal: weights likelihood is logistic(net utility), not hand-set.
+  const w = SIGNALS.find((s) => s.id === "weights");
+  const sig = (x) => 1 / (1 + Math.exp(-x));
+  assert.ok(Math.abs(w.L.coord - sig(2)) < 1e-9, "L.weights.coord = logistic(+2)");
+  assert.ok(Math.abs(w.L.market - sig(2)) < 1e-9, "L.weights.market = logistic(+2)");
+  assert.ok(Math.abs(w.L.theater - 0.5) < 1e-9, "L.weights.theater = logistic(0)");
+
+  console.log("C3+GT smoke OK — v3 hash parses, SPE flips on ban premise, strategic L derived");
 }, 50);

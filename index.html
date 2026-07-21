@@ -323,7 +323,7 @@ pt:{
   banQ:"Um banimento dos EUA alcança os pesos?",ban0:"Não — só camada hospedada",ban1:"Sim — extraterritorial",
   prChip:"Independência de chips de inferência (China)",prAdopt:"Velocidade de adoção (WAICO / Sul Global)",prCovert:"Propensão a uso clandestino no Ocidente",
   p04t:"Árvore do jogo — por que a ordem importa",
-  p04c:"Compromisso irreversível no Lance 1; a mordida do Lance 2 depende da premissa do banimento.",
+  p04c:"Compromisso irreversível no Lance 1; o equilíbrio (perfeito em subjogos) é <b>computado</b> por indução reversa a partir de payoffs editáveis em uma linha — a mordida do Lance 2 depende da premissa do banimento.",
   p02t:"Vigia — o que observar em seguida",
   p02c:"Sinais abertos, ranqueados pelo impacto esperado na projeção. É a sua lista de leitura de notícias.",
   p07t:"Placar",
@@ -344,16 +344,18 @@ pt:{
   arcCap:"A leitura atual sugere que a restrição real ainda é <b>capacidade</b> — se o teatro domina, os modelos importam menos do que parecem.",
   arcComp:"A restrição vinculante hoje é <b>computação</b>: os modelos são bons o bastante; o gargalo são GPUs e inferência.",
   arcPerm:"A restrição migrou para <b>permissão</b>: a pergunta não é mais se você pode rodar o modelo, e sim se será permitido escolhê-lo.",
-  tKeepClosed:"manter fechado — não tomado",tPublish:"PUBLICAR PESOS (27/jul)",tIrrev:"compromisso irreversível",
+  tKeepClosed:"manter fechado",tPublish:"PUBLICAR PESOS (27/jul)",tIrrev:"compromisso irreversível",
   tNoBan:"sem banimento",tBan:"banir",
   tLeaf1a:"Pesos circulam",tLeaf1b:"uso aberto e legível",
   tLeaf2a:"Pesos alcançados",tLeaf2b:"contenção morde",
   tLeaf3a:"Só camada hospedada",tLeaf3b:"pesos sobrevivem",
   tChina:"CHINA · move 1º",tUSA:"EUA · move 2º",
-  tBottomBan:"⟲ premissa flipada: a alavanca do 2º lance reaparece.",
-  tBottomNoBan:"▸ indução reversa: publicar é dominante — o 2º lance não muda o resultado.",
-  treeNoteBan:"Com enforcement <b>extraterritorial</b>, o Lance 2 volta a morder e a dominância de publicar deixa de ser garantida. Toda a conclusão de \"alavanca perdida\" era contingente nesta única premissa — flipar este seletor é o teste de estresse do argumento.",
-  treeNoteNoBan:"Enquanto o banimento alcança só a camada hospedada, o pior caso pós-publicação (uso clandestino) ainda supera manter fechado. Os EUA movem por último e não mudam o resultado — só decidem quem constrói abertamente e quem constrói sem admitir.",
+  pays:(c,u)=>"CN "+c+" · EUA "+u,
+  tBottomBan:P=>"⟲ SPE: manter fechado ("+P.closed[0]+" > "+P.pubBanExtra[0]+") — banir seria a melhor resposta dos EUA ("+P.pubBanExtra[1]+" > "+P.pubNoBan[1]+").",
+  tBottomNoBan:P=>"▸ SPE: publicar → não banir. Publicar domina manter fechado ("+P.pubNoBan[0]+" > "+P.closed[0]+").",
+  treeNoteBan:P=>"Com enforcement <b>extraterritorial</b>, banir vira a melhor resposta dos EUA ("+P.pubBanExtra[1]+" > "+P.pubNoBan[1]+") e a China, antecipando, preferiria manter fechado ("+P.closed[0]+" > "+P.pubBanExtra[0]+"): o caminho de equilíbrio muda. Como a China <b>já publicou</b>, sob esta premissa ou ela apostou que o alcance é só hospedado — ou cometeu um erro estratégico.",
+  treeNoteNoBan:P=>"Equilíbrio <b>computado</b>, não asserido: com o banimento alcançando só a camada hospedada, a melhor resposta dos EUA a pesos publicados é não banir ("+P.pubNoBan[1]+" > "+P.pubBanHosted[1]+") — e, antecipando isso, publicar ("+P.pubNoBan[0]+") domina manter fechado ("+P.closed[0]+"). Os payoffs estão no objeto <code>PAYOFFS</code>, editáveis em uma linha, como as verossimilhanças.",
+  stratNote:"⚖ Verossimilhança derivada de equilíbrio: cada tipo publica com probabilidade logística na sua utilidade líquida (coord +2, mercado +2, teatro 0) — não é um chute fixado à mão.",
   watchEmpty:"Todos os sinais resolvidos. O modelo agora só se move por priors e premissas — hora de esperar o mundo produzir novos sinais.",
   watchMove:imp=>"move a projeção em ±"+imp+" pontos esperados",
   impLabel:"impacto esperado",
@@ -403,7 +405,7 @@ en:{
   banQ:"Does a US ban reach the weights?",ban0:"No — hosted layer only",ban1:"Yes — extraterritorial",
   prChip:"Inference-chip independence (China)",prAdopt:"Adoption speed (WAICO / Global South)",prCovert:"Covert-use propensity in the West",
   p04t:"Game tree — why order matters",
-  p04c:"Irreversible commitment at Move 1; how hard Move 2 bites depends on the ban premise.",
+  p04c:"Irreversible commitment at Move 1; the (subgame-perfect) equilibrium is <b>computed</b> by backward induction from payoffs editable in one line — how hard Move 2 bites depends on the ban premise.",
   p02t:"Watch — what to read next",
   p02c:"Open signals, ranked by expected impact on the projection. It's your news reading list.",
   p07t:"Scoreboard",
@@ -424,16 +426,18 @@ en:{
   arcCap:"The current reading suggests the binding constraint is still <b>capability</b> — if theater dominates, the models matter less than they seem.",
   arcComp:"Today's binding constraint is <b>compute</b>: the models are good enough; the bottleneck is GPUs and inference.",
   arcPerm:"The constraint has migrated to <b>permission</b>: the question is no longer whether you can run the model, but whether you'll be allowed to choose it.",
-  tKeepClosed:"keep closed — not taken",tPublish:"PUBLISH WEIGHTS (Jul 27)",tIrrev:"irreversible commitment",
+  tKeepClosed:"keep closed",tPublish:"PUBLISH WEIGHTS (Jul 27)",tIrrev:"irreversible commitment",
   tNoBan:"no ban",tBan:"ban",
   tLeaf1a:"Weights circulate",tLeaf1b:"open, legible use",
   tLeaf2a:"Weights reached",tLeaf2b:"containment bites",
   tLeaf3a:"Hosted layer only",tLeaf3b:"weights survive",
   tChina:"CHINA · moves 1st",tUSA:"US · moves 2nd",
-  tBottomBan:"⟲ premise flipped: Move-2 leverage reappears.",
-  tBottomNoBan:"▸ backward induction: publishing is dominant — Move 2 doesn't change the outcome.",
-  treeNoteBan:"With <b>extraterritorial</b> enforcement, Move 2 bites again and publishing's dominance is no longer guaranteed. The entire \"lost leverage\" conclusion was contingent on this single premise — flipping this switch is the argument's stress test.",
-  treeNoteNoBan:"As long as the ban only reaches the hosted layer, the post-publication worst case (covert use) still beats staying closed. The US moves last and doesn't change the outcome — it only decides who builds openly and who builds without admitting it.",
+  pays:(c,u)=>"CN "+c+" · US "+u,
+  tBottomBan:P=>"⟲ SPE: keep closed ("+P.closed[0]+" > "+P.pubBanExtra[0]+") — banning would be the US best response ("+P.pubBanExtra[1]+" > "+P.pubNoBan[1]+").",
+  tBottomNoBan:P=>"▸ SPE: publish → no ban. Publishing dominates staying closed ("+P.pubNoBan[0]+" > "+P.closed[0]+").",
+  treeNoteBan:P=>"With <b>extraterritorial</b> enforcement, banning becomes the US best response ("+P.pubBanExtra[1]+" > "+P.pubNoBan[1]+") and China, anticipating it, would prefer to stay closed ("+P.closed[0]+" > "+P.pubBanExtra[0]+"): the equilibrium path changes. Since China <b>already published</b>, under this premise it either bet the reach is hosted-only — or made a strategic mistake.",
+  treeNoteNoBan:P=>"A <b>computed</b> equilibrium, not an asserted one: with the ban reaching only the hosted layer, the US best response to published weights is no ban ("+P.pubNoBan[1]+" > "+P.pubBanHosted[1]+") — and, anticipating that, publishing ("+P.pubNoBan[0]+") dominates staying closed ("+P.closed[0]+"). Payoffs live in the <code>PAYOFFS</code> object, editable in one line, like the likelihoods.",
+  stratNote:"⚖ Equilibrium-derived likelihood: each type publishes with logistic probability in its net utility (coord +2, market +2, theater 0) — not a hand-set guess.",
   watchEmpty:"All signals resolved. The model now only moves via priors and premises — time to wait for the world to produce new signals.",
   watchMove:imp=>"moves the projection by ±"+imp+" expected points",
   impLabel:"expected impact",
@@ -610,6 +614,24 @@ function outcomeDist(sigOverride){
   OUT.forEach(o=>mix[o.id]=t>0?mix[o.id]/t:0);
   return{post,mix};
 }
+/* ---- teoria dos jogos de verdade: SPE computado + sinal estratégico ---- */
+const PAYOFFS={ // (china, eua) — editável em uma linha, como as verossimilhanças
+  closed:[3,6], pubNoBan:[8,4], pubBanHosted:[7,3], pubBanExtra:[2,6]
+};
+function solveTree(extra){
+  const banLeaf=extra?PAYOFFS.pubBanExtra:PAYOFFS.pubBanHosted;
+  const usBans=banLeaf[1]>PAYOFFS.pubNoBan[1];          // melhor resposta dos EUA após publicação
+  const pubPayoff=usBans?banLeaf:PAYOFFS.pubNoBan;
+  const chinaPublishes=pubPayoff[0]>PAYOFFS.closed[0];  // indução reversa no Lance 1
+  return {usBans,chinaPublishes,pubPayoff};
+}
+const logistic=x=>1/(1+Math.exp(-x));
+const STRATEGIC={weights:{coord:2,market:2,theater:0}}; // utilidade líquida de publicar, por tipo
+function applyStrategicL(){
+  SIGNALS=SIGNALS.map(s=>STRATEGIC[s.id]
+    ?{...s,L:Object.fromEntries(H.map(h=>[h,logistic(STRATEGIC[s.id][h])]))}
+    :s);
+}
 function signalImpact(id){
   const cur=outcomeDist();
   const post=cur.post;
@@ -657,7 +679,7 @@ function buildLedger(){
       <div class="ldate"><span class="flag" id="lf-${s.id}"></span>${sDate(s)} · ${off?T("lOfficial"):T("lPending")}</div>
       <div class="lcard">
         <div class="ltitle">${sTitle(s)}${isNew?'<span class="newbadge">'+T("novidade")+'</span>':''}</div>
-        <div class="lnote">${sNote(s)}</div>${evHtml}
+        <div class="lnote">${sNote(s)}${STRATEGIC[s.id]?"<br>"+T("stratNote"):""}</div>${evHtml}
         <div class="lmeta">
           <span class="impact">${T("impLabel")} <b id="imp-${s.id}">—</b></span>
           <div class="tri" role="group" aria-label="Resolver sinal">
@@ -777,27 +799,37 @@ function drawTree(){
   const line=(x1,y1,x2,y2,c,w,d)=>el("line",{x1,y1,x2,y2,stroke:c,"stroke-width":w,"stroke-linecap":"round",...(d?{"stroke-dasharray":d}:{})});
   const txt=(x,y,s,c,sz,a,w)=>el("text",{x,y,fill:c,"font-size":sz||11,"font-family":"IBM Plex Mono, monospace","text-anchor":a||"start","font-weight":w||400},s);
   const ban=!!S.ban;
+  const eq=solveTree(ban);
   const CX=70,CY=70,UX=310,UY=70,LX=520;
-  line(CX,CY,230,190,DIM,1.6,"4 5");
-  txt(150,200,T("tKeepClosed"),DIM,9.5,"middle");
-  line(CX,CY,UX,UY,CN,3);
-  txt(190,56,T("tPublish"),CN,10.5,"middle",600);
-  txt(190,86,T("tIrrev"),CN,9,"middle");
-  line(UX,UY,LX,36,US,2);txt(415,30,T("tNoBan"),US,9.5,"middle");
-  line(UX,UY,LX,120,US,2);txt(415,130,T("tBan"),US,9.5,"middle");
-  const leaf=(y,t1,t2,hot)=>{
-    el("rect",{x:LX+8,y:y-18,width:164,height:38,rx:3,fill:hot?"rgba(213,73,62,.12)":"rgba(65,135,181,.12)",stroke:hot?CN:US,"stroke-width":hot?1.6:1});
-    txt(LX+16,y-3,t1,hot?CN:US,10,"start",600);
-    txt(LX+16,y+11,t2,TXTC,8.5,"start");
+  const onClosed=!eq.chinaPublishes,onPub=eq.chinaPublishes;
+  const onNoBan=onPub&&!eq.usBans,onBan=onPub&&eq.usBans;
+  line(CX,CY,230,190,onClosed?CN:DIM,onClosed?3:1.6,onClosed?null:"4 5");
+  txt(150,205,T("tKeepClosed"),onClosed?CN:DIM,9.5,"middle",onClosed?600:400);
+  txt(150,219,T("pays")(PAYOFFS.closed[0],PAYOFFS.closed[1]),onClosed?AM:DIM,9,"middle",600);
+  line(CX,CY,UX,UY,onPub?CN:DIM,onPub?3:1.6,onPub?null:"4 5");
+  txt(190,56,T("tPublish"),onPub?CN:DIM,10.5,"middle",600);
+  txt(190,86,T("tIrrev"),onPub?CN:DIM,9,"middle");
+  line(UX,UY,LX,36,onNoBan?US:DIM,onNoBan?3:1.6,onNoBan?null:"4 5");
+  txt(415,30,T("tNoBan"),onNoBan?US:DIM,9.5,"middle");
+  line(UX,UY,LX,120,onBan?US:DIM,onBan?3:1.6,onBan?null:"4 5");
+  txt(415,130,T("tBan"),onBan?US:DIM,9.5,"middle");
+  const leaf=(y,t1,t2,pay,hot,onPath)=>{
+    el("rect",{x:LX+8,y:y-18,width:164,height:50,rx:3,
+      fill:hot?"rgba(213,73,62,.12)":"rgba(65,135,181,.12)",
+      stroke:onPath?(hot?CN:US):DIM,"stroke-width":onPath?1.8:1,
+      ...(onPath?{}:{"stroke-dasharray":"3 3"})});
+    txt(LX+16,y-3,t1,onPath?(hot?CN:US):DIM,10,"start",600);
+    txt(LX+16,y+11,t2,onPath?TXTC:DIM,8.5,"start");
+    txt(LX+16,y+25,pay,onPath?AM:DIM,9,"start",600);
   };
-  leaf(36,T("tLeaf1a"),T("tLeaf1b"),true);
-  if(ban)leaf(120,T("tLeaf2a"),T("tLeaf2b"),false);
-  else leaf(120,T("tLeaf3a"),T("tLeaf3b"),true);
+  leaf(36,T("tLeaf1a"),T("tLeaf1b"),T("pays")(PAYOFFS.pubNoBan[0],PAYOFFS.pubNoBan[1]),true,onNoBan);
+  if(ban)leaf(120,T("tLeaf2a"),T("tLeaf2b"),T("pays")(PAYOFFS.pubBanExtra[0],PAYOFFS.pubBanExtra[1]),false,onBan);
+  else leaf(120,T("tLeaf3a"),T("tLeaf3b"),T("pays")(PAYOFFS.pubBanHosted[0],PAYOFFS.pubBanHosted[1]),true,onBan);
   el("circle",{cx:CX,cy:CY,r:9,fill:CN});txt(CX,CY-16,T("tChina"),CN,9.5,"middle",600);
-  el("circle",{cx:UX,cy:UY,r:9,fill:US});txt(UX,UY-16,T("tUSA"),US,9.5,"middle",600);
-  txt(70,228,ban?T("tBottomBan"):T("tBottomNoBan"),AM,9.5,"start",600);
+  el("circle",{cx:UX,cy:UY,r:9,fill:onPub?US:DIM});txt(UX,UY-16,T("tUSA"),onPub?US:DIM,9.5,"middle",600);
+  txt(70,236,(ban?T("tBottomBan"):T("tBottomNoBan"))(PAYOFFS),AM,9.5,"start",600);
 
-  $("tree-note").innerHTML=ban?T("treeNoteBan"):T("treeNoteNoBan");
+  $("tree-note").innerHTML=(ban?T("treeNoteBan"):T("treeNoteNoBan"))(PAYOFFS);
 }
 
 /* ---- vigia ---- */
@@ -1068,6 +1100,7 @@ async function loadCatalog(){
 /* ---- boot ---- */
 async function init(){
   await loadCatalog();
+  applyStrategicL();
   // prioridade: cenário na URL (link compartilhado) > estado salvo > defaults.
   // o diário é sempre o local — um link compartilha o cenário, não o histórico de quem enviou.
   const saved=store.load();
