@@ -33,7 +33,7 @@ const sandboxHistory = { replaceState() {} };
 const fetchStub = async () => { throw new Error("offline smoke"); };
 
 const body = js + `
-;return { get S(){ return S; }, get SIGNALS(){ return SIGNALS; }, outcomeDist, solveTree };`;
+;return { get S(){ return S; }, get SIGNALS(){ return SIGNALS; }, outcomeDist, solveTree, solveOpenness };`;
 // eslint-disable-next-line no-new-func
 const run = new Function("document", "window", "history", "fetch", "navigator", body);
 const page = run(document, window, sandboxHistory, fetchStub, {});
@@ -62,5 +62,20 @@ setTimeout(() => {  // init() is async; let it settle, then read live bindings
   assert.ok(Math.abs(w.L.market - sig(2)) < 1e-9, "L.weights.market = logistic(+2)");
   assert.ok(Math.abs(w.L.theater - 0.5) < 1e-9, "L.weights.theater = logistic(0)");
 
-  console.log("C3+GT smoke OK — v3 hash parses, SPE flips on ban premise, strategic L derived");
+  // Continuous Move 1 (Mladenovic-style): full openness dominates under hosted-only
+  // reach; extraterritorial threat yields an INTERIOR optimum (partial openness).
+  const opHosted = page.solveOpenness(false);
+  assert.strictEqual(opHosted.omega, 1, "hosted-only: omega* = 1 (open everything)");
+  const opExtra = page.solveOpenness(true);
+  assert.ok(opExtra.omega > 0 && opExtra.omega < 1,
+    "extraterritorial: interior optimum, omega* = " + opExtra.omega);
+  assert.ok(Math.abs(opExtra.omega - 0.55) < 0.011, "omega* pins to just under the ban trigger");
+  // Argmax sanity: omega* beats its neighbors on the equilibrium payoff curve.
+  const payAt = (om, extra) => page.solveOpenness(extra).curve.find((p) => Math.abs(p.om - om) < 1e-9).pay;
+  assert.ok(opExtra.pay >= payAt(0.45, true) && opExtra.pay >= payAt(0.65, true), "omega* is a maximum");
+  // Endpoint consistency with the discrete PAYOFFS tree.
+  assert.ok(Math.abs(payAt(0, false) - 3) < 1e-9 && Math.abs(payAt(1, false) - 8) < 1e-9,
+    "continuous endpoints match discrete tree (closed=3, open+noban=8)");
+
+  console.log("C3+GT smoke OK — v3 hash parses, SPE flips, strategic L derived, ω* interior under extra ban");
 }, 50);

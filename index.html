@@ -249,6 +249,8 @@
       <p class="cap" data-i18n="p04c">Compromisso irreversível no Lance 1; a mordida do Lance 2 depende da premissa do banimento.</p>
       <div class="tree-wrap"><svg id="tree" viewBox="0 0 700 240" role="img" aria-label="Árvore sequencial China-EUA"></svg></div>
       <div class="tree-note" id="tree-note"></div>
+      <div class="tree-wrap" style="margin-top:10px"><svg id="omega" viewBox="0 0 700 120" role="img" aria-label="Curva de payoff por abertura"></svg></div>
+      <div class="tree-note" id="omega-note"></div>
     </div>
   </div>
 
@@ -356,6 +358,9 @@ pt:{
   treeNoteBan:P=>"Com enforcement <b>extraterritorial</b>, banir vira a melhor resposta dos EUA ("+P.pubBanExtra[1]+" > "+P.pubNoBan[1]+") e a China, antecipando, preferiria manter fechado ("+P.closed[0]+" > "+P.pubBanExtra[0]+"): o caminho de equilíbrio muda. Como a China <b>já publicou</b>, sob esta premissa ou ela apostou que o alcance é só hospedado — ou cometeu um erro estratégico.",
   treeNoteNoBan:P=>"Equilíbrio <b>computado</b>, não asserido: com o banimento alcançando só a camada hospedada, a melhor resposta dos EUA a pesos publicados é não banir ("+P.pubNoBan[1]+" > "+P.pubBanHosted[1]+") — e, antecipando isso, publicar ("+P.pubNoBan[0]+") domina manter fechado ("+P.closed[0]+"). Os payoffs estão no objeto <code>PAYOFFS</code>, editáveis em uma linha, como as verossimilhanças.",
   stratNote:"⚖ Verossimilhança derivada de equilíbrio: cada tipo publica com probabilidade logística na sua utilidade líquida (coord +2, mercado +2, teatro 0) — não é um chute fixado à mão.",
+  contCap:(o,extra)=>"Lance 1 <b>contínuo</b> (à la Mladenovic et al. 2026): abertura de equilíbrio <b>ω* = "+o+"%</b>"+(extra
+    ?" — a ameaça extraterritorial produz <b>abertura parcial ótima</b>: pesos abertos, dados fechados, logo abaixo do gatilho de banimento. É exatamente a postura real da Moonshot."
+    :" — enquanto o banimento não alcança os pesos, abrir tudo domina. A curva vermelha é o payoff da China; a azul tracejada, o trecho em que os EUA banem."),
   watchEmpty:"Todos os sinais resolvidos. O modelo agora só se move por priors e premissas — hora de esperar o mundo produzir novos sinais.",
   watchMove:imp=>"move a projeção em ±"+imp+" pontos esperados",
   impLabel:"impacto esperado",
@@ -438,6 +443,9 @@ en:{
   treeNoteBan:P=>"With <b>extraterritorial</b> enforcement, banning becomes the US best response ("+P.pubBanExtra[1]+" > "+P.pubNoBan[1]+") and China, anticipating it, would prefer to stay closed ("+P.closed[0]+" > "+P.pubBanExtra[0]+"): the equilibrium path changes. Since China <b>already published</b>, under this premise it either bet the reach is hosted-only — or made a strategic mistake.",
   treeNoteNoBan:P=>"A <b>computed</b> equilibrium, not an asserted one: with the ban reaching only the hosted layer, the US best response to published weights is no ban ("+P.pubNoBan[1]+" > "+P.pubBanHosted[1]+") — and, anticipating that, publishing ("+P.pubNoBan[0]+") dominates staying closed ("+P.closed[0]+"). Payoffs live in the <code>PAYOFFS</code> object, editable in one line, like the likelihoods.",
   stratNote:"⚖ Equilibrium-derived likelihood: each type publishes with logistic probability in its net utility (coord +2, market +2, theater 0) — not a hand-set guess.",
+  contCap:(o,extra)=>"<b>Continuous</b> Move 1 (à la Mladenovic et al. 2026): equilibrium openness <b>ω* = "+o+"%</b>"+(extra
+    ?" — the extraterritorial threat produces <b>optimal partial openness</b>: weights open, data closed, just under the ban trigger. Which is exactly Moonshot's real posture."
+    :" — while the ban can't reach the weights, opening everything dominates. Red curve is China's payoff; dashed blue is the region where the US bans."),
   watchEmpty:"All signals resolved. The model now only moves via priors and premises — time to wait for the world to produce new signals.",
   watchMove:imp=>"moves the projection by ±"+imp+" expected points",
   impLabel:"expected impact",
@@ -624,6 +632,22 @@ function solveTree(extra){
   const pubPayoff=usBans?banLeaf:PAYOFFS.pubNoBan;
   const chinaPublishes=pubPayoff[0]>PAYOFFS.closed[0];  // indução reversa no Lance 1
   return {usBans,chinaPublishes,pubPayoff};
+}
+// Lance 1 contínuo (à la Mladenovic et al. 2026): ω ∈ [0,1] = abertura parcial
+// (0 fechado · 0.55 ≈ pesos abertos, dados fechados · 1 tudo aberto).
+// Constantes casadas com PAYOFFS nos extremos: ω=0 → closed (3); ω=1 sem ban → 8; ω=1 ban extra → 2.
+const CONT={base:3,gain:7,curv:2,banBite:6,banThresh:0.55};
+function chinaPay(om,banned){return CONT.base+CONT.gain*om-CONT.curv*om*om-(banned?CONT.banBite*om:0);}
+function solveOpenness(extra){
+  let bestOm=0,bestPay=-1/0;const curve=[];
+  for(let i=0;i<=100;i++){
+    const om=i/100;
+    const banned=extra&&om>CONT.banThresh;   // melhor resposta dos EUA por ω
+    const pay=chinaPay(om,banned);
+    curve.push({om,pay,banned});
+    if(pay>bestPay){bestPay=pay;bestOm=om;}
+  }
+  return {omega:bestOm,pay:bestPay,curve};
 }
 const logistic=x=>1/(1+Math.exp(-x));
 const STRATEGIC={weights:{coord:2,market:2,theater:0}}; // utilidade líquida de publicar, por tipo
@@ -830,6 +854,32 @@ function drawTree(){
   txt(70,236,(ban?T("tBottomBan"):T("tBottomNoBan"))(PAYOFFS),AM,9.5,"start",600);
 
   $("tree-note").innerHTML=(ban?T("treeNoteBan"):T("treeNoteNoBan"))(PAYOFFS);
+  drawOmega(ban);
+}
+
+/* ---- Lance 1 contínuo: curva de payoff por abertura ω ---- */
+function drawOmega(extra){
+  const svg=$("omega");if(!svg)return;svg.innerHTML="";
+  const ns="http://www.w3.org/2000/svg";
+  const el=(t,a,txt)=>{const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);if(txt!=null)n.textContent=txt;svg.appendChild(n);return n;};
+  const {omega,pay,curve}=solveOpenness(extra);
+  const x0=50,x1=670,y0=96,y1=14,pMin=0,pMax=9;
+  const X=om=>x0+(x1-x0)*om, Y=p=>y0-(y0-y1)*(p-pMin)/(pMax-pMin);
+  el("line",{x1:x0,y1:y0,x2:x1,y2:y0,stroke:"var(--line)","stroke-width":1.5});
+  [[0,"0%"],[CONT.banThresh,Math.round(CONT.banThresh*100)+"%"],[1,"100%"]].forEach(([om,lab])=>{
+    el("line",{x1:X(om),y1:y0-3,x2:X(om),y2:y0+3,stroke:"var(--dim)","stroke-width":1});
+    el("text",{x:X(om),y:y0+14,fill:"var(--dim)","font-size":9,"font-family":"IBM Plex Mono, monospace","text-anchor":"middle"},lab);
+  });
+  const seg=(pts,color,dash)=>{
+    if(pts.length<2)return;
+    const d=pts.map(p=>X(p.om).toFixed(1)+","+Y(p.pay).toFixed(1)).join(" ");
+    el("polyline",{points:d,fill:"none",stroke:color,"stroke-width":2,...(dash?{"stroke-dasharray":"3 3"}:{})});
+  };
+  seg(curve.filter(p=>!p.banned),"#D5493E",false);
+  seg(curve.filter(p=>p.banned),"#4187B5",true);
+  el("circle",{cx:X(omega),cy:Y(pay),r:5,fill:"var(--amber)",stroke:"var(--bg-2)","stroke-width":2});
+  el("text",{x:X(omega),y:Y(pay)-10,fill:"var(--amber)","font-size":9.5,"font-family":"IBM Plex Mono, monospace","text-anchor":"middle","font-weight":"600"},"ω* = "+Math.round(omega*100)+"%");
+  $("omega-note").innerHTML=T("contCap")(Math.round(omega*100),extra);
 }
 
 /* ---- vigia ---- */

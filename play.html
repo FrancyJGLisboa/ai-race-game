@@ -36,6 +36,14 @@
     font-size:11px;padding:5px 10px;border-radius:3px;cursor:pointer}
   .tbtn:hover,.tbtn[aria-pressed=true]{border-color:var(--amber);color:var(--amber)}
   .tbtn:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+  #ticker{font-size:10.5px;color:var(--dim);border:1px solid var(--line);border-radius:3px;padding:5px 10px;margin-bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  #ticker b{color:var(--amber);margin-right:8px}
+  .stancerow{display:flex;gap:6px;justify-content:center;margin:12px 0 4px;flex-wrap:wrap}
+  .stancerow .lbl{font-size:11px;color:var(--dim);width:100%;text-align:center}
+  .stancerow button{background:transparent;border:1px solid var(--line);color:var(--dim);font-family:inherit;font-size:11px;padding:7px 12px;border-radius:3px;cursor:pointer}
+  .stancerow button[aria-pressed=true]{border-color:var(--amber);color:var(--amber);background:rgba(206,154,56,.12)}
+  .worldbox{text-align:left;font-size:10.5px;color:var(--dim);border-top:1px dashed var(--line);margin-top:12px;padding-top:8px;line-height:1.7}
+  .worldbox b{color:var(--txt);display:block;margin-bottom:2px}
   #hud{display:flex;gap:14px;flex-wrap:wrap;align-items:center;font-size:12px;margin-bottom:8px}
   #hud b{color:var(--bright);font-variant-numeric:tabular-nums}
   #hud .amber{color:var(--amber)}
@@ -75,8 +83,11 @@
     </div>
   </header>
 
+  <div id="ticker" hidden></div>
   <div id="hud">
     <span id="h-users">—</span>
+    <span id="h-adopt">—</span>
+    <span id="h-rival">—</span>
     <span id="h-val" class="amber">—</span>
     <span id="h-ipo">—</span>
     <div class="heatwrap"><span id="h-heat">heat</span><div class="heattrack"><div id="heatfill"></div></div></div>
@@ -88,6 +99,8 @@
       <div class="panel">
         <h2 id="o-title">—</h2>
         <p id="o-body">—</p>
+        <div id="stance-row" class="stancerow"></div>
+        <div id="world-box" class="worldbox"></div>
         <p class="quote" id="o-quote">—</p>
         <button class="big" id="startbtn">—</button>
       </div>
@@ -113,7 +126,22 @@ const I18N={
     freeze:"PAUSAR NOVAS ASSINATURAS (espaço) — esfria as GPUs, custa crescimento",
     frozen:t=>"ASSINATURAS PAUSADAS — "+t.toFixed(1)+"s",
     introTitle:'Lance 1: <em>publicar os pesos</em>',
-    introBody:"Mova o roteador (mouse/toque/setas) e capture os tokens que caem nos racks. Cada token = usuários novos = calor. Se o calor bater 100%, meltdown. A tecla espaço pausa assinaturas — a manobra real de 19/jul — mas o crescimento paga o preço. 60 segundos até precificar o IPO. Alvo: US$ 30 bi.",
+    introBody:"Capture tokens: usuários (loop 1, fronteira) e adoção global (loop 2, difusão). Um rival dos EUA corre em paralelo — abrir mais acelera sua adoção E o rival. Corrida apertada = todos cortam canto e as GPUs sofrem. Espaço pausa assinaturas: esfria as GPUs, mas mata a adoção. 60s até o IPO; alvo US$ 30 bi. O mundo desta rodada é movido pelas manchetes reais do catálogo.",
+    stanceLabel:"Sua postura de abertura (China):",
+    stances:["Fechado","Pesos abertos","Pesos + dados"],
+    worldTitle:n=>n?("Mundo de hoje — movido por "+n+" manchete(s) reais dos últimos 7 dias:"):"Mundo de hoje: sem manchetes frescas no catálogo — condições neutras.",
+    wm:{ban:p=>"pressão de banimento EUA → adoção no Ocidente −"+Math.round(30*p)+"%",
+        saturation:p=>"escassez de GPU nas manchetes → calor por token +"+Math.round(40*p)+"%",
+        qwen:p=>"momentum do rival nas notícias → rival +"+Math.round(50*p)+"%",
+        labs:p=>"ecossistema abrindo flagships → rival +"+Math.round(30*p)+"%",
+        waico:p=>"tração WAICO → adoção +"+Math.round(40*p)+"%"},
+    wmBanYes:"⚑ banimento OFICIAL em vigor → adoção no Ocidente ×0,6",
+    wmWeightsYes:"⚑ pesos do K3 publicados (oficial) → adoção inicial +5 pp",
+    adopt:a=>"adoção "+Math.round(a*100)+"%",
+    rivalHud:r=>"rival EUA "+Math.round(r*100)+"%",
+    closeBanner:"CORRIDA APERTADA — todos cortam canto",
+    rivalShipBanner:"O RIVAL LANÇOU — valuation sob arrasto",
+    endLoops:st=>" Loop 2 (adoção): "+Math.round(st.adoption*100)+"% · rival chegou a "+Math.round(st.rival*100)+"%.",
     introQuote:"“nossas GPUs estão sentindo” — Moonshot AI, 19 jul 2026",
     start:"Publicar os pesos ▸",
     again:"Rodar outra rodada ▸",
@@ -136,7 +164,22 @@ const I18N={
     freeze:"PAUSE NEW SIGNUPS (space) — cools the GPUs, costs growth",
     frozen:t=>"SIGNUPS PAUSED — "+t.toFixed(1)+"s",
     introTitle:'Move 1: <em>publish the weights</em>',
-    introBody:"Move the router (mouse/touch/arrows) and catch the tokens falling into the racks. Every token = new users = heat. Heat hits 100%, meltdown. Spacebar pauses signups — the actual July 19 move — but growth pays for it. 60 seconds to price the IPO. Target: $30B.",
+    introBody:"Catch tokens: users (loop 1, frontier) and global adoption (loop 2, diffusion). A US rival races in parallel — opening up speeds YOUR adoption AND the rival. Close race = everyone cuts corners and the GPUs suffer. Spacebar pauses signups: cools the GPUs, starves adoption. 60s to the IPO; target $30B. This round's world is driven by the catalog's real headlines.",
+    stanceLabel:"Your openness stance (China):",
+    stances:["Closed","Open weights","Weights + data"],
+    worldTitle:n=>n?("Today's world — driven by "+n+" real headline(s) from the last 7 days:"):"Today's world: no fresh headlines in the catalog — neutral conditions.",
+    wm:{ban:p=>"US ban pressure → Western adoption −"+Math.round(30*p)+"%",
+        saturation:p=>"GPU scarcity in the headlines → heat per token +"+Math.round(40*p)+"%",
+        qwen:p=>"rival momentum in the news → rival +"+Math.round(50*p)+"%",
+        labs:p=>"ecosystem opening flagships → rival +"+Math.round(30*p)+"%",
+        waico:p=>"WAICO traction → adoption +"+Math.round(40*p)+"%"},
+    wmBanYes:"⚑ OFFICIAL ban in force → Western adoption ×0.6",
+    wmWeightsYes:"⚑ K3 weights published (official) → starting adoption +5 pp",
+    adopt:a=>"adoption "+Math.round(a*100)+"%",
+    rivalHud:r=>"US rival "+Math.round(r*100)+"%",
+    closeBanner:"CLOSE RACE — everyone cuts corners",
+    rivalShipBanner:"THE RIVAL SHIPPED — valuation under drag",
+    endLoops:st=>" Loop 2 (adoption): "+Math.round(st.adoption*100)+"% · rival reached "+Math.round(st.rival*100)+"%.",
     introQuote:"“our GPUs are feeling it” — Moonshot AI, Jul 19 2026",
     start:"Publish the weights ▸",
     again:"Run it again ▸",
@@ -153,56 +196,100 @@ const I18N={
 
 /* ============ pure game core (node-testable) ============ */
 const CFG={W:900,H:500,DUR:60,PADW:96,PADY:452,TARGET:30,
-  USERS_PER_TOKEN:0.15,HEAT_PER_TOKEN:0.048,VAL_PER_M:3.3};
+  USERS_PER_TOKEN:0.15,HEAT_PER_TOKEN:0.048,VAL_PER_M:3.3,
+  ADOPT_PER_TOKEN:0.003,ADOPT_DECAY_FROZEN:0.03,RIVAL_RATE:0.008,
+  MELT_USER_FACTOR:0.85,FREEZE_S:3,FREEZE_COOL:0.5,CLOSE_GAP:0.15,PROG_USERS:20};
 const GLYPHS=["的","是","the","∂","λ","喵","<eot>","42","tok","模型","∇","p(x)"];
 
-function newGame(){
+// world: pressões derivadas do catálogo de notícias reais (signals.json), 0..1
+function deriveWorld(catalog,nowMs){
+  const c={},flags={};
+  ((catalog&&catalog.signals)||[]).forEach(s=>{
+    const n=(s.evidence||[]).filter(e=>{
+      const t=new Date(e.date+"T12:00:00Z").getTime();
+      return nowMs-t>=0&&nowMs-t<=7*86400e3;
+    }).length;
+    c[s.id]=Math.min(1,n/5);
+    if(s.resolved==="yes")flags[s.id]=true;
+  });
+  return {banP:c.ban||0,satP:c.saturation||0,qwenP:c.qwen||0,labsP:c.labs||0,
+    waicoP:c.waico||0,weightsYes:!!flags.weights,banYes:!!flags.ban};
+}
+
+function newGame(world,stance){
+  world=world||{};
   return {t:0,users:0,heat:0,mult:1,tokens:[],paddleX:CFG.W/2,
-    freeze:0,meltT:0,meltdowns:0,pauses:0,spawnAcc:0,over:false,valuation:0,events:[]};
+    freeze:0,meltT:0,meltdowns:0,pauses:0,spawnAcc:0,over:false,valuation:0,events:[],
+    stance:stance==null?0.5:stance,           // 0 fechado · 0.5 pesos abertos · 1 pesos+dados
+    adoption:0.05+(world.weightsYes?0.05:0),  // loop 2 (difusão)
+    rival:0.10,closeRace:false,rivalShipped:false,
+    world:{banP:world.banP||0,satP:world.satP||0,qwenP:world.qwenP||0,
+      labsP:world.labsP||0,waicoP:world.waicoP||0,
+      weightsYes:!!world.weightsYes,banYes:!!world.banYes}};
 }
 function spawnRate(t){return 1.2+2.8*(t/CFG.DUR);}
-function valuationOf(st){return st.users*CFG.VAL_PER_M*st.mult;}
+// dois loops (USCC): fronteira (usuários) × difusão (adoção), arrastado pelo rival
+function valuationOf(st){
+  return st.users*CFG.VAL_PER_M*st.mult*(0.5+st.adoption)*(1-0.35*st.rival);
+}
 function step(st,dt,inputX,wantFreeze){
   if(st.over)return st;
-  const s={...st,tokens:st.tokens.map(k=>({...k})),events:[]};
+  const s={...st,world:{...st.world},tokens:st.tokens.map(k=>({...k})),events:[]};
+  const w=s.world;
   s.t+=dt;
   s.paddleX+=(inputX-s.paddleX)*Math.min(1,dt*14);
+  // rival dos EUA: aprende com sua abertura e com o momentum real das notícias
+  const rivalRate=CFG.RIVAL_RATE*(1+0.5*w.qwenP+0.3*w.labsP)*(1+0.6*s.stance);
+  s.rival=Math.min(1,s.rival+rivalRate*dt);
+  if(s.rival>=1&&!s.rivalShipped){s.rivalShipped=true;s.events.push("rivalship");}
+  // Emery-Xu/Trager: corrida apertada → todo mundo corta canto
+  const prog=Math.min(1,s.users/CFG.PROG_USERS);
+  const wasClose=s.closeRace;
+  s.closeRace=s.t>8&&Math.abs(prog-s.rival)<CFG.CLOSE_GAP;
+  if(s.closeRace&&!wasClose)s.events.push("close");
   if(wantFreeze&&s.freeze<=0&&s.meltT<=0){
-    s.freeze=4;s.pauses++;s.mult*=0.92;s.events.push("freeze");
+    s.freeze=CFG.FREEZE_S;s.pauses++;s.events.push("freeze");
   }
-  if(s.freeze>0)s.freeze=Math.max(0,s.freeze-dt);
+  if(s.freeze>0){
+    s.freeze=Math.max(0,s.freeze-dt);
+    s.adoption=Math.max(0,s.adoption-CFG.ADOPT_DECAY_FROZEN*dt); // pausar esfria… e mata o loop 2
+  }
   if(s.meltT>0){
     s.meltT=Math.max(0,s.meltT-dt);
     s.heat=Math.max(0.45,s.heat-dt*0.28);
   }
   if(s.freeze<=0&&s.meltT<=0){
-    s.spawnAcc+=dt*spawnRate(s.t);
+    s.spawnAcc+=dt*spawnRate(s.t)*(s.closeRace?1.4:1);
     while(s.spawnAcc>=1){
       s.spawnAcc-=1;
       s.tokens.push({x:30+Math.random()*(CFG.W-60),y:-10,
         v:95+Math.random()*70+s.t*1.5,g:GLYPHS[Math.floor(Math.random()*GLYPHS.length)],r:Math.random()*6.28});
     }
   }
+  const heatPer=CFG.HEAT_PER_TOKEN*(1+0.4*w.satP)*(s.closeRace?1.3:1);
+  const adoptPer=CFG.ADOPT_PER_TOKEN*(1+0.8*s.stance)*(1+0.4*w.waicoP)
+    *(1-0.3*w.banP)*(w.banYes?0.6:1);
   const keep=[];
   for(const k of s.tokens){
     k.y+=k.v*dt;k.r+=dt*1.5;
     const caught=s.meltT<=0&&k.y>=CFG.PADY-14&&k.y<=CFG.PADY+16&&Math.abs(k.x-s.paddleX)<=CFG.PADW/2;
     if(caught){
-      s.users+=CFG.USERS_PER_TOKEN;s.heat+=CFG.HEAT_PER_TOKEN;
+      s.users+=CFG.USERS_PER_TOKEN;s.heat+=heatPer;
+      s.adoption=Math.min(1,s.adoption+adoptPer);
       s.events.push("catch");
     }else if(k.y>CFG.H+12){
       s.users=Math.max(0,s.users-0.03);s.events.push("miss");
     }else keep.push(k);
   }
   s.tokens=keep;
-  s.heat=Math.max(0,s.heat-dt*(s.freeze>0?0.22:0.055));
+  s.heat=Math.max(0,s.heat-dt*(s.freeze>0?CFG.FREEZE_COOL:0.055));
   if(s.heat>=1&&s.meltT<=0){
-    s.meltT=3;s.meltdowns++;s.users*=0.94;s.heat=1;s.tokens=[];s.events.push("melt");
+    s.meltT=3;s.meltdowns++;s.users*=CFG.MELT_USER_FACTOR;s.heat=1;s.tokens=[];s.events.push("melt");
   }
   if(s.t>=CFG.DUR){s.over=true;s.valuation=valuationOf(s);s.events.push("ipo");}
   return s;
 }
-const Game={newGame,step,valuationOf,CFG};
+const Game={newGame,step,valuationOf,deriveWorld,CFG};
 
 /* ============ browser shell ============ */
 (function boot(){
@@ -214,6 +301,47 @@ const Game={newGame,step,valuationOf,CFG};
   let L=(function(){try{return window.localStorage.getItem("airace-lang")||"pt"}catch(e){return "pt"}})();
   let st=Game.newGame(),running=false,inputX=CFG.W/2,wantFreeze=false,muted=false,last=0;
   let best=(()=>{try{return +window.localStorage.getItem("airace-best")||0}catch(e){return 0}})(),newBest=false;
+  let CATALOG=null,WORLD=deriveWorld(null,0),stanceSel=0.5,headlines=[],tickerIdx=0;
+
+  /* ---- mundo movido por notícias reais (mesmo catálogo do livro-razão) ---- */
+  async function loadWorld(){
+    try{
+      const ctrl=new AbortController();
+      const to=setTimeout(()=>ctrl.abort(),2500);
+      const r=await fetch("signals.json",{cache:"no-store",signal:ctrl.signal});
+      clearTimeout(to);
+      if(!r.ok)return;
+      const j=await r.json();
+      if(!j||!Array.isArray(j.signals))return;
+      CATALOG=j;
+      WORLD=deriveWorld(j,Date.now());
+      headlines=j.signals.flatMap(s=>(s.evidence||[]))
+        .sort((a,b)=>b.date<a.date?-1:1).slice(0,12);
+      drawTicker();drawOverlay();
+    }catch(e){/* mundo neutro no fallback */}
+  }
+  function freshCount(){
+    if(!CATALOG)return 0;
+    const now=Date.now();
+    return CATALOG.signals.flatMap(s=>(s.evidence||[]))
+      .filter(e=>now-new Date(e.date+"T12:00:00Z").getTime()<=7*86400e3).length;
+  }
+  function worldLines(){
+    const lines=[];
+    [["ban","banP"],["saturation","satP"],["qwen","qwenP"],["labs","labsP"],["waico","waicoP"]]
+      .forEach(([id,k])=>{if(WORLD[k]>0)lines.push("· "+T().wm[id](WORLD[k]));});
+    if(WORLD.banYes)lines.push("· "+T().wmBanYes);
+    if(WORLD.weightsYes)lines.push("· "+T().wmWeightsYes);
+    return lines;
+  }
+  function drawTicker(){
+    const el=$("ticker");
+    if(!headlines.length){el.hidden=true;return;}
+    el.hidden=false;
+    const h=headlines[tickerIdx%headlines.length];
+    el.innerHTML="<b>"+h.date.slice(5)+"</b>"+h.title.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+  }
+  setInterval(()=>{tickerIdx++;drawTicker();},4000);
 
   /* ---- i18n ---- */
   function T(){return I18N[L];}
@@ -266,6 +394,8 @@ const Game={newGame,step,valuationOf,CFG};
     else if(ev==="miss")blip(140,0.1,"sine",0.025);
     else if(ev==="freeze")blip(330,0.25,"triangle",0.05);
     else if(ev==="melt"){blip(220,0.5,"sawtooth",0.07);blip(110,0.7,"sawtooth",0.07);}
+    else if(ev==="close")blip(880,0.25,"sawtooth",0.035);
+    else if(ev==="rivalship"){blip(392,0.3,"triangle",0.05);blip(311,0.45,"triangle",0.05);}
     else if(ev==="ipo"){[523,659,784,1046].forEach((f,i)=>setTimeout(()=>blip(f,0.15,"triangle",0.05),i*110));}
   }
   $("mutebtn").addEventListener("click",()=>{
@@ -332,9 +462,13 @@ const Game={newGame,step,valuationOf,CFG};
     ctx.font="600 15px ui-monospace,monospace";ctx.textAlign="center";
     if(st.meltT>0){ctx.fillStyle="#D5493E";ctx.fillText(T().meltdown,CFG.W/2,220);}
     else if(st.freeze>0){ctx.fillStyle="#CBDFEC";ctx.fillText(T().frozen(st.freeze),CFG.W/2,220);}
+    else if(st.closeRace){ctx.fillStyle="#CE9A38";ctx.fillText(T().closeBanner,CFG.W/2,220);}
+    if(st.rivalShipped){ctx.font="600 11px ui-monospace,monospace";ctx.fillStyle="#4187B5";ctx.fillText(T().rivalShipBanner,CFG.W/2,26);}
   }
   function drawHud(){
     $("h-users").textContent=T().users(st.users);
+    $("h-adopt").textContent=T().adopt(st.adoption);
+    $("h-rival").textContent=T().rivalHud(st.rival);
     $("h-val").textContent=T().val(valuationOf(st));
     $("h-ipo").textContent=T().ipo(Math.max(0,CFG.DUR-st.t));
     $("heatfill").style.width=Math.round(st.heat*100)+"%";
@@ -352,20 +486,29 @@ const Game={newGame,step,valuationOf,CFG};
     if(st.over){
       const win=st.valuation>=CFG.TARGET;
       $("o-title").innerHTML=win?T().winTitle:T().loseTitle;
-      $("o-body").textContent=(win?T().winBody:T().loseBody)(st.valuation);
+      $("o-body").textContent=(win?T().winBody:T().loseBody)(st.valuation)+T().endLoops(st);
+      $("stance-row").innerHTML="";$("world-box").innerHTML="";
       $("o-quote").textContent=T().endQuote(st.meltdowns)+(best>0?" · "+T().best(best,newBest):"");
       $("startbtn").textContent=T().again;
     }else{
       $("o-title").innerHTML=T().introTitle;
       $("o-body").textContent=T().introBody;
+      $("stance-row").innerHTML='<span class="lbl">'+T().stanceLabel+'</span>'+
+        [0,0.5,1].map((v,i)=>'<button data-stance="'+v+'" aria-pressed="'+(stanceSel===v)+'">'+T().stances[i]+'</button>').join("");
+      const wl=worldLines();
+      $("world-box").innerHTML="<b>"+T().worldTitle(freshCount())+"</b>"+wl.join("<br>");
       $("o-quote").textContent=T().introQuote;
       $("startbtn").textContent=T().start;
     }
   }
   function startRun(){
-    st=Game.newGame();running=true;audio();drawOverlay();
+    st=Game.newGame(WORLD,stanceSel);running=true;audio();drawOverlay();
   }
   $("startbtn").addEventListener("click",startRun);
+  $("overlay").addEventListener("click",e=>{
+    const b=e.target.closest("[data-stance]");
+    if(b){stanceSel=+b.dataset.stance;drawOverlay();}
+  });
 
   /* ---- loop ---- */
   function frame(ts){
@@ -386,7 +529,7 @@ const Game={newGame,step,valuationOf,CFG};
     draw();drawHud();fanUpdate();
     requestAnimationFrame(frame);
   }
-  applyLang();drawOverlay();requestAnimationFrame(frame);
+  applyLang();drawOverlay();loadWorld();requestAnimationFrame(frame);
 })();
 
 /* node smoke hook */
