@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AS GPUS ESTÃO SENTINDO — jogo da corrida</title>
+<style>
+  :root{
+    --bg:#0E141B; --bg-2:#131B23; --card:#18222C; --line:#26333F;
+    --txt:#C7D0D7; --dim:#75858F; --bright:#EDF1F4;
+    --cn:#D5493E; --us:#4187B5; --amber:#CE9A38; --ok:#5FA372;
+    --melt:0;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font-family:ui-monospace,"IBM Plex Mono",monospace;
+    font-size:13px;line-height:1.5;padding:18px 14px 40px;-webkit-font-smoothing:antialiased}
+  #chrome{max-width:960px;margin:0 auto;
+    filter:blur(calc(var(--melt)*1.2px)) hue-rotate(calc(var(--melt)*-18deg));
+    transition:filter .3s}
+  #chrome.melting{animation:wobble .35s infinite}
+  @keyframes wobble{
+    0%{transform:skewX(0deg) translateX(0)}
+    25%{transform:skewX(calc(var(--melt)*.6deg)) translateX(calc(var(--melt)*2px))}
+    75%{transform:skewX(calc(var(--melt)*-.6deg)) translateX(calc(var(--melt)*-2px))}
+    100%{transform:skewX(0deg) translateX(0)}
+  }
+  @media (prefers-reduced-motion: reduce){#chrome{animation:none !important;filter:none !important}}
+  header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;
+    border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:12px}
+  h1{font-size:17px;color:var(--bright);margin:0;letter-spacing:.04em}
+  h1 span{color:var(--amber)}
+  .sub{font-size:11px;color:var(--dim)}
+  .tools{display:flex;gap:8px}
+  .tbtn{background:transparent;border:1px solid var(--line);color:var(--dim);font-family:inherit;
+    font-size:11px;padding:5px 10px;border-radius:3px;cursor:pointer}
+  .tbtn:hover,.tbtn[aria-pressed=true]{border-color:var(--amber);color:var(--amber)}
+  .tbtn:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+  #hud{display:flex;gap:14px;flex-wrap:wrap;align-items:center;font-size:12px;margin-bottom:8px}
+  #hud b{color:var(--bright);font-variant-numeric:tabular-nums}
+  #hud .amber{color:var(--amber)}
+  .heatwrap{flex:1;min-width:120px;display:flex;align-items:center;gap:8px}
+  .heattrack{flex:1;height:8px;background:var(--bg-2);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+  #heatfill{height:100%;width:0%;background:linear-gradient(90deg,var(--ok),var(--amber),var(--cn));transition:width .15s}
+  #stage{position:relative}
+  canvas{width:100%;display:block;background:var(--bg-2);border:1px solid var(--line);border-radius:4px;cursor:none;touch-action:none}
+  #overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    background:rgba(14,20,27,.82);border-radius:4px}
+  #overlay.hidden{display:none}
+  .panel{max-width:520px;text-align:center;padding:26px}
+  .panel h2{color:var(--bright);font-size:20px;margin:0 0 10px}
+  .panel h2 em{color:var(--amber);font-style:normal}
+  .panel p{font-size:12.5px;color:var(--txt);margin:8px 0}
+  .panel .quote{color:var(--dim);font-style:italic}
+  .big{background:var(--amber);border:none;color:#0E141B;font-family:inherit;font-weight:700;
+    font-size:13px;letter-spacing:.1em;text-transform:uppercase;padding:12px 26px;border-radius:3px;cursor:pointer;margin-top:12px}
+  .big:hover{filter:brightness(1.1)}
+  #freeze{margin-top:10px;width:100%;background:transparent;border:1px solid var(--us);color:#CBDFEC;
+    font-family:inherit;font-size:12px;letter-spacing:.08em;padding:10px;border-radius:3px;cursor:pointer}
+  #freeze:disabled{opacity:.35;cursor:not-allowed}
+  footer{margin-top:14px;font-size:11px;color:var(--dim)}
+  footer a{color:var(--amber);text-decoration:none}
+</style>
+</head>
+<body>
+<div id="chrome">
+  <header>
+    <div>
+      <h1 id="t-title">AS <span>GPUS</span> ESTÃO SENTINDO</h1>
+      <div class="sub" id="t-sub">—</div>
+    </div>
+    <div class="tools">
+      <button class="tbtn" id="langbtn" aria-pressed="false">EN</button>
+      <button class="tbtn" id="mutebtn" aria-pressed="false">♪</button>
+    </div>
+  </header>
+
+  <div id="hud">
+    <span id="h-users">—</span>
+    <span id="h-val" class="amber">—</span>
+    <span id="h-ipo">—</span>
+    <div class="heatwrap"><span id="h-heat">heat</span><div class="heattrack"><div id="heatfill"></div></div></div>
+  </div>
+
+  <div id="stage">
+    <canvas id="game" width="900" height="500" aria-label="game canvas"></canvas>
+    <div id="overlay">
+      <div class="panel">
+        <h2 id="o-title">—</h2>
+        <p id="o-body">—</p>
+        <p class="quote" id="o-quote">—</p>
+        <button class="big" id="startbtn">—</button>
+      </div>
+    </div>
+  </div>
+  <button id="freeze">—</button>
+
+  <footer id="t-foot">—</footer>
+</div>
+
+<script>
+"use strict";
+
+/* ============ i18n ============ */
+const I18N={
+  pt:{
+    title:'AS <span>GPUS</span> ESTÃO SENTINDO',
+    sub:"Você é a operação da Moonshot na semana do K3. Roteie os tokens. Sobreviva até o IPO.",
+    users:u=>u.toFixed(1)+"M usuários",
+    val:v=>"valuation US$ "+v.toFixed(1)+" bi",
+    ipo:s=>"IPO em "+Math.ceil(s)+"s",
+    heat:"calor",
+    freeze:"PAUSAR NOVAS ASSINATURAS (espaço) — esfria as GPUs, custa crescimento",
+    frozen:t=>"ASSINATURAS PAUSADAS — "+t.toFixed(1)+"s",
+    introTitle:'Lance 1: <em>publicar os pesos</em>',
+    introBody:"Mova o roteador (mouse/toque/setas) e capture os tokens que caem nos racks. Cada token = usuários novos = calor. Se o calor bater 100%, meltdown. A tecla espaço pausa assinaturas — a manobra real de 19/jul — mas o crescimento paga o preço. 60 segundos até precificar o IPO. Alvo: US$ 30 bi.",
+    introQuote:"“nossas GPUs estão sentindo” — Moonshot AI, 19 jul 2026",
+    start:"Publicar os pesos ▸",
+    again:"Rodar outra rodada ▸",
+    meltdown:"MELTDOWN — racks em recuperação…",
+    winTitle:'IPO <em>precifica no alvo</em>',
+    winBody:v=>"US$ "+v.toFixed(1)+" bi — acima dos US$ 30 bi. A escassez pagou. No livro-razão, isso sustentaria a hipótese do teatro… e foi você quem encenou.",
+    loseTitle:'IPO <em>abaixo do alvo</em>',
+    loseBody:v=>"US$ "+v.toFixed(1)+" bi — abaixo dos US$ 30 bi. A escassez era real demais: as GPUs sentiram, os usuários também.",
+    endQuote:m=>m+" meltdown(s) · cada pausa de assinaturas custou 8% do múltiplo",
+    foot:'Arte 100% canvas/CSS. Sem estoque, sem pena das GPUs. Parte do <a href="index.html">livro-razão da corrida</a>.'
+  },
+  en:{
+    title:'THE <span>GPUS</span> ARE FEELING IT',
+    sub:"You are Moonshot ops on K3 launch week. Route the tokens. Survive until the IPO.",
+    users:u=>u.toFixed(1)+"M users",
+    val:v=>"valuation $"+v.toFixed(1)+"B",
+    ipo:s=>"IPO in "+Math.ceil(s)+"s",
+    heat:"heat",
+    freeze:"PAUSE NEW SIGNUPS (space) — cools the GPUs, costs growth",
+    frozen:t=>"SIGNUPS PAUSED — "+t.toFixed(1)+"s",
+    introTitle:'Move 1: <em>publish the weights</em>',
+    introBody:"Move the router (mouse/touch/arrows) and catch the tokens falling into the racks. Every token = new users = heat. Heat hits 100%, meltdown. Spacebar pauses signups — the actual July 19 move — but growth pays for it. 60 seconds to price the IPO. Target: $30B.",
+    introQuote:"“our GPUs are feeling it” — Moonshot AI, Jul 19 2026",
+    start:"Publish the weights ▸",
+    again:"Run it again ▸",
+    meltdown:"MELTDOWN — racks recovering…",
+    winTitle:'IPO <em>prices at target</em>',
+    winBody:v=>"$"+v.toFixed(1)+"B — above the $30B target. Scarcity paid. On the ledger this would support the theater hypothesis… and you just staged it.",
+    loseTitle:'IPO <em>below target</em>',
+    loseBody:v=>"$"+v.toFixed(1)+"B — under $30B. The scarcity was a little too real: the GPUs felt it, so did the users.",
+    endQuote:m=>m+" meltdown(s) · each signup pause cost 8% of the multiple",
+    foot:'Art is 100% canvas/CSS. No stock assets, no mercy for the GPUs. Part of the <a href="index.html">race ledger</a>.'
+  }
+};
+
+/* ============ pure game core (node-testable) ============ */
+const CFG={W:900,H:500,DUR:60,PADW:96,PADY:452,TARGET:30,
+  USERS_PER_TOKEN:0.15,HEAT_PER_TOKEN:0.048,VAL_PER_M:3.3};
+const GLYPHS=["的","是","the","∂","λ","喵","<eot>","42","tok","模型","∇","p(x)"];
+
+function newGame(){
+  return {t:0,users:0,heat:0,mult:1,tokens:[],paddleX:CFG.W/2,
+    freeze:0,meltT:0,meltdowns:0,pauses:0,spawnAcc:0,over:false,valuation:0,events:[]};
+}
+function spawnRate(t){return 1.2+2.8*(t/CFG.DUR);}
+function valuationOf(st){return st.users*CFG.VAL_PER_M*st.mult;}
+function step(st,dt,inputX,wantFreeze){
+  if(st.over)return st;
+  const s={...st,tokens:st.tokens.map(k=>({...k})),events:[]};
+  s.t+=dt;
+  s.paddleX+=(inputX-s.paddleX)*Math.min(1,dt*14);
+  if(wantFreeze&&s.freeze<=0&&s.meltT<=0){
+    s.freeze=4;s.pauses++;s.mult*=0.92;s.events.push("freeze");
+  }
+  if(s.freeze>0)s.freeze=Math.max(0,s.freeze-dt);
+  if(s.meltT>0){
+    s.meltT=Math.max(0,s.meltT-dt);
+    s.heat=Math.max(0.45,s.heat-dt*0.28);
+  }
+  if(s.freeze<=0&&s.meltT<=0){
+    s.spawnAcc+=dt*spawnRate(s.t);
+    while(s.spawnAcc>=1){
+      s.spawnAcc-=1;
+      s.tokens.push({x:30+Math.random()*(CFG.W-60),y:-10,
+        v:95+Math.random()*70+s.t*1.5,g:GLYPHS[Math.floor(Math.random()*GLYPHS.length)],r:Math.random()*6.28});
+    }
+  }
+  const keep=[];
+  for(const k of s.tokens){
+    k.y+=k.v*dt;k.r+=dt*1.5;
+    const caught=s.meltT<=0&&k.y>=CFG.PADY-14&&k.y<=CFG.PADY+16&&Math.abs(k.x-s.paddleX)<=CFG.PADW/2;
+    if(caught){
+      s.users+=CFG.USERS_PER_TOKEN;s.heat+=CFG.HEAT_PER_TOKEN;
+      s.events.push("catch");
+    }else if(k.y>CFG.H+12){
+      s.users=Math.max(0,s.users-0.03);s.events.push("miss");
+    }else keep.push(k);
+  }
+  s.tokens=keep;
+  s.heat=Math.max(0,s.heat-dt*(s.freeze>0?0.22:0.055));
+  if(s.heat>=1&&s.meltT<=0){
+    s.meltT=3;s.meltdowns++;s.users*=0.94;s.heat=1;s.tokens=[];s.events.push("melt");
+  }
+  if(s.t>=CFG.DUR){s.over=true;s.valuation=valuationOf(s);s.events.push("ipo");}
+  return s;
+}
+const Game={newGame,step,valuationOf,CFG};
+
+/* ============ browser shell ============ */
+(function boot(){
+  if(typeof document==="undefined"||!document.getElementById)return;
+  const cv=document.getElementById("game");
+  if(!cv)return;
+  const ctx=cv.getContext("2d");
+  const $=id=>document.getElementById(id);
+  let L=(function(){try{return window.localStorage.getItem("airace-lang")||"pt"}catch(e){return "pt"}})();
+  let st=Game.newGame(),running=false,inputX=CFG.W/2,wantFreeze=false,muted=false,last=0;
+
+  /* ---- i18n ---- */
+  function T(){return I18N[L];}
+  function applyLang(){
+    document.documentElement.lang=L==="pt"?"pt-BR":"en";
+    $("t-title").innerHTML=T().title;
+    $("t-sub").textContent=T().sub;
+    $("langbtn").textContent=L==="pt"?"EN":"PT";
+    $("freeze").textContent=st.freeze>0?T().frozen(st.freeze):T().freeze;
+    $("t-foot").innerHTML=T().foot;
+    $("h-heat").textContent=T().heat;
+    drawOverlay();
+    try{window.localStorage.setItem("airace-lang",L)}catch(e){}
+  }
+  $("langbtn").addEventListener("click",()=>{L=L==="pt"?"en":"pt";applyLang();});
+
+  /* ---- sound: exists only because fans are the joke ---- */
+  let AC=null,fan=null,fanGain=null,fanFilter=null;
+  function audio(){
+    if(muted)return null;
+    if(!AC){
+      try{
+        AC=new (window.AudioContext||window.webkitAudioContext)();
+        fan=AC.createOscillator();fan.type="sawtooth";fan.frequency.value=42;
+        fanFilter=AC.createBiquadFilter();fanFilter.type="lowpass";fanFilter.frequency.value=220;
+        fanGain=AC.createGain();fanGain.gain.value=0;
+        fan.connect(fanFilter).connect(fanGain).connect(AC.destination);fan.start();
+      }catch(e){AC=null;}
+    }
+    return AC;
+  }
+  function fanUpdate(){
+    if(!AC||!fanGain)return;
+    const h=st.heat,on=running&&!st.over;
+    fanGain.gain.setTargetAtTime(on?0.015+h*0.06:0,AC.currentTime,0.1);
+    fan.frequency.setTargetAtTime(42+h*95,AC.currentTime,0.1);
+    fanFilter.frequency.setTargetAtTime(220+h*900,AC.currentTime,0.1);
+  }
+  function blip(freq,dur,type,gain){
+    const ac=audio();if(!ac)return;
+    const o=ac.createOscillator(),g=ac.createGain();
+    o.type=type||"square";o.frequency.value=freq;
+    g.gain.setValueAtTime(gain||0.04,ac.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.0001,ac.currentTime+(dur||0.08));
+    o.connect(g).connect(ac.destination);o.start();o.stop(ac.currentTime+(dur||0.08));
+  }
+  function sfx(ev){
+    if(muted)return;
+    if(ev==="catch")blip(560+Math.random()*220,0.06);
+    else if(ev==="miss")blip(140,0.1,"sine",0.025);
+    else if(ev==="freeze")blip(330,0.25,"triangle",0.05);
+    else if(ev==="melt"){blip(220,0.5,"sawtooth",0.07);blip(110,0.7,"sawtooth",0.07);}
+    else if(ev==="ipo"){[523,659,784,1046].forEach((f,i)=>setTimeout(()=>blip(f,0.15,"triangle",0.05),i*110));}
+  }
+  $("mutebtn").addEventListener("click",()=>{
+    muted=!muted;$("mutebtn").setAttribute("aria-pressed",String(muted));
+    $("mutebtn").textContent=muted?"♪̸":"♪";fanUpdate();
+  });
+
+  /* ---- input ---- */
+  function toX(clientX){
+    const r=cv.getBoundingClientRect();
+    return (clientX-r.left)/r.width*CFG.W;
+  }
+  cv.addEventListener("pointermove",e=>{inputX=toX(e.clientX);});
+  cv.addEventListener("pointerdown",e=>{inputX=toX(e.clientX);});
+  const keys={};
+  window.addEventListener("keydown",e=>{
+    if(e.key===" "){e.preventDefault();wantFreeze=true;}
+    if(e.key==="Enter"&&!running)startRun();
+    keys[e.key]=true;
+  });
+  window.addEventListener("keyup",e=>{keys[e.key]=false;});
+  $("freeze").addEventListener("click",()=>{wantFreeze=true;});
+
+  /* ---- render ---- */
+  const RACKS=[80,320,560,800];
+  function draw(){
+    ctx.clearRect(0,0,CFG.W,CFG.H);
+    const g=ctx.createLinearGradient(0,0,0,CFG.H);
+    g.addColorStop(0,"#111922");g.addColorStop(1,"#0C1117");
+    ctx.fillStyle=g;ctx.fillRect(0,0,CFG.W,CFG.H);
+    /* racks: glow with heat */
+    const h=st.heat;
+    RACKS.forEach((rx,ri)=>{
+      const glow=ctx.createRadialGradient(rx,486,4,rx,486,90);
+      glow.addColorStop(0,`rgba(${213},${Math.round(154-80*h)},${Math.round(56*(1-h))},${0.10+h*0.35})`);
+      glow.addColorStop(1,"rgba(0,0,0,0)");
+      ctx.fillStyle=glow;ctx.fillRect(rx-90,396,180,104);
+      ctx.fillStyle="#18222C";ctx.strokeStyle="#26333F";
+      ctx.beginPath();ctx.roundRect(rx-58,468,116,26,3);ctx.fill();ctx.stroke();
+      for(let i=0;i<6;i++){
+        const on=st.meltT>0?(Math.random()<0.4):((st.t*8+ri*2+i)%6<3.5);
+        ctx.fillStyle=on?(h>0.75?"#D5493E":(h>0.45?"#CE9A38":"#5FA372")):"#26333F";
+        ctx.fillRect(rx-50+i*17,476,9,4);
+      }
+    });
+    /* tokens */
+    ctx.textAlign="center";ctx.textBaseline="middle";
+    for(const k of st.tokens){
+      ctx.save();ctx.translate(k.x,k.y);ctx.rotate(Math.sin(k.r)*0.25);
+      ctx.font="13px ui-monospace,monospace";
+      ctx.fillStyle="rgba(206,154,56,.25)";ctx.fillText(k.g,1.5,1.5);
+      ctx.fillStyle="#EDF1F4";ctx.fillText(k.g,0,0);
+      ctx.restore();
+    }
+    /* paddle router */
+    if(st.meltT<=0){
+      ctx.fillStyle="#4187B5";
+      ctx.beginPath();ctx.roundRect(st.paddleX-CFG.PADW/2,CFG.PADY-6,CFG.PADW,12,6);ctx.fill();
+      ctx.strokeStyle="#CBDFEC";ctx.beginPath();
+      ctx.moveTo(st.paddleX,CFG.PADY-6);ctx.lineTo(st.paddleX,CFG.PADY-18);ctx.stroke();
+      ctx.fillStyle="#CBDFEC";ctx.beginPath();ctx.arc(st.paddleX,CFG.PADY-20,2.5,0,7);ctx.fill();
+    }
+    /* banners */
+    ctx.font="600 15px ui-monospace,monospace";ctx.textAlign="center";
+    if(st.meltT>0){ctx.fillStyle="#D5493E";ctx.fillText(T().meltdown,CFG.W/2,220);}
+    else if(st.freeze>0){ctx.fillStyle="#CBDFEC";ctx.fillText(T().frozen(st.freeze),CFG.W/2,220);}
+  }
+  function drawHud(){
+    $("h-users").textContent=T().users(st.users);
+    $("h-val").textContent=T().val(valuationOf(st));
+    $("h-ipo").textContent=T().ipo(Math.max(0,CFG.DUR-st.t));
+    $("heatfill").style.width=Math.round(st.heat*100)+"%";
+    $("freeze").disabled=st.freeze>0||st.meltT>0||!running||st.over;
+    $("freeze").textContent=st.freeze>0?T().frozen(st.freeze):T().freeze;
+    /* the page itself feels it */
+    const melt=st.meltT>0?1:Math.max(0,(st.heat-0.6)/0.4);
+    document.documentElement.style.setProperty("--melt",melt.toFixed(2));
+    document.getElementById("chrome").classList.toggle("melting",melt>0.15);
+  }
+  function drawOverlay(){
+    const ov=$("overlay");
+    if(running){ov.classList.add("hidden");return;}
+    ov.classList.remove("hidden");
+    if(st.over){
+      const win=st.valuation>=CFG.TARGET;
+      $("o-title").innerHTML=win?T().winTitle:T().loseTitle;
+      $("o-body").textContent=(win?T().winBody:T().loseBody)(st.valuation);
+      $("o-quote").textContent=T().endQuote(st.meltdowns);
+      $("startbtn").textContent=T().again;
+    }else{
+      $("o-title").innerHTML=T().introTitle;
+      $("o-body").textContent=T().introBody;
+      $("o-quote").textContent=T().introQuote;
+      $("startbtn").textContent=T().start;
+    }
+  }
+  function startRun(){
+    st=Game.newGame();running=true;audio();drawOverlay();
+  }
+  $("startbtn").addEventListener("click",startRun);
+
+  /* ---- loop ---- */
+  function frame(ts){
+    const dt=Math.min(0.05,(ts-last)/1000||0.016);last=ts;
+    if(running&&!st.over){
+      if(keys.ArrowLeft)inputX=Math.max(0,inputX-380*dt);
+      if(keys.ArrowRight)inputX=Math.min(CFG.W,inputX+380*dt);
+      st=Game.step(st,dt,inputX,wantFreeze);
+      wantFreeze=false;
+      st.events.forEach(sfx);
+      if(st.over){running=false;drawOverlay();}
+    }
+    draw();drawHud();fanUpdate();
+    requestAnimationFrame(frame);
+  }
+  applyLang();drawOverlay();requestAnimationFrame(frame);
+})();
+
+/* node smoke hook */
+if(typeof module!=="undefined"&&module.exports)module.exports=Game;
+</script>
+</body>
+</html>
