@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-25",
+  "updated": "2026-07-26",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-07-25",
+          "title": "Por que empresas globais estão migrando para IA chinesa - UOL Notícias",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUjRjdWpaYXJRRmEwV3M3QWJIY0ZScm5RLXNIblQ5Slp3QXlUS19KVmxuT2h2b2pqQXY0em5BYk1EUmNVR280TnBMSHZFdVhybFBiQUpPN2VhMXVsbnU1VENlZ3Z5NndkMEZseWdkZWQ3dS1hTEszQlREWi1aWDEtTGhKS3FsREQ3R24ydUJOeC0wYnRsZm55cjFqUF8xQVFTN2U5dW9LQS00TXBEMHZmMWd6Nm5yNEJkTmFOOXdQQlVXN0t6dHlMcGltNmVQRjg2WEV5aE9jTTU5MTZTQV8xVw?oc=5"
+        },
+        {
           "date": "2026-07-24",
           "title": "Ação da Micron recebe pista inesperada do mais recente experimento de IA da China - Invezz",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZVhvUVZZZGJWbzFaei10V1dIQWRFOXgxWnJtMEtzM0h3dmM5NEtWZFpFTHhWaGoycm5FdFZJaWl0RlpIb0liLVA4RUFENlpYN0lubFBGRXg4YkVNRUw5RGRhVEI4RzNVcXVPNXpReElyUHk1ZjJpWWZHNzBTNFNnMjNBWUl5VmpXbU9maTNmVmNCbkozSUtjaGZscGxOWDBlV0JiOU5RTzNOZVcza0pSdWtHLU1UT1FDT3V5NFFFWWpIdw?oc=5"
@@ -87,14 +92,9 @@
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbEE3VVdESlBfb3NGWUpMOWxCZHF5akk1dGF5TUlLbzBNaXJwTUpvWmVUamZZV2RUWVU3RFpRa3FRdTNqTUo1WXNPNVlZLURqRVk4dlpPcksxQW9hS0g4ekpjRnFzRURkdFZNd3k3bTRlcjI5c3pNcU0wOWc1b2RBdDdRNDFCYmY2UktCaDI1MDY2X2tNakhnRmhHUFBfTjUzOE1jLVNEMmQ0TnBSdE5FdWNtMDRacHFhLWJmUjdZVmUzQXBLRzNfUU05dGU3cVVjM0w1M1VoanJqQy1TaExQQXpLX1o?oc=5"
         },
         {
-          "date": "2026-07-23",
-          "title": "Exame: Quem é Yang Zhilin, o jovem de 34 anos por trás da Moonshot AI que desafia ChatGPT e Claude - Money Report",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYmVWSmtwVXJBTm0xMFVWOXhXWk44aHJhREFQNzJPUk1Hc2Q3TTYxY0RibGJIel9mT0VXQm1mXzdRTS1KVTE3bDdxN09tQXRzWDZPNmh1SEYtc2t6dldtWmY3UWlTU2ZldGxuWWZ5RjRtTFhGUXhDUFJ4emlKVlhHT0JtVl9TVXhJTUd4dmNwRTlEc1BBQml4TVRMamlrbE1XUzZzQXJNQU9hUkhFQllzSklpUV9DN3JIOHRqTkJmMmNiUE94VXJLeDcySnJvYW5hSHMw?oc=5"
-        },
-        {
-          "date": "2026-07-23",
-          "title": "Casa Branca acusa Moonshot AI de destilar Fable, da Anthropic, para treinar o Kimi K3 - Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYzRoR3VZOFkyU1VGOVYwNnhyZDRWWXdlc1A0eW5nNk9IOUs1VWNlSkd3NGluUjAydGlDQWg1Rlk5MHpNYmhLLS1GTjhaMUJ2YTV5UldGaFdRdVpqMlBmeGk1QjhWeDlHcU9kU0ZET24yc2M2U1MtWHY4bjNid0xrM1hsNFA5UkZVTWxpVEVvOHprYUZFUWNtSFVBeGNkSHg3R0dpdkNaUjVmOV9LWTJZ?oc=5"
+          "date": "2026-07-24",
+          "title": "Resumo da noite: Anthropic lança Opus 5; petróleo recua após rali acima de US$100 - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RQTZ2MHFpT1BjRkd6QWw0OGZmOU9MN1Q0aVpmU3FvYkpWR3hRUGNycHlaRHBYSjhoYkhvQUF3VzIwaks5ZUszZy02RXYzRlJwSjRtNVhqbHREdnU0SzRaVWxFOXZwYlU?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -187,6 +187,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-07-25",
+          "title": "Jensen Huang defende modelos de IA chineses: ‘backdoors’ ligados à China são equívoco, diz CEO da Nvidia - ametropolesorocabana.com.br",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZk1laWxRaGhIR0hjcFB6aldyTmdkZFdSSEJSMnlGenFxSE5VQWhvNU9ieENqUTBtR3VhUmt3WUE5azRybFlFb19FSTk5NTBEdk9PRHFPSGpwc1l4MU5rVFpjd0owWUdMUU5IM3l0QkYtZ19zeVNJcXFMVUUtM2l2TW9NZGN3V0dJS21RSWk5eEpfTU5BVUd2TnJTdU9kb1hJRDFjNGU3Z0FYcDFMWUdtc1JJZUJoTGdtcTcyeF9Ec0dnSlppTVRxeU9odVM5TGdvajE0?oc=5"
+        },
+        {
           "date": "2026-07-23",
           "title": "'Imposto sobre IA': startups pressionam Trump contra restrições sobre modelos da China - Exame",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMS1lcXlxSnpRTFlWLUdTamlSdm5QODRmRFFtV2o5VjAtQ0dHWV9OV3VXM250MkRqNFhjX1BzVW9YeTUtcnVXQmJzcGNodnVVY3F1bmZ4UDlaQkl3TC1rcDRQM21xUF9IdloyM2hJS0tYbkUyVi1YNV9MX0hJdU5YdDdlS3lqRXlDNEFUTmxONUg3eGozTkpHTzJEbFAwNDdpV0ZhdEp1RjRmSUNmdklOMWpKY1hyRlVhUjhoclF4TFpIbFJM?oc=5"
@@ -200,6 +205,11 @@
           "date": "2026-07-22",
           "title": "Nelson de Sá: Pequim tomou de assalto a inteligência artificial aberta na China - UOL Notícias",
           "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNdjAwSzRCVHFFenJWUng0RjJVcklQLVZzUFlYMkxIMzdjdlRlM2lWdFBLQ0hqZ015WXpldUhtcnV2RUJha1Q5YWlZdTEtOFJvSFdCMVBmNFA3a2ktQTNIbUpEc1diUHhsWk9sZDV0c0Ywbkx1eXFabkNWSVJ2YmNYeXdQWVhSczlBeUt0eVpGX2x2endaX2E2d0lGblpJYUo5Vlh2RWJaQkNtWkxvc3FzUS10bWdvUkJyOGQwZk9VOVVtdUtLajBieUFjSHVxdDVjdDhTbENkQzlGcm1pNm5SeFRjdVhJa0lvWjZJeUNHRzVjX1lVdEpqYllyLWVFa0I0XzZyamg2OGV2dUJYcXc?oc=5"
+        },
+        {
+          "date": "2026-07-22",
+          "title": "Nelson de Sá: Pequim tomou de assalto a inteligência artificial aberta na China - UOL Notícias",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcHFKOVBjUHJfb3g5NVhkY1E2Nk1feUg2TVBjTDNFOTZfakozeGEzdnNidllkTzMyV0FZRHpQRFdINUh1SWdGWmhDVl94bWRLLWtjVDQ3andGaHdfQlc1eWJWNHhZNmUtd0Q1Z0x1WEt4ZnAwV1dzNV8zZXVwMHNKZDBaMnlyX21IbGJJNmN1ZjJJMlZTZlFjZUgyUzREOUJGdGRfTHBTeTF2V1FqSmItcG5URlRxNmEzTzg2WXFiSlRrM0FCMmR3a2Vn?oc=5"
         },
         {
           "date": "2026-07-21",
@@ -225,16 +235,6 @@
           "date": "2026-07-17",
           "title": "IA chinesa Kimi K3 é desmascarada e se identifica como o Claude da Anthropic - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQmoyLXNqQlowR3o1RmU3aVRzQVh2TkFkQWFuUFhkdlY2YlhmRlQ0TERXdVV4aHJTdktPQlNVNjc1dFo5M2RBZW9nSWRIMmVaaXJoMnAwQy1fT0ozZXhwVDBkMGVZZGFQZWNrTTdzTU44OGRHLW9HRkZxVnBwd1VxelNYeXdLcnNoMjk2OFRqQUlKdDhBeEhjZzNqY2VpbWRXM2k2bA?oc=5"
-        },
-        {
-          "date": "2026-07-17",
-          "title": "China restringe IAs amorosas no país por risco de ‘dependência emocional’ – ou para aumentar natalidade? - UOL",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9BM25LTjRkWlVPa1dsU1VMNlBiQWVwZXpKQVJfZTU0NThNV0JieFlGaHRBSGczVEQ3TDNtRXdIQUNzVmZ3bjhsd3J5YnE0S2JERWZOZWcwcHBVcF9MUDJlOUZrZVBiSXlUbGQ1eEhrMkpZTFlxWGVfeVR30gF_QVVfeXFMUGtSVmZlYUdERWV2VDVmQkxNUGdhaGJKamlPWVV4UE5aT2thVFdISFpYNVFWNlN6dzJQc241QzhkWlB2Tm1qYXBzOUdQc2YxY2RPOV9rdTRmRzJBSnVVVzdZUk5kNGhuYzdCSmVCczVNU1RidHZycXJwWlVpWVdxRQ?oc=5"
-        },
-        {
-          "date": "2026-07-16",
-          "title": "China proíbe \"namorados virtuais\" de IA e gera onda de tristeza em usuários - A TARDE",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVTB5RnpsMXZndDA3bGxmVUtacGt1V1o4dDVpQm1fM0QyUFVUTk4xcGpOVS1YVm5CRUxOX2xKb3MwYVZFanlLVHY0VEpsQVdpSTc4QzE1ZUZKZDk1amlfM29nYXBkMWE5dHY3YmwtVTlpbTc1ejhMY283NExHNnpoZnZjSFJ0alZZOTh3c3JfU281T2hzOUdNZnM5UmNEdmZxdC1CRGEwcVRiall1N0dqNmRwNFB6SHgw0gHAAUFVX3lxTE1lNmNmN092bnlQekdLVTFGQjljZEtXd3oxM3ZIQXpkeFZISDRCWVRBYnNFOUU5V0gyMU9Jd2VSQi12MzFlLWZiSkxmZEgtWUZIOTVxM29GM3hFeXNvRGZ2Z2NaZnZSRG1rVlp6TUlhSW9jcndQQURWR2RldXVGNkVhU0tVR3hpVkZoSzJTX3lqMk82ZjlCdmNkS3l0S2NZTUZ1NmhzWEw4MXBRZlRKS0Izb2tkV1Q2NnlJSW9EWFNONg?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
@@ -367,6 +367,11 @@
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLWVLMVFXOXlLVEoyclBhOXl5Yzh6Nl8tU2Jhb2pFbWk3aVNySzdlNlppUG5CY09idGdXblNZNUd4Ynd0aTNJUG12Um40M1BRaDZ3Q2szYUp0S1pRWFF3WS1sNHd2SDNNeWducTUxb1VveDJLQzVOU2lYeTQyVVhUaHUtU0VwYmtQcXl4MGR0M2dVZlpNTS0zTWphenl3MnhoazhDS1hkb3RYX1oyY2hwYzhEdlZzbUNob1d0MmJoM1NudlJKRFYtaWE2Tk93UdIB0wFBVV95cUxOd21nby10T0hCVUpOcHJwdG45NG5VbmhSb2dDRjhCZWU0ek5BeEowaWU0ODVQcDBIaFJfWWtLcHNGQ3RVSkJPXzFNcktwNS1Vd29jaGpDcm40elRZZzZCWjluQzFlNnljdGhGcm5NYmpSdkRONnZBM093WFFPbW1xeXRmcVJmMXVBeWVCZ1BQMUFKd0tjckVvVzhOOFdnbXlUcUhrWHVHUHRhZy0tNXlwejFCUmJjbGNRNGVGa1RBdjFKUWtQX3RnU1M3NHFSQzdwTEd3?oc=5"
         },
         {
+          "date": "2026-07-24",
+          "title": "MetaX Arquivos Confidenciais para uma Oferta Pública Inicial em Hong Kong - Unite.AI",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9UUTY2MXJ1RF9WM05hbHJyNFRoLTNaVmNLY2xsZXhYTnhaRDdfcElhSzVObkotY1NmS25BbVBVZTFfQmk0U3NDb2t3RjNCblFhQzR2SlBTZWRvVlJhWVFhdEFwR0VRb3lmanZ0Rll2Yi12X2NxRU1TSjBJaw?oc=5"
+        },
+        {
           "date": "2026-07-23",
           "title": "Casa Branca acusa Moonshot AI de destilar Fable, da Anthropic, para treinar o Kimi K3 - Yellow.com",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYzRoR3VZOFkyU1VGOVYwNnhyZDRWWXdlc1A0eW5nNk9IOUs1VWNlSkd3NGluUjAydGlDQWg1Rlk5MHpNYmhLLS1GTjhaMUJ2YTV5UldGaFdRdVpqMlBmeGk1QjhWeDlHcU9kU0ZET24yc2M2U1MtWHY4bjNid0xrM1hsNFA5UkZVTWxpVEVvOHprYUZFUWNtSFVBeGNkSHg3R0dpdkNaUjVmOV9LWTJZ?oc=5"
@@ -405,11 +410,6 @@
           "date": "2026-07-23",
           "title": "Novidades no GTA Online: Pegassi Ignus Pursuit e Grotti Veleno GT estreiam com mais alvos - Mix Vale",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUmJuN2g5VzNTdThHUlRGRG5WVFVBQmh0M3FyeWdXSTI0WFRyVk9rV0tGcWkwQl9DYzE0NUdOTjRTdExtU0N4RnRlNVQzV3JSTmlGekNaTWFJY1lqX3VfeXJxOHRCM2lLYmgtQWxfTVExZ01KS2l4ejdPTWJFaTN0MEZWa1B2bTc1dEJ5Y3NkcHNxRW53Y0xScWJnZ2NZVVFoOEtfT29sYjA3aFdXSVlZc2daVFNhOXk0em8xR2MtaEJtdkFEVXoyQUZNY9IBywFBVV95cUxQUmJuN2g5VzNTdThHUlRGRG5WVFVBQmh0M3FyeWdXSTI0WFRyVk9rV0tGcWkwQl9DYzE0NUdOTjRTdExtU0N4RnRlNVQzV3JSTmlGekNaTWFJY1lqX3VfeXJxOHRCM2lLYmgtQWxfTVExZ01KS2l4ejdPTWJFaTN0MEZWa1B2bTc1dEJ5Y3NkcHNxRW53Y0xScWJnZ2NZVVFoOEtfT29sYjA3aFdXSVlZc2daVFNhOXk0em8xR2MtaEJtdkFEVXoyQUZNYw?oc=5"
-        },
-        {
-          "date": "2026-07-23",
-          "title": "Computex 2026: confira os notebooks que mais se destacaram - Mix Vale",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNy1RVlR3aERtU2VHNEtJOG5nMXJkZ3NxeUFQQ0IxWVdvR2dXaFhIUTJEcEJuSlFQMHJGY1c3Z1dlMnB2U2JrOEdBX3pyTnA0OXYyWERyZnNfdFpyTkQwUXRoVDlNY3VHVmF1eVZwaEZYdEgxb0NCeW85bjgxdUtnUW13NU8tOFhiUnZsUTBVQ2JnZGYtMUtzQmFmZmVpVXcwdVHSAaIBQVVfeXFMUDctUVZUd2hEbVNlRzRLSThuZzFyZGdzcXlBUENCMVlXb0dnV2hYSFEyRHBCbkpRUDByRmNXN2dXZTJwdlNiazhHQV96ck5wNDl2MlhEcmZzX3Rack5EMFF0aFQ5TWN1R1ZhdXlWcGhGWHRIMW9DQnlvOW44MXVLZ1FtdzVPLThYYlJ2bFEwVUNiZ2RmLTFLc0JhZmZlaVV3MHVR?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
