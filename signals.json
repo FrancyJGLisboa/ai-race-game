@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-28",
+  "updated": "2026-07-29",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,21 @@
       ],
       "evidence": [
         {
+          "date": "2026-07-29",
+          "title": "E aí, IA? – Resumo do dia 28/jul/2026 - Buttondown",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RSTlreHAtLXptdjZyV2t2c0s5WFlmWDJHb010YVZVdVJPTnhtazhqaEhzVFIwRVpBSnJLYWpyNU43Z2dyMklzNVNNSGZURHp5NGxCTktoOWlWdzJMQkpSQmZpZXFvaVdrS0psWFJ4WndGMkNLcENTWA?oc=5"
+        },
+        {
+          "date": "2026-07-29",
+          "title": "Moonshot abre modelo da IA Kimi K3 - Poder360",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWEFyY0ppeWFuRWpUYXZwOWdHQXpSWmk3cHMtT3RNRUEzOU9fR0VDdGk0VHNUVUxsc21waHQ2dHp1NnZoTDdXemZlZUlybnRrc250YVVyN0paZ2pJdXBIVnd3alBvLUFrS1M4NGgzTl82RkJwV1dZUl92X3hJRE9aSA?oc=5"
+        },
+        {
+          "date": "2026-07-29",
+          "title": "Startup chinesa abre código de inteligência artificial em meio a tensões globais - paranahoje.com.br",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNWxNYlB6VU5TbWduNFRWMjdFa1U0a0tnNWx2Vkk2R0MzU1ZNYW5mMGZkQzN6QnZmTktENE1oN183ZHFCMFg2dDJZRDNXOHlYdkZNNnZHN0g1MzAwWXVSWFRNTUg4VlEzbTV3ZkExSHRzVmZnUF91VnhPNUx4LUlSalhQSXBvUHY2Rkd0NzhTLXNzN05LTXZzSUpPSUpSUnZ6RGh6dHo4VlVNVkE?oc=5"
+        },
+        {
           "date": "2026-07-28",
           "title": "OpenAI negocia linha de crédito de US$ 250 bi ancorada pela Nvidia para megacampus de data centers em Ohio - Yellow.com",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTXhuXzZBTEItQTBZdkFlVm1ad0VPeEFhYnVJSmlWM2llX3E3Zlg4Z0N2N0xsTmIxYmdEbVU4dGlQVFZzaWdmN0VmSWNNcGhOSE9wbXVyOEZPOGNkYWZwUW5uMmQwRW8yTTI0OFNLcnRaVGdEbHBsZlRWXzBvWmEwR3o1RFg1TElVUmtVWEUxTmNWSUs3WVU4LXVOcFJEWFVKOVlTMk1ZUktMTU9GRFQtRmxBQ2s2S05IOVpxV2g1V0VobXBua3A2NnZXTTU5Zjc0UmxR?oc=5"
@@ -77,24 +92,9 @@
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV192YkRfaHRQSFU4NW56bWR6Q09YQ3BsN291d044dHZIejVNdTkxVndrWFZHNkdtTGk4MFkzNWVEOTIwRGRuZEM5X0x3TGhybHJOYkxIR2lpZy1uUURsX0xVcEdNYUU2YmNSbGpvNVJvY18yTFh4TEpIRC1tX1FhWmJVWVNUUUpMeWllWDNlaklUTFVJM2NJV21uMXVOSlVhY3VTZFVwdEs?oc=5"
         },
         {
-          "date": "2026-07-27",
-          "title": "Apertem os cintos: Moonshot AI deve liberar o Kimi K3 a qualquer momento - O Cafezinho",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNclRHeUZINHU1cjRlMmswRWxWcGJNc3VSR01iLWlDWFJUWUhlSHNPcmxoR1hhNVNsZnFwaXZtSkRaVzJDcTB6cE9oTTd5dlR6emN3eFlBUkpsRHNvV0x4bDZSZmhIbFBuaGVqYk5lWnU0QlZtSmxIQl91S0VfNlBEM2s2UjV1QmhrVEJCOUc0WEN1a1hNZnZEQW9uYlFTUVljdkdEYUlUQzF6b0FENWNkVzlUTWPSAbQBQVVfeXFMTXJUR3lGSDR1NXI0ZTJrMEVsVnBiTXN1UkdNYi1pQ1hSVFlIZUhzT3JsaEdYYTVTbGZxcGl2bUpEWlcyQ3EwenBPaE03eXZUenpjd3hZQVJKbERzb1dMeGw2UmZoSGxQbmhlamJOZVp1NEJWbUpsSEJfdUtFXzZQRDNrNlI1dUJoa1RCQjlHNFhDdWtYTWZ2REFvbmJRU1FZY3ZHRGFJVEMxem9BRDVjZFc5VE1j?oc=5"
-        },
-        {
-          "date": "2026-07-27",
-          "title": "‘Weights’ do Kimi K3 ficam disponíveis às 16 horas e abrem novo capítulo na corrida global da IA - PCGuia",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc2h1MjlITEUwNkpZZEJ6c2xRak8yYzFDcS1ZMTRqbk03ajJPalU0VEkyUjlpVklyR3RSZWI3dHNJNUhuTEV1cjlDTHhrbmg3d2dyOUpfSWprNHg5ZkdEWnRMTk1JNS1KNEppOHFfa3BMYUd6a2tKb0lqVlNxV3lWcnByeVFxWWg0THhybmJwNGstYXgwUjEzczBkRXBCblpOREdDTldfaktlN1FLT3drek5Fb0duQVRGd3kwWE9ULW9jMUE?oc=5"
-        },
-        {
-          "date": "2026-07-27",
-          "title": "Moonshot AI libera modelo Kimi K3 com 2,8 trilhões de parâmetros para download público - Mix Vale",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU3lJc3EyUVd0ZzgtZThMZ2J5YmxYS2tjTHFtSWNfa24tZUxLMkdKOHhZcG9CWVZNR1pCSk13WWMyR0ZDbjhxSkNVV1dNelN4NnpuM0tCUGpTVEN1eEZhbGM5LU5hejM4V1UtNFlNajNhQ2JwRVRuSHpUTnRzNUlNcmU3SDdRb0lSZmxyZF9mMG8wZnA5MzVjX3JkWV82QjdRZzNHMVEwV1Q2TlZ4Z2x3ZzJxd1c5bFBIWlI2NUZXd0hxNEJFcUp30gHHAUFVX3lxTE1TeUlzcTJRV3RnOC1lOExnYnlibFhLa2NMcW1JY19rbi1lTEsyR0o4eFlwb0JZVk1HWkJKTXdZYzJHRkNuOHFKQ1VXV016U3g2em4zS0JQalNUQ3V4RmFsYzktTmF6MzhXVS00WU1qM2FDYnBFVG5IelROdHM1SU1yZTdIN1FvSVJmbHJkX2YwbzBmcDkzNWNfcmRZXzZCN1FnM0cxUTBXVDZOVnhnbHdnMnF3VzlsUEhaUjY1Rld3SHE0QkVxSnc?oc=5"
-        },
-        {
-          "date": "2026-07-27",
-          "title": "NVIDIA alerta a indústria da IA para não repetir o erro da década de 1980 - Pplware",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWEpTS2FmeHRWMlFBSG9hb1dlUjdKZktkcDh2eE12UGxrNWlHTkJyUFM5X3F4UkdjYzdmN1VoM2NGaGRzY29OMC1iOFRLTmRyZnlpR2J1UHlIV1puS3pKQy1NTDd5a3REUkItVEhXWFdDLWdqM1A0QXI1aU5kS2FtYmQ2YTZGd1R4RWcyd2x6X0ppMlI0TlZabE9QaWVuY04yRWtDVXpVdllCekdFMDJIS05fRF9lWUhINHpZ0gG7AUFVX3lxTFBYSlNLYWZ4dFYyUUFIb2FvV2VSN0pmS2RwOHZ4TXZQbGs1aUdOQnJQUzlfcXhSR2NjN2Y3VWgzY0ZoZHNjb04wLWI4VEtOZHJmeWlHYnVQeUhXWm5LekpDLU1MN3lrdERSQi1USFdYV0MtZ2ozUDRBcjVpTmRLYW1iZDZhNkZ3VHhFZzJ3bHpfSmkyUjROVlpsT1BpZW5jTjJFa0NVelV2WUJ6R0UwMkhLTl9EX2VZSEg0elk?oc=5"
+          "date": "2026-07-28",
+          "title": "Apple perde controle sobre preços de memória e transfere conta ao consumidor - Yellow.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQzBKVFNfcV82blZEWDFHRjZXMl9DVnAzTkUtbnRGemV6bEc3SGdPdFJRUE1YNFFOTFh6bTdReVY0RUdMd1FDRU1xWXVEMVNkZmVndXJhcWxwa2pabG9wSGFWVm1NemhmRk9nTVN4N3BxbzBXNVNSQXM2STJ6QjIyMm1ZaE55TmlCeDRMYWxDSFp6LUdySVFoZFJ2ZnBMRlhnVXdIRkU0NUY5ZGs?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -187,14 +187,34 @@
       ],
       "evidence": [
         {
+          "date": "2026-07-29",
+          "title": "CEO da Meta, Zuckerberg: Banir modelos de IA chineses não garantirá a liderança dos EUA em IA - TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV3dkRTFfOVh4Z3hQUWRwY1p4T3JFakY5RXdVMXRiTVl6bzlrUm1tcERyal9rME8xbXIzWW5NSHpjalpWYnROOHNBemJkZjRKbFlhekhoSVhGUm40XzE5cGpGTVBidzc0eE5WVnlpRXpkaG9LX1lqYW1kVmtqY042THBYZGhNd1lib3NWYzBYZElfUGt0RzVtZTc5ejJVb0NFVXVMT2daanYyREJvVEszVnIxZXBFZjI1Yk5qeHM5ZnFVNHc?oc=5"
+        },
+        {
           "date": "2026-07-28",
           "title": "Anthropic nega defesa de banimento a modelos de código aberto - SpaceMoney",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcXJZM09DNmF3TnNwb1NQcmo5TVZ5UUtGZTU4ak9ZY1dGTzdTVWVTd3MybWZXakE2T2EzY2NlVERSRzRJYzVTS0NSRXR4cm52c3BnUktFelBpQlpOUDBmS0NhV0twZ2xOb2RlVzExX1NZVFhZclpwQXNndk04cTluVTlHWTgzcDM5NWgzeFNyRDhoRFBveGxEMnVINWdiUUdzMnRZNm5aZEppb2tsTlVj?oc=5"
         },
         {
+          "date": "2026-07-28",
+          "title": "Com ou sem China, cenário da IA pode ser de pesadelo, diz criador do Claude - Exame",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUEJoVjk0dzZ5bU5ITkJaUGphWDlSdTdsTzRwSzlXWlNlWVpfcjhRQi1aUm1SUnpZcEc2NVVMa0hmWlRIRTdqaUMtaHBCc2lMSXVTVnlrRHYxYzlVTUN3dVlheDVUVml0TTVTM2VOUzBMRU91TXN1aHR2d2F1dVlqd0FrMXBxUjlOTjdpWWJZd0lmckxhb1NvTS1mcUtpZUptajRtWEtlZnlFbVRxNkdrNnNUODNhNnM?oc=5"
+        },
+        {
+          "date": "2026-07-28",
+          "title": "Nasdaq recua por preocupações com IA antes da divulgação de balanços - Portal do Holanda",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTlJHWjI5NzZlOWJEYjRvZjNOcjQzcWJUVGlySHZFWjlzYTFXTXJpQjZtMzA3S3lqQl9ZRTRfa3pmb1B2cG1ZTEhPaFFfdURCR2djSDc1RTNMTy1qb1htdEppZEdXRVRlWGh3MFlfVHBneDUyX3NFaVZKNVdiOEpxVG1JMjlER0ctRm1nWHEwenkzWVQzaEtjRzU2dVZidlpud05LNUFnX1RTSzBoNjZpZ2x3?oc=5"
+        },
+        {
           "date": "2026-07-27",
           "title": "Sam Altman se reúne com governo Trump e senadores sobre IA - SpaceMoney",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTDdUZmlYbXBjNDFKOE5oSWc5SE5DV2c4bUVfVzdpOFBVS0FxdUxBeHB0RGVYMWlCQ0kzSm4tb3RLdFpBTUZ5TDRrR08taEZYSDJfZE93RFB4U1N0S1Q3bFNkTEplcldURWpmRzJxbDhDVlRONkYxZ200dmtMYWk3emZlUnFkVDFiS2drWlNWbS1pODBZQjE2bFVn?oc=5"
+        },
+        {
+          "date": "2026-07-26",
+          "title": "Linux Debian pede votos da comunidade para o uso de IA, com a possibilidade de banir a tecnologia - Adrenaline",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY0lsQURzdmJQTk5GaEs0WnhhLW1qVGVIRm5WelNpQV93TWZHMjhEN1RXdWF4X3RJUmxqTVdlZFRINkMzUXhiYWhRejhlVkJSb1hWY1diMW9vZmRlZU85Q1VDeGI0UFNqSGlFUC14dWk0S1JfSVpIanFxbmJOTE8wOHJENy1UdHQxT01nRHNIUkFZMXZIX2NuRWh3MnJBYkVHSXRTM3dqTW12OUFRLW40eElwT0RLdGk4VzNxaVdjdGlHMnQ5NG5jUUln?oc=5"
         },
         {
           "date": "2026-07-25",
@@ -215,26 +235,6 @@
           "date": "2026-07-22",
           "title": "Nelson de Sá: Pequim tomou de assalto a inteligência artificial aberta na China - UOL Notícias",
           "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNdjAwSzRCVHFFenJWUng0RjJVcklQLVZzUFlYMkxIMzdjdlRlM2lWdFBLQ0hqZ015WXpldUhtcnV2RUJha1Q5YWlZdTEtOFJvSFdCMVBmNFA3a2ktQTNIbUpEc1diUHhsWk9sZDV0c0Ywbkx1eXFabkNWSVJ2YmNYeXdQWVhSczlBeUt0eVpGX2x2endaX2E2d0lGblpJYUo5Vlh2RWJaQkNtWkxvc3FzUS10bWdvUkJyOGQwZk9VOVVtdUtLajBieUFjSHVxdDVjdDhTbENkQzlGcm1pNm5SeFRjdVhJa0lvWjZJeUNHRzVjX1lVdEpqYllyLWVFa0I0XzZyamg2OGV2dUJYcXc?oc=5"
-        },
-        {
-          "date": "2026-07-22",
-          "title": "Nelson de Sá: Pequim tomou de assalto a inteligência artificial aberta na China - UOL Notícias",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcHFKOVBjUHJfb3g5NVhkY1E2Nk1feUg2TVBjTDNFOTZfakozeGEzdnNidllkTzMyV0FZRHpQRFdINUh1SWdGWmhDVl94bWRLLWtjVDQ3andGaHdfQlc1eWJWNHhZNmUtd0Q1Z0x1WEt4ZnAwV1dzNV8zZXVwMHNKZDBaMnlyX21IbGJJNmN1ZjJJMlZTZlFjZUgyUzREOUJGdGRfTHBTeTF2V1FqSmItcG5URlRxNmEzTzg2WXFiSlRrM0FCMmR3a2Vn?oc=5"
-        },
-        {
-          "date": "2026-07-21",
-          "title": "2,8 trilhões de parâmetros do Kimi K3 reacendem batalha por proibição de IA chinesa - Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ25nRUg3RFVWS2R5eUpFcy1ER2pqUi14RDdHXzk4VXpidTZyNy1tVGM0djZXd1lXSE82Vll1MURxX09IOGpMRzJIZXB0MVFtV3JFUWlVWWdWT28wMnA0eE41V0hHTnAxTWZaUkNWam0xV1FiWVhrd1B2YzhQcXlGRFJ6aTRmRk1EM1NrMGRNSTd1UXdJYzhHdzFyRS1CZERlNDBlM3RtUm1oYU05NTlFdDhQRGNSQXNjM3UyNWVMNU1pazlqOUpQRDZ2TEI?oc=5"
-        },
-        {
-          "date": "2026-07-20",
-          "title": "IAgora?: Trump cogita proibir IA da China após modelos superarem empresas dos EUA - UOL",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY29YcGlIM3Q4VlhfWmdCWFl6bHQtVG56ZWJpOUl3SE1OVjdKdDltbklTTURkcFNuTWkwWEt3V3UxVEl1aGlWOEZpc0pPemZCUExDTks4WER4QjgwNWZpRS1wZ2dlQlRXZkFONnAxNzVaWkU3X1ctSTFlY0ZlTHZhVUduU1cxSmVmUzZlOHNBOGw0T05mQUpXdHo3b2xoYkdHN2FBZ0hDZW9qNUs1eE9vTUVpN3Z5aWg1Q3hHWXliMWdYYU5uYTVJUUhjR0ZCbnVDX2c?oc=5"
-        },
-        {
-          "date": "2026-07-20",
-          "title": "China avança na IA: como os novos modelos da Moonshot e Alibaba ameaçam o domínio americano - culpadolag.com.br",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWFVzMUhCUGtKTko2TmVMcWtkRUg2V3ZCb1lleUwzczFfTEJUUUxDMk41eTQyMVNVRUozM3lqR0d6d3Izd1ZQbk5hZmNmZFFrZEVNUGFGLS04MmtKR0VRbUpwbVc2MnJTVGZsYmswdE1SZlpBUUJvaXVyc253UlQwS1BpQ0JfX2o4eXB2VExvWlhYVk1ybWtnYU1jUVlTZ2Roem92YmVoLWRnRGs5MnB6T2ZDd3FmV1U?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
@@ -256,6 +256,11 @@
         "China open weights flagship"
       ],
       "evidence": [
+        {
+          "date": "2026-07-27",
+          "title": "NVIDIA alerta a indústria da IA para não repetir o erro da década de 1980 - Pplware",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZXRrNU1LTlJRTVpWb0VwLUNtMnF3VjFPaTY5VXBPNE5aOVgySC1QZ001VHdKejZDdnQtLUMtR1N1Ri1zeHJOZDdocTdFU045WXRDS3Q2d3RGeEEyQ1U3MlZoREJ3TkVJSVVpX3pVZHhnaTJ2X3otWXBkLVh3THN0X1NMb244MHFkWFRCRloydG5ackZoU3c4em83ZlREREpjcnhUT3pWNWJJVUl6eUc1QU1GcWdGQdIBuwFBVV95cUxQWEpTS2FmeHRWMlFBSG9hb1dlUjdKZktkcDh2eE12UGxrNWlHTkJyUFM5X3F4UkdjYzdmN1VoM2NGaGRzY29OMC1iOFRLTmRyZnlpR2J1UHlIV1puS3pKQy1NTDd5a3REUkItVEhXWFdDLWdqM1A0QXI1aU5kS2FtYmQ2YTZGd1R4RWcyd2x6X0ppMlI0TlZabE9QaWVuY04yRWtDVXpVdllCekdFMDJIS05fRF9lWUhINHpZ?oc=5"
+        },
         {
           "date": "2026-07-18",
           "title": "Chinesa Moonshot AI desafia OpenAI com novo modelo de IA de Open Source - Jornal Económico",
@@ -302,6 +307,11 @@
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdFdOYUJfbG1RZjdlVm5mbGNsRjIwZzZhazRtcG1vZGF6a1ptLXpFMkF3QUU1a01YYWVWN1J2dXdrXzRvZ3RvWUx5TC1UTHhrY19YcTMyclNQR2JxVHUzRENoaEhQYlNfdDFpcWFScEhQVGJXR29jbV9LZm9RenJSXzlFQldyS01UTzczT0FHbmRkSjl1UXlFU0RaYV9iRThwZ3VlVHJTeG05aFlrSVZ4ZkZuZzQzbW9mSlpkd3V6WGdRZ2dqYmJXcHFuU0U3Nkt2TkdsSExfMjRmZi11ZU5obmoyNUw?oc=5"
         },
         {
+          "date": "2026-07-27",
+          "title": "Entre Bruxelas e Pequim: acordo com a China coloca Brasil em dois polos da regulação da IA - Consultor Jurídico",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeENWU0pmN2JRbHFmZC1jcl8ybERYY2NwRm5uV0MySE5hU1RlSEk4cnN2dzdybk12LWUyNWU5dFhKQllHeFhQUlpVdlJudjNiTG5UQmFTOWRYRE1ZRUZoT2JHaGNjb1lTU19ZeTQ5eWZpSmNGWURSbTNjbHl5U0wwOW9BOFpVcThocmwtdV9odFNvSFpDLTRfYmJlUldlNXNVdi10UEN3bWtWWWZlekl3Q25uN2E5cU5IbXYtTjhpMk1uQQ?oc=5"
+        },
+        {
           "date": "2026-07-21",
           "title": "O inspirador discurso de Xi Jinping sobre inteligência artificial - Brasil 247",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMVNIdTVkbW44eTI2Q2tNay0tQlA2dFdiaFlNSGVsaU42UTFuNWllWU13UGxCMVczMWFnWFZyM0JTVDNlVHdOU19zdkFyTnpRakhKVldXeTlSOUdwbVhyN1pEbXNDZGE4Mkl1OWFhNzRsYmJCbjBuUkphN042bWlyOGJ1TG90NC1vVzRuTmRvQnZvRVdQWFJUQUJabTV0dw?oc=5"
@@ -335,11 +345,6 @@
           "date": "2026-07-17",
           "title": "Professor da PUC-SP integra delegação brasileira em evento internacional sobre IA - Jornal PUC-SP",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZzk0OFRjcDVxaGV3aktIWmdNUndwb1ZnYzhJZVFjd29EUTFBS3ZBWHZGRnQwVG42TWRLT2FXc1JHOGo2UFh4VDZvUVh3Tnc1dk14Y0k3aThzQWFKXzRsUGMybXZGelpYdHcyOHBFOVhkWi1jMkdVR2NuaHpBLWtkdkRCUTBjSlRERlpEOHVnMm16UWw4U1dYcklFRFRNRTQ3eDNpTE5qd3VQcDJ3?oc=5"
-        },
-        {
-          "date": "2026-07-17",
-          "title": "Xi Jinping anuncia criação da Organização Mundial para Cooperação em Inteligência Artificial - Brasil 247",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdDJEcF9EeUszY2s2X0JRZjhvdGdSbjFpUnpCU0V1c2lwY1hVaE95TTdtM0xBU1BKR2JqcFhOQWJ5UFJhV29UUUIwcS1kYWNXSVFKc0c0a0E3V2lJNmVwTmdnS3RrLTBSaUJuenVXYkNjNVB3VFdBMHhHbnJaUkxKTmZfcE5OQ01mTi1pclNvQ0FpZEpIY3BjUF9fNWx5WnRWdjhyTzFGU0RSV3dLQ0Etd1JmN2JzcVhPd2hsaWUxelZLOHA1QlQ5LV9IbEg?oc=5"
         }
       ],
       "title_en": "WAICO lands concrete adoption commitments",
@@ -361,6 +366,16 @@
         "Moonshot IPO valuation"
       ],
       "evidence": [
+        {
+          "date": "2026-07-29",
+          "title": "Moonshot AI atinge avaliação de US$ 35 bilhões após rodada de US$ 3,5 bilhões - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMDVFV2tFQlE5OU03NUxtRVFtNmZFdnpTYWJHazV1Ynk1X0pYczJVNW8yM041ODdkVmI1S05vdDNJTmdORUdVVWE2UHFNZHQ4SG1TSEpqZjFMMTFhNzBFY3NUc3FENG0tYllnMmJQcjc4YVk5dFlDUUxtOXZaUTFfUWNvb01IbGNFcm1Mb0loZTl3UW9fNTRqbGFPZmdGUTZXWnQ5MVFneTlwNTZxUWJGVjRUT0hlZV9mMXIwNk1kclJVNk80eW5yc09B?oc=5"
+        },
+        {
+          "date": "2026-07-29",
+          "title": "Moonshot abre modelo da IA Kimi K3 - Poder360",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWEFyY0ppeWFuRWpUYXZwOWdHQXpSWmk3cHMtT3RNRUEzOU9fR0VDdGk0VHNUVUxsc21waHQ2dHp1NnZoTDdXemZlZUlybnRrc250YVVyN0paZ2pJdXBIVnd3alBvLUFrS1M4NGgzTl82RkJwV1dZUl92X3hJRE9aSA?oc=5"
+        },
         {
           "date": "2026-07-28",
           "title": "O programa Moonshot de IA da China está exercendo uma enorme pressão sobre as gigantes americanas. - Vietnam.vn",
@@ -400,16 +415,6 @@
           "date": "2026-07-24",
           "title": "MetaX Arquivos Confidenciais para uma Oferta Pública Inicial em Hong Kong - Unite.AI",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9UUTY2MXJ1RF9WM05hbHJyNFRoLTNaVmNLY2xsZXhYTnhaRDdfcElhSzVObkotY1NmS25BbVBVZTFfQmk0U3NDb2t3RjNCblFhQzR2SlBTZWRvVlJhWVFhdEFwR0VRb3lmanZ0Rll2Yi12X2NxRU1TSjBJaw?oc=5"
-        },
-        {
-          "date": "2026-07-24",
-          "title": "Sistema chinês Kimi K3 afirma ser Claude e acende alerta sobre cópia de IA - Mix Vale",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUzFpUF9XVnZmblVXaXNvclFmS05tUWNIaHlsSC1kRmx5REhnZVZ0UzVPVnhUY05GMHhlY0plVHJsVjNGNkFCZlFUSXBkcEpSSnM0bkhFQ0VodDR2WVhNT0dXLVBpeFRNNlA2OVhheUw4aFZqMEdqOWQ5TlJtZ2J6RUVfdU5xSEF2dlI0ZEtuc1JyR1dpaV93ZU15VXNPNGdhd0ZmV000aEJTU1JHeTdkbzV3NNIBuAFBVV95cUxQT3RxUHJhSDRIUndCczN3a0JpdmFNQTQ0MW9GOUUxLTg5Y2VzMGdtb1RPRXYwTTh4TFdvMENGX3N2M0p6OElvVDRTQ0pnRklZLUlVWk8xWHNPYzFhUXZaUHZnaDRyQXduSnIya29obVo4dFF5RXhES2JNMlJRR0pFRXZlY3ZoaW9xS2tuanlBMnY2SDZfRGg4RHZGRS03VU42NUZOZlJhSzFnb3BtMGRwWDROV1kwajhU?oc=5"
-        },
-        {
-          "date": "2026-07-23",
-          "title": "Casa Branca acusa Moonshot AI de destilar Fable, da Anthropic, para treinar o Kimi K3 - Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYzRoR3VZOFkyU1VGOVYwNnhyZDRWWXdlc1A0eW5nNk9IOUs1VWNlSkd3NGluUjAydGlDQWg1Rlk5MHpNYmhLLS1GTjhaMUJ2YTV5UldGaFdRdVpqMlBmeGk1QjhWeDlHcU9kU0ZET24yc2M2U1MtWHY4bjNid0xrM1hsNFA5UkZVTWxpVEVvOHprYUZFUWNtSFVBeGNkSHg3R0dpdkNaUjVmOV9LWTJZ?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
