@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -436,6 +436,11 @@
         "China AI inference capacity"
       ],
       "evidence": [
+        {
+          "date": "2026-07-31",
+          "title": "Moonshot usou 20 mil chips Nvidia via Alibaba para rivalizar com os EUA - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORWNqbEl3YlZHTHlOYWcxdTI5MmVhanBNZTFvaFJWN0hWb2piRHpFMThOLTN2YWhQaU53NElNaGtIamw3Tng3Uk93ajRvZEJEbTYyVjNUd1A3WnZRcnFUMlQyOW9PYWtjXzdQbWV0SGwtNDZNUGJqTVNpT3RzQ1g1MkNlMVI3R2xGdnJpYUNUMDhkalpmdU44RlBaYndmVUhoSzZGR21OVVRscGFoOG1WZXVlSG5fdTJUaC1Ha1U2Y1h6U1RTMlE?oc=5"
+        },
         {
           "date": "2026-07-22",
           "title": "Casa Branca acusa Moonshot de violar controles de exportação dos EUA com hardware da NVIDIA - Investing.com Brasil - Finanças, Câmbio e Investimentos",
