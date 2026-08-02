@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-01",
+  "updated": "2026-08-02",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-02",
+          "title": "China ganha novo modelo aberto de IA com lançamento do Kimi K3 - Seu Crédito Digital",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JUjVNZFlJckFzckJ5dkI5MWlTMEEwcEY3Y3JhRDd1YWtHMEVmUU5feWI3eWVwQ1ZjaFA3dHZTT0xVSVBURDlhOG5MMklPSG1fTVREMmUyeUJPSk5lV1ZVTnVob1VMSzM4bjhQeXdZMk5xYUV6Z0FDWmRn?oc=5"
+        },
+        {
           "date": "2026-07-30",
           "title": "E aí, IA? – Resumo do dia 29/jul/2026 - Buttondown",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14ZXF2UHJ1NmwxaVF2LXJlS0tWdnNzOVpwY0NuNHNORE9rbHBPTjlzTlBCejJ1R1JVUEZhdVNIakRHUHVjbmZyRFkzRWk3NHgzMmQ5YW5HQlFyWmZCLVo2NlBkcGdJcUNsdFI1Y09ZaDhmRWRyeG5mVA?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-07-29",
           "title": "Anthropic rejeita acusação de lobby contra modelos open-weight e expõe seu verdadeiro temor - Yellow.com",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUExoU3dJMkhhTm5uRmlMenpNc0lGejhGb05GbzcwcHRSQkdDMV9OcUhtRVI5N3hPbjllVlZ0X2hGXy1UTEZsSnFRdjdKYnRVbFllYWhBRi1xN3lOWXd1eFZlZmhodFpXczdPM3NSenVWR3VLQUMxX18ycmdLQkotX0dyS2Y0X21ialNTSEFrRHY0SUtJQkVKdl9uRGx2eHkzdFdGNnFVdVBIdmFuaEU3YjZDWjY3UzE1b185NHJRaURKR0t4SW5GaGRxbmpoQQ?oc=5"
-        },
-        {
-          "date": "2026-07-29",
-          "title": "Yang Zhilin recusou oferta da Apple — e agora seu Kimi K3 pressiona o Claude Fable 5 em código - Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdEhBQ01fblFFQ0JDWUgtdzVPV21FcjZyeWpFaG0tQ0tWTUJ4Y011UjhoYjN4YURlVFpOX2ZkUndmUXA3amVnOHVaR0xVbWFqeFdUcjd0Nkpqb0pYVGdwcTgzeElaZDRleTUwRFZFWHR3SFVPS1N2eWZxSkEteTl0MmZZSGFrQUVFSkVOcm80TURSNUJ5Mkx0Vnl6NmFzNC13ZUhkaXJKbUVkNG9BeFUxQ0Z1dzRiUHJTTU5HNWJjUGNFdzRiaVhhbEdfRTZKVHhyVlQw?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -297,6 +297,26 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-01",
+          "title": "Waico e Pax Silica: entenda disputa entre China e EUA por futuro da IA - iBand CE",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNFBIbEV2MjBIQXptUnZKWENraEpZdml0a2NQaVg3RXVVQTFYUTBEUHN6NkZRNzNDZHZUV24yYmRGSU1KVVhDSDBEd3huUnpidnlLMUJ2TmZRaFBqQWJ3WWJLOGdpNGpnMi0xNjhfcmdHaHBUZHREZ2J0ZTdIOEJUaUNNUTJ5SEM4S0ZiS3lsbkdDMVFMdDgybQ?oc=5"
+        },
+        {
+          "date": "2026-08-01",
+          "title": "Brasil deve aproveitar aliança com China para fortalecer soberania digital em IA, afirmam especialistas - Opera Mundi",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZ3hudVRNa1FrMjJ2NWRBZkVRY1FiT01iakdRX3daSXRiaFRIeWowX0tVay1LS0NXb0x4dmxyMkFGQVhyZEtYZnNKWnVpWHJRQXAxLVRyN25Ga0pVRmgtTzFHdUtzMTdpbENkekR4eTVJMW0xdldFMzl2ak1rME1FTGJwaE85ekoxMW5wMXA4aDVGY19pcURCQnl4TnlGUVpzQ1lNSGpIOWdEc1pNLWhDOFlTTEZKSHhQQlhqaDZMZEg2Z2NNb1dueWVxMHoxS2lKNmNpSks1LTJTaTlWRzFhV3JhYS1ZVTRabnc?oc=5"
+        },
+        {
+          "date": "2026-08-01",
+          "title": "Brasil entra em organização internacional de inteligência artificial liderada pela China - Diário da Guanabara",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRnRiN3VTOFZ1bVg5RDYzNUYzMzNtOXJ6eDdxeE1aSmZtZGZxZVNlRWV0TE55S0h6VG1CbTltUG45M0FuTkNpN0hrMGpwYkotMHNfVjJhLWtBcU41QUotaThiQUFpMFRGV1BjbVRmcTIweTVkRXZ6VUhTQnZuSUxGOGp6emNnX18wT1FNMk4yS0pPM0VFTXc5Z21paTFnLVFNZk1kOE5IZXFadWZlWXAzYzNkdzc?oc=5"
+        },
+        {
+          "date": "2026-08-01",
+          "title": "Brasil Busca Fortalecer Soberania Digital Em IA Com Aliança Chinesa - portalgurupi.com.br",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRU2UyTmNhYXIybEh3TkhXczFSRGJnMmJlRHF1b05wUzRCSEQtWnFJem1DNEQ5bGFEZDgwVnlYdV8yQWc1TURGMTBNT3VPb19uS0NxNXVfeDduY3FsM08wdEJkV3l4NHpmeG9ZSnJvZw?oc=5"
+        },
+        {
           "date": "2026-07-27",
           "title": "Entre Bruxelas e Pequim: acordo com a China coloca Brasil em dois polos da regulação da IA - Consultor Jurídico",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTFVPVjI5eC1kTl9MQUVaMEhWOTc0VEtUNFBicWU2MGdfRy1wN3ZCZ2VjUlV4RTg3a045bjVpNEc2OFF1elNPWnlJUk1xUUlKUGQ2OHFpT19RTlBHVkNndUxvQXJMekNzaElzRWoycTZ0WnpEYzBmMU5Od1ZFeW9fRnJ4WUdBRlpsdlBKVGdUR1F3dmZMOFJpSmZnZkRWUmRJNHE5czVBa0dZVTVGUURjWlFvbjZiY09mbm1oSlRISHpRVUZ6a0tj?oc=5"
@@ -325,26 +345,6 @@
           "date": "2026-07-20",
           "title": "O que é a WAICO, a nova organização mundial de inteligência artificial liderada pela China - Exame",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdlkxSVpFZmRoNzdfeThVeWU2VjZRWHR6TjR4dFRpTlJHWGxPaTBsQnJ6RXdOelZ5SnhuWWlvaEoxcDdIa0xFb1FMTkpoYm5oSWViLXYtdFZDVEtIRExmU2tLazR0dVdWSHpJbFZ2VjBKam5QYnlVNFYyZERjZWF3elpLSU5zenZveldyc1Q5dGFvbGZUSzVmX2lpVjNPOF84ZDh1Q05mNE1kVnFZZEk5d3BUbFRGbjQxSmFINkpsOW5NT09kc185UjJXTXk?oc=5"
-        },
-        {
-          "date": "2026-07-20",
-          "title": "A China Ancora um Novo Bloco de Governança de IA em Xangai - Unite.AI",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVlo3WHgtNzBmdkRWVGZkaXAyanV4VGZqa2w1R0I1aTRfWkJwbEZwaDc1elVRVkVzOVBQdXRtSzVBcjB0M3QzY01HS3AzWlpuOFdFNGxtVXBZandkVGpmVHhtcDVqRGJubGs5cDcxYXJPUEpZN3hCd1MwUlJUQ1FrQg?oc=5"
-        },
-        {
-          "date": "2026-07-19",
-          "title": "Brasil se junta a 28 países em acordo internacional de inteligência artificial • Tecnoblog - Portal 93 - Portal 93",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX2lhU3VEVm9lQ2hNek0taGt6djJpUUhHYy1JeVZidWFVU3cxaU1Fb3lXUlNubHF1bE02ZktNc1NtSVZxc0ppWjhWa05ydWh0MG9hWExQNEpvWGhKSHpONWc2ckdjekgtbWhNczRKVUVYeEFSZkR0YzhNVl9zd1JGczY4TWQ3dVRHaXR5Z0VGaUNyMVczaXZ2NExobjZqU0dHZWVTazE3RENjOWRyekg3NldpbGd6VFJyR0HSAboBQVVfeXFMTl9pYVN1RFZvZUNoTXpNLWhrenYyaVFIR2MtSXlWYnVhVVN3MWlNRW95V1JTbmxxdWxNNmZLTXNTbUlWcXNKaVo4VmtOcnVodDBvYVhMUDRKb1hoSkh6TjVnNnJHY3pILW1oTXM0SlVFWHhBUmZEdGM4TVZfc3dSRnM2OE1kN3VUR2l0eWdFRmlDcjFXM2l2djRMaG42alNHR2VlU2sxN0RDYzlkcnpINzZXaWxnelRSckdB?oc=5"
-        },
-        {
-          "date": "2026-07-18",
-          "title": "China lança coalizão de 29 países para disputar com os EUA as regras globais da inteligência artificial - Forças Terrestres",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWXdLNjZPZF9PVFVpZERJOVFOTkYyQ0NBV01za3l2N2thRFg0WGdlTDcyVWsyNUtMYU92Mzh3RmwwbjFkeHpJdDZ4cTMtLU5VNHZLT3BnV1JybU9jeENvQlVMLUtmUHBzM2JrS0wyS3BnOGFsRk9oZGpsQldHNGdpeGZqWm5xLWlaN1NfNTg3UDZZWDh4bFFDSlAzZGZnYk5hcXo1b0dENzlPaUxEVTh0SzNMLUF1S19XTWpCZFZFeHNQUS10bUZmdVZ3ZmR0akdBYnUtcmt6OA?oc=5"
-        },
-        {
-          "date": "2026-07-18",
-          "title": "Promover a criação de uma organização global de cooperação em inteligência artificial. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZVdEcDNaVUVObVppNUk2Sl9Sa21ndEQzcmRYXzBxamF4UFFMU3MwZUk3LXpXeVp6RDlfWndCYjU1eFBINmEtaHhfMUtfVzh1bDJ0NmpoOHQ1Rjk3OWxTbHZ3TTA2VDdFaXNMbno1ekg4MkRqbTd3Z0YtUUtkMU9qVVl4TDNJaEZvTXNhdXkzOA?oc=5"
         }
       ],
       "title_en": "WAICO lands concrete adoption commitments",
@@ -440,6 +440,11 @@
           "date": "2026-07-31",
           "title": "Moonshot usou 20 mil chips Nvidia via Alibaba para rivalizar com os EUA - Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORWNqbEl3YlZHTHlOYWcxdTI5MmVhanBNZTFvaFJWN0hWb2piRHpFMThOLTN2YWhQaU53NElNaGtIamw3Tng3Uk93ajRvZEJEbTYyVjNUd1A3WnZRcnFUMlQyOW9PYWtjXzdQbWV0SGwtNDZNUGJqTVNpT3RzQ1g1MkNlMVI3R2xGdnJpYUNUMDhkalpmdU44RlBaYndmVUhoSzZGR21OVVRscGFoOG1WZXVlSG5fdTJUaC1Ha1U2Y1h6U1RTMlE?oc=5"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "A Moonshot AI é suspeita de treinar a Kimi K3 usando uma GPU Blackwell, cuja exportação é proibida. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS2dSX0FRdFRrbHJQRUZDSTdDN2pycFBaZzllSWNiaFdGMlZPdUp2RUd6XzB4RHBqMklwbVhQcUtqN2lkWDVNeFUwVVBKLXZpUEJ4REtxWHROekZwWng2ZEVaRmF1cDFhWEdkRjJNdThZak5YVFRaRDVXNXR1UFhZSWhsSzVPTDhrRy1fbEFEd2NTUWpmbFM2cUZ1ZzZwQQ?oc=5"
         },
         {
           "date": "2026-07-22",
