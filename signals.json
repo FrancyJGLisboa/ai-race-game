@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-02",
+  "updated": "2026-08-03",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-03",
+          "title": "Alibaba lança modelo de IA Qwen 3.8-MAX e ações disparam - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVTR4QzZra2psUWdRUG9Kd3hIOFBlMy1pQWxPcFBVa3lHd21BS1VhQkxDYjl1aWNBZWt0T2JIM25DX2p3Zmx4WkZQTThLWmxoSXJCZE1VMTg3OU43YVhBc3BIOGNnU0xRSzBpMW5rVWdub0lUSERxZXRrZzlaMi00emhEd2ZGbEl2dmlSVGozMEZWSWdibUt2bTkwZ3pveURCUUs1LXNoR2ZGVmlPQVpv?oc=5"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "Por que as ações da Alibaba estão disparando hoje? - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd0N0WTNKZUowT3pqNDZmRzJzb3ViVl9jT09iWGNBVGZjWjdCeTB2UFgwVUpQYWs0NXBSNy1YSUh1WnpTRVJXeWFUNzJGNEtmY09BUTUySjljd2hJVU9RT1BGMkw0TVRIYUk4bDRFbFlVamhKaGw4VVVkeEJhUjlxdmtIdkxWSTk5a1gzWkNKa3JXXzBRWXZFNGNuSFZWa0ZuWlFDaFpldjhrSG5ad3VJ?oc=5"
+        },
+        {
           "date": "2026-07-24",
           "title": "Opinião - RICHARD WATERS: EUA podem ter dificuldade em ignorar efeitos do avanço em IA da chinesa Moonshot - Folha de S.Paulo",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYmxKXy04bVZxSzFoSUVvNUN0Yk02bXJpM1BGRlFTN3JucjhSV0FOOGRqOFV1T2hyTDVjZi1ieW9DVGd6T0FiMTZtM2VsdFAzRVFGdW55SnVpX0MwSTJNaUI4RUVFQ2Q5T0JVQzdPYUxLZ3JqRFVadDV6OTF6bnl4dnEzWFN2emFySUtHak84VnZzUjJ4NW5ZWGhfWlJDVDNzMVU2M053eUVlWnk1blVsTnJFSjk4NERwOVhRVE10ekdpcURYOEJZ?oc=5"
@@ -155,16 +165,6 @@
           "date": "2026-07-22",
           "title": "IA de código aberto vira campo de batalha entre China, EUA e gigantes da tecnologia - ametropolesorocabana.com.br",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWVM2VV9wRFNVaTlqUmJjRGNIVnA4V2VqcV8wT2dRSWdLWjlYRk5uNWpiZmcwNjRGcTZad3JXWDg0Vms0UFdDSU9sMnIzNFNETzVDZ2RnNWhZdjRsRE9jLVZtVXF6OEdLUGVRYl8xdms1aHIyQ3huTy1fWTFJNk1lNldzMVI0MDJ4YmFxdDlaTlFGZVA5cjRqcDI2QUZZa3NUX3VwWkczc1RZWU11dERhNVBKQWVadzBrVE04?oc=5"
-        },
-        {
-          "date": "2026-07-21",
-          "title": "O Qwen enlouqueceu: IA de 2,4 trilhões desafia GPT-5.6 e Fable 5? - MSN",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa21sMFBiTjZ0ZkJ1VUNfZk8xZWh1aUJsblhTOW5oMnNKZ1RpS1hzOXVKSGlrV1U2SlhpTHFsbEVYSVg0ZUk0SXRHaVJwTDJNRXMxRGJtTUdCUDk4RkEyblJDbmhxTmVFVk9vMUtqMUdLLU94WDR2ZXhhcTF6T2daeHUtS1RuWGFQS3czQ3plZXFWNVRRSG1ibUZiRWx0bXVOcGEydEw2OVhod29vWVh0TTNRbWZndUxhZTdxZ2x3?oc=5"
-        },
-        {
-          "date": "2026-07-21",
-          "title": "IA aberta vira disputa entre China, EUA e grandes empresas - Olhar Digital",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdTBxek0yNGFSSTlFM1VCWFB6X0hJVDJ4aGVMUGxvSk13SkU4Q2k2QWZDQUtiWVVPWjFLTjdCTkZuVW5zV2hKWnpWMjFNV2l1QzFzTmhjTjliSzBraVd6REowM2kzU1ppYVBCekJNRm8tY3QyQkRsR2pDbUhlRlBsSkZqTVZaU21lQjE2S19GbnV6V3g1cVY0UXBGSmJVRmtNQ1kycnUwYUdwS0ZKaC1ObmNVdGhDWXJLdDNjdWh3?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -297,6 +297,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-02",
+          "title": "Waico e Pax Silica: entenda disputa entre China e EUA por futuro da IA - bombabomba.com.br",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbUtZaVFWdzRhSENOUzVYbEpINWZvMVJxV01Ka0hreUFlN0NsV1dQTkltRmRmNFpPWk9tbXdPNTFDeW84TFpwaWNFazhUek80VEExbm9FZE9hcXgtbUFMaXhCN05UU1dfb0dBak53bjk5Z1RTbERGZnJXVDNfQnpNYVdlWXZhODdSN2pZelF3LXExOGVIVVFicUtUam0?oc=5"
+        },
+        {
+          "date": "2026-08-02",
+          "title": "Brasil E China: Uma Aliança Estratégica Para A Soberania Digital Em Inteligência Artificial - portalgurupi.com.br",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5PNGdJTjlWakdTdU9jdGhCWHIwMFNUc3FtSTdjcXZDd2NqZWFaek1sMmNkdGJWakkxdG5rRUM3LTFLT0lpYl9IekJMVS1vWFFDanl1WUttVXE5Mi1UX05lX0RfZDJBVWNncW5EY1Z3dw?oc=5"
+        },
+        {
           "date": "2026-08-01",
           "title": "Waico e Pax Silica: entenda disputa entre China e EUA por futuro da IA - iBand CE",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNFBIbEV2MjBIQXptUnZKWENraEpZdml0a2NQaVg3RXVVQTFYUTBEUHN6NkZRNzNDZHZUV24yYmRGSU1KVVhDSDBEd3huUnpidnlLMUJ2TmZRaFBqQWJ3WWJLOGdpNGpnMi0xNjhfcmdHaHBUZHREZ2J0ZTdIOEJUaUNNUTJ5SEM4S0ZiS3lsbkdDMVFMdDgybQ?oc=5"
@@ -335,16 +345,6 @@
           "date": "2026-07-27",
           "title": "Entre Bruxelas e Pequim: acordo com a China coloca Brasil em dois polos da regulação da IA - Consultor Jurídico",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVVllRkg1LWZpalUzYko5bzUxb3U0cWFnUWRBbHoyZHRQeVg3azBIMHRyTWwyWGxqamwxdVV2bEdxaGlYVHhpWFdaZnRxWHNFQ0kxYUREX2wyUFEtR3Vzc3hvOUR1SnVEMkVhZDZrcFNOSHFtMTdnNld6d3dqTVI4YXBFYmxldEQ4eGg3ZzJRZXU2SHBnTzhOUVNqN2lsSmRUcGhVV19rMjcxcHk1N05PS0pYVjhyZDJTRm9nQzB4bkx0OGRKZzJQenEzX2Q?oc=5"
-        },
-        {
-          "date": "2026-07-21",
-          "title": "O inspirador discurso de Xi Jinping sobre inteligência artificial - Brasil 247",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMVNIdTVkbW44eTI2Q2tNay0tQlA2dFdiaFlNSGVsaU42UTFuNWllWU13UGxCMVczMWFnWFZyM0JTVDNlVHdOU19zdkFyTnpRakhKVldXeTlSOUdwbVhyN1pEbXNDZGE4Mkl1OWFhNzRsYmJCbjBuUkphN042bWlyOGJ1TG90NC1vVzRuTmRvQnZvRVdQWFJUQUJabTV0dw?oc=5"
-        },
-        {
-          "date": "2026-07-20",
-          "title": "O que é a WAICO, a nova organização mundial de inteligência artificial liderada pela China - Exame",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdlkxSVpFZmRoNzdfeThVeWU2VjZRWHR6TjR4dFRpTlJHWGxPaTBsQnJ6RXdOelZ5SnhuWWlvaEoxcDdIa0xFb1FMTkpoYm5oSWViLXYtdFZDVEtIRExmU2tLazR0dVdWSHpJbFZ2VjBKam5QYnlVNFYyZERjZWF3elpLSU5zenZveldyc1Q5dGFvbGZUSzVmX2lpVjNPOF84ZDh1Q05mNE1kVnFZZEk5d3BUbFRGbjQxSmFINkpsOW5NT09kc185UjJXTXk?oc=5"
         }
       ],
       "title_en": "WAICO lands concrete adoption commitments",
