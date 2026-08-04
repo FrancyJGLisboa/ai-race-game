@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-03",
+  "updated": "2026-08-04",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -127,6 +127,36 @@
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd0N0WTNKZUowT3pqNDZmRzJzb3ViVl9jT09iWGNBVGZjWjdCeTB2UFgwVUpQYWs0NXBSNy1YSUh1WnpTRVJXeWFUNzJGNEtmY09BUTUySjljd2hJVU9RT1BGMkw0TVRIYUk4bDRFbFlVamhKaGw4VVVkeEJhUjlxdmtIdkxWSTk5a1gzWkNKa3JXXzBRWXZFNGNuSFZWa0ZuWlFDaFpldjhrSG5ad3VJ?oc=5"
         },
         {
+          "date": "2026-08-03",
+          "title": "Fechamento das Bolsas dos EUA: Dow salta mais de 700 pontos, Nasdaq sobe pelo terceiro dia com liderança de empresas de nuvem; Valor de mercado da Amazon supera US$ 3 trilhões, SpaceX sobe 5% no fim do pregão - TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVFgwdHhNX3FydVNYSmhTTThTMVppdk9oME40V3NrMC1kRzVpOTFHazlMdll6QkRZSHQzVTBCeWVseVlOVlhYVXZBcVhMaGVKRndtMlRCSklXRzNFekU2UVZTazdOVHpqeFhWNHVlVkp2THMzdGxHek53UGxfc2ZoUVZiaS0xSnpxcnNpa0U1VFJYS2JrZl9KZWVkbEd5eUpQdkFOanR3a1lIQUxiZzFMdlg2LXFKOVVFZTRJX2tfTHZ6V0dycGRFU3BFa0l0eDI4OUpydnJBR0ZJNXR3YkhGZDVIdnNOc052NGc?oc=5"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "Qwen 3.8-Max: Alibaba lança modelo de IA mais avançado até o momento - CNN Brasil",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNTlvWElLMjVmOTVhRGIwZXRHZWhHNDhJVmpnQzI5Xy1LZWw5dWU0Q1VYOV8zdzl6eVNGd0V4elg3NVlNV011M2o3TENqX0l2WGh4UUdLcS1FZllVVmpRTDBxalZQcW5IaXYzbTljeHpBUWlSN280ODNVZWRPNHhTYXNXby1Xa3lDMFU1ZElkenVwczJfcjNTQndhb1QtR2RoQTY4VmpnZklPNERFeWJmSHlGUzNuWXZrQ1RxOVlR?oc=5"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "Alibaba amplia avanços da IA chinesa com novo modelo Qwen - O GLOBO",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOX2czY1lSMHFGS3A0R3JQRlZjVUtpc295WFZpRy1BcVNwUmQ3LUUxQXE0VFdsdE03MldkVWYwUDRiSWlNdlkxLVMzQzh4M3Aycm9jMm1aejZ4UHhzQ2duZVUtc05acVdRMzNqS2E5bWpQMnpSd1VxS1JyMWYxTmpoZHZxSjJfWkZjMmNmNnlTdWFJYzVLWk1BQS10RFRLWU9GLWhObl9jcFBHaE4wVGlodzc1aWRLQjdwalVOelc4ZU9xYkV2aFHSAdQBQVVfeXFMTXgwTTA1Z3NDeHA5MzZrOGo2enF3ZVZNT0tSZzlLWnJxc0N0bUN0M0xfbnhsU09YRk9iRV9CNXFVNWpSLUZ1VjVaUTRrOXhpdWktNm1xanYtYVBIdk95SVkyRnZGMXdoM2xhdGs3LVIzTlBrcTV1X1NpdFo0czZGbnFVdkoteU42VzlEZlVlT25UODBtNHZnWDN5QW1VX2R6YnpEdG4xaFFFbmZuNEdGNEJreE4wVDlyVElCRENXM1dCS0RWSDh4LU9TZ2F2aDdkUWdYRWg?oc=5"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "Alibaba lança novo modelo de inteligência artificial - Correio do Povo",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT3hXX2EydzcwTEdEZUhDelRHX3Z4NjNuLU9mWjBpX0pKSXU5VDJOcGN3dUlBVlFfNkFoUHZRMWNjVW43ZHFDbFR4c0xGcEx5Mnk2ZDNyQ2JXX29EQTIwd1RWNTR0NVh1dnB0OU9tY0MtdU1xeHVvZzdVOWt2QnpKV3VRU21KRzBBQlMtSUpxOERSbkFLS29Db1hUZHVqWFNYWG9xZ0ZJSXVSZ1IyZU1EX2kwQ3FQX2dK?oc=5"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "Alibaba lança Qwen 3.8-Max e ações disparam 7% na Bolsa - boca.com.br",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYzh0YlMxV2xyNGptTjZtR2tMeDNKT01NUF81U0hIQjNPeHB2VWhpRkN0eXpSY3I1OFVHUUdJSHRBd3pEaVNiMlVLVXBDcWlBS1NqbHZSelNvcFExWXVuc1NKVHZVb1UzYWpHSFhVRGx0NG40cDJXcnZtN3J5allGR2JQcmdJVVl1NTBaYnFB?oc=5"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "Alibaba lança modelo de IA com 2,4 trilhões de parâmetros - acritica.net",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY1VyWEVoQ3JtNUxIR1ZuZkh6TGllVDg1SExaS2M4azdFcU9vc0R6c1ZQRmNMeDVRdnlxUWxqVGpwdGphNzhkeHZoaTBwVWtGRUpKbE85bXZvbXc2Wi1ycVRSdGFwUDY0Tzk3Y0EwcDByRlJINVpYWWVQVGplcjBSeVNJN3ozSG1sQzlGbEgzT0FIbFE?oc=5"
+        },
+        {
           "date": "2026-07-24",
           "title": "Opinião - RICHARD WATERS: EUA podem ter dificuldade em ignorar efeitos do avanço em IA da chinesa Moonshot - Folha de S.Paulo",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYmxKXy04bVZxSzFoSUVvNUN0Yk02bXJpM1BGRlFTN3JucjhSV0FOOGRqOFV1T2hyTDVjZi1ieW9DVGd6T0FiMTZtM2VsdFAzRVFGdW55SnVpX0MwSTJNaUI4RUVFQ2Q5T0JVQzdPYUxLZ3JqRFVadDV6OTF6bnl4dnEzWFN2emFySUtHak84VnZzUjJ4NW5ZWGhfWlJDVDNzMVU2M053eUVlWnk1blVsTnJFSjk4NERwOVhRVE10ekdpcURYOEJZ?oc=5"
@@ -135,36 +165,6 @@
           "date": "2026-07-23",
           "title": "Vazamento revela data de lançamento do Qwen 4.0 da Alibaba e inovações em IA - Mix Vale",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcUQySTRLWmI2N2ZnaGVoSThGaklGOTFKVktZQU9TSHJ3VVZRX1k4U3N5MjFfalZvcXAzaTFxdWdoc1Biel85b2d6aXRHOEp2VkdiUkxJNmdhTEVqQmh1a2JMNmxENkdfcmdXRFJURnlWVU9vYlJZcVdJUzd3andERUNQRnFjeGlESHB4SWZuZVFENXk2aHdsaUpBVU1XcHYtdk02SGZKSXRMMFJIRnF3RlRuU2hrYXE3aV840gG7AUFVX3lxTE9xRDJJNEtaYjY3ZmdoZWhJOEZqSUY5MUpWS1lBT1NIcndVVlFfWThTc3kyMV9qVm9xcDNpMXF1Z2hzUGJ6XzlvZ3ppdEc4SnZWR2JSTEk2Z2FMRWpCaHVrYkw2bEQ2R19yZ1dEUlRGeVZVT29iUllxV0lTN3dqd0RFQ1BGcWN4aURIcHhJZm5lUUQ1eTZod2xpSkFVTVdwdi12TTZIZkpJdEwwUkhGcXdGVG5TaGthcTdpXzg?oc=5"
-        },
-        {
-          "date": "2026-07-23",
-          "title": "Alibaba Stock Jumps After Company Previews Powerful New AI Model - TIKR.com",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQX2VlbDRwLXNjY0cyUGJONjN4UF93cW0wVDdyYVN6MV9iWGNUY01nMTV4NlB1VmRGZHVjbTJqMmRfejd3Zy04ZWtSOFI4d0pIS1JHQmF3VjI4ZDNzV2R6UWZIUV9KaHMzUldJM2RXdFRidnFmaWN0S3pONU9hZ3RaUDVLMVFjUmlwMEpROElTbE9fc3c1Nl8wRWhESHpsQmc?oc=5"
-        },
-        {
-          "date": "2026-07-22",
-          "title": "Alibaba Stock Jumps After Company Previews Powerful New AI Model - TIKR.com",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc3pVc2h0c1FHdkdCdGNSRHd3ZFgwWVZIQzQyZnlDNWh5ZUczWFlBdGRFMkJUeDlha19LWW10TnpLSjh1Y2ZTZjJwV0Q4TWtaWnR6ZDFydE5UQkNubV9fWmp3c2ktYnctcEY0aTJiMTR4V01YVzZHWjVjSmtGQnNEa29TM0VHZUkxSnRBdU5yTzEwUVFuTW5YOGJJR2xGUklj?oc=5"
-        },
-        {
-          "date": "2026-07-22",
-          "title": "Kimi K3 e Qwen 3.8 estão tornando a corrida da inteligência artificial entre os EUA e a China ainda mais intensa. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaktzeE5id1BEaFBwd0JkZjM2VTlvSzBacG5mQk8wd0xhSHVJb2xpMGRKNWRRbUpFUFJRcFZNM0tfcTcxeEJzS2RURUt0OFV3OGRvT1pLclFBODVqWWt0WlZabmNpa21GLVZVU296Zk9uMktSLXFWdEJTWGVLRWl4VzJ1REtBX2ZKMG1TUVNLcm9PeHJKZGlCSkJLSEJiZw?oc=5"
-        },
-        {
-          "date": "2026-07-22",
-          "title": "Um avanço com a \"Estação Cidadão Digital\" - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BVU1RTWxLRFdrTWhqS0czRHA0U043UzRGdW9NQ0hQaldEMzN6ei1VTW9uczNWUFZ3RUQ2OVprazhNa3gzd2gyb0FkOC1wMm8xeU9vbW1ETHBLSmVRRmpTWV9jYw?oc=5"
-        },
-        {
-          "date": "2026-07-22",
-          "title": "IA de código aberto vira campo de batalha entre China, EUA e gigantes da tecnologia - Hardware.com.br",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMnV2dEJaNTRISkIzM0F4RXM1a3BwZDRtV3JQYzhvR0pGdzYzZ2otUnQyaE1iMkRaV1NoNGx3V1IxZEt0a0NkLTNwUDhob2FHQ001TE92bjZWQVkxOHkyMVAtU21YV1MzVzkzOVR4SWduOVlTQzlHbl9vVGNoRExia0xEQV96b1Fx0gGOAUFVX3lxTE1ROWs5aXZINWxfTERxZXN1dXVvOG9NZDdwTVBaSWpkYVFoa3hvaVRONjIyaVNwZVNQbzhjdHlwbnREODB6T1lHcGNCelF5NDg0VFFqdGNhbDJfb0gzMWlCdE42Z1VHbGl1NGl6MlY3cldmTEg4VlpPb0prSWtZQ3locE5mZVI2QkRIYW5uNEE?oc=5"
-        },
-        {
-          "date": "2026-07-22",
-          "title": "IA de código aberto vira campo de batalha entre China, EUA e gigantes da tecnologia - ametropolesorocabana.com.br",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWVM2VV9wRFNVaTlqUmJjRGNIVnA4V2VqcV8wT2dRSWdLWjlYRk5uNWpiZmcwNjRGcTZad3JXWDg0Vms0UFdDSU9sMnIzNFNETzVDZ2RnNWhZdjRsRE9jLVZtVXF6OEdLUGVRYl8xdms1aHIyQ3huTy1fWTFJNk1lNldzMVI0MDJ4YmFxdDlaTlFGZVA5cjRqcDI2QUZZa3NUX3VwWkczc1RZWU11dERhNVBKQWVadzBrVE04?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
