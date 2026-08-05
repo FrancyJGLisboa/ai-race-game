@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-04",
+  "updated": "2026-08-05",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-05",
+          "title": "Mario Cesar Carvalho | IA chinesa copia estratégia dos elétricos e aposta no preço baixo - Poder360",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1JTb2dCYndEcDBrZ25qZDd1LWI0T3dRT0FwM0JhT0Y2YlJXRG1HcmV2OHJCUlZTaGpDRTN4TWp6QUtXVU9LRWVGOUVfUEhWMFdSdmFMZTdrYVJPWTNhWmlDdV9NWUZPSm5JdEJmZDhzVTU0RGJyZVBCdHZiODM2ZU82Qmo2S2ppRGh6bnZTNEdXVHFETTJnN0ZJTlNXRGRiZXZ4SVVJTVN2ZExZSUs5RXZn?oc=5"
+        },
+        {
           "date": "2026-08-03",
           "title": "Alibaba lança modelo de IA Qwen 3.8-MAX e ações disparam - Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVTR4QzZra2psUWdRUG9Kd3hIOFBlMy1pQWxPcFBVa3lHd21BS1VhQkxDYjl1aWNBZWt0T2JIM25DX2p3Zmx4WkZQTThLWmxoSXJCZE1VMTg3OU43YVhBc3BIOGNnU0xRSzBpMW5rVWdub0lUSERxZXRrZzlaMi00emhEd2ZGbEl2dmlSVGozMEZWSWdibUt2bTkwZ3pveURCUUs1LXNoR2ZGVmlPQVpv?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-07-24",
           "title": "Opinião - RICHARD WATERS: EUA podem ter dificuldade em ignorar efeitos do avanço em IA da chinesa Moonshot - Folha de S.Paulo",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYmxKXy04bVZxSzFoSUVvNUN0Yk02bXJpM1BGRlFTN3JucjhSV0FOOGRqOFV1T2hyTDVjZi1ieW9DVGd6T0FiMTZtM2VsdFAzRVFGdW55SnVpX0MwSTJNaUI4RUVFQ2Q5T0JVQzdPYUxLZ3JqRFVadDV6OTF6bnl4dnEzWFN2emFySUtHak84VnZzUjJ4NW5ZWGhfWlJDVDNzMVU2M053eUVlWnk1blVsTnJFSjk4NERwOVhRVE10ekdpcURYOEJZ?oc=5"
-        },
-        {
-          "date": "2026-07-23",
-          "title": "Vazamento revela data de lançamento do Qwen 4.0 da Alibaba e inovações em IA - Mix Vale",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcUQySTRLWmI2N2ZnaGVoSThGaklGOTFKVktZQU9TSHJ3VVZRX1k4U3N5MjFfalZvcXAzaTFxdWdoc1Biel85b2d6aXRHOEp2VkdiUkxJNmdhTEVqQmh1a2JMNmxENkdfcmdXRFJURnlWVU9vYlJZcVdJUzd3andERUNQRnFjeGlESHB4SWZuZVFENXk2aHdsaUpBVU1XcHYtdk02SGZKSXRMMFJIRnF3RlRuU2hrYXE3aV840gG7AUFVX3lxTE9xRDJJNEtaYjY3ZmdoZWhJOEZqSUY5MUpWS1lBT1NIcndVVlFfWThTc3kyMV9qVm9xcDNpMXF1Z2hzUGJ6XzlvZ3ppdEc4SnZWR2JSTEk2Z2FMRWpCaHVrYkw2bEQ2R19yZ1dEUlRGeVZVT29iUllxV0lTN3dqd0RFQ1BGcWN4aURIcHhJZm5lUUQ1eTZod2xpSkFVTVdwdi12TTZIZkpJdEwwUkhGcXdGVG5TaGthcTdpXzg?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -186,6 +186,11 @@
         "banimento modelos IA chineses"
       ],
       "evidence": [
+        {
+          "date": "2026-08-04",
+          "title": "IA: O obscuro filtro de Washington - Outras Palavras",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMHBTTUMyd2hlcllHN1dMZDRQejJYbmt0am9Za3ROTzYwY2ZISjZta1cwVUpPbFRvZ3FEbXh5QzhySzd0eVNmQ0hzeGo4bGs1X0Q0SzVESGVkOWhBbWpsZkIyNV9fa215T2toNGlZY1RyaExERU1RU2d1d0tvYklRcFFyVjBIbV9I?oc=5"
+        },
         {
           "date": "2026-07-30",
           "title": "META|Meta Platforms Inc|Preço:586.041|Var. %:-7.369 - TradingKey",
@@ -230,11 +235,6 @@
           "date": "2026-07-27",
           "title": "Sam Altman se reúne com governo Trump e senadores sobre IA - SpaceMoney",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTDdUZmlYbXBjNDFKOE5oSWc5SE5DV2c4bUVfVzdpOFBVS0FxdUxBeHB0RGVYMWlCQ0kzSm4tb3RLdFpBTUZ5TDRrR08taEZYSDJfZE93RFB4U1N0S1Q3bFNkTEplcldURWpmRzJxbDhDVlRONkYxZ200dmtMYWk3emZlUnFkVDFiS2drWlNWbS1pODBZQjE2bFVn?oc=5"
-        },
-        {
-          "date": "2026-07-26",
-          "title": "Linux Debian pede votos da comunidade para o uso de IA, com a possibilidade de banir a tecnologia - Adrenaline",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY0lsQURzdmJQTk5GaEs0WnhhLW1qVGVIRm5WelNpQV93TWZHMjhEN1RXdWF4X3RJUmxqTVdlZFRINkMzUXhiYWhRejhlVkJSb1hWY1diMW9vZmRlZU85Q1VDeGI0UFNqSGlFUC14dWk0S1JfSVpIanFxbmJOTE8wOHJENy1UdHQxT01nRHNIUkFZMXZIX2NuRWh3MnJBYkVHSXRTM3dqTW12OUFRLW40eElwT0RLdGk4VzNxaVdjdGlHMnQ5NG5jUUln?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
