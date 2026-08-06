@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,26 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-05",
+          "title": "OpenAI aposta que o Astra pode enfrentar o Kimi K3, mesmo sem ninguém conseguir rodá‑lo ainda - Yellow.com",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdWZQX0VybHJYV0g0bWlycW5FWS1lWHZaM2xzcC0xaEthM1JjaUJiTE1hWjIwOW43ODh4eW14YkxRdXoxaUNoeUladlBuaFRqOGpiNHJrQ1ppQ2Q1dWpaN0tYQldBNUtlWThuRmRoRzJrVnE1ZjU2ajdyaDlGTXhFcDlzTm1JdkZ1SWVjeFpETjdMSGhaU0g1OXRkYnhGcjBYVUtzT1BuRDJGOWMzZ21sbllzMFVMSkVlZGtRWXRld1g1ellZaGgxSzByZmpxQlNEZXNn?oc=5"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Atritos em IA, robótica e comércio se acumulam antes da cúpula entre Xi e Trump - Portal do Holanda",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZEFuNzdoN0tFSEgwck42UW4zSVFRTUwzYUc0cVliSWhUQ1dvTzAwWGlqeWlXUERWZVItMy1PdW5SZTFiMDRqRDBIZ2dTWC1heGk5SDhIQUo5MjNRRHJJLXBvNWhIUVVlTTZaT2FmXzd5R05hSkRSaDlOaDZGRXp1dmNOMl9Paklrd25OSHZaVUFCZFNHTzBHNWMta1JlMHBWblRLaHRWZVNlbENUamlXeVYxMDVLX0VJOHE4?oc=5"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "Kimi K3: 2,78 trilhões de parâmetros em uma única CPU - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0hoejZEdWh5M3V0NXNDVEJhZmZ6T19DY19XQ3pkTlBVVUJSR1dsV0xSWjM4bERKVVROR0J5U0pZZERWWlZnWmhReG9GY2tMd2FyM21IWGJ0MDFYUFN6c05hSXU4TDFSWDR2OXF2Q3dIdlVwQlRDNndJdGN1THBLbHh2emxKTl9h?oc=5"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "A China está acelerando o processo de disponibilização de código aberto de seus modelos de IA. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLTRYY1NRV29VajBBMGN4dktZRkxwOTRFc1FZSEJQZ2hlR1dHS2tGRWF4V0FCTDVFTm1YNHB1c0hrZFFyNlN2SVFBQzVJcWFiTnBnTmlCRWFjUXNjeVdCLXlHUzBlLXRMM2twMDlMRV91eC00TnMtYkl5Nk9wRUtHcW9RUzVVaVdlQl9QMw?oc=5"
+        },
+        {
           "date": "2026-08-02",
           "title": "China ganha novo modelo aberto de IA com lançamento do Kimi K3 - Seu Crédito Digital",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JUjVNZFlJckFzckJ5dkI5MWlTMEEwcEY3Y3JhRDd1YWtHMEVmUU5feWI3eWVwQ1ZjaFA3dHZTT0xVSVBURDlhOG5MMklPSG1fTVREMmUyeUJPSk5lV1ZVTnVob1VMSzM4bjhQeXdZMk5xYUV6Z0FDWmRn?oc=5"
@@ -75,26 +95,6 @@
           "date": "2026-07-29",
           "title": "E aí, IA? – Resumo do dia 28/jul/2026 - Buttondown",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RSTlreHAtLXptdjZyV2t2c0s5WFlmWDJHb010YVZVdVJPTnhtazhqaEhzVFIwRVpBSnJLYWpyNU43Z2dyMklzNVNNSGZURHp5NGxCTktoOWlWdzJMQkpSQmZpZXFvaVdrS0psWFJ4WndGMkNLcENTWA?oc=5"
-        },
-        {
-          "date": "2026-07-29",
-          "title": "Moonshot abre modelo da IA Kimi K3 - Poder360",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWEFyY0ppeWFuRWpUYXZwOWdHQXpSWmk3cHMtT3RNRUEzOU9fR0VDdGk0VHNUVUxsc21waHQ2dHp1NnZoTDdXemZlZUlybnRrc250YVVyN0paZ2pJdXBIVnd3alBvLUFrS1M4NGgzTl82RkJwV1dZUl92X3hJRE9aSA?oc=5"
-        },
-        {
-          "date": "2026-07-29",
-          "title": "Startup chinesa abre código de inteligência artificial em meio a tensões globais - paranahoje.com.br",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNWxNYlB6VU5TbWduNFRWMjdFa1U0a0tnNWx2Vkk2R0MzU1ZNYW5mMGZkQzN6QnZmTktENE1oN183ZHFCMFg2dDJZRDNXOHlYdkZNNnZHN0g1MzAwWXVSWFRNTUg4VlEzbTV3ZkExSHRzVmZnUF91VnhPNUx4LUlSalhQSXBvUHY2Rkd0NzhTLXNzN05LTXZzSUpPSUpSUnZ6RGh6dHo4VlVNVkE?oc=5"
-        },
-        {
-          "date": "2026-07-29",
-          "title": "Anthropic nega ter pedido proibição de modelos open‑weight e expõe seu verdadeiro temor - Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX2tOR2g1c0lnQ0tqS2xsbTNfekVsWHdoaDUxMGd4VWQzZEMtOVgzdkRlQUtWMDVxNHdsZzJyUVpEU0NyTDRRaEJ6V2J4Ynp4RXdJR3VTOEZab2pxQ2x6N18xaHdDR0NwRVB0cWFHdWZfbzNDWlZzTVhlQXd3bXBuN3ZVZlFMR3RscFhXbjRCRzhGTUFidHVkX0FsZzZmQVA4dUYyejhkQTVibTE0N3doeGxn?oc=5"
-        },
-        {
-          "date": "2026-07-29",
-          "title": "Anthropic rejeita acusação de lobby contra modelos open-weight e expõe seu verdadeiro temor - Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUExoU3dJMkhhTm5uRmlMenpNc0lGejhGb05GbzcwcHRSQkdDMV9OcUhtRVI5N3hPbjllVlZ0X2hGXy1UTEZsSnFRdjdKYnRVbFllYWhBRi1xN3lOWXd1eFZlZmhodFpXczdPM3NSenVWR3VLQUMxX18ycmdLQkotX0dyS2Y0X21ialNTSEFrRHY0SUtJQkVKdl9uRGx2eHkzdFdGNnFVdVBIdmFuaEU3YjZDWjY3UzE1b185NHJRaURKR0t4SW5GaGRxbmpoQQ?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -162,9 +162,9 @@
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY1VyWEVoQ3JtNUxIR1ZuZkh6TGllVDg1SExaS2M4azdFcU9vc0R6c1ZQRmNMeDVRdnlxUWxqVGpwdGphNzhkeHZoaTBwVWtGRUpKbE85bXZvbXc2Wi1ycVRSdGFwUDY0Tzk3Y0EwcDByRlJINVpYWWVQVGplcjBSeVNJN3ozSG1sQzlGbEgzT0FIbFE?oc=5"
         },
         {
-          "date": "2026-07-24",
-          "title": "Opinião - RICHARD WATERS: EUA podem ter dificuldade em ignorar efeitos do avanço em IA da chinesa Moonshot - Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYmxKXy04bVZxSzFoSUVvNUN0Yk02bXJpM1BGRlFTN3JucjhSV0FOOGRqOFV1T2hyTDVjZi1ieW9DVGd6T0FiMTZtM2VsdFAzRVFGdW55SnVpX0MwSTJNaUI4RUVFQ2Q5T0JVQzdPYUxLZ3JqRFVadDV6OTF6bnl4dnEzWFN2emFySUtHak84VnZzUjJ4NW5ZWGhfWlJDVDNzMVU2M053eUVlWnk1blVsTnJFSjk4NERwOVhRVE10ekdpcURYOEJZ?oc=5"
+          "date": "2026-08-03",
+          "title": "Alibaba lança novo modelo de IA e disponibilizará sistema em código aberto - Mercado&Consumo",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN2ZDTGtMRWhsdkw0Z1VTUUdPN3lXRmZXelZRMnQ5MHdlUElsaTZVRUJYS3Vpd2dYbFFocXc1UGF5NmVwRURTVjVrSFRKVXJidDJqa1VISy1fZThmSVJTUDdSTlFfdWozUWZHekM3R1Z5V19ZVTllRnNDRVdldzY1R2FJdnRXOFJfYU5WMTJlWE92Mi1yMWZrQ1plRU5RQUg5RHVLTFNvOXlpT0tUajRHZFlaM01iSFRfTWZ1U0kyWWkwbDM2U2Zz0gHMAUFVX3lxTE9vR2hUSnNSMHZoM1lKZlhGY2tGWjYtOWdXU3ExUDVMd2ZXaW8xTE9lWWY1NEJCR2N6LVhaaDdBY3NNLWRPMW5wNW82Y0xOSkR6X2lkZWdTZmZJZ3VKVVc0QkZITzBXRUE0V1dQQUhOSTBIcExGYXJKOG52ZUxETy00SVdfcVp6VkoyTHJCeVpWOGtKMFdCNXdKb18tLUZXM0dqZkYzTU5SSndiZ0EyM29YaXF5Vm80eEtSSUdqMmxjUkhVWk5EZFoxS0xJXw?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -327,6 +327,11 @@
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRU2UyTmNhYXIybEh3TkhXczFSRGJnMmJlRHF1b05wUzRCSEQtWnFJem1DNEQ5bGFEZDgwVnlYdV8yQWc1TURGMTBNT3VPb19uS0NxNXVfeDduY3FsM08wdEJkV3l4NHpmeG9ZSnJvZw?oc=5"
         },
         {
+          "date": "2026-08-01",
+          "title": "Brasil vê na Waico oportunidade para fortalecer soberania digital em IA - News Rondônia",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUlppMXNxTUFfRk1BREFXVklaVWgtczZ3eUItS2s3Mm1KZ0VPWVpYdlVhN1ltaWtZRmVLNWV0a2tKREdNSVcza25VSkM0UFVXekVjQnhrWFhVZTZtYWdhYm9Pd2E1QnJxSTViNEdBVExhRndOTld0LUFDZ3RMMkhfY05oOG1hTlhGaS1sRVNjbTNEVDlkX1Y4cmdrX3JLeV9pYlRXY3d3dS1ZNHdva3dDR3paTjJ0QkdHTmM1ZQ?oc=5"
+        },
+        {
           "date": "2026-07-27",
           "title": "Entre Bruxelas e Pequim: acordo com a China coloca Brasil em dois polos da regulação da IA - Consultor Jurídico",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTFVPVjI5eC1kTl9MQUVaMEhWOTc0VEtUNFBicWU2MGdfRy1wN3ZCZ2VjUlV4RTg3a045bjVpNEc2OFF1elNPWnlJUk1xUUlKUGQ2OHFpT19RTlBHVkNndUxvQXJMekNzaElzRWoycTZ0WnpEYzBmMU5Od1ZFeW9fRnJ4WUdBRlpsdlBKVGdUR1F3dmZMOFJpSmZnZkRWUmRJNHE5czVBa0dZVTVGUURjWlFvbjZiY09mbm1oSlRISHpRVUZ6a0tj?oc=5"
@@ -340,11 +345,6 @@
           "date": "2026-07-27",
           "title": "Entre Bruxelas e Pequim: acordo com a China coloca Brasil em dois polos da regulação da IA - Consultor Jurídico",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeENWU0pmN2JRbHFmZC1jcl8ybERYY2NwRm5uV0MySE5hU1RlSEk4cnN2dzdybk12LWUyNWU5dFhKQllHeFhQUlpVdlJudjNiTG5UQmFTOWRYRE1ZRUZoT2JHaGNjb1lTU19ZeTQ5eWZpSmNGWURSbTNjbHl5U0wwOW9BOFpVcThocmwtdV9odFNvSFpDLTRfYmJlUldlNXNVdi10UEN3bWtWWWZlekl3Q25uN2E5cU5IbXYtTjhpMk1uQQ?oc=5"
-        },
-        {
-          "date": "2026-07-27",
-          "title": "Entre Bruxelas e Pequim: acordo com a China coloca Brasil em dois polos da regulação da IA - Consultor Jurídico",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVVllRkg1LWZpalUzYko5bzUxb3U0cWFnUWRBbHoyZHRQeVg3azBIMHRyTWwyWGxqamwxdVV2bEdxaGlYVHhpWFdaZnRxWHNFQ0kxYUREX2wyUFEtR3Vzc3hvOUR1SnVEMkVhZDZrcFNOSHFtMTdnNld6d3dqTVI4YXBFYmxldEQ4eGg3ZzJRZXU2SHBnTzhOUVNqN2lsSmRUcGhVV19rMjcxcHk1N05PS0pYVjhyZDJTRm9nQzB4bkx0OGRKZzJQenEzX2Q?oc=5"
         }
       ],
       "title_en": "WAICO lands concrete adoption commitments",
