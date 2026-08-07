@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-06",
+  "updated": "2026-08-07",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -57,6 +57,11 @@
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZEFuNzdoN0tFSEgwck42UW4zSVFRTUwzYUc0cVliSWhUQ1dvTzAwWGlqeWlXUERWZVItMy1PdW5SZTFiMDRqRDBIZ2dTWC1heGk5SDhIQUo5MjNRRHJJLXBvNWhIUVVlTTZaT2FmXzd5R05hSkRSaDlOaDZGRXp1dmNOMl9Paklrd25OSHZaVUFCZFNHTzBHNWMta1JlMHBWblRLaHRWZVNlbENUamlXeVYxMDVLX0VJOHE4?oc=5"
         },
         {
+          "date": "2026-08-05",
+          "title": "Governo dos EUA diz a empresas de IA que modelos de peso aberto da China serão dispensados de testes - O GLOBO",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPZDJ5ZFRkakdyY1Y1TlhNcnh5YlhQQm1meko5dGlFXzJoQ09SbFpWRnZlVm8tQzZxc01nM2c3cUV1ZkxSR2FxTUZtcUhNOHIyajhESHE4bGpLb1AySUQyRE01NXBmMTFuaHlnZDdTSWQ2V2xEYkVwRDlzVnhTQ1VubEFnVFdieXJYQXBtZ09yMmlsN2lPcmJjYUVLbkxweTUzQ2NkUEs0TjEtc2lsX2dVSkJ1NnBPYThpWHJsV3owV1hjMkNPa1FnRzNJem1PYlF0dllqcTRIWkFuR0JnaG00RjBDUHhRR1U3LVZvT2lpSTR4SGp5VGhpVnJwdWs3VEHSAY4CQVVfeXFMTnQ5WC12R0x4WnpBUGlrWjU5dVBpOEpyX09rT0paUm1FUHdkOXlEaGRVUkNnV2hIamhJZWxUS0Z4NFUtSzR3SzE2NkktWEJNQWc5azV3NDVYd3NTLTVEc1phZkgtNkJSMGNzUmE2eG9nbVBWT0xRWXBybzlwTkFXZmpRN1ZKa1laTkE2OHRYSFNwN3dncWJIN1dEdS0yYUdwNDBQeUwzeURqVXMwdDZLSGtfanlGcDlxMG8xVG90b3dfcjViWEZYODg4d2ZQZWlfVkY5OVJxa3RwQ3NIOVBvU3Fxc0F2V1lyQmJFWXRNQ28zNWNEcGVVSU5sVXhlT3pFd2h3R0RlRV83Q3VJOWJn?oc=5"
+        },
+        {
           "date": "2026-08-03",
           "title": "Kimi K3: 2,78 trilhões de parâmetros em uma única CPU - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0hoejZEdWh5M3V0NXNDVEJhZmZ6T19DY19XQ3pkTlBVVUJSR1dsV0xSWjM4bERKVVROR0J5U0pZZERWWlZnWmhReG9GY2tMd2FyM21IWGJ0MDFYUFN6c05hSXU4TDFSWDR2OXF2Q3dIdlVwQlRDNndJdGN1THBLbHh2emxKTl9h?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-07-30",
           "title": "Moonshot AI: a empresa chinesa que tirou o sono das big techs - Olhar Digital",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeTB4OUtJdXNSMU4ySnZRX0ZaYndEYjVyak9ranhTNjh6VVlMQ3Ftb1pYSklnWGtES3dBLWRaRXFjSVRERURfV0JHdFZja3NYQUUtUW5LX0VyRXVXUTdtWUk2S1NnTHVVYU9XMEZCNl92cG1oRTlpRjRhWGRiTjNVZEF3c21HYm9SUFFid2lpODRFSkw2RG8zeFBldEl6cEVwOHpMSnhpUQ?oc=5"
-        },
-        {
-          "date": "2026-07-29",
-          "title": "E aí, IA? – Resumo do dia 28/jul/2026 - Buttondown",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RSTlreHAtLXptdjZyV2t2c0s5WFlmWDJHb010YVZVdVJPTnhtazhqaEhzVFIwRVpBSnJLYWpyNU43Z2dyMklzNVNNSGZURHp5NGxCTktoOWlWdzJMQkpSQmZpZXFvaVdrS0psWFJ4WndGMkNLcENTWA?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
