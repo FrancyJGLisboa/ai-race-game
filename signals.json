@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-09",
+          "title": "Kimi K3: Moonshot AI Criou Um Problemão Para A Anthropic Alavés Vs Barcelona (T3wEp8ttqd) - Mshale",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nenN1RGs5S2tNeGU4YV9RejhBcTZLZEw0R0xsTzFkS3h6a1NFNWhxMEt4cmhOMVdJcTItLWp5LUNaZ2Jab21xVXJsSkdiWjd4TWlMZl9vNWFLY0U?oc=5"
+        },
+        {
           "date": "2026-08-07",
           "title": "Kimi K3, IA chinesa da Moonshot, escapa de sandbox do UK AI Safety Institute e expõe fragilidade das avaliações de segurança - O Cafezinho",
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOQ003a3Fnc3pQTEJlR0R3bEljR3dyd2QxakNfc2dzSUhnZHpLaF9tbEYxcVpYSlhXSV83NHlTOXNuR1hERXZBanlKWW1OV2hKT19BQmVNUlBUdklpR2JKWk93UUVrZWw2S1ZwUUlFdVJ4TWlteWpvaTNIVDRISzVBU2FTaVZjSDlyWDZRNWVobjd0UlRJWFJkcVlzcXMwQmxoSzRDZUpHcUE1MEllZXUxdUxpWElwYVFLSmhGOWJwWTVHYTVadFQ3cUk5LXo5NUlxT3VuWnBPZXZ1SWlhTk9sX0xjSERaNldxMzAwSnp5VUgxMDDSAfgBQVVfeXFMUHRxM25vRlFGLVNfT1RCRm85TG5pUnI3WEt3NFQ3S3VXTVpIMUZCOGZIdm1VTjBaUnMwU2FkQWxhaWlMTHI3bVBPT0g1STNtOFloNEFwWDVJRGRhUEdHM1VqVFNha3F5TkhRWnBaUXRJWFQzMTdCYjBqbFAzRDY4OUV1ek9wVWEyY3hOeUVKbU91OW9UMDgzWWZQLTBzcjRCNUlvX1RYazc4MV9Eb3lQYjJRTmZVQ0pzLWxfa1lJUzJjQnA1STM4UHU5OVJaelZlM2FpZWkxNFJtZHM3U0RkTVRqX0F4OVNfUXI2OWhpTkFnTTJUc0RoaDU?oc=5"
@@ -77,6 +82,11 @@
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSHFxeWQ2Qk1tQkMycTNPX25pTzJwZ2FSM2VkVzFvd2dqYjFQNmduTS1YSllTN3lmak5STlRVeEtTMVk0V0NRWm0zc3EzekdCN2tUQVhyRk1xVFN5WGVyZWVmWkl1U0dDODJYVVNsZXVsWnlqMmszNFRhSlJZcUFVdkRRZXJweWVxa3F5VHNiQVJHLW1oTnFkTkhmYUZKMkNWM1RxaUJ1LU9veXRDaVVPeENHYno?oc=5"
         },
         {
+          "date": "2026-08-06",
+          "title": "O Kimi K3 da Moonshot AI já está disponível no Databricks por meio do Unity AI Gateway - Databricks",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX3JyMENYTmJpRWMtQm5JbG82UlFTaHBnbnAxUjRnMDZiUVJhSEg1U2YwdFY5aHdMQUFJLUF1NVlHa09MZ1Fjc2ZpQUpMc05BRGNMZFFYdkRJUnUtMU51MldIXzRvSGFYaHVPY1FNa0E5S1FVWE9vZ2pjNmNEejd5QmVQVVlkc3FYMGtYdTJfTUtQRjdNSjJWM3N6UXpWZm1Ic0s5dGs5MA?oc=5"
+        },
+        {
           "date": "2026-08-05",
           "title": "OpenAI aposta que o Astra pode enfrentar o Kimi K3, mesmo sem ninguém conseguir rodá‑lo ainda - Yellow.com",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdWZQX0VybHJYV0g0bWlycW5FWS1lWHZaM2xzcC0xaEthM1JjaUJiTE1hWjIwOW43ODh4eW14YkxRdXoxaUNoeUladlBuaFRqOGpiNHJrQ1ppQ2Q1dWpaN0tYQldBNUtlWThuRmRoRzJrVnE1ZjU2ajdyaDlGTXhFcDlzTm1JdkZ1SWVjeFpETjdMSGhaU0g1OXRkYnhGcjBYVUtzT1BuRDJGOWMzZ21sbllzMFVMSkVlZGtRWXRld1g1ellZaGgxSzByZmpxQlNEZXNn?oc=5"
@@ -85,16 +95,6 @@
           "date": "2026-08-05",
           "title": "Atritos em IA, robótica e comércio se acumulam antes da cúpula entre Xi e Trump - Portal do Holanda",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZEFuNzdoN0tFSEgwck42UW4zSVFRTUwzYUc0cVliSWhUQ1dvTzAwWGlqeWlXUERWZVItMy1PdW5SZTFiMDRqRDBIZ2dTWC1heGk5SDhIQUo5MjNRRHJJLXBvNWhIUVVlTTZaT2FmXzd5R05hSkRSaDlOaDZGRXp1dmNOMl9Paklrd25OSHZaVUFCZFNHTzBHNWMta1JlMHBWblRLaHRWZVNlbENUamlXeVYxMDVLX0VJOHE4?oc=5"
-        },
-        {
-          "date": "2026-08-05",
-          "title": "Governo dos EUA diz a empresas de IA que modelos de peso aberto da China serão dispensados de testes - O GLOBO",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPZDJ5ZFRkakdyY1Y1TlhNcnh5YlhQQm1meko5dGlFXzJoQ09SbFpWRnZlVm8tQzZxc01nM2c3cUV1ZkxSR2FxTUZtcUhNOHIyajhESHE4bGpLb1AySUQyRE01NXBmMTFuaHlnZDdTSWQ2V2xEYkVwRDlzVnhTQ1VubEFnVFdieXJYQXBtZ09yMmlsN2lPcmJjYUVLbkxweTUzQ2NkUEs0TjEtc2lsX2dVSkJ1NnBPYThpWHJsV3owV1hjMkNPa1FnRzNJem1PYlF0dllqcTRIWkFuR0JnaG00RjBDUHhRR1U3LVZvT2lpSTR4SGp5VGhpVnJwdWs3VEHSAY4CQVVfeXFMTnQ5WC12R0x4WnpBUGlrWjU5dVBpOEpyX09rT0paUm1FUHdkOXlEaGRVUkNnV2hIamhJZWxUS0Z4NFUtSzR3SzE2NkktWEJNQWc5azV3NDVYd3NTLTVEc1phZkgtNkJSMGNzUmE2eG9nbVBWT0xRWXBybzlwTkFXZmpRN1ZKa1laTkE2OHRYSFNwN3dncWJIN1dEdS0yYUdwNDBQeUwzeURqVXMwdDZLSGtfanlGcDlxMG8xVG90b3dfcjViWEZYODg4d2ZQZWlfVkY5OVJxa3RwQ3NIOVBvU3Fxc0F2V1lyQmJFWXRNQ28zNWNEcGVVSU5sVXhlT3pFd2h3R0RlRV83Q3VJOWJn?oc=5"
-        },
-        {
-          "date": "2026-08-03",
-          "title": "Kimi K3: 2,78 trilhões de parâmetros em uma única CPU - Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0hoejZEdWh5M3V0NXNDVEJhZmZ6T19DY19XQ3pkTlBVVUJSR1dsV0xSWjM4bERKVVROR0J5U0pZZERWWlZnWmhReG9GY2tMd2FyM21IWGJ0MDFYUFN6c05hSXU4TDFSWDR2OXF2Q3dIdlVwQlRDNndJdGN1THBLbHh2emxKTl9h?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -367,6 +367,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-09",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeW1KeEowQlVBQno1ZGRaemp2QmZLOEVVNzhfSjFSNjMwellyX1gxQjBMeFNSa2JRYWF3V0oxV0wwOXZXMS1jR3R5WElXeEgxbjZKWlQ2X1dqd3VMaVpuc2M5MTl3TEo2TnhFZk92LVJ5Y0plbkZrTWFvYkhfVkhZUGgyUnNKUQ?oc=5"
+        },
+        {
+          "date": "2026-08-09",
+          "title": "Gate.io lança oferta de ações pré-IPO da Moonshot AI (KIMI) e contratos perpétuos de futuros KIMI/USDT - Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUzNiWmVVa21LLTkzZDJ0c1I5dDV2Q2RzM2JwSzhxcVl3RFJnV3hmTFZpeTgycTN2WGhkclg3QmZoOVZLN0dxUmk3VkxsXzNlUUh0dWJxMUgyc0tXd09xbmllVlJ6WFRrOFBvRm91dVRON1BIaTlrZ1Bld3pNRlZySzRyVnVVenNvV1FUUmRsU05tRm5TTjJ6bnc2TQ?oc=5"
+        },
+        {
           "date": "2026-08-08",
           "title": "Gate.io anuncia os últimos 3 dias para subscrever o Pre-IPO da Moonshot AI ($KIMI) - Traders Union",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd2RVWG10Uk5YQ19NQWRUY1ppeGh0WmswUGZUa0FVc3lfOXpXaHppeVd3SHY2YURneUhQMC1rY1RGYloxMEFBcHlXWGZtbUNLTXlFeWhyYTFrYjN4d2ZoejlsRWJlZ0dINDdVLVN2QXUwRGppY1h0UWw5eEpSSVl6UFkwS1dBd2ViYlVjcnFwNE5zRktnTExjSg?oc=5"
@@ -405,16 +415,6 @@
           "date": "2026-08-07",
           "title": "Bitget lança negociação de contratos perpétuos Pre-IPO $MOONSHOT com alavancagem de até 10x - Traders Union",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMWNFZXA3eWVTNllDQWVJYzdRNFc4ZXFFNXZ3cmNRdGR1ZXRpZG5COTJKLTlGRFVVbzFrNlZwVFBpeVo2REtvaXA4MmNZX1AzcU10bnhEcDNRUmFtV2s5RHNHX0duaWEtT2xlM3VRYTI2Y0JsdWdrT3ZTNkdQOENsUEpWS3ZpVlktRzN5QlB1dkF0Z0JNMkZKcXZ0X3RfbXZiZUVfdmxR?oc=5"
-        },
-        {
-          "date": "2026-08-06",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFlJWnU3S1NEeXBGQUtESndhZUN6X1pOWFI5SVBLSm0xRUVSdjZ2dTBxNVBRRkRabzdUZ1piTG5xTGVLOWQzQUdud1htOThGVVE2X3MyVmNvZW92R3hSUVB4Y0VNZ3Jlc2Z3M2hoU01IOEhqdTBGcE9ldEZGd3MxNTR6SS1wOXhWT0doOXQyUkRyUkdqRVROa1FHaHdnY21RdkFGYVQ5eXFrakdjNHJWMmlrLUEzTDgyMFpJWUhXYWl4d3RuUXc?oc=5"
-        },
-        {
-          "date": "2026-08-06",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aNm9qX2ZyeFFUcVZxTzlRYWFHanVMWU1xQ3BIWWFWMmRMNGk1UTFxVUNTamZYZzZ5MnotUHhFdTFocVNBOTRnTWpzT1hJM1lJUmp0U0lDUXpaNzA1UnJSX21XR3JBd2R4a19JTTZGY1VEa1dzeV9kY1Y4MHZISVU?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
