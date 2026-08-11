@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-10",
+  "updated": "2026-08-11",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -87,14 +87,14 @@
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX3JyMENYTmJpRWMtQm5JbG82UlFTaHBnbnAxUjRnMDZiUVJhSEg1U2YwdFY5aHdMQUFJLUF1NVlHa09MZ1Fjc2ZpQUpMc05BRGNMZFFYdkRJUnUtMU51MldIXzRvSGFYaHVPY1FNa0E5S1FVWE9vZ2pjNmNEejd5QmVQVVlkc3FYMGtYdTJfTUtQRjdNSjJWM3N6UXpWZm1Ic0s5dGs5MA?oc=5"
         },
         {
-          "date": "2026-08-05",
-          "title": "OpenAI aposta que o Astra pode enfrentar o Kimi K3, mesmo sem ninguém conseguir rodá‑lo ainda - Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdWZQX0VybHJYV0g0bWlycW5FWS1lWHZaM2xzcC0xaEthM1JjaUJiTE1hWjIwOW43ODh4eW14YkxRdXoxaUNoeUladlBuaFRqOGpiNHJrQ1ppQ2Q1dWpaN0tYQldBNUtlWThuRmRoRzJrVnE1ZjU2ajdyaDlGTXhFcDlzTm1JdkZ1SWVjeFpETjdMSGhaU0g1OXRkYnhGcjBYVUtzT1BuRDJGOWMzZ21sbllzMFVMSkVlZGtRWXRld1g1ellZaGgxSzByZmpxQlNEZXNn?oc=5"
+          "date": "2026-08-06",
+          "title": "A Microsoft Abre 26 Modelos Abertos para Startups por meio do Fireworks AI no Foundry - Unite.AI",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNalJJQkd4dDR3TkJrYlU5UENXRG12YjZORkRoejBYeDBfVFIyLVhaSkloWEdwTnpHbmdLeUJGaERPVDJSeHE4SEJLbElITy1CT2wwWmxXNGRlaTVLcExGbEJ5aEJ1MEtqbW13ZDh4Rk9ZWFFNLVh6Z2lOQ3pHY1BFVFJaaHl3ZEVMZExPOFlMOXI0WnlscW1yRUg2WEpnOGpw?oc=5"
         },
         {
           "date": "2026-08-05",
-          "title": "Atritos em IA, robótica e comércio se acumulam antes da cúpula entre Xi e Trump - Portal do Holanda",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZEFuNzdoN0tFSEgwck42UW4zSVFRTUwzYUc0cVliSWhUQ1dvTzAwWGlqeWlXUERWZVItMy1PdW5SZTFiMDRqRDBIZ2dTWC1heGk5SDhIQUo5MjNRRHJJLXBvNWhIUVVlTTZaT2FmXzd5R05hSkRSaDlOaDZGRXp1dmNOMl9Paklrd25OSHZaVUFCZFNHTzBHNWMta1JlMHBWblRLaHRWZVNlbENUamlXeVYxMDVLX0VJOHE4?oc=5"
+          "title": "OpenAI aposta que o Astra pode enfrentar o Kimi K3, mesmo sem ninguém conseguir rodá‑lo ainda - Yellow.com",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdWZQX0VybHJYV0g0bWlycW5FWS1lWHZaM2xzcC0xaEthM1JjaUJiTE1hWjIwOW43ODh4eW14YkxRdXoxaUNoeUladlBuaFRqOGpiNHJrQ1ppQ2Q1dWpaN0tYQldBNUtlWThuRmRoRzJrVnE1ZjU2ajdyaDlGTXhFcDlzTm1JdkZ1SWVjeFpETjdMSGhaU0g1OXRkYnhGcjBYVUtzT1BuRDJGOWMzZ21sbllzMFVMSkVlZGtRWXRld1g1ellZaGgxSzByZmpxQlNEZXNn?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -367,6 +367,31 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-11",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSER4blVHMUloWDROYnJJUTBWaWN1dEtHOW5UREQxYUxlVDY2aHVzWUdrbWM4blZNT2Zyb0tmSEQwdDlZYXNhRTVOdG9fZ0g1ZUNIQVk1RTIzYzVDX2hBSDdlSlpOOHY1R3VaSnhnR0ZZQVhZZmVfQnIzcWdmTlZxSGFmLW5Ceks5ZG93YUxXUjNXZHItNVpiVkFxZFhyQlNBTHlTaVV5MW13VlNnV1hOZ0RSamEzRnk0R3VlUjg2RlV4V0xN?oc=5"
+        },
+        {
+          "date": "2026-08-11",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUVJLeEY4OUdmTDhJQmlGUS1CS1VBeGFRbkZOUm5oQkM5ODFwcVJvZFRhVUJ1cDZScjJRSXJZMHkzMUpERFBGZ0xySVVWMElKT2lZZHlfM3NHYld4am01YjZsWF80Sm1qTURDTzh2eWwyTkYzQXh5aGFHX0pVODVBTlRUbFlYWjdHVWh3NDJiQU1RSTRFMGpDbEpBMmYtNVk3RTVraTNWcUVIZ2xuRE50UV9oX3A1WHFBZWxRbWNTcjRmMnB5VnhaYldpU1dFT1R1UTY5clR3?oc=5"
+        },
+        {
+          "date": "2026-08-10",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUVFNLXNTemN2STFMZ01EUGt2ZTlRcmF0V253a2RRN04telM2MEhHcW5NYnN6ZHZRNnUxaEk3WmhxRXo2WmoxbGI2Y1pHV0lMWEtmQ1pUMFgtaGpBWkRSNV80bXZtS1puelh0WXlNRUdrbDlyQ1U5MUJsV3hQVUpGUDlCTjFSYVNiYkdRd2VKZnRtMk5QY3F0Q0V3MTBrYTRzdHFTNFdkTE5kQ1pxS2FlaWk2Yk9kY1E5ckkxZkRaWmRNZnNkVk9QZmZTelRqLVk?oc=5"
+        },
+        {
+          "date": "2026-08-10",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMGozMTRzTk5NNGEtbkthcGhZZUtnZnZLaXR5R0lzMVlScXNic2hBQWZrYXhpamxyOFVDdXZwcnJQNWpHdnktdWg3NXlaX0xHLWhjblNPWUVuQjBQV3lWWmJoTmNKN244QTRHZUlEV040U3lJYzhlZFlETjhoV2p3bzViQlloMEFMZkRISDkyS1NRYXpQUzBVY1lVNklDc01CYkdRSmRzOWFRSVpoUjdxNmQtNEVIY0lj?oc=5"
+        },
+        {
+          "date": "2026-08-10",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUkdOYjNfcEg1a2xscWRQdjhWUVpNYW9saE5qa0ZaRlZta2R5MXV6Y1l1TUk0blVmeHlSVnZRMVdKMHVsa2J1UGVVVnNXbWVUbWtrODNmamdwYlJpM1Brbm5ZSTVPcGFMc1dBMWYweF9iX3J3c2JYZ0RaeDFjX0cwazRQMmY1V1ZhQnQtNTE3UmVPaW1sWXoyTWd3UVJ1QjlJdVdrZWx2QmV1NGVYLXNvcktoaw?oc=5"
+        },
+        {
           "date": "2026-08-09",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeW1KeEowQlVBQno1ZGRaemp2QmZLOEVVNzhfSjFSNjMwellyX1gxQjBMeFNSa2JRYWF3V0oxV0wwOXZXMS1jR3R5WElXeEgxbjZKWlQ2X1dqd3VMaVpuc2M5MTl3TEo2TnhFZk92LVJ5Y0plbkZrTWFvYkhfVkhZUGgyUnNKUQ?oc=5"
@@ -377,44 +402,19 @@
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUzNiWmVVa21LLTkzZDJ0c1I5dDV2Q2RzM2JwSzhxcVl3RFJnV3hmTFZpeTgycTN2WGhkclg3QmZoOVZLN0dxUmk3VkxsXzNlUUh0dWJxMUgyc0tXd09xbmllVlJ6WFRrOFBvRm91dVRON1BIaTlrZ1Bld3pNRlZySzRyVnVVenNvV1FUUmRsU05tRm5TTjJ6bnc2TQ?oc=5"
         },
         {
+          "date": "2026-08-09",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVMwWVp1RUZxQVVlc3dQeGRjODF2dkxCVnJIV2pVd2Y1bzRkU3VKTkxCazQ1enFaSHZTYWdBcjI5VEFQZWxYcGpBdGpoYUVodm9pT09abjdnMVZDOG5iMXNIck9wZDU5TjF3SmhmZmZ0SDFRcG5IRG9RN2RUYWdDOGFOejdPN2w0Nk1MbHR3QnhaM1c3MVZzeTEwMEFCVHZTZEZoZFRIemllSHhUWUtRRVJ1b3g4aG1fZnBlVjB3WTZReUZvZld3?oc=5"
+        },
+        {
+          "date": "2026-08-09",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR1E0RExvNm9MSkF2UHhPNWk1YmNzZ3ZoTG9JbEdjM3pJZ3BEdVQ5OVp5T2dyUEtLVWxsdDd1akJUWDJRU0hnbVBSWHcxaEFhcnUzajAyLXNNakpjNGJvSklxczF0enQ5aE5vTy1BVTluZklMNGwxUTlXY2x0TnR0Q2Q3Q0hDdw?oc=5"
+        },
+        {
           "date": "2026-08-08",
           "title": "Gate.io anuncia os últimos 3 dias para subscrever o Pre-IPO da Moonshot AI ($KIMI) - Traders Union",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd2RVWG10Uk5YQ19NQWRUY1ppeGh0WmswUGZUa0FVc3lfOXpXaHppeVd3SHY2YURneUhQMC1rY1RGYloxMEFBcHlXWGZtbUNLTXlFeWhyYTFrYjN4d2ZoejlsRWJlZ0dINDdVLVN2QXUwRGppY1h0UWw5eEpSSVl6UFkwS1dBd2ViYlVjcnFwNE5zRktnTExjSg?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "O que é Kimi? Modelo de negócios de IA Moonshot, Kimi K3, financiamento e perspectivas de IPO - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeGpVTUdiT2h1b1l4M1NmbFREZG9taFc1UUNnd2lTY0FScVZ4UUpxTkYwa0NxNXlWSXpVSGwtTEtTeEYwOFlJUFZEM1lVbk05Y1hZRHotWEhPaTZrX0tOOHBNM1AyM1EwT3E0VG0zVU1wcHZabEh4Z2FjNnVrRU5LLUFaV2swVERzalRva2RfamJyakxzWTNuel9FVFRGaGNsa2ZGSTVFY0hiT0FNRklqMi0yQ1k?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "O que são os Futuros Pre-IPO de KIMIUSDT? Negociação de Kimi e Moonshot AI explicada - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSHFxeWQ2Qk1tQkMycTNPX25pTzJwZ2FSM2VkVzFvd2dqYjFQNmduTS1YSllTN3lmak5STlRVeEtTMVk0V0NRWm0zc3EzekdCN2tUQVhyRk1xVFN5WGVyZWVmWkl1U0dDODJYVVNsZXVsWnlqMmszNFRhSlJZcUFVdkRRZXJweWVxa3F5VHNiQVJHLW1oTnFkTkhmYUZKMkNWM1RxaUJ1LU9veXRDaVVPeENHYno?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "Guia de IPO da Kimi: avaliação da Moonshot AI, financiamento, investidores e possível listagem - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLXR3VkVOMi0tSHlLMlByUUY2MWdWLTZBcVJnZUlDQUtyZHM0YkF0RDdyRlhUSEFtR284X0p3NTNTX3J5eElKWjZRTFl6MkJkNGo0YnNqeGVnMEpxZHlaZE5CM0RfX29iSi0tUldvdnA4dUdfdF9YdkhMS0JVZHQxUnRZMnNDMVJOZTJwVFA1UDBFQXVJRGx0dDJueWY5aENtbnV6bHlEUzUzQm1DRHVsazZadW1EZzh6QjJR?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "Como Negociar KIMIUSDT na MEXC: Guia de Futuros Pré-IPO da Kimi - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ21EVEh0ODhJVGhQa29nU0w5QVJiSnFtYmE2LTd4LW9QZzh2eElkTGJDQkNuSmR6eWMyLUZjenY0M3dheEQycHh6X2VYYmlSdEJNNF9NeE1GLU1SRnNUclhBMTBhM1FPMjhwNHFQR0Uwb0wtWXpjNXc1ZjQyYTRVb2k4eW5GWEI4UlZSWUNnaUtWdzh4MTduR0xpVjg2em9M?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQ1hZNlRNWUV3ZTRia2pjT3BhU1pJR0JoQnRLRF9BSUNmS3lLbFY4eFhiQlRHSldTTXViZks1ZGZNb0xHT0pXOUpBdk5NMC1CRHJOMzFwREhaUHZ2WGdnUEJRY0NST2toUUQxYWQyd094RWFGb0VxY051aVZSdmRHMkw2aFppTC1CZWJTMnF1b3IzTkE3TTk1TEZxdzdjYm51NlpiVVVTUE9WcUF3bHdDeUtaM2lubENweWRBX3RoY3JaRXBqb3Nqb2c4R0hmVlE?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRndEWlJFbDVWMThhS19LbThVdlZXQkFHcF9qUHY0cnBfV0t4QjZRWEJJbzJMbGF4bHFkZ19QY01QUXFzNWJLeWdtblo0b09jNG01YThnOVFXaWRnTi1zeUl1WjJjUUFqa3BhNnJPU2M4WGQ2cDR6Zl9jbkUzNzlaMTJQOUpjWVlMMTVVZWhsUEVYVzZhUzV4TTlJS3JIaFM2eGZqZjh3WHY0Ym1H?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "Bitget lança negociação de contratos perpétuos Pre-IPO $MOONSHOT com alavancagem de até 10x - Traders Union",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMWNFZXA3eWVTNllDQWVJYzdRNFc4ZXFFNXZ3cmNRdGR1ZXRpZG5COTJKLTlGRFVVbzFrNlZwVFBpeVo2REtvaXA4MmNZX1AzcU10bnhEcDNRUmFtV2s5RHNHX0duaWEtT2xlM3VRYTI2Y0JsdWdrT3ZTNkdQOENsUEpWS3ZpVlktRzN5QlB1dkF0Z0JNMkZKcXZ0X3RfbXZiZUVfdmxR?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
