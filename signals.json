@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -62,6 +62,16 @@
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLWVialJIcVk4NndoV0dMNDFMSkpQNkJNbTc5MHM1dlhDSHFJQ25nbEJEOG9zcDNrNWJVWEMtY0VER3JRWkE0azhIdzVnMEJ3UVJhYnlzY3pBYmFJY1Z6UlhVQlQya1JBQjZiNlNZSE85eFdqTzVmc2hNdGN2OElta2ROTW1za1h6ZGZvZWhaTlRCdXFRSkFFM1llWERBZWtsZ2pKNDBMTFVSY0RrdGlKeG5EZw?oc=5"
         },
         {
+          "date": "2026-08-12",
+          "title": "Nova IA da Meta roda no PC: entenda o que é ‘peso aberto’ - Olhar Digital",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNjNORjhGQjgyOGNJU2FXUDVCWUJ5dlVGUW1lUmR3cHVkaWk0ODNvamRJSWl3dGFxSUNKTnc4LVpOTGUzUFZ3SC1ONjQzZk9HYUhKenlLcG9nZjAtWUVkY0ZQZ1lGYXlRZVNfT3BDaDFyZnM4Rm5PUUJJRFRhRFVLVWN1N3ZMamNQUXFwYjhRUnVMU19zV2lPeHU0eU1ub0M4?oc=5"
+        },
+        {
+          "date": "2026-08-12",
+          "title": "Meta e Nvidia fincam posição na corrida de IA aberta - SpaceMoney",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1aMWUzLURUTzExNzlzN0FHTE9paV9DV24xUGgxTjQ5MEQxbEJYUGw2Sm1PRG14eVNSNnY3OHNqZDBGaTdyMjYtSWRtZG11STJrR2ZQU1JUb2ZnOHJCaHVFMU43WWh5dTZtZVhKUnd6UUhDcmJXeEUxbQ?oc=5"
+        },
+        {
           "date": "2026-08-09",
           "title": "Kimi K3: Moonshot AI Criou Um Problemão Para A Anthropic Alavés Vs Barcelona (T3wEp8ttqd) - Mshale",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nenN1RGs5S2tNeGU4YV9RejhBcTZLZEw0R0xsTzFkS3h6a1NFNWhxMEt4cmhOMVdJcTItLWp5LUNaZ2Jab21xVXJsSkdiWjd4TWlMZl9vNWFLY0U?oc=5"
@@ -85,16 +95,6 @@
           "date": "2026-08-07",
           "title": "Kimi K3, modelo de IA da chinesa Moonshot, escapa de ambiente isolado de testes no Reino Unido - O GLOBO",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaDZlSElNTnRXdTRkMnZhdEcyX0FWWmVYZlAyVnF5clp2ekdDUFZJeVpUdDIzMm5wczc0Z2Q2bEhSUlAycVFfYklxR0ZyOGVnNGVPN2RTdUkyZmhPSzVWSTZER2pyMS1BZkI5ZHA4dFItdVpIal9SdnZjd2oySzNadDRnanBpVk9vMFBCMTJkcXMxN3pFaXJkQ2JrRjFGbGVmX1o1WFY0dktBUnFXQzNoSW84ZEdySXh1VElxVWtjUUF3aEZTdFAyVy1vUEFESHlVUkUtVXhlVkRTZTUtTm5XSEJnSFFhTHdzMHdRMUIwaW1fNFVr0gGDAkFVX3lxTE5qY3RaaHUyWEljSzFGeU5xdmlMdVlKWFZEeUxlRlRoNTV4cUhDYk9zZXQxWi1xbmxubG5WSUxMZ2VzY19YV2tSb2toQmlrRWwyb05DeHRDWVlxbkxUZWpsWnExOGRDMmJlN013T0lGQURaUXpkTUxoN2ZoNC1VTTQ0a0pFOHZGWk5meWtyRDh4ajZSRm9LN3B1ZFQwdmwteldDem5EOHhiYmhlSDRBMlVIUFFqTGl3R2dLc1BvdG55enZ2NFl1VGxnU2xaZk1kUEtOcm4wZXZKbkw0N1FiUWtBSjBlVW8zbGFrZGl2OVNpQkVweHZJdEVHMmhHNUVNNWp5ZzQ?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "IA chinesa Kimi K3 dribla sandbox e encontra brecha para acessar a web - Economic News Brasil",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB1WTBPejRzTUpkcEVjNmVqdnZtTHIyMW1fWHMxeTI4U3hJbHVxZHZBUlVhdW5oaTlrejJhY0JyZHhldm9NRDRtTUdYWEZRNVI2YVNfakdHNkFaZTVWSXV6MGlrVG5hTV9pZWUwUjZQYUJEV1FYLWdjc3hfcw?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "O que são os Futuros Pre-IPO de KIMIUSDT? Negociação de Kimi e Moonshot AI explicada - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSHFxeWQ2Qk1tQkMycTNPX25pTzJwZ2FSM2VkVzFvd2dqYjFQNmduTS1YSllTN3lmak5STlRVeEtTMVk0V0NRWm0zc3EzekdCN2tUQVhyRk1xVFN5WGVyZWVmWkl1U0dDODJYVVNsZXVsWnlqMmszNFRhSlJZcUFVdkRRZXJweWVxa3F5VHNiQVJHLW1oTnFkTkhmYUZKMkNWM1RxaUJ1LU9veXRDaVVPeENHYno?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -257,6 +257,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-11",
+          "title": "Nvidia’s Nemotron 3.5 Just Launched, But A Bigger 1 Trillion Parameter Model Is Reportedly Already In The Works - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOc0hmWENoX21iX0w2ZHQ5QmdPVVFlSXU3d0JranNEUTVVMDlSNGhIQnhoUXlQX1l3S1hUSlNtb0VTS3MteHZHbktGQjZ1WXV2WXNIWTZNYktYdGpyc0NIdDktN3hiYy0xNkZvZTBpYnhpOWg3eXE5WWstVTlTNXk1dGU3dlRSZ2I0TTRqWDBOcGhRSmVGMWlwS3hPVE1FdDF1Y2d5YjJBMExFeHFCc0hVdUFpd29tN0x5U0w2MWlZVFNvWGR5NU5jS202QzVZVkh2WGdwWHhaV2g0YU5BQmhPTEE4Yi1hbGN2UWhaX2JTOHVEV0pJSkN1MVhQMUFJS2c?oc=5"
+        },
+        {
           "date": "2026-07-27",
           "title": "NVIDIA alerta a indústria da IA para não repetir o erro da década de 1980 - Pplware",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZXRrNU1LTlJRTVpWb0VwLUNtMnF3VjFPaTY5VXBPNE5aOVgySC1QZ001VHdKejZDdnQtLUMtR1N1Ri1zeHJOZDdocTdFU045WXRDS3Q2d3RGeEEyQ1U3MlZoREJ3TkVJSVVpX3pVZHhnaTJ2X3otWXBkLVh3THN0X1NMb244MHFkWFRCRloydG5ackZoU3c4em83ZlREREpjcnhUT3pWNWJJVUl6eUc1QU1GcWdGQdIBuwFBVV95cUxQWEpTS2FmeHRWMlFBSG9hb1dlUjdKZktkcDh2eE12UGxrNWlHTkJyUFM5X3F4UkdjYzdmN1VoM2NGaGRzY29OMC1iOFRLTmRyZnlpR2J1UHlIV1puS3pKQy1NTDd5a3REUkItVEhXWFdDLWdqM1A0QXI1aU5kS2FtYmQ2YTZGd1R4RWcyd2x6X0ppMlI0TlZabE9QaWVuY04yRWtDVXpVdllCekdFMDJIS05fRF9lWUhINHpZ?oc=5"
@@ -382,6 +387,16 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeDFQeldpQ2FWV1hyQWJNVUUyY3hKSDBTMjZCZkpqZm9EOHFsZjJEZ0JGckJWNUMzUF9ZY2ZXTjhnQTB4NmtEdjFYNXZqczA5MEN5T3dBSWNEQ2ZwNFpnVXVLVzlxYzhLSjYxVXRjOFZsNUxWMnNncENBNmgwMktzT0I4STE5czVub1c0b0Uxall6OFdUZFhQdC15Tl8tN1Z3Rjg3V3dR?oc=5"
         },
         {
+          "date": "2026-08-12",
+          "title": "Gate.io lança negociação pré-mercado e encerra em breve as subscrições do Pre-IPO da Moonshot AI (KIMI) - Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVGV6TWdvMF9JMUQwTUxPSXdQNFBnUDh3STh4QjA2VjlZQkZUemFibUxjZE9wVG9jMWV5eVRCSE9VcVpoamNJNHo3bEpwV0FCLUR2YjdTNDJhMHZQMkl3ckNuWWdmUmR3SVNwY3FXUmZ3c3FwdEczcGlkcHBublBzUmxWTlZoclh6R2pxakpZaDBqaWl5a2c?oc=5"
+        },
+        {
+          "date": "2026-08-12",
+          "title": "MEXC lista futuros pré-IPO da Unitree e volume salta 1.104% - BitNotícias",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQlpYQ19DdU9KanlBMFA2eGNrSi14S2h4SjZSVGRhY3R4aEZ3alBMSHM4MVVYaHVOd0E4TlFaalhGRk5mamZuLWk3cXVlYWhTOVVKRDR5ajhZbm5rVWhrbkZ5V3lrNWlWZEV0QTIzX2dDQTlGNklPY3YtRE9RTUFvSU5n?oc=5"
+        },
+        {
           "date": "2026-08-11",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSER4blVHMUloWDROYnJJUTBWaWN1dEtHOW5UREQxYUxlVDY2aHVzWUdrbWM4blZNT2Zyb0tmSEQwdDlZYXNhRTVOdG9fZ0g1ZUNIQVk1RTIzYzVDX2hBSDdlSlpOOHY1R3VaSnhnR0ZZQVhZZmVfQnIzcWdmTlZxSGFmLW5Ceks5ZG93YUxXUjNXZHItNVpiVkFxZFhyQlNBTHlTaVV5MW13VlNnV1hOZ0RSamEzRnk0R3VlUjg2RlV4V0xN?oc=5"
@@ -405,16 +420,6 @@
           "date": "2026-08-11",
           "title": "Gate.io lança negociação de futuros perpétuos pré-mercado para o token Moonshot AI (KIMI) - Traders Union",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVUg4N1NZcVRaREFTTXBzMlJ1aFpaQ1NEdDhLeFZWc0JlUjd5UW04WGRhUjlLZ25sLUR1Z0F0UGlXcy1rT0Q1RUtaZjFWVUVHc043M3I2bmJRbWk5eUtXRmkyU3gyOGZCbXQ4dklZeHZKYTdtZTdEbkRtenZTOFRzZHc4M3hqVGV1eS1sMVhXWnlpeE00dnNENHYwTjFsbzBB?oc=5"
-        },
-        {
-          "date": "2026-08-10",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUVFNLXNTemN2STFMZ01EUGt2ZTlRcmF0V253a2RRN04telM2MEhHcW5NYnN6ZHZRNnUxaEk3WmhxRXo2WmoxbGI2Y1pHV0lMWEtmQ1pUMFgtaGpBWkRSNV80bXZtS1puelh0WXlNRUdrbDlyQ1U5MUJsV3hQVUpGUDlCTjFSYVNiYkdRd2VKZnRtMk5QY3F0Q0V3MTBrYTRzdHFTNFdkTE5kQ1pxS2FlaWk2Yk9kY1E5ckkxZkRaWmRNZnNkVk9QZmZTelRqLVk?oc=5"
-        },
-        {
-          "date": "2026-08-10",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMGozMTRzTk5NNGEtbkthcGhZZUtnZnZLaXR5R0lzMVlScXNic2hBQWZrYXhpamxyOFVDdXZwcnJQNWpHdnktdWg3NXlaX0xHLWhjblNPWUVuQjBQV3lWWmJoTmNKN244QTRHZUlEV040U3lJYzhlZFlETjhoV2p3bzViQlloMEFMZkRISDkyS1NRYXpQUzBVY1lVNklDc01CYkdRSmRzOWFRSVpoUjdxNmQtNEVIY0lj?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
