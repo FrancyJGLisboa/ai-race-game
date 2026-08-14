@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-14",
+          "title": "Sakana Chat agora executa código: vibe coding com Namazu e Fugu - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVEpJUERTZFNiVGNoeFJ1REtuNHlUMDdac3R4b0cyZUNVSUpLdV93SVQ1TThpNEJxa1c5Mll5dzVEUkxBZHFleUlVOU5pZGYyNjE4TjI5TU1sWl9UVklUZ3R2SjNFT3p1TDNjRlN0RWNTdnpPTi1WaHp5WV9pdkFwanFielpqVHRwdWc?oc=5"
+        },
+        {
+          "date": "2026-08-13",
+          "title": "Kimi K3 Scan revela riscos significativos em projetos de Bitcoin - Coinfomania",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNVRwS3RBMS1TMXlIVkFqd0x6MWxQRklzeUZhR3dIUE1lZkU1cXVSLXU2X01JdXp2SS00ZDVTOWZHM05hOV9INE90dkU0Q00xSlBuaE9hcURGWS1KdUZQbDN6ajNPYm5uODN3TkU5MjI0UmhTSUk5bFlLZEdnLUo4VlpqTjE2Uk9wcjVCX3BFSQ?oc=5"
+        },
+        {
           "date": "2026-08-12",
           "title": "O que são os Futuros Pre-IPO de MOONSHOTUSDT? Negociação de Kimi e Moonshot AI explicada - MEXC",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRFB5YlhLNWUxaDVHOTBpdFd3aU1fZWo3MThwaENxRmRUYWEyUlFSMUstRk1pc3VzTG9odmw2aV9mbDgzdzdSNlNvVW44bEwyOUVvUGkxM3BDRk1ZYkZNX1RCYmxBdWNyVEc2NmNmMlFkUG9tVDRlS3ZkYjB2eG4zR2I0WEtnUTdHeGFzUzB0OEI3TzlyUlRlTlY0UFYwQ1pYOGJmd25CNFZIZE5KUGg4UnU5LUtlS3d0Wmc?oc=5"
@@ -85,16 +95,6 @@
           "date": "2026-08-07",
           "title": "Mais um modelo de IA escapa à sandbox! Desta vez foi o chinês Kimi K3 - Pplware",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRHJiQW9ObUpKREg3R01fRjVTVmN2NjRTYWQzaTFGMFhzLWFuZjVCb2VST01sTmRabXp3S18yeXdXNG8yUmpBZDNwNDMwMFpSX1VqTkN2ZHA3NkM5YXphUi0xOHZQbTNkLW9VSGtwcVRuV0NVZW1RaGRad0s4UGdybW1ZMHI5dTZ5enp5eXVLZkliT01OTWRNclRHa3ZHMk1XdkNiR3BtRdIBrAFBVV95cUxOS2h6eUJyNGdPQkFoalhLanZ5Vm5DdGZBWW5nOXZjeWlJQWp2MmN6M0NDNzZYVnpveWk4dmRjNC1DdjRZNERBWWV1bm1oVXN3VkhSQUlvNjJoUVdxRXp2NVNxOWxFYWhZOG1NWGJJRzdkVmM5M0ozUDZSYmpDc0ExOFlOSWxiZ2RWOGpxbWVhNWpDNDBWSVFCdmk2M2toWFh1YURLa0JSeERTSXk2?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "Modelo chinês Kimi K3 escapa de teste isolado de segurança no Reino Unido - Brasil 247",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYXdCcHl2ZzdfWXdZS2dXZnFFUS1zV3NYejUtZTZKMmJGN0dsYXhiYndYWHZmLUdvakZOaU1KeVlRSEh0NjRTQU1vM3liSnNHTDE2dV9DMEw2Z3RKc0lZV3RkNE5mX2tMY2k0YlpCWW9sZF83ZU9uNVRJa1dyVTZOc1N3SWluX0FRSHNacFFwQ3pISmFsUlBrZkNiOTJqUTl0WGF4bmk5UEhHZw?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "Kimi K3, modelo de IA da chinesa Moonshot, escapa de ambiente isolado de testes no Reino Unido - O GLOBO",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaDZlSElNTnRXdTRkMnZhdEcyX0FWWmVYZlAyVnF5clp2ekdDUFZJeVpUdDIzMm5wczc0Z2Q2bEhSUlAycVFfYklxR0ZyOGVnNGVPN2RTdUkyZmhPSzVWSTZER2pyMS1BZkI5ZHA4dFItdVpIal9SdnZjd2oySzNadDRnanBpVk9vMFBCMTJkcXMxN3pFaXJkQ2JrRjFGbGVmX1o1WFY0dktBUnFXQzNoSW84ZEdySXh1VElxVWtjUUF3aEZTdFAyVy1vUEFESHlVUkUtVXhlVkRTZTUtTm5XSEJnSFFhTHdzMHdRMUIwaW1fNFVr0gGDAkFVX3lxTE5qY3RaaHUyWEljSzFGeU5xdmlMdVlKWFZEeUxlRlRoNTV4cUhDYk9zZXQxWi1xbmxubG5WSUxMZ2VzY19YV2tSb2toQmlrRWwyb05DeHRDWVlxbkxUZWpsWnExOGRDMmJlN013T0lGQURaUXpkTUxoN2ZoNC1VTTQ0a0pFOHZGWk5meWtyRDh4ajZSRm9LN3B1ZFQwdmwteldDem5EOHhiYmhlSDRBMlVIUFFqTGl3R2dLc1BvdG55enZ2NFl1VGxnU2xaZk1kUEtOcm4wZXZKbkw0N1FiUWtBSjBlVW8zbGFrZGl2OVNpQkVweHZJdEVHMmhHNUVNNWp5ZzQ?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -187,6 +187,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-13",
+          "title": "O monopólio da IA pode nos levar a uma nova Crise de 2008? - Esquerda Online",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORW11M0JqNzBDeURRalEySzROZHkzaDV4eVk2dUxZcXZPZzQ5UElQWVExUWNGZWtIRUE5Qjh2ZU10UVJ4MGVFUk40WHFEY1BNMjZkM0VLZlF2UmlrZUdwbnFaNlBuR01McnRXOVp0eE5ISHgwRmlNN01ha0J6eEwwZ3lvVnItMjBuSmlwUFlVdjJmekFlR1JRaDhoY2d2aUxw?oc=5"
+        },
+        {
+          "date": "2026-08-11",
+          "title": "De impacto no trabalho a ameaça chinesa, veja os principais pontos do manifesto de Zuckerberg sobre IA - O GLOBO",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWEJ0N0FjbTIzWTg3OWJkMmIzUjltNzZvRmU2cWF4VzY3Q2JTZU5qa3hvbHZUMWJmNnVZMXlNZF9PTDZMQnBLM0NhUEJIOXlOWFFfY1pCX0VtTE9aYVI5ZUlkSjVrTk02RlZVX0F2RXNpbk5BVFRlaVhhb2VSaFdrWUwtWDJWb1A5Qnh3bjdYWGNRdWZFYjJzQndpRTdfcDB0c0wtVldGcDFaYUd2T0paNVZURHdvblRxQk9ZaW9oMVJBMHpSOUVKaFdrM0tTRXNlV1HSAeABQVVfeXFMT2NtZ0F3R1k5d3FMOUFnc1VzRGF5cVZWbjJrbHVVb3VIVkRWZ3M5LWpEZkVUNmxlOWdaUTFCMUhHQ2JIWUhhVXJvNElUTm1hd3JtN243QzgwYk9QUzJXQUxxV2FVakduMEFLZTVqLXJDblRFRUMtdmhzQ2F1N2lEaDVCcFQxbmxBX1VnWTdjVjFEVTFUMzF2UzNXTmRGUFI0WVFwdWdfSzFkZEdaNGdMcXF2QUVfeGhCbUpVcldvQnNaMlBkcWUwQUVOVnhnWVNKYzh1RlU4Y1Ziakg4TzI5RVY?oc=5"
+        },
+        {
           "date": "2026-08-04",
           "title": "IA: O obscuro filtro de Washington - Outras Palavras",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMHBTTUMyd2hlcllHN1dMZDRQejJYbmt0am9Za3ROTzYwY2ZISjZta1cwVUpPbFRvZ3FEbXh5QzhySzd0eVNmQ0hzeGo4bGs1X0Q0SzVESGVkOWhBbWpsZkIyNV9fa215T2toNGlZY1RyaExERU1RU2d1d0tvYklRcFFyVjBIbV9I?oc=5"
@@ -225,16 +235,6 @@
           "date": "2026-07-28",
           "title": "Anthropic nega defesa de banimento a modelos de código aberto - SpaceMoney",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcXJZM09DNmF3TnNwb1NQcmo5TVZ5UUtGZTU4ak9ZY1dGTzdTVWVTd3MybWZXakE2T2EzY2NlVERSRzRJYzVTS0NSRXR4cm52c3BnUktFelBpQlpOUDBmS0NhV0twZ2xOb2RlVzExX1NZVFhZclpwQXNndk04cTluVTlHWTgzcDM5NWgzeFNyRDhoRFBveGxEMnVINWdiUUdzMnRZNm5aZEppb2tsTlVj?oc=5"
-        },
-        {
-          "date": "2026-07-28",
-          "title": "Com ou sem China, cenário da IA pode ser de pesadelo, diz criador do Claude - Exame",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUEJoVjk0dzZ5bU5ITkJaUGphWDlSdTdsTzRwSzlXWlNlWVpfcjhRQi1aUm1SUnpZcEc2NVVMa0hmWlRIRTdqaUMtaHBCc2lMSXVTVnlrRHYxYzlVTUN3dVlheDVUVml0TTVTM2VOUzBMRU91TXN1aHR2d2F1dVlqd0FrMXBxUjlOTjdpWWJZd0lmckxhb1NvTS1mcUtpZUptajRtWEtlZnlFbVRxNkdrNnNUODNhNnM?oc=5"
-        },
-        {
-          "date": "2026-07-28",
-          "title": "Nasdaq recua por preocupações com IA antes da divulgação de balanços - Portal do Holanda",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTlJHWjI5NzZlOWJEYjRvZjNOcjQzcWJUVGlySHZFWjlzYTFXTXJpQjZtMzA3S3lqQl9ZRTRfa3pmb1B2cG1ZTEhPaFFfdURCR2djSDc1RTNMTy1qb1htdEppZEdXRVRlWGh3MFlfVHBneDUyX3NFaVZKNVdiOEpxVG1JMjlER0ctRm1nWHEwenkzWVQzaEtjRzU2dVZidlpud05LNUFnX1RTSzBoNjZpZ2x3?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
@@ -260,6 +260,11 @@
           "date": "2026-08-11",
           "title": "Nvidia’s Nemotron 3.5 Just Launched, But A Bigger 1 Trillion Parameter Model Is Reportedly Already In The Works - TradingView",
           "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOc0hmWENoX21iX0w2ZHQ5QmdPVVFlSXU3d0JranNEUTVVMDlSNGhIQnhoUXlQX1l3S1hUSlNtb0VTS3MteHZHbktGQjZ1WXV2WXNIWTZNYktYdGpyc0NIdDktN3hiYy0xNkZvZTBpYnhpOWg3eXE5WWstVTlTNXk1dGU3dlRSZ2I0TTRqWDBOcGhRSmVGMWlwS3hPVE1FdDF1Y2d5YjJBMExFeHFCc0hVdUFpd29tN0x5U0w2MWlZVFNvWGR5NU5jS202QzVZVkh2WGdwWHhaV2g0YU5BQmhPTEE4Yi1hbGN2UWhaX2JTOHVEV0pJSkN1MVhQMUFJS2c?oc=5"
+        },
+        {
+          "date": "2026-08-11",
+          "title": "Ex-MI6 chief says the biggest risks for CEOs are the threats they already know about - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMTc0UVBzNVlaT25PVmV1dXpmenpYSlJFN3JuN2wzRXFhRXdBLUM3M0VkXy02UjY1aE1LMHh5MkxMUFZpRjdRZXdfYmx5b3ZYeGJuMHBvNzBTZ2lVS2xQSWFvXy14TjZmMmtuRl9ENTRFYmFMeFRkcEpMcDRubmk1UWtaVkpPci1Z?oc=5"
         },
         {
           "date": "2026-07-27",
@@ -372,6 +377,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-13",
+          "title": "Gate.io destaca as últimas horas para participar do Pre-IPO da Moonshot AI (KIMI) - Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTEtFYmRWNDhYUDZzX1BkNjAtd3ZFcGtObWY5SXptMnI0b2tWMm5HSjFjTHgzWU9NeGQxWkx3TXJ3b09xQmU1WTE0SnRQSHpqUDRPMWRQSmlFZ2dWcVFDbWxzTTFiMno2eHl0aHhDVzV4OEE5VWQwcUNOLWM1RUhJSDktNUlHN1lvUFZiaGhaVnRQbTgycGRWZ3VyVmRqUQ?oc=5"
+        },
+        {
           "date": "2026-08-12",
           "title": "O que são os Futuros Pre-IPO de MOONSHOTUSDT? Negociação de Kimi e Moonshot AI explicada - MEXC",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRFB5YlhLNWUxaDVHOTBpdFd3aU1fZWo3MThwaENxRmRUYWEyUlFSMUstRk1pc3VzTG9odmw2aV9mbDgzdzdSNlNvVW44bEwyOUVvUGkxM3BDRk1ZYkZNX1RCYmxBdWNyVEc2NmNmMlFkUG9tVDRlS3ZkYjB2eG4zR2I0WEtnUTdHeGFzUzB0OEI3TzlyUlRlTlY0UFYwQ1pYOGJmd25CNFZIZE5KUGg4UnU5LUtlS3d0Wmc?oc=5"
@@ -415,11 +425,6 @@
           "date": "2026-08-11",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNm9oYlhwX2ZnOWhWeHNBbnNWQ2xXY0dwVWRVcndtSXFuTGxQS1RyN1NSbUNOVU82MWI5RF90UDhkbTVoZ1BLdms5Rm9PZlhKR21jZk1qZFVDYUNFdU1jQTNGZXA1MEVTZUdsamYtTGVwcUcwMUtlTm5SWE0yYmFWNUhISXBVUEY1Ty1RcWpGbjFmOUlhUDZNdUw2a1pTYnlpTHVnbkFOWThRdVJZUEdUUTZTYzIyd1FlUWpGSklHWXVtdnZvX0FycTJTVENjendINWZqWW53?oc=5"
-        },
-        {
-          "date": "2026-08-11",
-          "title": "Gate.io lança negociação de futuros perpétuos pré-mercado para o token Moonshot AI (KIMI) - Traders Union",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVUg4N1NZcVRaREFTTXBzMlJ1aFpaQ1NEdDhLeFZWc0JlUjd5UW04WGRhUjlLZ25sLUR1Z0F0UGlXcy1rT0Q1RUtaZjFWVUVHc043M3I2bmJRbWk5eUtXRmkyU3gyOGZCbXQ4dklZeHZKYTdtZTdEbkRtenZTOFRzZHc4M3hqVGV1eS1sMVhXWnlpeE00dnNENHYwTjFsbzBB?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
