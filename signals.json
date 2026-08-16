@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-15",
+  "updated": "2026-08-16",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -392,6 +392,11 @@
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR1FGbVRDX0w2cTQ4OTVWdU1SZXF2ckdPMVhveUJJV2ZKN1UyV2UydDJ5VGRNSVRXdXJ4UDYxMWlfMXlmSUlBR3ZOY2E1a0JRZ0cycDhsY0FVY1dRb2d2bXN4Z29iSmZBTnpXSE93am9SQzY0T09MMGg0bEJ6clhValAwQmlVd2NaVFpIX3d6MXhTNzlzaHlIbGQxbExqWm5saHAtaFM3VE5vSnZvRFh3VVNEdkhseFhfX3R6SlZHekNHdnBURFJRY2RTSDFxZG9VVEtxR0pNWGxoTk5NMExuREdFbUNLdw?oc=5"
         },
         {
+          "date": "2026-08-14",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNXNSaDE2c1JNcElEYnNMbHh0TmVHSGFIMW1KbHl3WHg1RVZVaHBMQmFMZ3ZDejNhSFhOd28wUzEtdW80b1lhaHo4VFVnXzE4UTBqNFY2Rnl1dHdJRGZUTDlST1pEMnBnbkgxTUpCUld4OGctTnhlSEZxQU1UQy1fYnA2eG1zRkFscGZJZ283WHc1Rk9qNU5peEd3dlc3Q1VlQmhPUGFfeUI5enpfaFJ4U0lKczJpbXgtcGg2U1lJeG9tRjNyRzI0?oc=5"
+        },
+        {
           "date": "2026-08-13",
           "title": "Gate.io destaca as últimas horas para participar do Pre-IPO da Moonshot AI (KIMI) - Traders Union",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTEtFYmRWNDhYUDZzX1BkNjAtd3ZFcGtObWY5SXptMnI0b2tWMm5HSjFjTHgzWU9NeGQxWkx3TXJ3b09xQmU1WTE0SnRQSHpqUDRPMWRQSmlFZ2dWcVFDbWxzTTFiMno2eHl0aHhDVzV4OEE5VWQwcUNOLWM1RUhJSDktNUlHN1lvUFZiaGhaVnRQbTgycGRWZ3VyVmRqUQ?oc=5"
@@ -420,11 +425,6 @@
           "date": "2026-08-12",
           "title": "Gate.io lança negociação pré-mercado e encerra em breve as subscrições do Pre-IPO da Moonshot AI (KIMI) - Traders Union",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVGV6TWdvMF9JMUQwTUxPSXdQNFBnUDh3STh4QjA2VjlZQkZUemFibUxjZE9wVG9jMWV5eVRCSE9VcVpoamNJNHo3bEpwV0FCLUR2YjdTNDJhMHZQMkl3ckNuWWdmUmR3SVNwY3FXUmZ3c3FwdEczcGlkcHBublBzUmxWTlZoclh6R2pxakpZaDBqaWl5a2c?oc=5"
-        },
-        {
-          "date": "2026-08-12",
-          "title": "MEXC lista futuros pré-IPO da Unitree e volume salta 1.104% - BitNotícias",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQlpYQ19DdU9KanlBMFA2eGNrSi14S2h4SjZSVGRhY3R4aEZ3alBMSHM4MVVYaHVOd0E4TlFaalhGRk5mamZuLWk3cXVlYWhTOVVKRDR5ajhZbm5rVWhrbkZ5V3lrNWlWZEV0QTIzX2dDQTlGNklPY3YtRE9RTUFvSU5n?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
