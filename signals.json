@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-17",
+  "updated": "2026-08-18",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-17",
+          "title": "Nós testamos: IA Kimi K3 mostra capacidade para tarefas corporativas, mas não fale de geopolítica - O GLOBO",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUzd0WG1FZW1xUXNNYjMyU2EtYWN2QWtDVDh1Nm5yN3FTYXpFczFna0FmSmtEN2FUczdEdDhHWDZoWi0yeFpYQ0MwYWduZm9ZVDhoRmxHVGdoUnMxTS1DSm91VE9WeWN5UF9JTEFLVng4Y2RHaFhJLUFTX1pKV0gzUW8wU2h4TE42a011VnhDMU5WUjhXRmR2VkpPQVNWcUxydG9UMkpQeTRLS1pxX2U0c3RaY2hJdDJpeG9xYTNiT0tRNzh0SEZERFJxOGg1MkdxOExQck1qdTVKVnl2eExfNlNJQVhTbjVOdFFKRWZ6Y1NuQ1pkM25jb9IBhwJBVV95cUxQZ0hIN1dQdWJJWGZLZ1BHTU96Qlh6ZjJsOEY0N2MwQ3BCT1haLTh3T1FETVNybXdNWDNQU0EtNmtxOGFHRnpxYlhNLWl5TWo3U2x1YmJWQ3ItekFKanVDWnljdDhFWHJyc3VKODRFVkhJN1N2dzJDMThINzdzVDNuVkxwUEZ6NElOd0I3MkdKVnRJQmp0MU5LbTVIWjRxNUg0QkRTdjdxQ0pXOV9jdzBPQTZTT0szSEFZajFNTFlxV3ZoSmN4ZXE4Rkt6b0R0bU9wMVNObW5QbU4wVWI3Y1lyU0xoMlVaWnl3SjkyN1RRQ1lVT3E5V0RVaEk0UzBzS1RmSU9SaTRpaw?oc=5"
+        },
+        {
           "date": "2026-08-14",
           "title": "Sakana Chat agora executa código: vibe coding com Namazu e Fugu - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVEpJUERTZFNiVGNoeFJ1REtuNHlUMDdac3R4b0cyZUNVSUpLdV93SVQ1TThpNEJxa1c5Mll5dzVEUkxBZHFleUlVOU5pZGYyNjE4TjI5TU1sWl9UVklUZ3R2SjNFT3p1TDNjRlN0RWNTdnpPTi1WaHp5WV9pdkFwanFielpqVHRwdWc?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-08-09",
           "title": "Kimi K3: Moonshot AI Criou Um Problemão Para A Anthropic Alavés Vs Barcelona (T3wEp8ttqd) - Mshale",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nenN1RGs5S2tNeGU4YV9RejhBcTZLZEw0R0xsTzFkS3h6a1NFNWhxMEt4cmhOMVdJcTItLWp5LUNaZ2Jab21xVXJsSkdiWjd4TWlMZl9vNWFLY0U?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "Kimi K3, IA chinesa da Moonshot, escapa de sandbox do UK AI Safety Institute e expõe fragilidade das avaliações de segurança - O Cafezinho",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOQ003a3Fnc3pQTEJlR0R3bEljR3dyd2QxakNfc2dzSUhnZHpLaF9tbEYxcVpYSlhXSV83NHlTOXNuR1hERXZBanlKWW1OV2hKT19BQmVNUlBUdklpR2JKWk93UUVrZWw2S1ZwUUlFdVJ4TWlteWpvaTNIVDRISzVBU2FTaVZjSDlyWDZRNWVobjd0UlRJWFJkcVlzcXMwQmxoSzRDZUpHcUE1MEllZXUxdUxpWElwYVFLSmhGOWJwWTVHYTVadFQ3cUk5LXo5NUlxT3VuWnBPZXZ1SWlhTk9sX0xjSERaNldxMzAwSnp5VUgxMDDSAfgBQVVfeXFMUHRxM25vRlFGLVNfT1RCRm85TG5pUnI3WEt3NFQ3S3VXTVpIMUZCOGZIdm1VTjBaUnMwU2FkQWxhaWlMTHI3bVBPT0g1STNtOFloNEFwWDVJRGRhUEdHM1VqVFNha3F5TkhRWnBaUXRJWFQzMTdCYjBqbFAzRDY4OUV1ek9wVWEyY3hOeUVKbU91OW9UMDgzWWZQLTBzcjRCNUlvX1RYazc4MV9Eb3lQYjJRTmZVQ0pzLWxfa1lJUzJjQnA1STM4UHU5OVJaelZlM2FpZWkxNFJtZHM3U0RkTVRqX0F4OVNfUXI2OWhpTkFnTTJUc0RoaDU?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -377,6 +377,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-16",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaUVjdUhDeUNqN1FlX2hzNWcwa0V4V3RQcDFoYlExY2JYeXNjbFZNVkpBVTZMT29PckY3blltS0lkSmptOTZmNGQ4cm9SZ09ZVHZFUVk5eVdUYllEUTd4eUZ1blRRSGw3TDBHblAzZGtFYXc2UkhuVTlMSktVZ1l5d01sOEQwUQ?oc=5"
+        },
+        {
           "date": "2026-08-15",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaWRpRXBNQWVhUkdYLUdwclFPb3lrdHdWS0E2VjI1SHB3N0lIckhYd0tqdm5SRXc2UUxrUF9Cb01SS1ZCOG11VzBEYTVRNm9vT3hPV0R2akJPcFRBay15djIzSG5keUd4WUJUam1IWXJYaVk5b3IxWlVFTnUxLWoxSTdIQ0dwQQ?oc=5"
@@ -420,11 +425,6 @@
           "date": "2026-08-12",
           "title": "CEO formado nos EUA retorna à China e funda Moonshot AI, rival de Anthropic - Revista Empreende",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSTExWFlwNlJSWXpjb2hNTWJmcnJiY1dWeGhSVWY2cFhhbm5tZG84SEJqaVNCTENoQkc1VzAtYnNxNmV6aTlCa0tqUGpFZTQ4VExwMlNMTm5hU01mS3hUU2ZFQWtCRkR1LVM0U2FYamozS3B2N29LMHRRU19XME5PTDJoVUdDZF95NFhRZDkwMVJBRzk1V2JaUnUtanFlY0EwVGNIa1E5RzlOVmx0cDdqSk9DbUV4Y2VnSmlrRm5FODY0YUI2d2ZmZndXYmxpNUhGS3REcndyWXRPX1ZWYTlicEtvamE?oc=5"
-        },
-        {
-          "date": "2026-08-12",
-          "title": "Como Negociar MOONSHOTUSDT na MEXC: Guia de Futuros Pré-IPO da Kimi - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeDFQeldpQ2FWV1hyQWJNVUUyY3hKSDBTMjZCZkpqZm9EOHFsZjJEZ0JGckJWNUMzUF9ZY2ZXTjhnQTB4NmtEdjFYNXZqczA5MEN5T3dBSWNEQ2ZwNFpnVXVLVzlxYzhLSjYxVXRjOFZsNUxWMnNncENBNmgwMktzT0I4STE5czVub1c0b0Uxall6OFdUZFhQdC15Tl8tN1Z3Rjg3V3dR?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
