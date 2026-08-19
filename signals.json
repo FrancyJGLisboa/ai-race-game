@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,21 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-19",
+          "title": "Alibaba desafia gigantes com chip de 5 nm que roda IA sem placa de vídeo - TudoCelular.com",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQm9nQXUybnNLTkJDZ19tYnYtbkhkZkhzVmkyb2p4ZmRXeDVjcnVNbW8yRnU1RFFLZGRrQWVNZFI1X1JRSW5JQ2FWNTB0TmtpdDdEOVZqZFVVbzhwRFBrbC1WTVRNUDNxUmZ4TGZvUFNBcVR0NTJCaFJCZ3FmVlZ4SXRabUp4anRsN0U3VUFsN183ZkJUTDdiS1N2MENJSGpyUml2OG5R?oc=5"
+        },
+        {
+          "date": "2026-08-19",
+          "title": "Alibaba estreia o XuanTie C950 de 5 nm para executar modelos de IA nativamente - TugaTech",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPanlfMkc0Q200cHFVRlBPMVZaaHV0TGQtaFZiSW9La1JObWdyZEtWbGptYWJ3TTlQVUpwd0xGS0pwWFdHd2kxTXNCN0JKUG91aVl1TkhkOWUzaGZSYjY1QzBzbkM1Z0FmZ282SWllYnBQVlBPdnV1cGtxcmJtcG8wNHlyOEUxcFRNWlhkOEFGRk1zQ0JVRmoyRi1YaUtYRXp3QkxkWGpoUVlBemMybmc?oc=5"
+        },
+        {
+          "date": "2026-08-18",
+          "title": "IA: Por que os EUA ensaiam um recuo? - Outras Palavras",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRkdMaWYxTzVDZnNsbzNtUTdiRnVQQnVQbEc2bzh3VFVtRC1sWlJGaWFfZVhvQ1IzeWNYMWFPOFdfaW9BZTlGQXFhbERFQlJoMXFoN2hSYnd2TElRQ054VmxHVGRyb1JLaVNoM1VpbHo0TmNmR3dHSU9QbWFUV0Z4TU84elQxOVlnTVE?oc=5"
+        },
+        {
           "date": "2026-08-17",
           "title": "🔥 Stripe compra OpenRouter por US$ 7 bi - Buttondown",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWXlUWDJWb050LTVDRUxhNzh6YTNsdkxqZU5EYnFYVlpDNWJjTV80R3k1R2hwbG04QzNsbF9CZzJNY2VXeW9Zak9iZjFKX21ORm9tYm5jUVBvN2x1a2o4ZjBJaE5pSFZJbHpoVHBBUzBMajhlenZkbWhYek9iOVpsS3pWMnA2bEp3M2xyd0YtRGw5UQ?oc=5"
@@ -150,21 +165,6 @@
           "date": "2026-08-07",
           "title": "Ok, Computer | Newsletter - O GLOBO",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wM2pSSEtDaHp4S0dsbmItY3NkVXh3Y2NqbHZDU1RMRFk4NFlMckpzQkRJcUZRYVBCUU5rUU9oaHBrWDhWQUFzSUFhbUpZc1JUZUpTMEI5Z0libHhC?oc=5"
-        },
-        {
-          "date": "2026-08-05",
-          "title": "Mario Cesar Carvalho | IA chinesa copia estratégia dos elétricos e aposta no preço baixo - Poder360",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1JTb2dCYndEcDBrZ25qZDd1LWI0T3dRT0FwM0JhT0Y2YlJXRG1HcmV2OHJCUlZTaGpDRTN4TWp6QUtXVU9LRWVGOUVfUEhWMFdSdmFMZTdrYVJPWTNhWmlDdV9NWUZPSm5JdEJmZDhzVTU0RGJyZVBCdHZiODM2ZU82Qmo2S2ppRGh6bnZTNEdXVHFETTJnN0ZJTlNXRGRiZXZ4SVVJTVN2ZExZSUs5RXZn?oc=5"
-        },
-        {
-          "date": "2026-08-04",
-          "title": "Alibaba amplia ofensiva contra Anthropic e OpenAI com IA de 2,4 trilhões de parâmetros - Bloomberg Línea Brasil",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUVMejFyZXJBS0JaTjUzR3A2NnBCdUJfZ1lZMWduZGdiSnV6N2FWb1hXblJ5UmE3bVNDTWI0NFlHcjI1aEJnUjVPZl9oLXExVzFCUHYzVlJZSFMyX0daa01KZVZIUjVTOXVOZXBVczU0WDA0YnQwWTg3UkZOczlmT1ZTdHloOTdMTGtTZDBvNlYtemRzNmRQVElUMVpMck01X2ZrdW5MbUl0M1FpMVlRSkk3LThINm4wdzJNcWl0c0VJaEHSAdcBQVVfeXFMUFBOVWczanBWWmhLdE03MGFfdUVHVXkwaGlINkJIUWt1VW9ENTdhU2tESDFHYVo3M2NCZ3ViU2tETVl3Tk1BZFNkSmF0RVdIMENXZnRqUzFiM1FvbEx1OTdCRUxfT0tzXzFMcFNqRHpwdVdMSlk1RDdJejB2N2EzMGtLYWU4aEJ5TkMwUzZXZW9VbkpDNC1yWTNyaEsyTnQ2V3V2aHRpV2NraWJfancxZW1UVlFDcWRVR1k4bS1zZm1CN1lRQk9lSlBQbFRQWHVNMXlTcDc5Y0k?oc=5"
-        },
-        {
-          "date": "2026-08-04",
-          "title": "IA grátis, guerra bilionária: como a China reescreve regras do mercado tech - CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMWRTNWEyUVdsb0tNTkQtSmpkVVdCdG0xVVZWVW1BV3VOOGJkdDVoT0g0RUU1b3hNMWNweG04ZVNtaHVBTFFOU2NPRkJCLW9tZzFBekJscl9xMlYxY1ltaGdzSmRhSVNvaS1KUTg0ZHllZzE2aFh1dU1FNjFpU3RqTmtrVGdHcWZra2NPdnBuaWlhWkgxQk9FUWxrQkpTbEJIRExuV0pVT05XZG9lQ1FpSk82R3NKcVRwNjR0d19Da0dRSTJRQ3c?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -186,6 +186,11 @@
         "banimento modelos IA chineses"
       ],
       "evidence": [
+        {
+          "date": "2026-08-19",
+          "title": "Alibaba desafia gigantes com chip de 5 nm que roda IA sem placa de vídeo - TudoCelular.com",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQm9nQXUybnNLTkJDZ19tYnYtbkhkZkhzVmkyb2p4ZmRXeDVjcnVNbW8yRnU1RFFLZGRrQWVNZFI1X1JRSW5JQ2FWNTB0TmtpdDdEOVZqZFVVbzhwRFBrbC1WTVRNUDNxUmZ4TGZvUFNBcVR0NTJCaFJCZ3FmVlZ4SXRabUp4anRsN0U3VUFsN183ZkJUTDdiS1N2MENJSGpyUml2OG5R?oc=5"
+        },
         {
           "date": "2026-08-13",
           "title": "O monopólio da IA pode nos levar a uma nova Crise de 2008? - Esquerda Online",
@@ -230,11 +235,6 @@
           "date": "2026-07-29",
           "title": "Anthropic rejeita acusação de lobby contra modelos open-weight e expõe seu verdadeiro temor - Yellow.com",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUExoU3dJMkhhTm5uRmlMenpNc0lGejhGb05GbzcwcHRSQkdDMV9OcUhtRVI5N3hPbjllVlZ0X2hGXy1UTEZsSnFRdjdKYnRVbFllYWhBRi1xN3lOWXd1eFZlZmhodFpXczdPM3NSenVWR3VLQUMxX18ycmdLQkotX0dyS2Y0X21ialNTSEFrRHY0SUtJQkVKdl9uRGx2eHkzdFdGNnFVdVBIdmFuaEU3YjZDWjY3UzE1b185NHJRaURKR0t4SW5GaGRxbmpoQQ?oc=5"
-        },
-        {
-          "date": "2026-07-28",
-          "title": "Anthropic nega defesa de banimento a modelos de código aberto - SpaceMoney",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcXJZM09DNmF3TnNwb1NQcmo5TVZ5UUtGZTU4ak9ZY1dGTzdTVWVTd3MybWZXakE2T2EzY2NlVERSRzRJYzVTS0NSRXR4cm52c3BnUktFelBpQlpOUDBmS0NhV0twZ2xOb2RlVzExX1NZVFhZclpwQXNndk04cTluVTlHWTgzcDM5NWgzeFNyRDhoRFBveGxEMnVINWdiUUdzMnRZNm5aZEppb2tsTlVj?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
