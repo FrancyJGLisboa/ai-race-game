@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -127,6 +127,11 @@
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPanlfMkc0Q200cHFVRlBPMVZaaHV0TGQtaFZiSW9La1JObWdyZEtWbGptYWJ3TTlQVUpwd0xGS0pwWFdHd2kxTXNCN0JKUG91aVl1TkhkOWUzaGZSYjY1QzBzbkM1Z0FmZ282SWllYnBQVlBPdnV1cGtxcmJtcG8wNHlyOEUxcFRNWlhkOEFGRk1zQ0JVRmoyRi1YaUtYRXp3QkxkWGpoUVlBemMybmc?oc=5"
         },
         {
+          "date": "2026-08-19",
+          "title": "Cresce adesão a criptoativos no Brasil com facilidades de acesso - boca.com.br",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbVFZTEVhY2w5aWhEZ0MzWEpOeGphb25WZnhMeHdxc0x0ME5YU2ZJZTVQSDhlSU9TQkx4Y3BHWURJTTFka0s0a3ZsVF9QeXhsY1JZZy05WjlyWnUtODhqUnhHQXpjc255SE4xSzRQUnRmTnpVV2p5bGxCZ3FXVnZjTHEyYjJpQ3RlbU5tbC1Ham9WS0FiWGhqZFFxQQ?oc=5"
+        },
+        {
           "date": "2026-08-18",
           "title": "IA: Por que os EUA ensaiam um recuo? - Outras Palavras",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRkdMaWYxTzVDZnNsbzNtUTdiRnVQQnVQbEc2bzh3VFVtRC1sWlJGaWFfZVhvQ1IzeWNYMWFPOFdfaW9BZTlGQXFhbERFQlJoMXFoN2hSYnd2TElRQ054VmxHVGRyb1JLaVNoM1VpbHo0TmNmR3dHSU9QbWFUV0Z4TU84elQxOVlnTVE?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-08-07",
           "title": "Alibaba lança modelo de IA Qwen 3.8-Max com código aberto - E-Commerce Brasil",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOV25qdURYVllYUDUtOGFwekdma2VxWlhmWlJncGQ5WWx1RTJpWG5fTWJDTTZUdHBpMHptakM2X2JzNGNmZDlGNEFGR0FaVk4zSm1ROVJncDVObFpBbWtJb0k5SExNSV9sZUFaYkZ4M1plNHFwZi1TN2dVajZXYTNTeWlzbVFhT0ktUkxXRE1wNA?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "Ok, Computer | Newsletter - O GLOBO",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wM2pSSEtDaHp4S0dsbmItY3NkVXh3Y2NqbHZDU1RMRFk4NFlMckpzQkRJcUZRYVBCUU5rUU9oaHBrWDhWQUFzSUFhbUpZc1JUZUpTMEI5Z0libHhC?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -377,6 +377,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-18",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tNmx2Y2l0d1RuRlNDWkw3OF85YkJxbExTNWlGazlHbndFVkxsbkFoQ1NTU3Zzdml4NmVlQ2NJNDJ6TG5aMVU2dmJMa2tESUx6QlAwc18wcUJRNVRiaDVIVWV0UmZabzc2cUhkdF9CYTF5TjU3LVA0ZlkyaFhyQQ?oc=5"
+        },
+        {
           "date": "2026-08-16",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaUVjdUhDeUNqN1FlX2hzNWcwa0V4V3RQcDFoYlExY2JYeXNjbFZNVkpBVTZMT29PckY3blltS0lkSmptOTZmNGQ4cm9SZ09ZVHZFUVk5eVdUYllEUTd4eUZ1blRRSGw3TDBHblAzZGtFYXc2UkhuVTlMSktVZ1l5d01sOEQwUQ?oc=5"
@@ -420,11 +425,6 @@
           "date": "2026-08-12",
           "title": "O que são os Futuros Pre-IPO de MOONSHOTUSDT? Negociação de Kimi e Moonshot AI explicada - MEXC",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRFB5YlhLNWUxaDVHOTBpdFd3aU1fZWo3MThwaENxRmRUYWEyUlFSMUstRk1pc3VzTG9odmw2aV9mbDgzdzdSNlNvVW44bEwyOUVvUGkxM3BDRk1ZYkZNX1RCYmxBdWNyVEc2NmNmMlFkUG9tVDRlS3ZkYjB2eG4zR2I0WEtnUTdHeGFzUzB0OEI3TzlyUlRlTlY0UFYwQ1pYOGJmd25CNFZIZE5KUGg4UnU5LUtlS3d0Wmc?oc=5"
-        },
-        {
-          "date": "2026-08-12",
-          "title": "CEO formado nos EUA retorna à China e funda Moonshot AI, rival de Anthropic - Revista Empreende",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSTExWFlwNlJSWXpjb2hNTWJmcnJiY1dWeGhSVWY2cFhhbm5tZG84SEJqaVNCTENoQkc1VzAtYnNxNmV6aTlCa0tqUGpFZTQ4VExwMlNMTm5hU01mS3hUU2ZFQWtCRkR1LVM0U2FYamozS3B2N29LMHRRU19XME5PTDJoVUdDZF95NFhRZDkwMVJBRzk1V2JaUnUtanFlY0EwVGNIa1E5RzlOVmx0cDdqSk9DbUV4Y2VnSmlrRm5FODY0YUI2d2ZmZndXYmxpNUhGS3REcndyWXRPX1ZWYTlicEtvamE?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
