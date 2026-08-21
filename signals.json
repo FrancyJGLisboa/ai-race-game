@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-21",
+          "title": "Chegada do Kimi K3 pode mudar ranking de popularidade de IAs? - DComercio",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVnFmVU9uZ2otSU1YQXNpVzMtbWpGeFR3NS1MNkZraVVSZ2NpTkFSMV8waC1fVU4wbERCcW5CUy1XSVhVTXU5TUZ5RlBNQlpvUWVxbmxXNElfaGk3UTE4UXdERUMySHJVR1R3dkl2ak9KNUVoS2NJSlJJQjRXODRyUVJsM2RGaDNWaTRmcmRRbE1pcEhyX0E4Z1lHVFdzR0U?oc=5"
+        },
+        {
           "date": "2026-08-17",
           "title": "Nós testamos: IA Kimi K3 mostra capacidade para tarefas corporativas, mas não fale de geopolítica - O GLOBO",
           "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUzd0WG1FZW1xUXNNYjMyU2EtYWN2QWtDVDh1Nm5yN3FTYXpFczFna0FmSmtEN2FUczdEdDhHWDZoWi0yeFpYQ0MwYWduZm9ZVDhoRmxHVGdoUnMxTS1DSm91VE9WeWN5UF9JTEFLVng4Y2RHaFhJLUFTX1pKV0gzUW8wU2h4TE42a011VnhDMU5WUjhXRmR2VkpPQVNWcUxydG9UMkpQeTRLS1pxX2U0c3RaY2hJdDJpeG9xYTNiT0tRNzh0SEZERFJxOGg1MkdxOExQck1qdTVKVnl2eExfNlNJQVhTbjVOdFFKRWZ6Y1NuQ1pkM25jb9IBhwJBVV95cUxQZ0hIN1dQdWJJWGZLZ1BHTU96Qlh6ZjJsOEY0N2MwQ3BCT1haLTh3T1FETVNybXdNWDNQU0EtNmtxOGFHRnpxYlhNLWl5TWo3U2x1YmJWQ3ItekFKanVDWnljdDhFWHJyc3VKODRFVkhJN1N2dzJDMThINzdzVDNuVkxwUEZ6NElOd0I3MkdKVnRJQmp0MU5LbTVIWjRxNUg0QkRTdjdxQ0pXOV9jdzBPQTZTT0szSEFZajFNTFlxV3ZoSmN4ZXE4Rkt6b0R0bU9wMVNObW5QbU4wVWI3Y1lyU0xoMlVaWnl3SjkyN1RRQ1lVT3E5V0RVaEk0UzBzS1RmSU9SaTRpaw?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-08-12",
           "title": "Meta e Nvidia fincam posição na corrida de IA aberta - SpaceMoney",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1aMWUzLURUTzExNzlzN0FHTE9paV9DV24xUGgxTjQ5MEQxbEJYUGw2Sm1PRG14eVNSNnY3OHNqZDBGaTdyMjYtSWRtZG11STJrR2ZQU1JUb2ZnOHJCaHVFMU43WWh5dTZtZVhKUnd6UUhDcmJXeEUxbQ?oc=5"
-        },
-        {
-          "date": "2026-08-09",
-          "title": "Kimi K3: Moonshot AI Criou Um Problemão Para A Anthropic Alavés Vs Barcelona (T3wEp8ttqd) - Mshale",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nenN1RGs5S2tNeGU4YV9RejhBcTZLZEw0R0xsTzFkS3h6a1NFNWhxMEt4cmhOMVdJcTItLWp5LUNaZ2Jab21xVXJsSkdiWjd4TWlMZl9vNWFLY0U?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
