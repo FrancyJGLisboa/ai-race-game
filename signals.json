@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-21",
+          "title": "IA : Alibaba retoma crescimento recorde - Cointribune",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZlFheDFvMXktR0dXTzNRWUdQeHc2X1Z2cG5HYmZ5WDM2bWt0N3dxTkJnMWVleDlnbUpYWmhZd2VtYVlvSzZnWHN3WHVqRXB4c0JrbmZ3b252ZEdROVB6VFE3WWppUkFXZjZVY3ZVRmlDRzJPNXk3RFc2dURSaHNFNFY2RjU2M053X19QNjBpLUdzSF9ZS09kZHpxX1R1LWhtOXpfdHNveXM2ZFBNYkd5ci1mdHM5a0h3?oc=5"
+        },
+        {
           "date": "2026-08-19",
           "title": "Alibaba desafia gigantes com chip de 5 nm que roda IA sem placa de vídeo - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQm9nQXUybnNLTkJDZ19tYnYtbkhkZkhzVmkyb2p4ZmRXeDVjcnVNbW8yRnU1RFFLZGRrQWVNZFI1X1JRSW5JQ2FWNTB0TmtpdDdEOVZqZFVVbzhwRFBrbC1WTVRNUDNxUmZ4TGZvUFNBcVR0NTJCaFJCZ3FmVlZ4SXRabUp4anRsN0U3VUFsN183ZkJUTDdiS1N2MENJSGpyUml2OG5R?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-08-14",
           "title": "E se as IAs escaparem das mãos humanas? - Outras Palavras",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOFRkMHRRTDRsRDQ2UEt6bW5Tck40dWFYN3RmaTA5MVp0NUQ0S000NGw3YjJPaUdQNTJKY29ReVIyaThFWDVfdlIxTWxBdGMyU3hPVEhoYXlrT0o5ak5FTW9qa3hPSThiMURJSjgyRVRRVG1YMTk5a2hCd2o0X1QyUkVxVVhINzhmYXFycWM1Zw?oc=5"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "Alibaba lança modelo de IA Qwen 3.8-Max com código aberto - E-Commerce Brasil",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOV25qdURYVllYUDUtOGFwekdma2VxWlhmWlJncGQ5WWx1RTJpWG5fTWJDTTZUdHBpMHptakM2X2JzNGNmZDlGNEFGR0FaVk4zSm1ROVJncDVObFpBbWtJb0k5SExNSV9sZUFaYkZ4M1plNHFwZi1TN2dVajZXYTNTeWlzbVFhT0ktUkxXRE1wNA?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -256,6 +256,11 @@
         "China open weights flagship"
       ],
       "evidence": [
+        {
+          "date": "2026-08-17",
+          "title": "Coldcard Wallet Breach Drains $112M in Bitcoin After Five-Year-Old Firmware Flaw - The Cryptonomist",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrRjNKWmZFODhEWWFKazlMdDJ0Z1VpSTJrdTA3YUp5enZjcnhyRnJiZ0Q1bEYyNjlmRGNPQkkzaFQ5Z0gyUnBVM1VDV2d0amtfRUx1VDJzang1Y29ZOFM2S2ZYTEJZampVVG1TZV93?oc=5"
+        },
         {
           "date": "2026-08-11",
           "title": "Nvidia’s Nemotron 3.5 Just Launched, But A Bigger 1 Trillion Parameter Model Is Reportedly Already In The Works - TradingView",
