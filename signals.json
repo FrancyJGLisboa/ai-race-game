@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-22",
+  "updated": "2026-08-24",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-23",
+          "title": "Alibaba planeja levantar US$ 10,2 bi em meio à expansão de investimentos em IA por empresas chinesas - Folha de S.Paulo",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPa3VJeHh1STZLUl9lbjJ0UTJWQWFOQTE3RmpDMXRFaTZBMHdCOGQ3S2VRRnM4aVU4QlowczVKVjFfOUpqNGFBUExEX3E2V3hVeWZ3WmxhdE4tNEttQ3lrZ3lQUmNXb3hfSVBVS3pvdldkRHhMMmQtUzN4bFM2SlMtbTZvRktnMU9xVVMzZ0I3VWwzOVRRemlaZmc1cjBSallsVXRIRjZwWGw5c1VnS3BsdEc5Tl9Cenc4OFRnUHZrT0NaYzU2SURZejRHT202SGstYXA0UkFPdDhBNzNaeTRHd1I1RkQ?oc=5"
+        },
+        {
           "date": "2026-08-21",
           "title": "IA : Alibaba retoma crescimento recorde - Cointribune",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZlFheDFvMXktR0dXTzNRWUdQeHc2X1Z2cG5HYmZ5WDM2bWt0N3dxTkJnMWVleDlnbUpYWmhZd2VtYVlvSzZnWHN3WHVqRXB4c0JrbmZ3b252ZEdROVB6VFE3WWppUkFXZjZVY3ZVRmlDRzJPNXk3RFc2dURSaHNFNFY2RjU2M053X19QNjBpLUdzSF9ZS09kZHpxX1R1LWhtOXpfdHNveXM2ZFBNYkd5ci1mdHM5a0h3?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-08-15",
           "title": "AMD garante suporte imediato ao modelo Qwen 3.8 de 27 mil milhões de parâmetros - TugaTech",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcl9sbk1qc3VORGl0TWlUT0ROTjRXbTlZZ0ZOcndWdk84V1UzaHhrOTEyMXNRWlJ2cTlNRzZqeE5PYjFnRjBVY0lrRS1lMGkxMXZzbWt6RHQzVjlPTVF0MU52dllsQzNXZDF1aG5wNkhxUW9zT05RYnlLVE1PTDNydUliVHVoUndKNTVwWElhM2x0YlFSTlJWUEpjdUxNcU5xOWYxUTc4RVE1WmkwWS1J?oc=5"
-        },
-        {
-          "date": "2026-08-14",
-          "title": "E se as IAs escaparem das mãos humanas? - Outras Palavras",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOFRkMHRRTDRsRDQ2UEt6bW5Tck40dWFYN3RmaTA5MVp0NUQ0S000NGw3YjJPaUdQNTJKY29ReVIyaThFWDVfdlIxTWxBdGMyU3hPVEhoYXlrT0o5ak5FTW9qa3hPSThiMURJSjgyRVRRVG1YMTk5a2hCd2o0X1QyUkVxVVhINzhmYXFycWM1Zw?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -382,6 +382,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-22",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMkRBTEVhNXJZM0RpM3BySzNlSTJ4R25YRW9wYnJtb01JSklnQXFfWjUxcVlkR0VvcVR2WmhQZWNJMktXMmJBb3laZHRjc2tRSHJlV3hOcDIwdnlPOTRfXzFnampmWGF6R3hHSFl3djRmbWtSS2tUd2VxMDZlbWZDVTJpNDB1VzRGaVFObUxEZ3kzUXA1cnpHbElDc3lfNEg0QWRGSE5XYjBMQQ?oc=5"
+        },
+        {
           "date": "2026-08-18",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tNmx2Y2l0d1RuRlNDWkw3OF85YkJxbExTNWlGazlHbndFVkxsbkFoQ1NTU3Zzdml4NmVlQ2NJNDJ6TG5aMVU2dmJMa2tESUx6QlAwc18wcUJRNVRiaDVIVWV0UmZabzc2cUhkdF9CYTF5TjU3LVA0ZlkyaFhyQQ?oc=5"
@@ -425,11 +430,6 @@
           "date": "2026-08-13",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaXROTVVBOGV1eDM3TlYzbENVdF9YdjlhWEZhY204SmtMQVNwM0xFV2twV3hGZHVjc3J6MDI0V0hCS2tjYnc4Q0l6SG13REQtSGFMNXZJOVpIdDZoOTZiejJmek03XzRjOFhUbFQ2TEhOV1RYWGV2N050OVZYeUJ4SlJZRU94RVF2MEFvd3R6UXA0bTRBV1JFN3EyZVhqeGJudF9zd3FDRnh6SFp0?oc=5"
-        },
-        {
-          "date": "2026-08-12",
-          "title": "O que são os Futuros Pre-IPO de MOONSHOTUSDT? Negociação de Kimi e Moonshot AI explicada - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRFB5YlhLNWUxaDVHOTBpdFd3aU1fZWo3MThwaENxRmRUYWEyUlFSMUstRk1pc3VzTG9odmw2aV9mbDgzdzdSNlNvVW44bEwyOUVvUGkxM3BDRk1ZYkZNX1RCYmxBdWNyVEc2NmNmMlFkUG9tVDRlS3ZkYjB2eG4zR2I0WEtnUTdHeGFzUzB0OEI3TzlyUlRlTlY0UFYwQ1pYOGJmd25CNFZIZE5KUGg4UnU5LUtlS3d0Wmc?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
