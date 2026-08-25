@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -187,6 +187,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-24",
+          "title": "Esqueça o Google Veo? Alibaba lança IA Wan 3.0 que gera vídeos de até 30 segundos - TudoCelular.com",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaGtXM3BjWWFPNUVidktjTGhNOXYxNGJlZDhhMmJsZTJPNzdBWjZrUFU3U3NwTlppTDZJbEdHY0xQMXkwakJMckJMZkFiZ21JWlZ0YlhRTGFpbDlxRmlmeDZTZjFqSmdqdjNIV01SZVdWOGptaDA0V0tzVFVJeWFvdGhnU1E3c1Zpc2lydjlNdW9Vb1JYQkdpWVRZdE9HWkVLY2c?oc=5"
+        },
+        {
           "date": "2026-08-19",
           "title": "Alibaba desafia gigantes com chip de 5 nm que roda IA sem placa de vídeo - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQm9nQXUybnNLTkJDZ19tYnYtbkhkZkhzVmkyb2p4ZmRXeDVjcnVNbW8yRnU1RFFLZGRrQWVNZFI1X1JRSW5JQ2FWNTB0TmtpdDdEOVZqZFVVbzhwRFBrbC1WTVRNUDNxUmZ4TGZvUFNBcVR0NTJCaFJCZ3FmVlZ4SXRabUp4anRsN0U3VUFsN183ZkJUTDdiS1N2MENJSGpyUml2OG5R?oc=5"
@@ -230,11 +235,6 @@
           "date": "2026-07-29",
           "title": "Anthropic nega ter pedido proibição de modelos open‑weight e expõe seu verdadeiro temor - Yellow.com",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX2tOR2g1c0lnQ0tqS2xsbTNfekVsWHdoaDUxMGd4VWQzZEMtOVgzdkRlQUtWMDVxNHdsZzJyUVpEU0NyTDRRaEJ6V2J4Ynp4RXdJR3VTOEZab2pxQ2x6N18xaHdDR0NwRVB0cWFHdWZfbzNDWlZzTVhlQXd3bXBuN3ZVZlFMR3RscFhXbjRCRzhGTUFidHVkX0FsZzZmQVA4dUYyejhkQTVibTE0N3doeGxn?oc=5"
-        },
-        {
-          "date": "2026-07-29",
-          "title": "Anthropic rejeita acusação de lobby contra modelos open-weight e expõe seu verdadeiro temor - Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUExoU3dJMkhhTm5uRmlMenpNc0lGejhGb05GbzcwcHRSQkdDMV9OcUhtRVI5N3hPbjllVlZ0X2hGXy1UTEZsSnFRdjdKYnRVbFllYWhBRi1xN3lOWXd1eFZlZmhodFpXczdPM3NSenVWR3VLQUMxX18ycmdLQkotX0dyS2Y0X21ialNTSEFrRHY0SUtJQkVKdl9uRGx2eHkzdFdGNnFVdVBIdmFuaEU3YjZDWjY3UzE1b185NHJRaURKR0t4SW5GaGRxbmpoQQ?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
@@ -382,6 +382,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-24",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd2pNYnc3a0ZwenVYUlY2OTBVTk0tem1NaXIzWlJrS01vQWNqS3ppTzJ5QzZsMmEzY0hIMHprcmhrWXJVZU5kTmd0QWhRa1dMOW00ZkRTQ2NncDZhSDYzR0tFVnFQam5YU1phbE9ETmtrZzhqQUNac0NsQ1hYdGUteGtZa2FGdGEtemZUcDE2V2NySFA0RVNtZTd5cm1CQlY2UVpFeEtCZkVUZWRxMS1R?oc=5"
+        },
+        {
           "date": "2026-08-22",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMkRBTEVhNXJZM0RpM3BySzNlSTJ4R25YRW9wYnJtb01JSklnQXFfWjUxcVlkR0VvcVR2WmhQZWNJMktXMmJBb3laZHRjc2tRSHJlV3hOcDIwdnlPOTRfXzFnampmWGF6R3hHSFl3djRmbWtSS2tUd2VxMDZlbWZDVTJpNDB1VzRGaVFObUxEZ3kzUXA1cnpHbElDc3lfNEg0QWRGSE5XYjBMQQ?oc=5"
@@ -425,11 +430,6 @@
           "date": "2026-08-13",
           "title": "Gate.io destaca as últimas horas para participar do Pre-IPO da Moonshot AI (KIMI) - Traders Union",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTEtFYmRWNDhYUDZzX1BkNjAtd3ZFcGtObWY5SXptMnI0b2tWMm5HSjFjTHgzWU9NeGQxWkx3TXJ3b09xQmU1WTE0SnRQSHpqUDRPMWRQSmlFZ2dWcVFDbWxzTTFiMno2eHl0aHhDVzV4OEE5VWQwcUNOLWM1RUhJSDktNUlHN1lvUFZiaGhaVnRQbTgycGRWZ3VyVmRqUQ?oc=5"
-        },
-        {
-          "date": "2026-08-13",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaXROTVVBOGV1eDM3TlYzbENVdF9YdjlhWEZhY204SmtMQVNwM0xFV2twV3hGZHVjc3J6MDI0V0hCS2tjYnc4Q0l6SG13REQtSGFMNXZJOVpIdDZoOTZiejJmek03XzRjOFhUbFQ2TEhOV1RYWGV2N050OVZYeUJ4SlJZRU94RVF2MEFvd3R6UXA0bTRBV1JFN3EyZVhqeGJudF9zd3FDRnh6SFp0?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
