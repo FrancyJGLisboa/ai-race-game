@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,54 +117,54 @@
       ],
       "evidence": [
         {
-          "date": "2026-08-23",
-          "title": "Alibaba planeja levantar US$ 10,2 bi em meio à expansão de investimentos em IA por empresas chinesas - Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPa3VJeHh1STZLUl9lbjJ0UTJWQWFOQTE3RmpDMXRFaTZBMHdCOGQ3S2VRRnM4aVU4QlowczVKVjFfOUpqNGFBUExEX3E2V3hVeWZ3WmxhdE4tNEttQ3lrZ3lQUmNXb3hfSVBVS3pvdldkRHhMMmQtUzN4bFM2SlMtbTZvRktnMU9xVVMzZ0I3VWwzOVRRemlaZmc1cjBSallsVXRIRjZwWGw5c1VnS3BsdEc5Tl9Cenc4OFRnUHZrT0NaYzU2SURZejRHT202SGstYXA0UkFPdDhBNzNaeTRHd1I1RkQ?oc=5"
+          "date": "2026-08-27",
+          "title": "Gigante chinês anuncia 2 data centers no Brasil, visando expandir negócios de IA - Folha de S.Paulo",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZzh1UV9VZTQtX2gxVWtYeU56c0dQZkhqQWsxVkMxX21tZ1pjTzNTMWtxdU1HdkNiNkxZYk9PTXdnVGtYdzRGbkptblJTUlZRWkxzR0oxNlluWUw2T21vbldIY0JERzFrSnp1Vlg5Mi13WGlQbE5XSW1YWE9zT2xrWFRFTi02NjVCX2hPaVJTcUx1QlJlWEVzQ01RaW96VzlKUnFrcFRZYzFzRXZmREhNblJ3MmhFLWdRb3phTGJYZjNMT1J6X3c?oc=5"
         },
         {
-          "date": "2026-08-21",
-          "title": "IA : Alibaba retoma crescimento recorde - Cointribune",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZlFheDFvMXktR0dXTzNRWUdQeHc2X1Z2cG5HYmZ5WDM2bWt0N3dxTkJnMWVleDlnbUpYWmhZd2VtYVlvSzZnWHN3WHVqRXB4c0JrbmZ3b252ZEdROVB6VFE3WWppUkFXZjZVY3ZVRmlDRzJPNXk3RFc2dURSaHNFNFY2RjU2M053X19QNjBpLUdzSF9ZS09kZHpxX1R1LWhtOXpfdHNveXM2ZFBNYkd5ci1mdHM5a0h3?oc=5"
+          "date": "2026-08-27",
+          "title": "Gigante chinesa Alibaba instala primeiros data centers no Brasil - Bem Paraná",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOFNWLWs0Z2xCZUdoc3huRnFzN1pYWk5LMVhpdWxrclJOWVdvaGFFS0Z5Yi1QRThReUZqaWYtQ3Y2UTRCMDlLZzJIM19wOEZTNG0yd3B2anVYaHU5bUZSaGJMcjcxYW04QlktOUJ0VlJrTXVEb0s1aUVxYzJsd1JSWEVqbUh6blpyZDVFcGZVaDZhcm8zc3Y2OUViOXF3eUR1TkQ4SzktUVpxR3B3b21tYmZR0gG3AUFVX3lxTE1jUkFzR25icnRkLXBvaEFvaGJoVGdzV2tJNXJ2UGRoSWJhMkNuNTlmMlR6R1Azd1NxbnFPZEYySjJNcFRTZ19XdV9DYWtyMUp3OTBoY0oyU2twV2o1ZGFnSlEyendOLWRWSTVzOG5xcGxiVTBoZDFPdjY5ZWV2R1ZlX29NZEhlN1RyQnQtTVhYUHppeUZnclFSd29FTGo0c20xcFhjaHRYeHQxQU9oMTRTaU92VkNwcw?oc=5"
         },
         {
-          "date": "2026-08-19",
-          "title": "Alibaba desafia gigantes com chip de 5 nm que roda IA sem placa de vídeo - TudoCelular.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQm9nQXUybnNLTkJDZ19tYnYtbkhkZkhzVmkyb2p4ZmRXeDVjcnVNbW8yRnU1RFFLZGRrQWVNZFI1X1JRSW5JQ2FWNTB0TmtpdDdEOVZqZFVVbzhwRFBrbC1WTVRNUDNxUmZ4TGZvUFNBcVR0NTJCaFJCZ3FmVlZ4SXRabUp4anRsN0U3VUFsN183ZkJUTDdiS1N2MENJSGpyUml2OG5R?oc=5"
+          "date": "2026-08-27",
+          "title": "A gigante chinesa que quer expandir serviços de IA no Brasil - Diário do Centro do Mundo",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd3Fkd3ZPczBLT3JMS0gyVEU5TkxJWUZOY28wVk9QX0hiTks5SnBNVnByY29VXzdwYzBxMjdIRzlvNUNNMkM4WHRrcm4yUmttUndkdkRzVHVXY3pSMVpVOGVsX0RNeDRkdHp5X1duZW5xX2txcnctWEVhLW5RTG52c3IwN3VvUWxDVnNOSzFoZ0NRTi1xUmZkUHBTaFVodFZtUWpabw?oc=5"
         },
         {
-          "date": "2026-08-19",
-          "title": "Alibaba estreia o XuanTie C950 de 5 nm para executar modelos de IA nativamente - TugaTech",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPanlfMkc0Q200cHFVRlBPMVZaaHV0TGQtaFZiSW9La1JObWdyZEtWbGptYWJ3TTlQVUpwd0xGS0pwWFdHd2kxTXNCN0JKUG91aVl1TkhkOWUzaGZSYjY1QzBzbkM1Z0FmZ282SWllYnBQVlBPdnV1cGtxcmJtcG8wNHlyOEUxcFRNWlhkOEFGRk1zQ0JVRmoyRi1YaUtYRXp3QkxkWGpoUVlBemMybmc?oc=5"
+          "date": "2026-08-27",
+          "title": "Nvidia amplia suporte a modelos chineses de I.A enquanto alerta para possível restrição da Casa Branca - Times Brasil | CNBC",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNnhLTC1wa21YejhKLUpJeEZyYTdsT0lpVERaVzBKTjFDQkZ6Rmg3aXFGbEN1aVd3TkdwdjhsWktYQVBnOERTenN3Tkttb19QT2ZNREJBUkRTUW1FTmdHUFk4V0NCLTU2LU9XUjBXX0ZHSEdKc3N5WHZXdXpQOG1xZmVyZDVTUjIxckc1X09YRk1xRlBwUXUxa3Z0NmVLSnBSSkthbFRycG8zc0otdy10a0xZQ3A3dEVzejNuU2syQjFSdGhULTlBVWRCMElMeF9KdFRxUGJXMllWTWdiaGJ5U3A3c3A?oc=5"
         },
         {
-          "date": "2026-08-19",
-          "title": "Cresce adesão a criptoativos no Brasil com facilidades de acesso - boca.com.br",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbVFZTEVhY2w5aWhEZ0MzWEpOeGphb25WZnhMeHdxc0x0ME5YU2ZJZTVQSDhlSU9TQkx4Y3BHWURJTTFka0s0a3ZsVF9QeXhsY1JZZy05WjlyWnUtODhqUnhHQXpjc255SE4xSzRQUnRmTnpVV2p5bGxCZ3FXVnZjTHEyYjJpQ3RlbU5tbC1Ham9WS0FiWGhqZFFxQQ?oc=5"
+          "date": "2026-08-27",
+          "title": "Chinesa Alibaba estreia no Brasil com dois data centers mirando 'boom da IA' - O GLOBO",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTERBbTh4aXJpT0VicnkwZnRhUlZVaWRhc0VyOEJZUjBTclA4TmtuZndnU3VPX0VzQkw2SWhYR3pINXpKWkFra29WODJXUnVmblBuWG9FUlhQZDNfTXZwRjdpY1RkZExQdG9IcS1nRE4ySTVaQVJTby1GQzZTckd1RGstUU1HWDlEVU9Ganl3RDd2TnhueTFjaUs4bjhCYmY0R2gxOHhEczB3WjJNTDJueUJOZ0VSY2MzUWpMc2hvOGdxSXpkM1dIU0dSNkJLaVJ3MDJ6M2g2Zllqd0ww0gHrAUFVX3lxTE5NYk92OGJVeG45NmY1aEkxV2xyS2I2Zk1oSGNDczZKOXMwZkJXaVdST095dWxrNmlWU3FZMGZ0bTBHbkhYMG5JMjE5eUFvVENlXzEzSmlfX0xJNS1IbTV0STlrTzhjVTJmXzBvTE5GUVFGSTQxelVFZU1SNm9LdFpFOTBMTUthUFBvLWdfVXlCdlF5bTRGcTBzU1I2aWNxNnVkYWRyYkpzQVpSLXdXYzlEUUN4cS1VRGdJY2xUSDNIcERtaS04YUY1SUg1WUViaXJOcVZZTVlFTzlkT2pxVHRydUVuQ0xsU2kxN28?oc=5"
         },
         {
-          "date": "2026-08-18",
-          "title": "IA: Por que os EUA ensaiam um recuo? - Outras Palavras",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRkdMaWYxTzVDZnNsbzNtUTdiRnVQQnVQbEc2bzh3VFVtRC1sWlJGaWFfZVhvQ1IzeWNYMWFPOFdfaW9BZTlGQXFhbERFQlJoMXFoN2hSYnd2TElRQ054VmxHVGRyb1JLaVNoM1VpbHo0TmNmR3dHSU9QbWFUV0Z4TU84elQxOVlnTVE?oc=5"
+          "date": "2026-08-27",
+          "title": "Alibaba escolhe o Brasil para instalar seus dois primeiros data centers e expandir IA na América do Sul - Brasil 247",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWHJNUFB2cFUwQ3J2WUNNUW40S2RJZjRMUVVjM0hEZDN5SW02X0JocmRDNUFwX2FGZ2hnZVBaYk5DUFZYNUZLbzMtYUl3UVBvcWRQaW1xNHRPQjVHRV9fRlZkM0FsOFg2aElHZTBMVXRpRmdtTHNhUXIxQ0ZsMWk1RFBTNkhVVFY4LTk3cF9pcndXUVFkTE1Ic3ZkRDJGSGx3bmRnUHltb0hzMlFSYk9aUzJQQ2xBT0R6SUhrSmJqZ09WczA1NTNkZGdkUkVOLThQYTdsWENfdw?oc=5"
         },
         {
-          "date": "2026-08-17",
-          "title": "🔥 Stripe compra OpenRouter por US$ 7 bi - Buttondown",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWXlUWDJWb050LTVDRUxhNzh6YTNsdkxqZU5EYnFYVlpDNWJjTV80R3k1R2hwbG04QzNsbF9CZzJNY2VXeW9Zak9iZjFKX21ORm9tYm5jUVBvN2x1a2o4ZjBJaE5pSFZJbHpoVHBBUzBMajhlenZkbWhYek9iOVpsS3pWMnA2bEp3M2xyd0YtRGw5UQ?oc=5"
+          "date": "2026-08-26",
+          "title": "Alibaba lança modelo de IA Qwen 3.8-Flash com custos de treinamento menores - Valor Econômico",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWE9ZbFZneXl4ZXllMmg1S1Nob0MyeXlScExXVjVwcUtrMGQ1WGQ5eVFhelhDWmNHQVNTSTMtenB3M2U0Q3ZObmtTc3ZaX2dlTGQwZTFxcjVoYlpFdGt0cXcyNF9vSTNaMEc4VURpdjVBUzVGREhLLTZ0UzdUR3hCT1BWVk5IWnE4cldlNDdvb1JaYUZkcmxHLWZ5aG5maWFpdVB4Y29PTmN1d1NSWWwybXdFSVpnN3IyX2NJVFUwblRlWHJydjN4Q19nZW9TV254M2tjajVBUEg2YUHSAdsBQVVfeXFMT1hPWWxWZ3l5eGV5ZTJoNUtTaG9DMnl5UnBMV1Y1cHFLazBkNVhkOXlRYXpYQ1pjR0FTU0kzLXpwdzNlNEN2Tm5rU3N2Wl9nZUxkMGUxcXI1aGJaRXRrdHF3MjRfb0kzWjBHOFVEaXY1QVM1RkRISy02dFM3VEd4Qk9QVlZOSFpxOHJXZTQ3b29SWmFGZHJsRy1meWhuZmlhaXVQeGNvT05jdXdTUllsMm13RUlaZzdyMl9jSVRVMG5UZVhycnYzeENfZ2VvU1dueDNrY2o1QVBINmFB?oc=5"
         },
         {
-          "date": "2026-08-16",
-          "title": "Qwen 3.8 27B roda em laptop, mas o padrão faz o modelo pensar demais - iMasters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMWlJSGN1TllXN1Q1dUpnWUZ5ODNyYTE0MUFtV2tuWkpNZDRqSHFMRTBYZWlJQmpnQ0s0UWFqcllNQU5hejJ2d2FXb1c4ajY0WmlWSmFyYmxxU1VqY1FZWXFfXzRKR0FqN1dyQ3F1WndxdWVfUVZpU3k0U3lnLS1NYmJaSFJ0STNqbEVkamxWUG9obTRsTGhCM1FlRXlrZG5VeTVhTHRFZDNINTNoZDQwOUxuZng3UQ?oc=5"
+          "date": "2026-08-26",
+          "title": "EUA aprovam comprimido da Revolution Medicines para câncer de pâncreas - Valor Econômico",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWlpKWVFoQXA2bkV3Qlk5TzdzWExxakFpSVFSbEF5YWhSTy1kTHAyUHB0SVFXbVJjTGgwdFBVT045Y1VnaTI5TG9NUDFlcHV4YVBPLXA1RGN0Yjk2R05xb01zdjZjelgyUDZiT1RhS0dkUlpkbldhemZFck5sT19kQ1loWUFQZkV4Q0J6UTdDaVJCRXRuZHo4WGcxY055cmJSUWRQZWVNU0NpUGZVcER1TGFOSGt1c1dNVjd5eWxCbjdlZEJ2QmxUSmh4ekh3RXFlQTF3enRR0gHWAUFVX3lxTFBaWkpZUWhBcDZuRXdCWTlPN3NYTHFqQWlJUVJsQXlhaFJPLWRMcDJQcHRJUVdtUmNMaDB0UFVPTjljVWdpMjlMb01QMWVwdXhhUE8tcDVEY3RiOTZHTnFvTXN2NmN6WDJQNmJPVGFLR2RSWmRuV2F6ZkVyTmxPX2RDWWhZQVBmRXhDQnpRN0NpUkJFdG5kejhYZzFjTnlyYlJRZFBlZU1TQ2lQZlVwRHVMYU5Ia3VzV01WN3l5bEJuN2VkQnZCbFRKaHh6SHdFcWVBMXd6dFE?oc=5"
         },
         {
-          "date": "2026-08-15",
-          "title": "Modelo de IA chinês GLM-5.3 supera Fable 5 em segurança usando apenas pós-treinamento - TudoCelular.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOW1UTEVjU0xpVktyZ2dtZUJIc3hUTTA2ZTQyZEM5d25yY05uQUxUanFyZHN3M1RWbWpLUGN5ZEludWVodzE1dG5icGZTclVPay01bkV0OWtLVGV5SkR0Z2VhcFdzRlo0MFFhSmt1WG96MWVMZjU0RUFnQzlzdV9kamJmaUV2RC0yT2V6SXZOcm5SdjBYLW4wVk5kQ0I?oc=5"
+          "date": "2026-08-25",
+          "title": "Sem mensalidade de token: Perplexity lança IA local e mata custos da nuvem - TudoCelular.com",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdi0yN1YwWlRMLUM5d2RMbXVOdi1YcFlLd29DZmctUFNRTk80OGh4UG9BR0ZKTFI2T0k2X2RmdjF0czhKSkVGc1BrWnIwSlRpM2x4dDBYamtRalRzQUZRdFhlVEZDYmVwN3FmNTVJblJZNHpUQmpxai1nU093b0pRRTFnWnlyVktUZ3Nhb2dEZmRGVG1KRjQteGd2M2dEYXhnT21WZll2dFBpZzB3V2YwSHB6WHZjd1d3RXlVNldTSzVBTXQ3QjdaS1h5WQ?oc=5"
         },
         {
-          "date": "2026-08-15",
-          "title": "AMD garante suporte imediato ao modelo Qwen 3.8 de 27 mil milhões de parâmetros - TugaTech",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcl9sbk1qc3VORGl0TWlUT0ROTjRXbTlZZ0ZOcndWdk84V1UzaHhrOTEyMXNRWlJ2cTlNRzZqeE5PYjFnRjBVY0lrRS1lMGkxMXZzbWt6RHQzVjlPTVF0MU52dllsQzNXZDF1aG5wNkhxUW9zT05RYnlLVE1PTDNydUliVHVoUndKNTVwWElhM2x0YlFSTlJWUEpjdUxNcU5xOWYxUTc4RVE1WmkwWS1J?oc=5"
+          "date": "2026-08-25",
+          "title": "Lula, sobre Petrobras (PETR4): “É uma loucura o que nós estamos fazendo de dividendos” - trademap.com.br",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPdkw1aDJQM2tZWDJSSW92TEY5LU9UZ1RTMmJ0eDVDTU9kSlQtaEZneWJzSmFveEd6TEk5cXN1MFFKS2M5QnRScGJmRUZpQ0czaHB0NkxJYUhid1Fhb2pGZFFBNzY4WklXdjMtdkFfWTB2YU54OFdCZXBxc01pRVp4N1ZWTWdiemcwY0FjSU80M25OdnlOb2tNaVVDNldheG1KQ1hyVVA1OU5uaW02cTZKLUNMQ3pRRzlINDZualoxMnJFanhxdk9vaWtWWkFNMzBQbHdQakh4dktpUE5nSUFHbXRUYkYzbXY4ZFROeTV5WEo5Xy05TEpwamRQR2VXNEROb05XVmdxYnY1cm8?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -186,6 +186,11 @@
         "banimento modelos IA chineses"
       ],
       "evidence": [
+        {
+          "date": "2026-08-26",
+          "title": "Empresas americanas estariam negociando acesso a IA da China - CNN Brasil",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYnNiN1F6Y3h5bzJkd0dPMG1GQTdaZjlxQUZOZWlxLTRmOWROcDBMUmE4TVB4bXBTS2gxbEZpTHBreG9Pc29WdFk0TmlVVV90WE9YN3o4WGtOZ1JxRHNhV0w0LWs0VlNKTmtkY1Y3dUl6ZFNhRFhRN3ZiNGtXY2tPa1Rvb0FYQXhLLWZGSGY3ZmJlV0VreWl4OHBTM1RpYlR0T0VvZk9JbmxsNGY0aVFabE1MVjJvSGxvcDQxX2tnaDM1d2dYa0hNRw?oc=5"
+        },
         {
           "date": "2026-08-24",
           "title": "Esqueça o Google Veo? Alibaba lança IA Wan 3.0 que gera vídeos de até 30 segundos - TudoCelular.com",
@@ -230,11 +235,6 @@
           "date": "2026-07-29",
           "title": "CEO da Meta, Zuckerberg: Banir modelos de IA chineses não garantirá a liderança dos EUA em IA - TradingKey",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV3dkRTFfOVh4Z3hQUWRwY1p4T3JFakY5RXdVMXRiTVl6bzlrUm1tcERyal9rME8xbXIzWW5NSHpjalpWYnROOHNBemJkZjRKbFlhekhoSVhGUm40XzE5cGpGTVBidzc0eE5WVnlpRXpkaG9LX1lqYW1kVmtqY042THBYZGhNd1lib3NWYzBYZElfUGt0RzVtZTc5ejJVb0NFVXVMT2daanYyREJvVEszVnIxZXBFZjI1Yk5qeHM5ZnFVNHc?oc=5"
-        },
-        {
-          "date": "2026-07-29",
-          "title": "Anthropic nega ter pedido proibição de modelos open‑weight e expõe seu verdadeiro temor - Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX2tOR2g1c0lnQ0tqS2xsbTNfekVsWHdoaDUxMGd4VWQzZEMtOVgzdkRlQUtWMDVxNHdsZzJyUVpEU0NyTDRRaEJ6V2J4Ynp4RXdJR3VTOEZab2pxQ2x6N18xaHdDR0NwRVB0cWFHdWZfbzNDWlZzTVhlQXd3bXBuN3ZVZlFMR3RscFhXbjRCRzhGTUFidHVkX0FsZzZmQVA4dUYyejhkQTVibTE0N3doeGxn?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
@@ -312,6 +312,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-26",
+          "title": "Como funcionará e quais os desafios da WAICO, a Organização Mundial para Cooperação em Inteligência Artificial - Terra",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxObGRDWXNLdHQ3Z3lZcW5reG1JZGRIa2M4UjlCbGNCLS05blc2T21jVE5oOVh2NWdVR29SQnJjNE9wc3dOMEpQRGRHeWJMcmU0OEo0dS1GdUlISzlaTlJEQVNmT1U0ZkQ4WmhxX3A4NGNveEFUaU9Fb0RHYUdxT29nTnJ1Zm80VHZsdlltYmZyT0NMZzRMakZac2E0UFN6dG93U3Z2bFBGQXo1SDJ2anFtWHlnWWg4Wi1Mb3ZlalBacmJQOTdHNW85ZVdyUWtEOEJpUm9US1UtRzk4cUFUOUFyTlBiRnExQ3ZXX1l3OUh1ZzNUemFsRHM0Ukl1VFhLVEVQMFdST2tINGp5bzQtVUw1MDAyMA?oc=5"
+        },
+        {
           "date": "2026-08-02",
           "title": "Waico e Pax Silica: entenda disputa entre China e EUA por futuro da IA - bombabomba.com.br",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbUtZaVFWdzRhSENOUzVYbEpINWZvMVJxV01Ka0hreUFlN0NsV1dQTkltRmRmNFpPWk9tbXdPNTFDeW84TFpwaWNFazhUek80VEExbm9FZE9hcXgtbUFMaXhCN05UU1dfb0dBak53bjk5Z1RTbERGZnJXVDNfQnpNYVdlWXZhODdSN2pZelF3LXExOGVIVVFicUtUam0?oc=5"
@@ -355,11 +360,6 @@
           "date": "2026-07-27",
           "title": "Brasil entre dois modelos de inteligência artificial: projeto de lei inspirado na Europa e aproximação com organização liderada pela China geram debate - Gazeta De Varginha",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdFdOYUJfbG1RZjdlVm5mbGNsRjIwZzZhazRtcG1vZGF6a1ptLXpFMkF3QUU1a01YYWVWN1J2dXdrXzRvZ3RvWUx5TC1UTHhrY19YcTMyclNQR2JxVHUzRENoaEhQYlNfdDFpcWFScEhQVGJXR29jbV9LZm9RenJSXzlFQldyS01UTzczT0FHbmRkSjl1UXlFU0RaYV9iRThwZ3VlVHJTeG05aFlrSVZ4ZkZuZzQzbW9mSlpkd3V6WGdRZ2dqYmJXcHFuU0U3Nkt2TkdsSExfMjRmZi11ZU5obmoyNUw?oc=5"
-        },
-        {
-          "date": "2026-07-27",
-          "title": "Entre Bruxelas e Pequim: acordo com a China coloca Brasil em dois polos da regulação da IA - Consultor Jurídico",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeENWU0pmN2JRbHFmZC1jcl8ybERYY2NwRm5uV0MySE5hU1RlSEk4cnN2dzdybk12LWUyNWU5dFhKQllHeFhQUlpVdlJudjNiTG5UQmFTOWRYRE1ZRUZoT2JHaGNjb1lTU19ZeTQ5eWZpSmNGWURSbTNjbHl5U0wwOW9BOFpVcThocmwtdV9odFNvSFpDLTRfYmJlUldlNXNVdi10UEN3bWtWWWZlekl3Q25uN2E5cU5IbXYtTjhpMk1uQQ?oc=5"
         }
       ],
       "title_en": "WAICO lands concrete adoption commitments",
@@ -382,9 +382,29 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-26",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRWpQWjY3eXlZSG9FR3puZ1dKamZRcUhuc29ndzcyRDdsWWJpMDJFVmFqeU1VLXpmMVlrUDI4N3o0WTBpSVZiZnRLZ2d1dExIN1VacFhDaF9wdXBYam1mb2lfM1FibnVUZmxSOGNyamFuNTV4RHdJWWxfZ0ZvNHRXUHhvWTNncXFTUGhzWGZ3bkVGTlBQQWNkXzY1dFRCeEh4d2pWOTMyNXhhUEV1RF8wblBxeTBVUVd6SWxEMThFV0lSVzhqNFVfenpDaHFxS1FVdUNRVHZZMlowcWkydEhOR1FmRnFSR3dHVDE3aHFMOHNXRFhWWmQw?oc=5"
+        },
+        {
+          "date": "2026-08-26",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQUtwUFprdDlFaUlTYlloaHZKSnNIWnYybkpOTzZOX2dGN1g4VlRja2tNcEJuSDVMYWwxNW9KdWlBaGVKaHFwN1NuYm51OVc2dWVrVnFvb1RXU1E1d2lYS013eEFfTXBqYks4QlU3YlptTjkxRjdCLXFxd1dxWFhxT0djcjRYTEJKZFVTaEdQbmJRNW1LT0V6WU1hQzdEa2dEN3pSekUwR3VvZw?oc=5"
+        },
+        {
+          "date": "2026-08-26",
+          "title": "Moonshot AI estaria em negociações com Microsoft, Amazon, Google sobre divisão de receita do Kimi K3, buscando fatia de até 30% - TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd1QwNkoyVDBuNmU1WU5sU1QyU1ZLMXU1TnRTVy0wWUtFWWVGSU90dzFwVlhmMmJUUDZ3d3ZFdHlhYlYwU19RWHpnMkhaSzhQcm51eGVZdVNjYWZmTjBvdF90eW5Dd2ptMmlMSlRlZ2NORmYzWnNmclJXQ3J2ZUJtX2MtRDl5WnlXaTZldzFVNzMwLWlraHlVT0hsbnQ1M2UtVjBuaGRKdnplTDNMd2dTVFU2OWJmc3RVbWp1SHBYa2k0dlhXRFo4cHFNNEdtdw?oc=5"
+        },
+        {
           "date": "2026-08-25",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOEZYTng4d0Yxbm5tQkZwM2FNbEJvblNtXzYxbTFxc0dsRV9xOUtJTkt2Z2dqRTd3d1l1Zmh5RGpaT0ZOZklHQTBwVER6STMtTi10RzBxT1pJczFVc2FlUnFsR3g3WmFucDRMaDRIR2tfaUkwRDhjRmd0Znk1NGUyeGx1c283QQ?oc=5"
+        },
+        {
+          "date": "2026-08-25",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWDQtR3BHMmdPUktYV21yRUMtTklCYzNadFBmZi02UEhxRThEUlJyRHVHR0s1VDhyMlJhRE5SdG9RbG91WjJXY3ZpSVJFWklIdlN4TDdMcDhDVFM1QkJubVVCUmJGTHBka195S1FXenU3ZEN2c3hVeHBoVkJsQXBwSlpqMnRCQ3QzenhOMkxVME5ROUFmN2RyRTdnQUlIWVVFY2NIaEVNaWJSMjNkYW12UEY2a280SEFMNC1qTHlqWTlVbWEzdzVwajc5MXJlUmc?oc=5"
         },
         {
           "date": "2026-08-24",
@@ -407,29 +427,9 @@
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMkRBTEVhNXJZM0RpM3BySzNlSTJ4R25YRW9wYnJtb01JSklnQXFfWjUxcVlkR0VvcVR2WmhQZWNJMktXMmJBb3laZHRjc2tRSHJlV3hOcDIwdnlPOTRfXzFnampmWGF6R3hHSFl3djRmbWtSS2tUd2VxMDZlbWZDVTJpNDB1VzRGaVFObUxEZ3kzUXA1cnpHbElDc3lfNEg0QWRGSE5XYjBMQQ?oc=5"
         },
         {
-          "date": "2026-08-18",
+          "date": "2026-08-21",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tNmx2Y2l0d1RuRlNDWkw3OF85YkJxbExTNWlGazlHbndFVkxsbkFoQ1NTU3Zzdml4NmVlQ2NJNDJ6TG5aMVU2dmJMa2tESUx6QlAwc18wcUJRNVRiaDVIVWV0UmZabzc2cUhkdF9CYTF5TjU3LVA0ZlkyaFhyQQ?oc=5"
-        },
-        {
-          "date": "2026-08-16",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaUVjdUhDeUNqN1FlX2hzNWcwa0V4V3RQcDFoYlExY2JYeXNjbFZNVkpBVTZMT29PckY3blltS0lkSmptOTZmNGQ4cm9SZ09ZVHZFUVk5eVdUYllEUTd4eUZ1blRRSGw3TDBHblAzZGtFYXc2UkhuVTlMSktVZ1l5d01sOEQwUQ?oc=5"
-        },
-        {
-          "date": "2026-08-15",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaWRpRXBNQWVhUkdYLUdwclFPb3lrdHdWS0E2VjI1SHB3N0lIckhYd0tqdm5SRXc2UUxrUF9Cb01SS1ZCOG11VzBEYTVRNm9vT3hPV0R2akJPcFRBay15djIzSG5keUd4WUJUam1IWXJYaVk5b3IxWlVFTnUxLWoxSTdIQ0dwQQ?oc=5"
-        },
-        {
-          "date": "2026-08-14",
-          "title": "Bybit amplia Perpétuos TradFi e oferece negociação 24/7 de mais de 200 ações globais e ativos pré-IPO - Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNTnlBV0ozRS1XUVpEZ3lyUmVld3RHZXZXM2p4aEVWSVNJZmI0OEdNV3hOTlNqMExTWmdCTUlPOW02bU5RWGplcm5pZ2NDRUgxcHpQQ0RmTk1Eb0lQRVpuVXBGM205STlzaklwUU9tTXlaVGctMWNvbWluZE9KZC04UUhiNUIxRHdHaUJDdzVfWWhLWkpYdDJCN05ubW5UNEVyVllxczJJdlh6ZmtDZC0zUTdmRy1wX0VnUmZkWFJXNEU4TDRlWk1sc0FOS2VvR2ExRV9kLUxsdkZOblJScjF3NVdPWnVOZk1mVDROazJrbjlPRnJ1WlhmblN4TQ?oc=5"
-        },
-        {
-          "date": "2026-08-14",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON2ZqWWxKUzQ4NV9ySTBrMzdXX3NoNGpGVlFEMG50N0pra19KcjR6TDlZZzJkVi1UbW14d2VEY2lsTlM5ZnE1SHRFNlJZN1hCbEk2Qjc5Qnd5c3UzbHlZTm1LcGY2eFRRNWFqeXJuLThJX0tXeUhuc01qazBKYVRDVzkwNnI2eUw2OVFHdnM2U3NpMmdiR3NJZ0QyRVBEWGVyMFZHVjc4OXY3ZWxMQzRoVg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaGRhbjRtbGx2dHJNcVcwajdUZHNSR0FUazJZbmFrMGlpTGxIb1Z5X2dfcEJkSjBIRmdlbThCX0JlWF9Ea1FuWGxUUHR2b0phVXhKMDluQ0VVUlZ1b0hEaHZ6Z0hub2MtY1F0M0RIOWZKTjJRYUdXT3VSVTNUMlEtbnJpcW9wY1dXNHoyY0xsZjdBMEE1ZTlQdFVEQlRQSXBzNGtFOVFvODRfUnNsNjFOWWc4NFZnNUFQd3VYUEQ1YjNCMEdHT0N1akh4QklEdmNTTmc?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
