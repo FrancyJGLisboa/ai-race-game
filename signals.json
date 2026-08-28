@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -52,6 +52,11 @@
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRFA3NnViYk1Xd3pJU3JVVEVWSWxsZ2lJSUxvdFBoWXNDejJza2lTM1kxMUdXZW1INDBTeThGdjE1NXByYml2b3hkUi1uVlZ0TnNrQkVuYVJkS3pXeVJ3cC1WbXFwSVVNeE1ya1BqNnd1QkstUFRoMXRBb1F6WjJ2d1JIYzJDVTFwOG9yQ1NiRDdHZk8yTGNibUJvSEFvT1h6NDZHNzFTdjNIWl9TNlFvT08waUJabW5FZkNwYnl3MmxZaFBqQ1kyQ0FxLU9aWndF?oc=5"
         },
         {
+          "date": "2026-08-26",
+          "title": "Moonshot AI negocia cobrar até 30% da receita de nuvens - portalcripto.com.br",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeHFEM25hVEtFVDFFY1pkQ1ZUSDhsckFDdHhXdExNOTJmRlNPaDIxcUM4MlZZYm5Ha1dyWDh2N08tV3Nsd3d1UWd2M0JVSXFkTUV6ODBYWkg5OUd0Q1JxazZkS2hicHptWFlSU0VxTGRZR1pMTkd6dDVobEtBS2N5b2dKakNxdGJVS1ZZMHFybGhFSnB1cTFEMjdodjV4aWZXM1FaeQ?oc=5"
+        },
+        {
           "date": "2026-08-21",
           "title": "Chegada do Kimi K3 pode mudar ranking de popularidade de IAs? - DComercio",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVnFmVU9uZ2otSU1YQXNpVzMtbWpGeFR3NS1MNkZraVVSZ2NpTkFSMV8waC1fVU4wbERCcW5CUy1XSVhVTXU5TUZ5RlBNQlpvUWVxbmxXNElfaGk3UTE4UXdERUMySHJVR1R3dkl2ak9KNUVoS2NJSlJJQjRXODRyUVJsM2RGaDNWaTRmcmRRbE1pcEhyX0E4Z1lHVFdzR0U?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-08-12",
           "title": "Alegações de destilação do Claude retornam após investigadores analisarem o Kimi K3 - Windows Report",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLWVialJIcVk4NndoV0dMNDFMSkpQNkJNbTc5MHM1dlhDSHFJQ25nbEJEOG9zcDNrNWJVWEMtY0VER3JRWkE0azhIdzVnMEJ3UVJhYnlzY3pBYmFJY1Z6UlhVQlQya1JBQjZiNlNZSE85eFdqTzVmc2hNdGN2OElta2ROTW1za1h6ZGZvZWhaTlRCdXFRSkFFM1llWERBZWtsZ2pKNDBMTFVSY0RrdGlKeG5EZw?oc=5"
-        },
-        {
-          "date": "2026-08-12",
-          "title": "Nova IA da Meta roda no PC: entenda o que é ‘peso aberto’ - Olhar Digital",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNjNORjhGQjgyOGNJU2FXUDVCWUJ5dlVGUW1lUmR3cHVkaWk0ODNvamRJSWl3dGFxSUNKTnc4LVpOTGUzUFZ3SC1ONjQzZk9HYUhKenlLcG9nZjAtWUVkY0ZQZ1lGYXlRZVNfT3BDaDFyZnM4Rm5PUUJJRFRhRFVLVWN1N3ZMamNQUXFwYjhRUnVMU19zV2lPeHU0eU1ub0M4?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -116,6 +116,11 @@
         "Alibaba Qwen 3.8"
       ],
       "evidence": [
+        {
+          "date": "2026-08-28",
+          "title": "Alibaba lança modelo Qwen3.8-Flash com custos reduzidos de treino e suporte até 1 milhão de tokens - TugaTech",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSU0tSXlKSGNVdWRDMnp5NDF1b1k1S2EzN0Y2dlZlWFNveUhSdV9EUmFOMWdLdGppMm10X0VGMU56SEZaYmtPSjBFMm5xOXVkTUhUUVQwVzRpU3lZNkxPdmFPc2JhOXFYMk56a01jc0lVUEZJY3VKU3huTWlLdHRMSzVUN1VhNTM3YW56RldoQjVYQldjdEJmQ2w5TENZMjdnMHg5NFVROWkwbDBnNjYydTJKYVBiMzRnLS1UUjZtY2RaUjM1dG0wQQ?oc=5"
+        },
         {
           "date": "2026-08-27",
           "title": "Gigante chinês anuncia 2 data centers no Brasil, visando expandir negócios de IA - Folha de S.Paulo",
@@ -147,6 +152,11 @@
           "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWHJNUFB2cFUwQ3J2WUNNUW40S2RJZjRMUVVjM0hEZDN5SW02X0JocmRDNUFwX2FGZ2hnZVBaYk5DUFZYNUZLbzMtYUl3UVBvcWRQaW1xNHRPQjVHRV9fRlZkM0FsOFg2aElHZTBMVXRpRmdtTHNhUXIxQ0ZsMWk1RFBTNkhVVFY4LTk3cF9pcndXUVFkTE1Ic3ZkRDJGSGx3bmRnUHltb0hzMlFSYk9aUzJQQ2xBT0R6SUhrSmJqZ09WczA1NTNkZGdkUkVOLThQYTdsWENfdw?oc=5"
         },
         {
+          "date": "2026-08-27",
+          "title": "Nvidia sobe 7% após projeção aliviar dúvidas sobre IA - portalcripto.com.br",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa0NjajNpVU1VU3B6OTFPX0h4SUVKQnVBeEFKLVFkeFZLenl5eGRoZldnOUFZU2VqXzJ1MTdQYi1WNmRfbzVNZHM4emJWaW9ObDZLbk1WdzdFNjhkakRBRXVjMmFmVFJMdk9wbkNTd0ZvZTdfREUzUWc1dlBRSW1lR2JBYnZnYVZzWW9PZzRvalJUOXJycGRJRVpPRzk?oc=5"
+        },
+        {
           "date": "2026-08-26",
           "title": "Alibaba lança modelo de IA Qwen 3.8-Flash com custos de treinamento menores - Valor Econômico",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWE9ZbFZneXl4ZXllMmg1S1Nob0MyeXlScExXVjVwcUtrMGQ1WGQ5eVFhelhDWmNHQVNTSTMtenB3M2U0Q3ZObmtTc3ZaX2dlTGQwZTFxcjVoYlpFdGt0cXcyNF9vSTNaMEc4VURpdjVBUzVGREhLLTZ0UzdUR3hCT1BWVk5IWnE4cldlNDdvb1JaYUZkcmxHLWZ5aG5maWFpdVB4Y29PTmN1d1NSWWwybXdFSVpnN3IyX2NJVFUwblRlWHJydjN4Q19nZW9TV254M2tjajVBUEg2YUHSAdsBQVVfeXFMT1hPWWxWZ3l5eGV5ZTJoNUtTaG9DMnl5UnBMV1Y1cHFLazBkNVhkOXlRYXpYQ1pjR0FTU0kzLXpwdzNlNEN2Tm5rU3N2Wl9nZUxkMGUxcXI1aGJaRXRrdHF3MjRfb0kzWjBHOFVEaXY1QVM1RkRISy02dFM3VEd4Qk9QVlZOSFpxOHJXZTQ3b29SWmFGZHJsRy1meWhuZmlhaXVQeGNvT05jdXdTUllsMm13RUlaZzdyMl9jSVRVMG5UZVhycnYzeENfZ2VvU1dueDNrY2o1QVBINmFB?oc=5"
@@ -155,16 +165,6 @@
           "date": "2026-08-26",
           "title": "EUA aprovam comprimido da Revolution Medicines para câncer de pâncreas - Valor Econômico",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWlpKWVFoQXA2bkV3Qlk5TzdzWExxakFpSVFSbEF5YWhSTy1kTHAyUHB0SVFXbVJjTGgwdFBVT045Y1VnaTI5TG9NUDFlcHV4YVBPLXA1RGN0Yjk2R05xb01zdjZjelgyUDZiT1RhS0dkUlpkbldhemZFck5sT19kQ1loWUFQZkV4Q0J6UTdDaVJCRXRuZHo4WGcxY055cmJSUWRQZWVNU0NpUGZVcER1TGFOSGt1c1dNVjd5eWxCbjdlZEJ2QmxUSmh4ekh3RXFlQTF3enRR0gHWAUFVX3lxTFBaWkpZUWhBcDZuRXdCWTlPN3NYTHFqQWlJUVJsQXlhaFJPLWRMcDJQcHRJUVdtUmNMaDB0UFVPTjljVWdpMjlMb01QMWVwdXhhUE8tcDVEY3RiOTZHTnFvTXN2NmN6WDJQNmJPVGFLR2RSWmRuV2F6ZkVyTmxPX2RDWWhZQVBmRXhDQnpRN0NpUkJFdG5kejhYZzFjTnlyYlJRZFBlZU1TQ2lQZlVwRHVMYU5Ia3VzV01WN3l5bEJuN2VkQnZCbFRKaHh6SHdFcWVBMXd6dFE?oc=5"
-        },
-        {
-          "date": "2026-08-25",
-          "title": "Sem mensalidade de token: Perplexity lança IA local e mata custos da nuvem - TudoCelular.com",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdi0yN1YwWlRMLUM5d2RMbXVOdi1YcFlLd29DZmctUFNRTk80OGh4UG9BR0ZKTFI2T0k2X2RmdjF0czhKSkVGc1BrWnIwSlRpM2x4dDBYamtRalRzQUZRdFhlVEZDYmVwN3FmNTVJblJZNHpUQmpxai1nU093b0pRRTFnWnlyVktUZ3Nhb2dEZmRGVG1KRjQteGd2M2dEYXhnT21WZll2dFBpZzB3V2YwSHB6WHZjd1d3RXlVNldTSzVBTXQ3QjdaS1h5WQ?oc=5"
-        },
-        {
-          "date": "2026-08-25",
-          "title": "Lula, sobre Petrobras (PETR4): “É uma loucura o que nós estamos fazendo de dividendos” - trademap.com.br",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPdkw1aDJQM2tZWDJSSW92TEY5LU9UZ1RTMmJ0eDVDTU9kSlQtaEZneWJzSmFveEd6TEk5cXN1MFFKS2M5QnRScGJmRUZpQ0czaHB0NkxJYUhid1Fhb2pGZFFBNzY4WklXdjMtdkFfWTB2YU54OFdCZXBxc01pRVp4N1ZWTWdiemcwY0FjSU80M25OdnlOb2tNaVVDNldheG1KQ1hyVVA1OU5uaW02cTZKLUNMQ3pRRzlINDZualoxMnJFanhxdk9vaWtWWkFNMzBQbHdQakh4dktpUE5nSUFHbXRUYkYzbXY4ZFROeTV5WEo5Xy05TEpwamRQR2VXNEROb05XVmdxYnY1cm8?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -382,6 +382,21 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-28",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV0NxYjFXQVM3dnJWZnpPZ2dSVWNrSFlJNjVUQVRxNzRmdHFDcmpOTkt5UDlHVzlXWXBKN2RCY19ia2NjTExCYzRRYzZ0VnFCNzZpYURld0RoYWVnaWZzMGE0Rl81Q0NZYXNNZ1NqbDdRVjE2ZUl3R05MaWlQVlVWYVNxcThHRkpybUlmcVVkSW5DcXJwRy1iRVlTQTRVTWRUeGd3UVNzWFBHd1NYcW91cEJMQ1VpV1ZVNFdVTkpZeHhSdw?oc=5"
+        },
+        {
+          "date": "2026-08-28",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWi15NmpjN2JibTdsNmx6OUJfWnpIT0xNS0hMdWx5RGU2TzdjUVpKNE5sMHlMWW1qSURaUy1CZGdvQkpfYTlFYkctRlVYWWRCUEhwbkk4aU4wMnhyX0x1bjktZzZGVVhjS0ZpdnhKVVB2SGpSNEYyV3VMZUpMa2dyVWtoTDZyZUVyTUxNQ19IZGRjWC0zMk5yb3lOS3p4VFNrNjlnZGw2NnRZWnFFUjMxeUJzWnRsNTBrTVk3M3JmTU1MMzRZZEVKeS1DUGI2R1gtTEpaeExpTkJqdw?oc=5"
+        },
+        {
+          "date": "2026-08-27",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZmZRZHYwMWVtZHZHMXV1dnlseVpmOE1qMXZoekVDWk9ESnZwS2JxX3kzdjhhWE9FaXlma3ptX0JPZVBXSFFmMGJCb1MtbmVwN0Vza3VkaXhMXzFMbG9ocHRIeGdSUXV0UnhkaUZTY0lrN09KcUs2ajNhdVNibEhYU2FEZndCUEN5QndKNzdBQ3FNNVBxVl9WNk5vUExUT2cwX2Q5RnNLR0ExREVyM2MwTGU5c0JLSy12amZsOHgtNjY4QQ?oc=5"
+        },
+        {
           "date": "2026-08-26",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRWpQWjY3eXlZSG9FR3puZ1dKamZRcUhuc29ndzcyRDdsWWJpMDJFVmFqeU1VLXpmMVlrUDI4N3o0WTBpSVZiZnRLZ2d1dExIN1VacFhDaF9wdXBYam1mb2lfM1FibnVUZmxSOGNyamFuNTV4RHdJWWxfZ0ZvNHRXUHhvWTNncXFTUGhzWGZ3bkVGTlBQQWNkXzY1dFRCeEh4d2pWOTMyNXhhUEV1RF8wblBxeTBVUVd6SWxEMThFV0lSVzhqNFVfenpDaHFxS1FVdUNRVHZZMlowcWkydEhOR1FmRnFSR3dHVDE3aHFMOHNXRFhWWmQw?oc=5"
@@ -415,21 +430,6 @@
           "date": "2026-08-24",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNkMzaUhNN2tHZkl6NXd3U1ZDTWRTZWFZVzhGMW5xdzVqQ3hQUFVmRFA0WWhKYWZJT2NLRlY0ejFaaThxUGgzMGZRMHdzQXFpOHlaTWJnT0c4dVI3bUlkSVlrTWU5al9QXzZMdEwwNWQ0R0tyVjJhTTR1VWpJMnZnQVNsQ2Vndw?oc=5"
-        },
-        {
-          "date": "2026-08-24",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMlpEYWdMRzRVeUdfcW9nZDhhbkhQUUtVMVZZaFo3dWotY21nNTBUVEdvNWRicnhDQ1J5Z2ppS3B0VEZickNKWDZ6ODVGNmFVX3RUWUxBSHNGazFKWkN4Y2hSYmZfdlhCSUZoNXBqVHlkdDBGallDc3YtUzNwQ0NDZ2JjU1ZoUQ?oc=5"
-        },
-        {
-          "date": "2026-08-22",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMkRBTEVhNXJZM0RpM3BySzNlSTJ4R25YRW9wYnJtb01JSklnQXFfWjUxcVlkR0VvcVR2WmhQZWNJMktXMmJBb3laZHRjc2tRSHJlV3hOcDIwdnlPOTRfXzFnampmWGF6R3hHSFl3djRmbWtSS2tUd2VxMDZlbWZDVTJpNDB1VzRGaVFObUxEZ3kzUXA1cnpHbElDc3lfNEg0QWRGSE5XYjBMQQ?oc=5"
-        },
-        {
-          "date": "2026-08-21",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaGRhbjRtbGx2dHJNcVcwajdUZHNSR0FUazJZbmFrMGlpTGxIb1Z5X2dfcEJkSjBIRmdlbThCX0JlWF9Ea1FuWGxUUHR2b0phVXhKMDluQ0VVUlZ1b0hEaHZ6Z0hub2MtY1F0M0RIOWZKTjJRYUdXT3VSVTNUMlEtbnJpcW9wY1dXNHoyY0xsZjdBMEE1ZTlQdFVEQlRQSXBzNGtFOVFvODRfUnNsNjFOWWc4NFZnNUFQd3VYUEQ1YjNCMEdHT0N1akh4QklEdmNTTmc?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
