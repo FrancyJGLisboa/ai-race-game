@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-29",
+  "updated": "2026-08-30",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -57,6 +57,16 @@
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeHFEM25hVEtFVDFFY1pkQ1ZUSDhsckFDdHhXdExNOTJmRlNPaDIxcUM4MlZZYm5Ha1dyWDh2N08tV3Nsd3d1UWd2M0JVSXFkTUV6ODBYWkg5OUd0Q1JxazZkS2hicHptWFlSU0VxTGRZR1pMTkd6dDVobEtBS2N5b2dKakNxdGJVS1ZZMHFybGhFSnB1cTFEMjdodjV4aWZXM1FaeQ?oc=5"
         },
         {
+          "date": "2026-08-26",
+          "title": "Moonshot AI negocia cobrar até 30% da receita de nuvens - portalcripto.com.br",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZlRpQ201SkdoNnNxU0pnOUdjalg5MHE2NVJNVzVOZUF6R2dEREJVenBxbXRnaURYcktJSUM2bUF3X1RseXVGYldabHFyWUtUX2ZtbjFNUXFNcTVtbmtnY3BwamRZYUhSeWlzb3E0NzAtN1ZUUEN3RG43TzhfTXlkT3VqNTRmdFVmc0p0ZmI2c0c4MjlNc0ZId0pORkUyM1U?oc=5"
+        },
+        {
+          "date": "2026-08-26",
+          "title": "A Moonshot AI, empresa chinesa de inteligência artificial, está perto de fechar negociações com os gigantes da computação em nuvem dos EUA para partilhar 30% das receitas - Cryptopolitan",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWE94NWlVbldmLTJJbkZRRXNUWXJUQTVTOU5BX0gyZ1RWMXhua0ZKRmhyVzlscnFyN2tvdWo0QVBOaGhyZk84R0xEa2NtOW81alR5YlNrXzg5T1NPYzNjeWFLN3JlaGthTTltM25pWGlDWllZODBjT0NvcXRGQVVFLW52OA?oc=5"
+        },
+        {
           "date": "2026-08-21",
           "title": "Chegada do Kimi K3 pode mudar ranking de popularidade de IAs? - DComercio",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVnFmVU9uZ2otSU1YQXNpVzMtbWpGeFR3NS1MNkZraVVSZ2NpTkFSMV8waC1fVU4wbERCcW5CUy1XSVhVTXU5TUZ5RlBNQlpvUWVxbmxXNElfaGk3UTE4UXdERUMySHJVR1R3dkl2ak9KNUVoS2NJSlJJQjRXODRyUVJsM2RGaDNWaTRmcmRRbE1pcEhyX0E4Z1lHVFdzR0U?oc=5"
@@ -85,16 +95,6 @@
           "date": "2026-08-12",
           "title": "O que são os Futuros Pre-IPO de MOONSHOTUSDT? Negociação de Kimi e Moonshot AI explicada - MEXC",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRFB5YlhLNWUxaDVHOTBpdFd3aU1fZWo3MThwaENxRmRUYWEyUlFSMUstRk1pc3VzTG9odmw2aV9mbDgzdzdSNlNvVW44bEwyOUVvUGkxM3BDRk1ZYkZNX1RCYmxBdWNyVEc2NmNmMlFkUG9tVDRlS3ZkYjB2eG4zR2I0WEtnUTdHeGFzUzB0OEI3TzlyUlRlTlY0UFYwQ1pYOGJmd25CNFZIZE5KUGg4UnU5LUtlS3d0Wmc?oc=5"
-        },
-        {
-          "date": "2026-08-12",
-          "title": "Alegações de destilação do Claude retornam após pesquisadores investigarem o Kimi K3 - Windows Report",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ1JBcFZLcER5Yl96ODZUcjF2UzFtaXBSRUNoc1F3MmxWNHVaWHNPbGxRMUJJeXYwSjJrRzZKYTFkTDBDbjdVOUlfbjN1cjdVSUpGN00xMEdYcWkyMHhyaXRHdGxuamdodHM4dnd1NUpPMTFtZjVNbUpJUlVEUF9rZ2NIU3RBRnBqaTMxQUVxbzVvNDdzS3hsTEsyemJZWVhyb2xlbHdzRE5YSVNJSm9yNHVfMng?oc=5"
-        },
-        {
-          "date": "2026-08-12",
-          "title": "Alegações de destilação do Claude retornam após investigadores analisarem o Kimi K3 - Windows Report",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLWVialJIcVk4NndoV0dMNDFMSkpQNkJNbTc5MHM1dlhDSHFJQ25nbEJEOG9zcDNrNWJVWEMtY0VER3JRWkE0azhIdzVnMEJ3UVJhYnlzY3pBYmFJY1Z6UlhVQlQya1JBQjZiNlNZSE85eFdqTzVmc2hNdGN2OElta2ROTW1za1h6ZGZvZWhaTlRCdXFRSkFFM1llWERBZWtsZ2pKNDBMTFVSY0RrdGlKeG5EZw?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -142,6 +142,11 @@
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96TEhFbkFfYjhFOG91eVpfSHVKLUFHaXhkTTlqZlU1NlI0eFZXY1ZxZ3J5a19Zb0VqX1JyUEhtU1Q5YWo3V3F1dUFJZkR5NldrWU9CWlg4UDFmVjd5Q0N5b0ctdy04M29ic05iVV9hd1dQekJORDktal8ySDFmdw?oc=5"
         },
         {
+          "date": "2026-08-28",
+          "title": "Chinesa Tencent lança IA de código aberto para tarefas de programação e pesquisa que superaria Z.AI e Moonshot - O GLOBO",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNejJ4Z1dQSXFpRVQ1WjlQWVAxNTY2VV8zV29HZ2MyeWNWQVZ0Y2MzZm9QdGZIX3Y4c3ZIMndsV2VPTnVPR1ZkUGxROFdMR1ZZWS1qaERWUDZsSUxDM2dlbXB3c0dFUE54SU9fSnVhdFE4ZXpjMnV1b01oVDZwOEdjcm9jdUVJY0JCaDhqTTQ5aElCeGlEQnRDYVBRVTZRWDB4NG9Ga2R4bmRzcWtfLVE5OFR2U3FseDVlS3Y1dFp0emlsN1pPaXZpMW13aVhWNTB4ZWU0eklMTnN3dWZ4YkNrVUF5aENaeGw4OXo2TGdnQW1nTEdsckllbDhwWTjSAYsCQVVfeXFMTzFvMmlZLUpEeWxBemNkbktnaU1YSEpKa3QxV2l4R2FVNHF1WmY1aUpLSk5ITW1Nc0FpLThkWFNJUF9oZ0JfbGxMMlJWM1JhV2E4UFpxR3V0RGp0UDI5eHVwUTJfVllsd2ZnR2FxS2MxQnExYTZqSEpQeW9KM3ZhbTBucXl0S0hFMnNTQjhnUkhNeFlmTDVtRkZJOG82Y2NvWlZ1MTNnWV9RbE50SS00WWRCLU9Uei1hVzJyZzRsQmtGRVpvZ0tidk53NXF3Tms3YVEtbmdlZzI1dXoyeVlWUXo5dnRRMjdvZGd1MFdPUktuc3hpOWxic2F6QUFRX2VtZ0pmMENPcjhRX040?oc=5"
+        },
+        {
           "date": "2026-08-27",
           "title": "Gigante chinês anuncia 2 data centers no Brasil, visando expandir negócios de IA - Folha de S.Paulo",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZzh1UV9VZTQtX2gxVWtYeU56c0dQZkhqQWsxVkMxX21tZ1pjTzNTMWtxdU1HdkNiNkxZYk9PTXdnVGtYdzRGbkptblJTUlZRWkxzR0oxNlluWUw2T21vbldIY0JERzFrSnp1Vlg5Mi13WGlQbE5XSW1YWE9zT2xrWFRFTi02NjVCX2hPaVJTcUx1QlJlWEVzQ01RaW96VzlKUnFrcFRZYzFzRXZmREhNblJ3MmhFLWdRb3phTGJYZjNMT1J6X3c?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-08-27",
           "title": "Nvidia amplia suporte a modelos chineses de I.A enquanto alerta para possível restrição da Casa Branca - Times Brasil | CNBC",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNnhLTC1wa21YejhKLUpJeEZyYTdsT0lpVERaVzBKTjFDQkZ6Rmg3aXFGbEN1aVd3TkdwdjhsWktYQVBnOERTenN3Tkttb19QT2ZNREJBUkRTUW1FTmdHUFk4V0NCLTU2LU9XUjBXX0ZHSEdKc3N5WHZXdXpQOG1xZmVyZDVTUjIxckc1X09YRk1xRlBwUXUxa3Z0NmVLSnBSSkthbFRycG8zc0otdy10a0xZQ3A3dEVzejNuU2syQjFSdGhULTlBVWRCMElMeF9KdFRxUGJXMllWTWdiaGJ5U3A3c3A?oc=5"
-        },
-        {
-          "date": "2026-08-27",
-          "title": "Chinesa Alibaba estreia no Brasil com dois data centers mirando 'boom da IA' - O GLOBO",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTERBbTh4aXJpT0VicnkwZnRhUlZVaWRhc0VyOEJZUjBTclA4TmtuZndnU3VPX0VzQkw2SWhYR3pINXpKWkFra29WODJXUnVmblBuWG9FUlhQZDNfTXZwRjdpY1RkZExQdG9IcS1nRE4ySTVaQVJTby1GQzZTckd1RGstUU1HWDlEVU9Ganl3RDd2TnhueTFjaUs4bjhCYmY0R2gxOHhEczB3WjJNTDJueUJOZ0VSY2MzUWpMc2hvOGdxSXpkM1dIU0dSNkJLaVJ3MDJ6M2g2Zllqd0ww0gHrAUFVX3lxTE5NYk92OGJVeG45NmY1aEkxV2xyS2I2Zk1oSGNDczZKOXMwZkJXaVdST095dWxrNmlWU3FZMGZ0bTBHbkhYMG5JMjE5eUFvVENlXzEzSmlfX0xJNS1IbTV0STlrTzhjVTJmXzBvTE5GUVFGSTQxelVFZU1SNm9LdFpFOTBMTUthUFBvLWdfVXlCdlF5bTRGcTBzU1I2aWNxNnVkYWRyYkpzQVpSLXdXYzlEUUN4cS1VRGdJY2xUSDNIcERtaS04YUY1SUg1WUViaXJOcVZZTVlFTzlkT2pxVHRydUVuQ0xsU2kxN28?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -387,6 +387,11 @@
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GelhGYWltOWFtRGI2enFPSUJtWS1pVHAxNl9WVmdPa2twMVd5T0xyM3JIWEVhYTc5Y1l6Y1RBUjNQNlRjRHhQYWN3cWljbHNNODRKQkd4SzBWeUVqT2Y1VElzQzgyZjJfa0h6cUZ6QWZmXzNSWGVkRE11Q0poQQ?oc=5"
         },
         {
+          "date": "2026-08-29",
+          "title": "DeFiLlama mostra Anthropic e OpenAI no topo pré-IPO - portalcripto.com.br",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQmUzcGpDR1NmbkdCOHNlYjFIUVhhN3M1bkFrTWlxM2tjclVTRml4V0FEZzU3ZHkxLUZtTzBDZ0gyWDhXSWpoSXg2VHVJRV8zcE1qSHptWHdKVzJ6RTlURUFvaGZidkplUXpkMmt1akRPMFNBWkFzbHkzWEh1Vkw4X1NyVXBYdnJnZE1EM1JMT3EtNzBLbEZaSzBRcw?oc=5"
+        },
+        {
           "date": "2026-08-28",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV0NxYjFXQVM3dnJWZnpPZ2dSVWNrSFlJNjVUQVRxNzRmdHFDcmpOTkt5UDlHVzlXWXBKN2RCY19ia2NjTExCYzRRYzZ0VnFCNzZpYURld0RoYWVnaWZzMGE0Rl81Q0NZYXNNZ1NqbDdRVjE2ZUl3R05MaWlQVlVWYVNxcThHRkpybUlmcVVkSW5DcXJwRy1iRVlTQTRVTWRUeGd3UVNzWFBHd1NYcW91cEJMQ1VpV1ZVNFdVTkpZeHhSdw?oc=5"
@@ -425,11 +430,6 @@
           "date": "2026-08-25",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWDQtR3BHMmdPUktYV21yRUMtTklCYzNadFBmZi02UEhxRThEUlJyRHVHR0s1VDhyMlJhRE5SdG9RbG91WjJXY3ZpSVJFWklIdlN4TDdMcDhDVFM1QkJubVVCUmJGTHBka195S1FXenU3ZEN2c3hVeHBoVkJsQXBwSlpqMnRCQ3QzenhOMkxVME5ROUFmN2RyRTdnQUlIWVVFY2NIaEVNaWJSMjNkYW12UEY2a280SEFMNC1qTHlqWTlVbWEzdzVwajc5MXJlUmc?oc=5"
-        },
-        {
-          "date": "2026-08-24",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd2pNYnc3a0ZwenVYUlY2OTBVTk0tem1NaXIzWlJrS01vQWNqS3ppTzJ5QzZsMmEzY0hIMHprcmhrWXJVZU5kTmd0QWhRa1dMOW00ZkRTQ2NncDZhSDYzR0tFVnFQam5YU1phbE9ETmtrZzhqQUNac0NsQ1hYdGUteGtZa2FGdGEtemZUcDE2V2NySFA0RVNtZTd5cm1CQlY2UVpFeEtCZkVUZWRxMS1R?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
