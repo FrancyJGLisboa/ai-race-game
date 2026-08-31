@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -257,6 +257,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-30",
+          "title": "O vídeo viral do robô sexual chinês não mostra nenhum robô, veja o que a Somnia Lab faz - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQTZzaWozX09YcVdIS3pLQmJKTW52WldCeFptMUYwd0dWemluUHlZUi1NaTE3RmhidEtFdHY2NE84YlVYNUxJQ2VCZERtdDJUcXNCZjhlUVgyRTRqQ3VtV0xkYlNkTGltOHEwZ08wUjlmTUdtc0FCQVhuN2JSbk83Z0poZG5GM1RIU0NNQXVR?oc=5"
+        },
+        {
           "date": "2026-08-17",
           "title": "Coldcard Wallet Breach Drains $112M in Bitcoin After Five-Year-Old Firmware Flaw - The Cryptonomist",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrRjNKWmZFODhEWWFKazlMdDJ0Z1VpSTJrdTA3YUp5enZjcnhyRnJiZ0Q1bEYyNjlmRGNPQkkzaFQ5Z0gyUnBVM1VDV2d0amtfRUx1VDJzang1Y29ZOFM2S2ZYTEJZampVVG1TZV93?oc=5"
@@ -382,6 +387,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-30",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRGxVUjBqYXhHWmx2SldMRTdRNVJNSTBtMGVpaWdqMkp2d1p1c2d1RGp5Q3Y0blVIaWJXcWNlSE5UM1NHNU4zTndnMVR6QVFDRzBCX1l1X0VJLTdoU0tWOFJoU0hBSjVIWHNkbTdITG56UDByTk9FQUNFblVBVWFmam9HMVI1MWZSeVFkRmMtYUczMmlZc0VQWXhXdWJxRFg5TVM0NFBIeVZrMDB6THpfS0xnZ1VZNDdGR1NNcjd4V2dFSkpPVVRXZXp5WUxJbFU?oc=5"
+        },
+        {
           "date": "2026-08-29",
           "title": "DeFiLlama mostra Anthropic e OpenAI no topo pré-IPO - portalcripto.com.br",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GelhGYWltOWFtRGI2enFPSUJtWS1pVHAxNl9WVmdPa2twMVd5T0xyM3JIWEVhYTc5Y1l6Y1RBUjNQNlRjRHhQYWN3cWljbHNNODRKQkd4SzBWeUVqT2Y1VElzQzgyZjJfa0h6cUZ6QWZmXzNSWGVkRE11Q0poQQ?oc=5"
@@ -390,6 +400,11 @@
           "date": "2026-08-29",
           "title": "DeFiLlama mostra Anthropic e OpenAI no topo pré-IPO - portalcripto.com.br",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQmUzcGpDR1NmbkdCOHNlYjFIUVhhN3M1bkFrTWlxM2tjclVTRml4V0FEZzU3ZHkxLUZtTzBDZ0gyWDhXSWpoSXg2VHVJRV8zcE1qSHptWHdKVzJ6RTlURUFvaGZidkplUXpkMmt1akRPMFNBWkFzbHkzWEh1Vkw4X1NyVXBYdnJnZE1EM1JMT3EtNzBLbEZaSzBRcw?oc=5"
+        },
+        {
+          "date": "2026-08-29",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUlFYLVlHXzBBcndSY1NWNzlYb05ULW9LQWZLMkd0QUMxMUlZN2MwQVdTbGxDckpNa0R2Mnp1Q3FLNDczMUNpTXJFTmRWaFpVUGRqZXh3Qlh2cDlvM3hGWWlhTmFMWWtKZVFydVpBMzZER0EwdHFIanVWTnVRS2E1V0xMb0NSdw?oc=5"
         },
         {
           "date": "2026-08-28",
@@ -420,16 +435,6 @@
           "date": "2026-08-26",
           "title": "Moonshot AI estaria em negociações com Microsoft, Amazon, Google sobre divisão de receita do Kimi K3, buscando fatia de até 30% - TradingKey",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd1QwNkoyVDBuNmU1WU5sU1QyU1ZLMXU1TnRTVy0wWUtFWWVGSU90dzFwVlhmMmJUUDZ3d3ZFdHlhYlYwU19RWHpnMkhaSzhQcm51eGVZdVNjYWZmTjBvdF90eW5Dd2ptMmlMSlRlZ2NORmYzWnNmclJXQ3J2ZUJtX2MtRDl5WnlXaTZldzFVNzMwLWlraHlVT0hsbnQ1M2UtVjBuaGRKdnplTDNMd2dTVFU2OWJmc3RVbWp1SHBYa2k0dlhXRFo4cHFNNEdtdw?oc=5"
-        },
-        {
-          "date": "2026-08-25",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOEZYTng4d0Yxbm5tQkZwM2FNbEJvblNtXzYxbTFxc0dsRV9xOUtJTkt2Z2dqRTd3d1l1Zmh5RGpaT0ZOZklHQTBwVER6STMtTi10RzBxT1pJczFVc2FlUnFsR3g3WmFucDRMaDRIR2tfaUkwRDhjRmd0Znk1NGUyeGx1c283QQ?oc=5"
-        },
-        {
-          "date": "2026-08-25",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWDQtR3BHMmdPUktYV21yRUMtTklCYzNadFBmZi02UEhxRThEUlJyRHVHR0s1VDhyMlJhRE5SdG9RbG91WjJXY3ZpSVJFWklIdlN4TDdMcDhDVFM1QkJubVVCUmJGTHBka195S1FXenU3ZEN2c3hVeHBoVkJsQXBwSlpqMnRCQ3QzenhOMkxVME5ROUFmN2RyRTdnQUlIWVVFY2NIaEVNaWJSMjNkYW12UEY2a280SEFMNC1qTHlqWTlVbWEzdzVwajc5MXJlUmc?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
