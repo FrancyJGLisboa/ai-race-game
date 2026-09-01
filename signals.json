@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -127,6 +127,11 @@
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBocm85WmV1c2JyWEJ1LVJFbkdkVGQyLVRfLVBnVkFvdkpCSE81TkRQWnFkUHlwT1NwamRrbXNGd3JFQnBVUjI3S09FUnpZZFZnSU9pbF95eXA4cFdNWVFnMGNpMlQtSHR2Ymh0bVI2VFluTFpGaDJqdnhrVTU?oc=5"
         },
         {
+          "date": "2026-08-29",
+          "title": "SlowMist alerta para falso Qwen no GitHub com StealC - portalcripto.com.br",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdXZUcG5ONW5NRHhkTVJYX3hfNV9Ba0ZJLXhuWE9yZGtvZGp4WUxONk54Qy1ENlpUUm9aM3dUYVFVSnBIcmhQTFlXcDNLOGNaX1Q3QUlFWjRCOTd1MnpBMmExSHpzWE9JTzNZUm02alJPSS10UXVfeC10NUpic2ZUUUM0YzVuVnB3cEx0X2N0M0FrR0U4MGQyUjYtRUM?oc=5"
+        },
+        {
           "date": "2026-08-28",
           "title": "Alibaba lança modelo Qwen3.8-Flash com custos reduzidos de treino e suporte até 1 milhão de tokens - TugaTech",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSU0tSXlKSGNVdWRDMnp5NDF1b1k1S2EzN0Y2dlZlWFNveUhSdV9EUmFOMWdLdGppMm10X0VGMU56SEZaYmtPSjBFMm5xOXVkTUhUUVQwVzRpU3lZNkxPdmFPc2JhOXFYMk56a01jc0lVUEZJY3VKU3huTWlLdHRMSzVUN1VhNTM3YW56RldoQjVYQldjdEJmQ2w5TENZMjdnMHg5NFVROWkwbDBnNjYydTJKYVBiMzRnLS1UUjZtY2RaUjM1dG0wQQ?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-08-27",
           "title": "A gigante chinesa que quer expandir serviços de IA no Brasil - Diário do Centro do Mundo",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd3Fkd3ZPczBLT3JMS0gyVEU5TkxJWUZOY28wVk9QX0hiTks5SnBNVnByY29VXzdwYzBxMjdIRzlvNUNNMkM4WHRrcm4yUmttUndkdkRzVHVXY3pSMVpVOGVsX0RNeDRkdHp5X1duZW5xX2txcnctWEVhLW5RTG52c3IwN3VvUWxDVnNOSzFoZ0NRTi1xUmZkUHBTaFVodFZtUWpabw?oc=5"
-        },
-        {
-          "date": "2026-08-27",
-          "title": "Nvidia amplia suporte a modelos chineses de I.A enquanto alerta para possível restrição da Casa Branca - Times Brasil | CNBC",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNnhLTC1wa21YejhKLUpJeEZyYTdsT0lpVERaVzBKTjFDQkZ6Rmg3aXFGbEN1aVd3TkdwdjhsWktYQVBnOERTenN3Tkttb19QT2ZNREJBUkRTUW1FTmdHUFk4V0NCLTU2LU9XUjBXX0ZHSEdKc3N5WHZXdXpQOG1xZmVyZDVTUjIxckc1X09YRk1xRlBwUXUxa3Z0NmVLSnBSSkthbFRycG8zc0otdy10a0xZQ3A3dEVzejNuU2syQjFSdGhULTlBVWRCMElMeF9KdFRxUGJXMllWTWdiaGJ5U3A3c3A?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -186,6 +186,11 @@
         "banimento modelos IA chineses"
       ],
       "evidence": [
+        {
+          "date": "2026-09-01",
+          "title": "CXMT: gigante dos chips entra com ação contra o Pentágono para driblar o banimento nos EUA - TudoCelular.com",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQU1FcnZUV01ZRXpwZ3VQcGR0bXRVVkY4R1B5NlJ6WnNJSkJCNlllbm95ZGotanJ6eHRSRXhpWFpWN2d5eTdiVFk3Q25ReWVVQ09WNHZyQ0lyNEVqQWNfLVFYeV81OEt1Q09kaUZwYlU5UVZhMEd0MzZSeldaV1RmMWdLajhhbDI0Tm1UTVRLMk8xNldGQWlMc2VQQ1U?oc=5"
+        },
         {
           "date": "2026-08-26",
           "title": "Empresas americanas estariam negociando acesso a IA da China - CNN Brasil",
@@ -230,11 +235,6 @@
           "date": "2026-07-30",
           "title": "EUA barram entrada de robôs humanoides chineses - Tecnoblog",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHNrX2I2dExrQlBTU1J3b1pTQV9KYVJhdGJqYWJYTGg1U3NTVGxqOE52ZTJ1MVA0ZDBETEUtMldja0xzaV9ncUxscEZuX1hSMFBBaFU5VjNZSGJET1c5WFZXNHVHS0k4Q0VaX2xTbkt2UkZ5bFl6WHlMOTFzMzlqS0Qyd2ViUQ?oc=5"
-        },
-        {
-          "date": "2026-07-29",
-          "title": "CEO da Meta, Zuckerberg: Banir modelos de IA chineses não garantirá a liderança dos EUA em IA - TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV3dkRTFfOVh4Z3hQUWRwY1p4T3JFakY5RXdVMXRiTVl6bzlrUm1tcERyal9rME8xbXIzWW5NSHpjalpWYnROOHNBemJkZjRKbFlhekhoSVhGUm40XzE5cGpGTVBidzc0eE5WVnlpRXpkaG9LX1lqYW1kVmtqY042THBYZGhNd1lib3NWYzBYZElfUGt0RzVtZTc5ejJVb0NFVXVMT2daanYyREJvVEszVnIxZXBFZjI1Yk5qeHM5ZnFVNHc?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
@@ -387,6 +387,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-08-31",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNTZXeVpYbFhzZ3hjcmt0SFF2WDY3d3VCaDUySVRkV2I5OVZJVVZCUk1UTG5wYTE2Q3JxYjh5N29KZXE5UDBOT05LLXFwUzVwSGp6eXo2Z2JyM0NMNTVDMVIyWFJnbmZ3MVJzLTVKMXBqWF9qaGhnWEtyVVBHSGYxdmtIZkV1dkYxeGFfR2pWQUtZcURZY2lEdTgwVGFDazFDZmMtbUg2RlA4d0dUYWxoTXJ1RlQ?oc=5"
+        },
+        {
+          "date": "2026-08-31",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeThrakwtX0ZXdE9EMnJLb0lNYnBhN1Rpd01ncVQtV2RUb0FwTFp1dDlqeW5jWWt0VllmNHZSTzhabFQzQm54SVBGQXJoaHZ4aHR2QlZTNFM5blN5TGpPQk12R3VmLWhuaUgtWml0RFJ5V245aGVoTkRKLUtFNGtDZVdxcVh3YVludUtCbVFOeUdBWGUwbWhIWXFNOFBpWkNDQVBUODNRUkI3WVZjd2MzclFwLV9iWWwtR09wX2dhVkc0am5YZ2c?oc=5"
+        },
+        {
           "date": "2026-08-30",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRGxVUjBqYXhHWmx2SldMRTdRNVJNSTBtMGVpaWdqMkp2d1p1c2d1RGp5Q3Y0blVIaWJXcWNlSE5UM1NHNU4zTndnMVR6QVFDRzBCX1l1X0VJLTdoU0tWOFJoU0hBSjVIWHNkbTdITG56UDByTk9FQUNFblVBVWFmam9HMVI1MWZSeVFkRmMtYUczMmlZc0VQWXhXdWJxRFg5TVM0NFBIeVZrMDB6THpfS0xnZ1VZNDdGR1NNcjd4V2dFSkpPVVRXZXp5WUxJbFU?oc=5"
@@ -407,6 +417,11 @@
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUlFYLVlHXzBBcndSY1NWNzlYb05ULW9LQWZLMkd0QUMxMUlZN2MwQVdTbGxDckpNa0R2Mnp1Q3FLNDczMUNpTXJFTmRWaFpVUGRqZXh3Qlh2cDlvM3hGWWlhTmFMWWtKZVFydVpBMzZER0EwdHFIanVWTnVRS2E1V0xMb0NSdw?oc=5"
         },
         {
+          "date": "2026-08-29",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVktQQVR3MG5zUEptcmtRMDBDbXdCMWp3SkV3WFhVSTM2V0JRa05OQzRyM0NQQXdmTnRyQ3c0TzZsTmoxdHpVZnRsUHNHWXdja0NFX0hxUGFiWlZGR1NBV3BIWXVHZzNfYzA3U05uZW1TOXJuNW9sNEl2eV9TRHJobDUzX0Q3dw?oc=5"
+        },
+        {
           "date": "2026-08-28",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV0NxYjFXQVM3dnJWZnpPZ2dSVWNrSFlJNjVUQVRxNzRmdHFDcmpOTkt5UDlHVzlXWXBKN2RCY19ia2NjTExCYzRRYzZ0VnFCNzZpYURld0RoYWVnaWZzMGE0Rl81Q0NZYXNNZ1NqbDdRVjE2ZUl3R05MaWlQVlVWYVNxcThHRkpybUlmcVVkSW5DcXJwRy1iRVlTQTRVTWRUeGd3UVNzWFBHd1NYcW91cEJMQ1VpV1ZVNFdVTkpZeHhSdw?oc=5"
@@ -420,21 +435,6 @@
           "date": "2026-08-27",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZmZRZHYwMWVtZHZHMXV1dnlseVpmOE1qMXZoekVDWk9ESnZwS2JxX3kzdjhhWE9FaXlma3ptX0JPZVBXSFFmMGJCb1MtbmVwN0Vza3VkaXhMXzFMbG9ocHRIeGdSUXV0UnhkaUZTY0lrN09KcUs2ajNhdVNibEhYU2FEZndCUEN5QndKNzdBQ3FNNVBxVl9WNk5vUExUT2cwX2Q5RnNLR0ExREVyM2MwTGU5c0JLSy12amZsOHgtNjY4QQ?oc=5"
-        },
-        {
-          "date": "2026-08-26",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRWpQWjY3eXlZSG9FR3puZ1dKamZRcUhuc29ndzcyRDdsWWJpMDJFVmFqeU1VLXpmMVlrUDI4N3o0WTBpSVZiZnRLZ2d1dExIN1VacFhDaF9wdXBYam1mb2lfM1FibnVUZmxSOGNyamFuNTV4RHdJWWxfZ0ZvNHRXUHhvWTNncXFTUGhzWGZ3bkVGTlBQQWNkXzY1dFRCeEh4d2pWOTMyNXhhUEV1RF8wblBxeTBVUVd6SWxEMThFV0lSVzhqNFVfenpDaHFxS1FVdUNRVHZZMlowcWkydEhOR1FmRnFSR3dHVDE3aHFMOHNXRFhWWmQw?oc=5"
-        },
-        {
-          "date": "2026-08-26",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQUtwUFprdDlFaUlTYlloaHZKSnNIWnYybkpOTzZOX2dGN1g4VlRja2tNcEJuSDVMYWwxNW9KdWlBaGVKaHFwN1NuYm51OVc2dWVrVnFvb1RXU1E1d2lYS013eEFfTXBqYks4QlU3YlptTjkxRjdCLXFxd1dxWFhxT0djcjRYTEJKZFVTaEdQbmJRNW1LT0V6WU1hQzdEa2dEN3pSekUwR3VvZw?oc=5"
-        },
-        {
-          "date": "2026-08-26",
-          "title": "Moonshot AI estaria em negociações com Microsoft, Amazon, Google sobre divisão de receita do Kimi K3, buscando fatia de até 30% - TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd1QwNkoyVDBuNmU1WU5sU1QyU1ZLMXU1TnRTVy0wWUtFWWVGSU90dzFwVlhmMmJUUDZ3d3ZFdHlhYlYwU19RWHpnMkhaSzhQcm51eGVZdVNjYWZmTjBvdF90eW5Dd2ptMmlMSlRlZ2NORmYzWnNmclJXQ3J2ZUJtX2MtRDl5WnlXaTZldzFVNzMwLWlraHlVT0hsbnQ1M2UtVjBuaGRKdnplTDNMd2dTVFU2OWJmc3RVbWp1SHBYa2k0dlhXRFo4cHFNNEdtdw?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
