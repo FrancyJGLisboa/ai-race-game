@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -192,6 +192,11 @@
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQU1FcnZUV01ZRXpwZ3VQcGR0bXRVVkY4R1B5NlJ6WnNJSkJCNlllbm95ZGotanJ6eHRSRXhpWFpWN2d5eTdiVFk3Q25ReWVVQ09WNHZyQ0lyNEVqQWNfLVFYeV81OEt1Q09kaUZwYlU5UVZhMEd0MzZSeldaV1RmMWdLajhhbDI0Tm1UTVRLMk8xNldGQWlMc2VQQ1U?oc=5"
         },
         {
+          "date": "2026-09-01",
+          "title": "ChatGPT e Grok chegam ao Pentágono para operar na área militar dos EUA - TudoCelular.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVU5dWFvMTBuTlV4UDhYbi15Z2ZvS1pCd2tTaUpqU1FsaUlXYnMxZTNOTl9PbTRKbVp5eGd4SlBwNDhTcEVxeV9vLUEtdGRLRGxvY1oyejRxY1Ewa0FiVUlnOG1zY1lmM1FWemVETFhkbWo4NzZMRVRPbF9UTEhjbVBwZ1FoejgwS1FldWlCTExWNFNSU3g0bnpnUnJjVWY3WVRnaQ?oc=5"
+        },
+        {
           "date": "2026-08-26",
           "title": "Empresas americanas estariam negociando acesso a IA da China - CNN Brasil",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYnNiN1F6Y3h5bzJkd0dPMG1GQTdaZjlxQUZOZWlxLTRmOWROcDBMUmE4TVB4bXBTS2gxbEZpTHBreG9Pc29WdFk0TmlVVV90WE9YN3o4WGtOZ1JxRHNhV0w0LWs0VlNKTmtkY1Y3dUl6ZFNhRFhRN3ZiNGtXY2tPa1Rvb0FYQXhLLWZGSGY3ZmJlV0VreWl4OHBTM1RpYlR0T0VvZk9JbmxsNGY0aVFabE1MVjJvSGxvcDQxX2tnaDM1d2dYa0hNRw?oc=5"
@@ -230,11 +235,6 @@
           "date": "2026-07-30",
           "title": "META|Meta Platforms Inc|Preço:586.041|Var. %:-7.369 - TradingKey",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EVVp3Y2N6Q2lIQ3dWZ3hhQW1aYUZEcTlhbnR4VmtRU21Pa1JjNjJraU9WUzZuWUduVG1FRlk1TjVsdkpoeEQweE9IaWNLZktqQko4LUktamtyaktBdHc?oc=5"
-        },
-        {
-          "date": "2026-07-30",
-          "title": "EUA barram entrada de robôs humanoides chineses - Tecnoblog",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHNrX2I2dExrQlBTU1J3b1pTQV9KYVJhdGJqYWJYTGg1U3NTVGxqOE52ZTJ1MVA0ZDBETEUtMldja0xzaV9ncUxscEZuX1hSMFBBaFU5VjNZSGJET1c5WFZXNHVHS0k4Q0VaX2xTbkt2UkZ5bFl6WHlMOTFzMzlqS0Qyd2ViUQ?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
