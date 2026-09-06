@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-06",
+          "title": "Qwen 3.8 da Alibaba Abre 2,4 Biliões de Parâmetros [2026] - shattered.io",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80cklKc0otZks2SGItTFNSZ2h2Z2E1cTNBY1ZvbFRfckhzLUJPUnByT3RUb3d6cGU1ZWFmOS1jV1Z6X2FlTUJ0Wk55NWpOSlNaeWNiZnE5MUJGLXV3VXB3UWtfY3BrRTlJZ3c0Uw?oc=5"
+        },
+        {
           "date": "2026-08-29",
           "title": "AMD lança plataforma ROCm 10 e traz IA para otimizar programação de chips - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcExaN2d1OEZQd1NMX0E0OEVSUUpLSHVhMGxySWJ4ZEpOc0R4dnRUV2czQ1BIV0dpWXhYaWJtWHdLc1JiVm1HRHBYNXBGR2EtUWJUS0JZczVPcTUzR2ZoM0RzcE1FaUZSaXdqZDdWSE1KMlpSdExVcjRkcS1CWUx1UnpqOGl5UTljR3RBMlFnenRqbUtiTENpa1VKSTdobUFBRVpoX05Lbw?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-08-27",
           "title": "Gigante chinês anuncia 2 data centers no Brasil, visando expandir negócios de IA - Folha de S.Paulo",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZzh1UV9VZTQtX2gxVWtYeU56c0dQZkhqQWsxVkMxX21tZ1pjTzNTMWtxdU1HdkNiNkxZYk9PTXdnVGtYdzRGbkptblJTUlZRWkxzR0oxNlluWUw2T21vbldIY0JERzFrSnp1Vlg5Mi13WGlQbE5XSW1YWE9zT2xrWFRFTi02NjVCX2hPaVJTcUx1QlJlWEVzQ01RaW96VzlKUnFrcFRZYzFzRXZmREhNblJ3MmhFLWdRb3phTGJYZjNMT1J6X3c?oc=5"
-        },
-        {
-          "date": "2026-08-27",
-          "title": "Gigante chinesa Alibaba instala primeiros data centers no Brasil - Bem Paraná",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOFNWLWs0Z2xCZUdoc3huRnFzN1pYWk5LMVhpdWxrclJOWVdvaGFFS0Z5Yi1QRThReUZqaWYtQ3Y2UTRCMDlLZzJIM19wOEZTNG0yd3B2anVYaHU5bUZSaGJMcjcxYW04QlktOUJ0VlJrTXVEb0s1aUVxYzJsd1JSWEVqbUh6blpyZDVFcGZVaDZhcm8zc3Y2OUViOXF3eUR1TkQ4SzktUVpxR3B3b21tYmZR0gG3AUFVX3lxTE1jUkFzR25icnRkLXBvaEFvaGJoVGdzV2tJNXJ2UGRoSWJhMkNuNTlmMlR6R1Azd1NxbnFPZEYySjJNcFRTZ19XdV9DYWtyMUp3OTBoY0oyU2twV2o1ZGFnSlEyendOLWRWSTVzOG5xcGxiVTBoZDFPdjY5ZWV2R1ZlX29NZEhlN1RyQnQtTVhYUHppeUZnclFSd29FTGo0c20xcFhjaHRYeHQxQU9oMTRTaU92VkNwcw?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
