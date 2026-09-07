@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -456,6 +456,11 @@
         "China AI inference capacity"
       ],
       "evidence": [
+        {
+          "date": "2026-09-01",
+          "title": "Agência de Comunicação - New Anaqua Report Reveals Surge in AI Semiconductor Patent Filings - Estadão Blue Studio",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNczNHdjlWZGN4c0MyZVdVaDdKdmQ0QlRPUkVVbnpqZWJNOXNCczJ2REtPbmp0YjFVLUh0S1pEeFQwcUIwNVNpVGdwS3A4RjU2OURWTVYyOVVEUU9FeFpQd2FXWWhXbVdGZERaV2FWTURldnJIMWl0SHlYWHRvcmRWRzBEVlREaEJPRi1IbVgtZklzZnpkNHh3WWxPZ2NadzJyeDlyYXZGSFBQUllwTEJFd1plRkt6OUxMbWxWX1duaVhqeHJsZUNfdUZReFlRYWx4SDlyci1PZEhyOFRwX3RxbjNR?oc=5"
+        },
         {
           "date": "2026-07-31",
           "title": "Moonshot usou 20 mil chips Nvidia via Alibaba para rivalizar com os EUA - Investing.com Brasil - Finanças, Câmbio e Investimentos",
