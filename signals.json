@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -387,6 +387,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-06",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeXlCbkhOdWFIZm9BbzA1SFB1YmRUTTdRUTRZT0FIMVY3bGYxQlBVV1ItS3ZyN25qcnVvQmRMUjBHOWhVWEFWdWRXa2pWT1ZIcW9FbGJnOXdjS0NLaDRnU3RkQWRXOTVWbUhHR3Zva2FNV1VEeGFnc0Fnc1dWa3lobEpHSWpYVDZsZXpJUHg2OC1aajlMU2Vad2RldTdmN3VGM0ZvREV6ajAyNXFma1BrVHhJRVF5TEwzSVFHT1dWcUx4Qzc0NTQ3azBSSQ?oc=5"
+        },
+        {
           "date": "2026-09-04",
           "title": "Moonshot AI mira IPO em Hong Kong e pode captar até US$ 5 bilhões - Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeERlOVJlR08zNlpmbkpPRWpYT3hBbFlVNUFRR2E1N3A3Z2YzQWNoZVhYM1dxdzJvbUI0eF9qak9YcDZJdFUtR3lPeGJZcUozdG51bjlJVUJ3YmhwTTlYQjlka3lUNmdjbVB4YU9Kdk9JSk9OUmVrNmtBdW5KNXZvX0VfNlY1eW5DX2EteXUwSnVXVE82V2kwcFFxMDBZbE44ckJoLUYyb1J2cnZLbFl0cmIweEQ2TThtQjd0eWVvXzZURU0?oc=5"
@@ -395,6 +400,11 @@
           "date": "2026-09-04",
           "title": "Moonshot quer buscar até US$ 5 bilhões em IPO em Hong Kong ainda este ano - Exame",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONkVycFJZZjB2UmExd3dLb1hDUGltU2FjUnI4X2tzY1MyN2U5MmVTemhMQ2VZSi1nX3JDaXVNUWppT0FMUnVvbUVvUTZqQlRIZXRhUnpBSkU1cmJ1bU1uR3BwWnprZkU4aHVmSW83YXVsc1dyWEdCMnFjUDdhYW5KTm85cUlrbGY1ZTR2UnFkOW1FUFVGT0RrYldBV0FuWkd2YmVHcFk3cTlObkxwLUF6cDNTZE1sUQ?oc=5"
+        },
+        {
+          "date": "2026-09-04",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53VUhOR2lza2tCbEJRYmQxcjdiMENLZnRWd29NTkVuUUE3VTUxTVJyOWRzdFNBQ0Z4YTRrdEVOdTQtZnpibVB5dzBhak1RdWhndGp6Y1d3Rk43SlBGay02SVVfSXRBSFhremlialVWLVdyWVFNcnZ3a3hOTG14TEE?oc=5"
         },
         {
           "date": "2026-09-03",
@@ -425,16 +435,6 @@
           "date": "2026-09-02",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2ptWk1kd1o3MkxpTTktVExxLVVGTUN4aTdyZUVnZjhQaEdCTElIN1doNkhWN1hTSFpRc21Eamk3eDg0am8tRXFRd2NMLWsyYVJ5ZWYxcFMtbFdHcDEyZG45YVZvcVB1SEZRdFZPeFRuUmZhUERXRFJfc1R1cnBDdG4yVzVtNWFjWUtJSDRidDdqWGpRVHNBMlB5YTF5ek45WFk1UWVySE9XSC1LYWMxUUJNUkJURmc?oc=5"
-        },
-        {
-          "date": "2026-08-31",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNTZXeVpYbFhzZ3hjcmt0SFF2WDY3d3VCaDUySVRkV2I5OVZJVVZCUk1UTG5wYTE2Q3JxYjh5N29KZXE5UDBOT05LLXFwUzVwSGp6eXo2Z2JyM0NMNTVDMVIyWFJnbmZ3MVJzLTVKMXBqWF9qaGhnWEtyVVBHSGYxdmtIZkV1dkYxeGFfR2pWQUtZcURZY2lEdTgwVGFDazFDZmMtbUg2RlA4d0dUYWxoTXJ1RlQ?oc=5"
-        },
-        {
-          "date": "2026-08-31",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeThrakwtX0ZXdE9EMnJLb0lNYnBhN1Rpd01ncVQtV2RUb0FwTFp1dDlqeW5jWWt0VllmNHZSTzhabFQzQm54SVBGQXJoaHZ4aHR2QlZTNFM5blN5TGpPQk12R3VmLWhuaUgtWml0RFJ5V245aGVoTkRKLUtFNGtDZVdxcVh3YVludUtCbVFOeUdBWGUwbWhIWXFNOFBpWkNDQVBUODNRUkI3WVZjd2MzclFwLV9iWWwtR09wX2dhVkc0am5YZ2c?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
