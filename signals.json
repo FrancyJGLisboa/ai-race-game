@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -387,6 +387,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-10",
+          "title": "Criadora do Kimi, Moonshot AI avalia dupla listagem em Hong Kong e Xangai - Exame",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLVQ1c3dWMnMxUWdFdl9RUlNuaWxrM3gxSkRSMFprZXFFRVdZS25tRGxpWDRpNkVkZzNfUjZ4VjFoaWxSUEhkdlVzSTV0TUIzcFF6R2F5SFZDRUlJaDVpa2pMa08zd3Z2Um51WmcyUzNiRmhwNzYtY1VqREp4MjctT3hyOHI4cjFwVnAxWVN0ZTJPQUhsVmZKODB3VjNCX1E5d0ozVVUxaHJlQll0Z2dKTF9IVEhUQQ?oc=5"
+        },
+        {
           "date": "2026-09-09",
           "title": "DeepSeek contrata Citic para preparar IPO em Xangai - Valor Econômico",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMG11ejRFMWtMc0hwMUxzcEY3YWQ5bFp3djN0NUlMWXBRTmFzSXhxdjJrd3ZsODdXTnpENGE3N1llRS16SXBZbE1DMWEtWVo0SUZ5bmNwWW5lT1VSN3RjMHhERmNhVFZYQTlWc0p1OWNVOFFRSlhlcE1vUHFnSTJZcXlTZEFFV2ltUmlaSXhuM3dIdGhkaDhRdldzZUExUG12aGZQdWpIUXdfR3d6NXfSAbwBQVVfeXFMT1VWZHd5em9tXy1VX0pQazJMeUpvTHNvMVFvbnMtMV9zN0dSNDdLSjcxSEJKWFg3bjJrNk5hOXZzY2lacnIzcy1rTnB3b1B1QnQ1R3NPRHhlQlk3c1k5RzlzeDRpb0NYSjg2Ny16bTFUWTJ6Z2sxNzVyQVVrMUVvRkRWUlVaY0hDRzg4UWh3Yl9heFhxN1lfODQtYmNLeENSRTZCd0ZJTTE4QllWaE1OYjlhd3MwTHlhZlhkb2k?oc=5"
@@ -430,11 +435,6 @@
           "date": "2026-09-03",
           "title": "Empresa chinesa de IA Moonshot busca IPO em Hong Kong com Kimi K3 enquanto OpenAI e Anthropic enfrentam pressão de modelos abertos antes de listagens nos EUA - TradingKey",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUmhKQ1p5VEFJWlUydkpKcThWYkpSeUgzaUYzSmdQeEFSbjZGdHZ1bVE4RVBoc3lVdnMzSU51ZzdTa1ZOT0VibkFfdUlHeGxWSDVaM2llcWYzR3dxYkFmUUVWMGZTWjdyeUk2S0NUQWkwUlc3dHNyWElKeUNHY2xHb2tBRkZzSUlsSzVfTlBKLUlIUEtlZ3dmN0pEcFprYldLMEdTb25YUkRjWTlsbXdFajQzbDl0MnE5ZHdwN05laEkzTkxZOHgzc3JnTkp2cVdJdkdLNXNWcUlmdw?oc=5"
-        },
-        {
-          "date": "2026-09-02",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTbk9TUzlCYWJjSG5mMklxSm9HVFBCbkk5QjhudTZRUmUtUEhZaVpKMVlHeUhLT1ZlZXJOdndxQnZ3Q2lFUWFuQWJCYkZkQV9uVTR2R3FSOEhPQXh4aDJpdkZtNFIxb0NVTnpsTVlGOTNrTHFqbXhfZ1NMMDE?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
