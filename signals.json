@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-08",
+          "title": "Kimi K3: Instala e Usa o Modelo em 12 Passos [2026] - shattered.io",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qd0Z6UmFRUEZVQVQ3TVluTllxS0s4SXlmclJvMmNtMUhrdmVjSW5PSUh2aWk1TVFSQWJWN2N0cTJhU01YRlhiVkNqa1d3YTVNbzB5M2JxWGQxdFczZS1CZjdhOTdkVjlWWG9Bcw?oc=5"
+        },
+        {
           "date": "2026-09-06",
           "title": "O open source alcança os modelos fechados segundo o Artificial Analysis - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbC14cEt6eEtLLUZNTk83UUJSUWp1X2ZpbktHbkViOGV0d0dEMGhnZHg1a01rWS10dU4weE55LUdGcDJtYzdNX1h5WjY4bWd6cVZzMVd3MTdDN3dLSDZmbWFHUEpWRzZSN21rR1prODBQUkZsZklsWWo3Yi1YSkstU0tOTzUzZWxpcENTeTUzM19kV29hczRnd0Y3UGMxSVZaWkE?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-08-14",
           "title": "Sakana Chat agora executa código: vibe coding com Namazu e Fugu - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVEpJUERTZFNiVGNoeFJ1REtuNHlUMDdac3R4b0cyZUNVSUpLdV93SVQ1TThpNEJxa1c5Mll5dzVEUkxBZHFleUlVOU5pZGYyNjE4TjI5TU1sWl9UVklUZ3R2SjNFT3p1TDNjRlN0RWNTdnpPTi1WaHp5WV9pdkFwanFielpqVHRwdWc?oc=5"
-        },
-        {
-          "date": "2026-08-13",
-          "title": "Kimi K3 Scan revela riscos significativos em projetos de Bitcoin - Coinfomania",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNVRwS3RBMS1TMXlIVkFqd0x6MWxQRklzeUZhR3dIUE1lZkU1cXVSLXU2X01JdXp2SS00ZDVTOWZHM05hOV9INE90dkU0Q00xSlBuaE9hcURGWS1KdUZQbDN6ajNPYm5uODN3TkU5MjI0UmhTSUk5bFlLZEdnLUo4VlpqTjE2Uk9wcjVCX3BFSQ?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -397,6 +397,11 @@
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkxSM3BxeFcxVW1yWjFwcldsWnJXWUVGc2RkVmhKRE1tT3JteVRGdDJxS1RLbm93UTd3eS1lOVJrT3hka0tIQjhsOEFCMmd6NXhpNy1OQVdQR21UNnljTl8taHRnWDFoS1RKOGdsY1VhT1FVMFpVZHhmdzlvTGEtU0pjaWhkeTRndEd3aG51aWhaUUZVQmhEQjVWUk0?oc=5"
         },
         {
+          "date": "2026-09-11",
+          "title": "A Moonshot AI da China aposta que a Kimi pode impulsionar a receita de 100 milhões de dólares para 2 mil milhões de dólares num ano - Cryptopolitan",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS2p1aXFIYWhfMFphWUI2eFZvam9QSWh3OHZTMVJSR000dUpYQkZZenJEZTd2MktRRTBrRm9lSXQ3NTM0ZncwbFFUanBSSk5HdGxqNjlDUS1OaUJvWkcySmd3dE8wTlR5eVdJbC1jdGZlRWJDYjlVWkVyZUpsVmNrQw?oc=5"
+        },
+        {
           "date": "2026-09-10",
           "title": "Criadora do Kimi, Moonshot AI avalia dupla listagem em Hong Kong e Xangai - Exame",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLVQ1c3dWMnMxUWdFdl9RUlNuaWxrM3gxSkRSMFprZXFFRVdZS25tRGxpWDRpNkVkZzNfUjZ4VjFoaWxSUEhkdlVzSTV0TUIzcFF6R2F5SFZDRUlJaDVpa2pMa08zd3Z2Um51WmcyUzNiRmhwNzYtY1VqREp4MjctT3hyOHI4cjFwVnAxWVN0ZTJPQUhsVmZKODB3VjNCX1E5d0ozVVUxaHJlQll0Z2dKTF9IVEhUQQ?oc=5"
@@ -430,11 +435,6 @@
           "date": "2026-09-04",
           "title": "Moonshot quer buscar até US$ 5 bilhões em IPO em Hong Kong ainda este ano - Exame",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONkVycFJZZjB2UmExd3dLb1hDUGltU2FjUnI4X2tzY1MyN2U5MmVTemhMQ2VZSi1nX3JDaXVNUWppT0FMUnVvbUVvUTZqQlRIZXRhUnpBSkU1cmJ1bU1uR3BwWnprZkU4aHVmSW83YXVsc1dyWEdCMnFjUDdhYW5KTm85cUlrbGY1ZTR2UnFkOW1FUFVGT0RrYldBV0FuWkd2YmVHcFk3cTlObkxwLUF6cDNTZE1sUQ?oc=5"
-        },
-        {
-          "date": "2026-09-04",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53VUhOR2lza2tCbEJRYmQxcjdiMENLZnRWd29NTkVuUUE3VTUxTVJyOWRzdFNBQ0Z4YTRrdEVOdTQtZnpibVB5dzBhak1RdWhndGp6Y1d3Rk43SlBGay02SVVfSXRBSFhremlialVWLVdyWVFNcnZ3a3hOTG14TEE?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
