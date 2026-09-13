@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-13",
+          "title": "Novo modelo de IA da DeepSeek quase iguala o GPT-6 Astra, mas custa 1,4% do valor - Portal do Bitcoin",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcmJSRkI0cl9hOHFDOFpFYmRkbURUZkJYWGl6cWJDUGJqampTVkFsQzVpVFQ3XzFLcF9XSkpBOE5Rem1CTTVZUmMzelF6QlMwdjFaQ09ZTmpwUjYwZ2dyM1BrY2xrRkY0T3NuSDJuTjc5WTFJOTkwZVVvbmpmbjg3bjI0eVJiSV9VSzRsNDhTMFZUbHdUR1U4MVU1eTlZckhrMjdTbmVyb1o2cjBYaDRIYU10dlQyZFN2YmfSAboBQVVfeXFMTXJiUkZCNHJfYThxQzhaRWJkZG1EVGZCWFhpenFiQ1BiampqU1ZBbEM1aVRUN18xS3BfV0pKQThOUXptQk01WVJjM3pRekJTMHYxWkNPWU5qcFI2MGdncjNQa2Nsa0ZGNE9zbkgybk43OVkxSTk5MGVVb25qZm44N24yNHlSYklfVUs0bDQ4UzBWVGx3VEdVODFVNXk5WXJIazI3U25lcm9aNnIwWGg0SGFNdHZUMmRTdmJn?oc=5"
+        },
+        {
           "date": "2026-09-06",
           "title": "Qwen 3.8 da Alibaba Abre 2,4 Biliões de Parâmetros [2026] - shattered.io",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80cklKc0otZks2SGItTFNSZ2h2Z2E1cTNBY1ZvbFRfckhzLUJPUnByT3RUb3d6cGU1ZWFmOS1jV1Z6X2FlTUJ0Wk55NWpOSlNaeWNiZnE5MUJGLXV3VXB3UWtfY3BrRTlJZ3c0Uw?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-08-28",
           "title": "GLM-5.3 lidera benchmark com 1/5 do custo do GPT-5.5 - iMasters",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaEpBaTFSM2FENEtZaFRfUEdBYTFraHNxbXZ1YnVjZmN3Y0QzMmd1YjVjX3hXaThWLVlDbzhSNnpuU3lmcjM4QkZJU09kWXRnMjNTQy02RmJDS1U0b19MOE1KeHplMjQwM1ZBUTZZV056cG9WUFhRd2VXLXNWalgwc0t2b0JDMlF1SmljaU41OXBVZHNURmgycGpzSTRIZHN1cmNMYjRpNWxWaXA4WGZkWWRB?oc=5"
-        },
-        {
-          "date": "2026-08-27",
-          "title": "Gigante chinês anuncia 2 data centers no Brasil, visando expandir negócios de IA - Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZzh1UV9VZTQtX2gxVWtYeU56c0dQZkhqQWsxVkMxX21tZ1pjTzNTMWtxdU1HdkNiNkxZYk9PTXdnVGtYdzRGbkptblJTUlZRWkxzR0oxNlluWUw2T21vbldIY0JERzFrSnp1Vlg5Mi13WGlQbE5XSW1YWE9zT2xrWFRFTi02NjVCX2hPaVJTcUx1QlJlWEVzQ01RaW96VzlKUnFrcFRZYzFzRXZmREhNblJ3MmhFLWdRb3phTGJYZjNMT1J6X3c?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -402,6 +402,11 @@
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS2p1aXFIYWhfMFphWUI2eFZvam9QSWh3OHZTMVJSR000dUpYQkZZenJEZTd2MktRRTBrRm9lSXQ3NTM0ZncwbFFUanBSSk5HdGxqNjlDUS1OaUJvWkcySmd3dE8wTlR5eVdJbC1jdGZlRWJDYjlVWkVyZUpsVmNrQw?oc=5"
         },
         {
+          "date": "2026-09-11",
+          "title": "Notícias de Israel e do mundo judaico em espanhol - Aurora Israel",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSHNlb2s1ajU0ZGhnYVlGYXRtRk5zdzcyWkVzZm01bmh3SVh1OHFvc0hiVDIyaVN6dW1XaWxIR0lKeGNOb2o3U3pFNkNlZmVtWVcyNk5hR21wR215ek1RVi1VSEZnVzFnRlplVnVaZnRvVUVON1NISjA0UUxEOWRuT08zMjNqbkZzaVBfNnFIeGpGaDFvWEEzbUh6MHhZWHBsQ3huNGdPbTRpaFBLUE12cUExdlRnZw?oc=5"
+        },
+        {
           "date": "2026-09-10",
           "title": "Criadora do Kimi, Moonshot AI avalia dupla listagem em Hong Kong e Xangai - Exame",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLVQ1c3dWMnMxUWdFdl9RUlNuaWxrM3gxSkRSMFprZXFFRVdZS25tRGxpWDRpNkVkZzNfUjZ4VjFoaWxSUEhkdlVzSTV0TUIzcFF6R2F5SFZDRUlJaDVpa2pMa08zd3Z2Um51WmcyUzNiRmhwNzYtY1VqREp4MjctT3hyOHI4cjFwVnAxWVN0ZTJPQUhsVmZKODB3VjNCX1E5d0ozVVUxaHJlQll0Z2dKTF9IVEhUQQ?oc=5"
@@ -430,11 +435,6 @@
           "date": "2026-09-04",
           "title": "Moonshot AI mira IPO em Hong Kong e pode captar até US$ 5 bilhões - Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeERlOVJlR08zNlpmbkpPRWpYT3hBbFlVNUFRR2E1N3A3Z2YzQWNoZVhYM1dxdzJvbUI0eF9qak9YcDZJdFUtR3lPeGJZcUozdG51bjlJVUJ3YmhwTTlYQjlka3lUNmdjbVB4YU9Kdk9JSk9OUmVrNmtBdW5KNXZvX0VfNlY1eW5DX2EteXUwSnVXVE82V2kwcFFxMDBZbE44ckJoLUYyb1J2cnZLbFl0cmIweEQ2TThtQjd0eWVvXzZURU0?oc=5"
-        },
-        {
-          "date": "2026-09-04",
-          "title": "Moonshot quer buscar até US$ 5 bilhões em IPO em Hong Kong ainda este ano - Exame",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONkVycFJZZjB2UmExd3dLb1hDUGltU2FjUnI4X2tzY1MyN2U5MmVTemhMQ2VZSi1nX3JDaXVNUWppT0FMUnVvbUVvUTZqQlRIZXRhUnpBSkU1cmJ1bU1uR3BwWnprZkU4aHVmSW83YXVsc1dyWEdCMnFjUDdhYW5KTm85cUlrbGY1ZTR2UnFkOW1FUFVGT0RrYldBV0FuWkd2YmVHcFk3cTlObkxwLUF6cDNTZE1sUQ?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
