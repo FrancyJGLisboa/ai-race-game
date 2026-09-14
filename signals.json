@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -122,6 +122,11 @@
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcmJSRkI0cl9hOHFDOFpFYmRkbURUZkJYWGl6cWJDUGJqampTVkFsQzVpVFQ3XzFLcF9XSkpBOE5Rem1CTTVZUmMzelF6QlMwdjFaQ09ZTmpwUjYwZ2dyM1BrY2xrRkY0T3NuSDJuTjc5WTFJOTkwZVVvbmpmbjg3bjI0eVJiSV9VSzRsNDhTMFZUbHdUR1U4MVU1eTlZckhrMjdTbmVyb1o2cjBYaDRIYU10dlQyZFN2YmfSAboBQVVfeXFMTXJiUkZCNHJfYThxQzhaRWJkZG1EVGZCWFhpenFiQ1BiampqU1ZBbEM1aVRUN18xS3BfV0pKQThOUXptQk01WVJjM3pRekJTMHYxWkNPWU5qcFI2MGdncjNQa2Nsa0ZGNE9zbkgybk43OVkxSTk5MGVVb25qZm44N24yNHlSYklfVUs0bDQ4UzBWVGx3VEdVODFVNXk5WXJIazI3U25lcm9aNnIwWGg0SGFNdHZUMmRTdmJn?oc=5"
         },
         {
+          "date": "2026-09-13",
+          "title": "Novo modelo de IA da DeepSeek quase iguala o GPT-6 Astra, mas custa 1,4% do valor - Portal do Bitcoin",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZXBhYTNlU2dwd3JESUkzTnNoUUluV0l1ZThkMzZQRVBoZERsX0RLT3luTzRWaWJZMW90UmtWcU9SdEJBT0pHUUVVSFE5X1I0VmIwMXdxZHI0VjB1czItWk5LNlFIT3ItYzJDTmp0cm9HbU5idld3b29XcmttYUY5TmoybFpqU2h4WDg2Y2gyMWNBYTRLU0JnMGkwOVF0T0xScHd6SVJVcExJX1ZrNXlUX2JmejnSAboBQVVfeXFMTXJiUkZCNHJfYThxQzhaRWJkZG1EVGZCWFhpenFiQ1BiampqU1ZBbEM1aVRUN18xS3BfV0pKQThOUXptQk01WVJjM3pRekJTMHYxWkNPWU5qcFI2MGdncjNQa2Nsa0ZGNE9zbkgybk43OVkxSTk5MGVVb25qZm44N24yNHlSYklfVUs0bDQ4UzBWVGx3VEdVODFVNXk5WXJIazI3U25lcm9aNnIwWGg0SGFNdHZUMmRTdmJn?oc=5"
+        },
+        {
           "date": "2026-09-06",
           "title": "Qwen 3.8 da Alibaba Abre 2,4 Biliões de Parâmetros [2026] - shattered.io",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80cklKc0otZks2SGItTFNSZ2h2Z2E1cTNBY1ZvbFRfckhzLUJPUnByT3RUb3d6cGU1ZWFmOS1jV1Z6X2FlTUJ0Wk55NWpOSlNaeWNiZnE5MUJGLXV3VXB3UWtfY3BrRTlJZ3c0Uw?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-08-28",
           "title": "Chinesa Tencent lança IA de código aberto para tarefas de programação e pesquisa que superaria Z.AI e Moonshot - O GLOBO",
           "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNejJ4Z1dQSXFpRVQ1WjlQWVAxNTY2VV8zV29HZ2MyeWNWQVZ0Y2MzZm9QdGZIX3Y4c3ZIMndsV2VPTnVPR1ZkUGxROFdMR1ZZWS1qaERWUDZsSUxDM2dlbXB3c0dFUE54SU9fSnVhdFE4ZXpjMnV1b01oVDZwOEdjcm9jdUVJY0JCaDhqTTQ5aElCeGlEQnRDYVBRVTZRWDB4NG9Ga2R4bmRzcWtfLVE5OFR2U3FseDVlS3Y1dFp0emlsN1pPaXZpMW13aVhWNTB4ZWU0eklMTnN3dWZ4YkNrVUF5aENaeGw4OXo2TGdnQW1nTEdsckllbDhwWTjSAYsCQVVfeXFMTzFvMmlZLUpEeWxBemNkbktnaU1YSEpKa3QxV2l4R2FVNHF1WmY1aUpLSk5ITW1Nc0FpLThkWFNJUF9oZ0JfbGxMMlJWM1JhV2E4UFpxR3V0RGp0UDI5eHVwUTJfVllsd2ZnR2FxS2MxQnExYTZqSEpQeW9KM3ZhbTBucXl0S0hFMnNTQjhnUkhNeFlmTDVtRkZJOG82Y2NvWlZ1MTNnWV9RbE50SS00WWRCLU9Uei1hVzJyZzRsQmtGRVpvZ0tidk53NXF3Tms3YVEtbmdlZzI1dXoyeVlWUXo5dnRRMjdvZGd1MFdPUktuc3hpOWxic2F6QUFRX2VtZ0pmMENPcjhRX040?oc=5"
-        },
-        {
-          "date": "2026-08-28",
-          "title": "GLM-5.3 lidera benchmark com 1/5 do custo do GPT-5.5 - iMasters",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaEpBaTFSM2FENEtZaFRfUEdBYTFraHNxbXZ1YnVjZmN3Y0QzMmd1YjVjX3hXaThWLVlDbzhSNnpuU3lmcjM4QkZJU09kWXRnMjNTQy02RmJDS1U0b19MOE1KeHplMjQwM1ZBUTZZV056cG9WUFhRd2VXLXNWalgwc0t2b0JDMlF1SmljaU41OXBVZHNURmgycGpzSTRIZHN1cmNMYjRpNWxWaXA4WGZkWWRB?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
