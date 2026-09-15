@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -257,6 +257,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-12",
+          "title": "BRICS pivotal in formulating AI rules - China Daily Global Edition",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTS1sSW0yVWlsVGZKa0MyMzRueXJWcjFOR19GTGZGU3RPLURWN29WaG1jREhuQk4xWUdHRTVGVjJ3WjJQUkxqM1RSYU1LNVBMd1RGbWZVemhmOFV1SGRkdVctcnVFWmI5OVoxaklJU1VkY0J0WDRDNndnUkhxNWROXzln?oc=5"
+        },
+        {
           "date": "2026-08-30",
           "title": "O vídeo viral do robô sexual chinês não mostra nenhum robô, veja o que a Somnia Lab faz - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQTZzaWozX09YcVdIS3pLQmJKTW52WldCeFptMUYwd0dWemluUHlZUi1NaTE3RmhidEtFdHY2NE84YlVYNUxJQ2VCZERtdDJUcXNCZjhlUVgyRTRqQ3VtV0xkYlNkTGltOHEwZ08wUjlmTUdtc0FCQVhuN2JSbk83Z0poZG5GM1RIU0NNQXVR?oc=5"
@@ -387,6 +392,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-13",
+          "title": "DeepSeek e Moonshot usaram respostas do Claude como se fossem suas, acusa Anthropic - yellow.com",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa0xjNnUxdnkya2IyT1F4dG9wdVM3SDFsclpxal9OQUJVclJFdDJvZVpDTm9Vc2R1cFdVVDJFNHhZeE0yNTVvbWxpeFdPZUtUQnFnZWlMRVloWVdUT1g3X3ltREs0Z1ZaRnlkcUZfekZzNU9pOXQzRFhURmtyQXAybzhtblV4dzFHRGpWZ2ZQWDhTT1Vrbi1TWEppeFZUQXFXM1Y4T3RhQ2ZCQzB3VXc?oc=5"
+        },
+        {
           "date": "2026-09-11",
           "title": "Moonshot AI avalia IPO em Hong Kong e na Bolsa de Xangai - portalcripto.com.br",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX1ZkX2Zsa2pxaURub0NNTGN2RVFvSHVya3FQeXVjWUdZYkRMNGVRUGN1d2J5bjdVVkRIVGJsdVFtUVhYYnhSWkw5VlZ1dXFuUDZpbFdtYjJSQnpmZ1dNSmVRaUlfLWlyWWhaTTQybUR4NDJzb0E3NVV4cERoVXRTelFXampkVmtxNnh4LW9DZUJnNGNwdXVZdjVUeEpNQUdJTnc?oc=5"
@@ -430,11 +440,6 @@
           "date": "2026-09-06",
           "title": "Moonshot mira US$ 3 bi em IPO confidencial em Hong Kong - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOFBySXJucm5tYklvTTR6T2tjTEdWM0tJbnlleEtmbmpIaTJMR0FaWW4zdnp0eXU3R0tqVks5cEJYT1RGb2xfY2JfVHBJMkZIR0JKbUs5Q2d2ZlpZRkNsSXdsR0NHZUJBMmVmTktRS242R2RPOUFTSlNXOTZQN3E1ZGJCdHpNaDYwUzlIZTZsRTVHbVBKcDd6VA?oc=5"
-        },
-        {
-          "date": "2026-09-04",
-          "title": "Moonshot AI mira IPO em Hong Kong e pode captar até US$ 5 bilhões - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeERlOVJlR08zNlpmbkpPRWpYT3hBbFlVNUFRR2E1N3A3Z2YzQWNoZVhYM1dxdzJvbUI0eF9qak9YcDZJdFUtR3lPeGJZcUozdG51bjlJVUJ3YmhwTTlYQjlka3lUNmdjbVB4YU9Kdk9JSk9OUmVrNmtBdW5KNXZvX0VfNlY1eW5DX2EteXUwSnVXVE82V2kwcFFxMDBZbE44ckJoLUYyb1J2cnZLbFl0cmIweEQ2TThtQjd0eWVvXzZURU0?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
