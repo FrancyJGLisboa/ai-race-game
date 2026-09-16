@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -187,6 +187,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-16",
+          "title": "Microsoft amplia oferta de IA chinesa open-weight com DeepSeek - diariodamidia.com.br",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVE9jT0ZSSjZzaUFwZ1Eya0NFTFlQblZ6TEtuRDcwYWRCb1RiSENXZnFfNU1DSHJRcHhXUjNkODVud0ZxUkpVVC1jSko2Z0lzdkFJS0lsR0YxR1hzbG5QNWZqVno5U0JYTHF1a3ByWU5oVUZxNC1UY3l0bGdWTlB6UnIyS1hkY21MLUxrdF9KNW5hcVlkMWc?oc=5"
+        },
+        {
           "date": "2026-09-01",
           "title": "CXMT: gigante dos chips entra com ação contra o Pentágono para driblar o banimento nos EUA - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQU1FcnZUV01ZRXpwZ3VQcGR0bXRVVkY4R1B5NlJ6WnNJSkJCNlllbm95ZGotanJ6eHRSRXhpWFpWN2d5eTdiVFk3Q25ReWVVQ09WNHZyQ0lyNEVqQWNfLVFYeV81OEt1Q09kaUZwYlU5UVZhMEd0MzZSeldaV1RmMWdLajhhbDI0Tm1UTVRLMk8xNldGQWlMc2VQQ1U?oc=5"
@@ -230,11 +235,6 @@
           "date": "2026-08-03",
           "title": "Usuários relatam bloqueio automático e sem motivo de contas no WhatsApp - Folha de S.Paulo",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaC1oaDNQYXZtUWhtMWFBc1N1NkpjcFlSU3F0NHpUSENZcGNKOW9rRWNCMmFxVDhydnhCZjFXbDlyc2RXSEE3eTMwTEt2YWFfUHFJaDlZbFJfcmwyTW95dVN1MnhpaHplNGd0cndTV0hCXy1HdDJhS3A1NlFvTTU5Qk5KclVDNmRYaHR0NS1aQllHdklILXh1ZlBkY0ZxU0hXNkNjVFV0aUcyTHpWTmxUaGc2ckJmbWMzQ0pN?oc=5"
-        },
-        {
-          "date": "2026-07-30",
-          "title": "META|Meta Platforms Inc|Preço:586.041|Var. %:-7.369 - TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EVVp3Y2N6Q2lIQ3dWZ3hhQW1aYUZEcTlhbnR4VmtRU21Pa1JjNjJraU9WUzZuWUduVG1FRlk1TjVsdkpoeEQweE9IaWNLZktqQko4LUktamtyaktBdHc?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
