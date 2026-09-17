@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-10",
+          "title": "IA chinesa: Kimi K3 e Qwen3 chocalam Vale do Silício - nssmag.com",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ09qRnRXZmF6TDA0cHpyb1RpbHlRWFZKeHRyOE5VRU9xUWwwWllYX0tIaHo4OWhCRUIzV3JSZjR1QmxHbHpiQjA1NS1TQ0pBVW1xZmU1NjIzLW5BU0gweUo4SjE4eFhpWjNNRktQUWNxOUZmekVhby1Pa3FubWhMMw?oc=5"
+        },
+        {
           "date": "2026-09-08",
           "title": "Kimi K3: Instala e Usa o Modelo em 12 Passos [2026] - shattered.io",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qd0Z6UmFRUEZVQVQ3TVluTllxS0s4SXlmclJvMmNtMUhrdmVjSW5PSUh2aWk1TVFSQWJWN2N0cTJhU01YRlhiVkNqa1d3YTVNbzB5M2JxWGQxdFczZS1CZjdhOTdkVjlWWG9Bcw?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-08-17",
           "title": "Nós testamos: IA Kimi K3 mostra capacidade para tarefas corporativas, mas não fale de geopolítica - O GLOBO",
           "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUzd0WG1FZW1xUXNNYjMyU2EtYWN2QWtDVDh1Nm5yN3FTYXpFczFna0FmSmtEN2FUczdEdDhHWDZoWi0yeFpYQ0MwYWduZm9ZVDhoRmxHVGdoUnMxTS1DSm91VE9WeWN5UF9JTEFLVng4Y2RHaFhJLUFTX1pKV0gzUW8wU2h4TE42a011VnhDMU5WUjhXRmR2VkpPQVNWcUxydG9UMkpQeTRLS1pxX2U0c3RaY2hJdDJpeG9xYTNiT0tRNzh0SEZERFJxOGg1MkdxOExQck1qdTVKVnl2eExfNlNJQVhTbjVOdFFKRWZ6Y1NuQ1pkM25jb9IBhwJBVV95cUxQZ0hIN1dQdWJJWGZLZ1BHTU96Qlh6ZjJsOEY0N2MwQ3BCT1haLTh3T1FETVNybXdNWDNQU0EtNmtxOGFHRnpxYlhNLWl5TWo3U2x1YmJWQ3ItekFKanVDWnljdDhFWHJyc3VKODRFVkhJN1N2dzJDMThINzdzVDNuVkxwUEZ6NElOd0I3MkdKVnRJQmp0MU5LbTVIWjRxNUg0QkRTdjdxQ0pXOV9jdzBPQTZTT0szSEFZajFNTFlxV3ZoSmN4ZXE4Rkt6b0R0bU9wMVNObW5QbU4wVWI3Y1lyU0xoMlVaWnl3SjkyN1RRQ1lVT3E5V0RVaEk0UzBzS1RmSU9SaTRpaw?oc=5"
-        },
-        {
-          "date": "2026-08-14",
-          "title": "Sakana Chat agora executa código: vibe coding com Namazu e Fugu - Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVEpJUERTZFNiVGNoeFJ1REtuNHlUMDdac3R4b0cyZUNVSUpLdV93SVQ1TThpNEJxa1c5Mll5dzVEUkxBZHFleUlVOU5pZGYyNjE4TjI5TU1sWl9UVklUZ3R2SjNFT3p1TDNjRlN0RWNTdnpPTi1WaHp5WV9pdkFwanFielpqVHRwdWc?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -192,6 +192,11 @@
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVE9jT0ZSSjZzaUFwZ1Eya0NFTFlQblZ6TEtuRDcwYWRCb1RiSENXZnFfNU1DSHJRcHhXUjNkODVud0ZxUkpVVC1jSko2Z0lzdkFJS0lsR0YxR1hzbG5QNWZqVno5U0JYTHF1a3ByWU5oVUZxNC1UY3l0bGdWTlB6UnIyS1hkY21MLUxrdF9KNW5hcVlkMWc?oc=5"
         },
         {
+          "date": "2026-09-16",
+          "title": "China já usa IA para consultas médicas em cabines no meio da rua - Estadão",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT2dMQzVvZEJ2eHJIZWIzQXNCem15c3pBODhWRGcxWjZIXzlUU2wzR1JyVDdpSjM2cG0yblZESjlEeDA1ajQzMGJ0bWxYNnZFVnJvVjFUS2MyQmc4OFFvem1CRXlNckN2cGpJQ3dEeUZ0VFpmU1ZfNVBJb2FSWlQ5TFpfckM5WjBHMW96OG92ME9wWU1pOWpiRVg4RDdiRXQydm44LXNOZUpkbkxjam9RZEJlSkgzd09NY01OV2p2LVlLWlNQbjlrMw?oc=5"
+        },
+        {
           "date": "2026-09-01",
           "title": "CXMT: gigante dos chips entra com ação contra o Pentágono para driblar o banimento nos EUA - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQU1FcnZUV01ZRXpwZ3VQcGR0bXRVVkY4R1B5NlJ6WnNJSkJCNlllbm95ZGotanJ6eHRSRXhpWFpWN2d5eTdiVFk3Q25ReWVVQ09WNHZyQ0lyNEVqQWNfLVFYeV81OEt1Q09kaUZwYlU5UVZhMEd0MzZSeldaV1RmMWdLajhhbDI0Tm1UTVRLMk8xNldGQWlMc2VQQ1U?oc=5"
@@ -230,11 +235,6 @@
           "date": "2026-08-04",
           "title": "IA: O obscuro filtro de Washington - Outras Palavras",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMHBTTUMyd2hlcllHN1dMZDRQejJYbmt0am9Za3ROTzYwY2ZISjZta1cwVUpPbFRvZ3FEbXh5QzhySzd0eVNmQ0hzeGo4bGs1X0Q0SzVESGVkOWhBbWpsZkIyNV9fa215T2toNGlZY1RyaExERU1RU2d1d0tvYklRcFFyVjBIbV9I?oc=5"
-        },
-        {
-          "date": "2026-08-03",
-          "title": "Usuários relatam bloqueio automático e sem motivo de contas no WhatsApp - Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaC1oaDNQYXZtUWhtMWFBc1N1NkpjcFlSU3F0NHpUSENZcGNKOW9rRWNCMmFxVDhydnhCZjFXbDlyc2RXSEE3eTMwTEt2YWFfUHFJaDlZbFJfcmwyTW95dVN1MnhpaHplNGd0cndTV0hCXy1HdDJhS3A1NlFvTTU5Qk5KclVDNmRYaHR0NS1aQllHdklILXh1ZlBkY0ZxU0hXNkNjVFV0aUcyTHpWTmxUaGc2ckJmbWMzQ0pN?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
