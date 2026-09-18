@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-18",
+          "title": "Google revela Android Bench 2.0 e expõe limites da IA em tarefas complexas de programação - TugaTech",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeWtVeVFEMmxnbmJ5WlRVaEMydS1sR1RmODExM2k2RE1UOV9hR0tIdTNjZkdLTURRM21jbFMzSnN1akdsTkplYzM5TnJLaHpQOWhxXy1Ib0RUTHA5OUJqZS02eGpjTXNvdGFxZFFiM0tvTzg5anVnaUxmYm5XSGpUYW92S04xRjJ2NWo3YWduM3FnTTdzaklHUHNhR1dfU0F1NmZEcFAtTno5TW14TWxiUGpJVElWT0lrT2NQWQ?oc=5"
+        },
+        {
+          "date": "2026-09-17",
+          "title": "Nem o GPT passa fácil: Android Bench 2.0 expõe limites da IA em programação - TudoCelular.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORDFXTUoxc25rSnFNOEUxa0x6V3ppek16NHRGRG5NWFlkaFo0T0lnNWI1U0Z5Q2tSZ2Ria1dEd2c2UUNJSWY2dFc3bHhReFRoeUZEV1dWWjFnMFdYUDg2TUNoZGJ1NU9DT1NKYS1nME1tVmJEUjd2NU9JemtlaWlZTUdSQWo4c2RyZVlnbVVMWmdmUkJ3bXV4OG9mT0xzSnp0MkRmeGYxVQ?oc=5"
+        },
+        {
           "date": "2026-09-13",
           "title": "Novo modelo de IA da DeepSeek quase iguala o GPT-6 Astra, mas custa 1,4% do valor - Portal do Bitcoin",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcmJSRkI0cl9hOHFDOFpFYmRkbURUZkJYWGl6cWJDUGJqampTVkFsQzVpVFQ3XzFLcF9XSkpBOE5Rem1CTTVZUmMzelF6QlMwdjFaQ09ZTmpwUjYwZ2dyM1BrY2xrRkY0T3NuSDJuTjc5WTFJOTkwZVVvbmpmbjg3bjI0eVJiSV9VSzRsNDhTMFZUbHdUR1U4MVU1eTlZckhrMjdTbmVyb1o2cjBYaDRIYU10dlQyZFN2YmfSAboBQVVfeXFMTXJiUkZCNHJfYThxQzhaRWJkZG1EVGZCWFhpenFiQ1BiampqU1ZBbEM1aVRUN18xS3BfV0pKQThOUXptQk01WVJjM3pRekJTMHYxWkNPWU5qcFI2MGdncjNQa2Nsa0ZGNE9zbkgybk43OVkxSTk5MGVVb25qZm44N24yNHlSYklfVUs0bDQ4UzBWVGx3VEdVODFVNXk5WXJIazI3U25lcm9aNnIwWGg0SGFNdHZUMmRTdmJn?oc=5"
@@ -155,16 +165,6 @@
           "date": "2026-08-28",
           "title": "Chinesa Tencent lança IA de código aberto para tarefas de programação e pesquisa que superaria Z.AI - Folha PE",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd2NyX2Zza3QtSFAtckwwekdPeHpacGFaOFc4WlkzYVgxY1luMkJHc2o2S3dWLUdIM2hUakc2T1A4SGtkOVNYWExpM2l6ZnVjX2FHSGdPeDNBQ2xyTmtxOTNPYXY5VXNpbjNNS3kzUkdxVWtfVkc0Vmx0NFZkcVpVTlV3OGNuQ25kb1piM1EzYTduNnd4RTFHNndoS1N3amYyYzhhQi0tRWloSzd6YjROdDNuY9IBtwFBVV95cUxQc1cxdkEyU3VLaHN6Yjd5a3pZZnFaZU9rcHpZTFZGbk1aQ3p2RGUybjZ5bW9XQlV5dG5kRTlJN1ZYM0VwU2ptbUduN1NncE51dEI1OEo3cW56eV9Hd3Eycm8td1hxSnZta3M0ZENKZmJjZXhUYUd5ZDdYdlNQQ01TbGoxMFQtZTJNUC1scWhDcmxHQVhhM3Y3TG9sNzZtSTJNcnBnTUc2Z2xXd3VNRlBxNjM0dmRlNGs?oc=5"
-        },
-        {
-          "date": "2026-08-28",
-          "title": "Analistas de segurança alertam para possível roubo de informação no repositório Qwen 3.8 de 27 mil milhões de bits no GitHub - Cryptopolitan",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96TEhFbkFfYjhFOG91eVpfSHVKLUFHaXhkTTlqZlU1NlI0eFZXY1ZxZ3J5a19Zb0VqX1JyUEhtU1Q5YWo3V3F1dUFJZkR5NldrWU9CWlg4UDFmVjd5Q0N5b0ctdy04M29ic05iVV9hd1dQekJORDktal8ySDFmdw?oc=5"
-        },
-        {
-          "date": "2026-08-28",
-          "title": "Chinesa Tencent lança IA de código aberto para tarefas de programação e pesquisa que superaria Z.AI e Moonshot - O GLOBO",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNejJ4Z1dQSXFpRVQ1WjlQWVAxNTY2VV8zV29HZ2MyeWNWQVZ0Y2MzZm9QdGZIX3Y4c3ZIMndsV2VPTnVPR1ZkUGxROFdMR1ZZWS1qaERWUDZsSUxDM2dlbXB3c0dFUE54SU9fSnVhdFE4ZXpjMnV1b01oVDZwOEdjcm9jdUVJY0JCaDhqTTQ5aElCeGlEQnRDYVBRVTZRWDB4NG9Ga2R4bmRzcWtfLVE5OFR2U3FseDVlS3Y1dFp0emlsN1pPaXZpMW13aVhWNTB4ZWU0eklMTnN3dWZ4YkNrVUF5aENaeGw4OXo2TGdnQW1nTEdsckllbDhwWTjSAYsCQVVfeXFMTzFvMmlZLUpEeWxBemNkbktnaU1YSEpKa3QxV2l4R2FVNHF1WmY1aUpLSk5ITW1Nc0FpLThkWFNJUF9oZ0JfbGxMMlJWM1JhV2E4UFpxR3V0RGp0UDI5eHVwUTJfVllsd2ZnR2FxS2MxQnExYTZqSEpQeW9KM3ZhbTBucXl0S0hFMnNTQjhnUkhNeFlmTDVtRkZJOG82Y2NvWlZ1MTNnWV9RbE50SS00WWRCLU9Uei1hVzJyZzRsQmtGRVpvZ0tidk53NXF3Tms3YVEtbmdlZzI1dXoyeVlWUXo5dnRRMjdvZGd1MFdPUktuc3hpOWxic2F6QUFRX2VtZ0pmMENPcjhRX040?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -397,6 +397,11 @@
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa0xjNnUxdnkya2IyT1F4dG9wdVM3SDFsclpxal9OQUJVclJFdDJvZVpDTm9Vc2R1cFdVVDJFNHhZeE0yNTVvbWxpeFdPZUtUQnFnZWlMRVloWVdUT1g3X3ltREs0Z1ZaRnlkcUZfekZzNU9pOXQzRFhURmtyQXAybzhtblV4dzFHRGpWZ2ZQWDhTT1Vrbi1TWEppeFZUQXFXM1Y4T3RhQ2ZCQzB3VXc?oc=5"
         },
         {
+          "date": "2026-09-13",
+          "title": "Notícias de Israel e do mundo judaico em espanhol - Aurora Israel",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWi1fYXAwcVQzWWpEa1VMV0xqeC0wb1Q2Q21wNnRGa0VFTTEzZVFRdU5ackNVMUJXRXRsMm1mdmhDSnhMSUVZaEx2elRZUjJGZ095djBhRmhtOHJVRHVLRmhjdGo3VHEtYlB2QnpBNVVzOC05ZUxYZnFTN194WmszQkVYZUptV1FfLTBZb2tQVy1PeTNIaWtSMWRYa1dkR0NsT3JhOXU0dmRJZldZTzktdjZCMHpZOUhD?oc=5"
+        },
+        {
           "date": "2026-09-11",
           "title": "Moonshot AI avalia IPO em Hong Kong e na Bolsa de Xangai - portalcripto.com.br",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX1ZkX2Zsa2pxaURub0NNTGN2RVFvSHVya3FQeXVjWUdZYkRMNGVRUGN1d2J5bjdVVkRIVGJsdVFtUVhYYnhSWkw5VlZ1dXFuUDZpbFdtYjJSQnpmZ1dNSmVRaUlfLWlyWWhaTTQybUR4NDJzb0E3NVV4cERoVXRTelFXampkVmtxNnh4LW9DZUJnNGNwdXVZdjVUeEpNQUdJTnc?oc=5"
@@ -435,11 +440,6 @@
           "date": "2026-09-06",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeXlCbkhOdWFIZm9BbzA1SFB1YmRUTTdRUTRZT0FIMVY3bGYxQlBVV1ItS3ZyN25qcnVvQmRMUjBHOWhVWEFWdWRXa2pWT1ZIcW9FbGJnOXdjS0NLaDRnU3RkQWRXOTVWbUhHR3Zva2FNV1VEeGFnc0Fnc1dWa3lobEpHSWpYVDZsZXpJUHg2OC1aajlMU2Vad2RldTdmN3VGM0ZvREV6ajAyNXFma1BrVHhJRVF5TEwzSVFHT1dWcUx4Qzc0NTQ3azBSSQ?oc=5"
-        },
-        {
-          "date": "2026-09-06",
-          "title": "Moonshot mira US$ 3 bi em IPO confidencial em Hong Kong - quasa.io",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOFBySXJucm5tYklvTTR6T2tjTEdWM0tJbnlleEtmbmpIaTJMR0FaWW4zdnp0eXU3R0tqVks5cEJYT1RGb2xfY2JfVHBJMkZIR0JKbUs5Q2d2ZlpZRkNsSXdsR0NHZUJBMmVmTktRS242R2RPOUFTSlNXOTZQN3E1ZGJCdHpNaDYwUzlIZTZsRTVHbVBKcDd6VA?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
