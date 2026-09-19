@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-18",
+          "title": "Kimi K3 da Moonshot AI chega ao Amazon Bedrock com contexto de 1 milhão de tokens - Unite.AI",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGdwT2I4WW1rUmhCZnQxM1R4X2Z4VjNyaDExSVdjajBidjFJQVk0UlhzaFNtX3hqNlFtTXlDMmlUMkJ6T3IyR2JqUExtVlJ5eXhDRmFDUUM3a3ZCNW8wXzNrekJOUUpvNlZzSlkxWFlQZ0J1a3V3Q0c2LVI2MFA4MFh2aDVzaU1lRzNGeWpHWkppTnpuYkp2TQ?oc=5"
+        },
+        {
           "date": "2026-09-10",
           "title": "IA chinesa: Kimi K3 e Qwen3 chocalam Vale do Silício - nssmag.com",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ09qRnRXZmF6TDA0cHpyb1RpbHlRWFZKeHRyOE5VRU9xUWwwWllYX0tIaHo4OWhCRUIzV3JSZjR1QmxHbHpiQjA1NS1TQ0pBVW1xZmU1NjIzLW5BU0gweUo4SjE4eFhpWjNNRktQUWNxOUZmekVhby1Pa3FubWhMMw?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-08-21",
           "title": "Chegada do Kimi K3 pode mudar ranking de popularidade de IAs? - DComercio",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVnFmVU9uZ2otSU1YQXNpVzMtbWpGeFR3NS1MNkZraVVSZ2NpTkFSMV8waC1fVU4wbERCcW5CUy1XSVhVTXU5TUZ5RlBNQlpvUWVxbmxXNElfaGk3UTE4UXdERUMySHJVR1R3dkl2ak9KNUVoS2NJSlJJQjRXODRyUVJsM2RGaDNWaTRmcmRRbE1pcEhyX0E4Z1lHVFdzR0U?oc=5"
-        },
-        {
-          "date": "2026-08-17",
-          "title": "Nós testamos: IA Kimi K3 mostra capacidade para tarefas corporativas, mas não fale de geopolítica - O GLOBO",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUzd0WG1FZW1xUXNNYjMyU2EtYWN2QWtDVDh1Nm5yN3FTYXpFczFna0FmSmtEN2FUczdEdDhHWDZoWi0yeFpYQ0MwYWduZm9ZVDhoRmxHVGdoUnMxTS1DSm91VE9WeWN5UF9JTEFLVng4Y2RHaFhJLUFTX1pKV0gzUW8wU2h4TE42a011VnhDMU5WUjhXRmR2VkpPQVNWcUxydG9UMkpQeTRLS1pxX2U0c3RaY2hJdDJpeG9xYTNiT0tRNzh0SEZERFJxOGg1MkdxOExQck1qdTVKVnl2eExfNlNJQVhTbjVOdFFKRWZ6Y1NuQ1pkM25jb9IBhwJBVV95cUxQZ0hIN1dQdWJJWGZLZ1BHTU96Qlh6ZjJsOEY0N2MwQ3BCT1haLTh3T1FETVNybXdNWDNQU0EtNmtxOGFHRnpxYlhNLWl5TWo3U2x1YmJWQ3ItekFKanVDWnljdDhFWHJyc3VKODRFVkhJN1N2dzJDMThINzdzVDNuVkxwUEZ6NElOd0I3MkdKVnRJQmp0MU5LbTVIWjRxNUg0QkRTdjdxQ0pXOV9jdzBPQTZTT0szSEFZajFNTFlxV3ZoSmN4ZXE4Rkt6b0R0bU9wMVNObW5QbU4wVWI3Y1lyU0xoMlVaWnl3SjkyN1RRQ1lVT3E5V0RVaEk0UzBzS1RmSU9SaTRpaw?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -322,6 +322,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-17",
+          "title": "China avança em governança global para regular IA, afirma NeLi - conjur.com.br",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdWVwMFhoOUlCb0VkQ2NJOHhnVWhWSjBvRXY0TUR0dlM0aUdlbndsN196a1JHNUVwVFZYdURCSW9CY0JGN21XcTNQTkg5Nl84VURPQm5qVnRHZENMdTNzVTNHeHI3d1hTeUV1LTVweldVZ253emhCNVBDNk9hbUZTNTU2MDhJR3p1QzJ6YWh2VmpOcHFMY2J1QjAzX0E?oc=5"
+        },
+        {
           "date": "2026-09-02",
           "title": "Itamaraty vê organização da China como caminho para soberania digital - Poder360",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdW5qWWY5Wng0djk1amc4NUg4WWhNU0trY2k5V2dlOFVMbXZRUm5ST1hhd1BXMFgxcEF1OGlCSkVqXy1fVTB4aUoxTDgtemVRVC1MRzdKbEtGRWlKYmR0Ymt3M2VqSzUtRUhselVHd1NSNGlaYlBPTjhhenc2SDR6Q2Y0OVp6YlY0TkNKRVlnYVVrRU5pNVpxN0tXYTdCSXJoV1ZXYjJjUTdmZUEyUmc?oc=5"
@@ -365,11 +370,6 @@
           "date": "2026-08-01",
           "title": "Brasil vê na Waico oportunidade para fortalecer soberania digital em IA - News Rondônia",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUlppMXNxTUFfRk1BREFXVklaVWgtczZ3eUItS2s3Mm1KZ0VPWVpYdlVhN1ltaWtZRmVLNWV0a2tKREdNSVcza25VSkM0UFVXekVjQnhrWFhVZTZtYWdhYm9Pd2E1QnJxSTViNEdBVExhRndOTld0LUFDZ3RMMkhfY05oOG1hTlhGaS1sRVNjbTNEVDlkX1Y4cmdrX3JLeV9pYlRXY3d3dS1ZNHdva3dDR3paTjJ0QkdHTmM1ZQ?oc=5"
-        },
-        {
-          "date": "2026-07-27",
-          "title": "Entre Bruxelas e Pequim: acordo com a China coloca Brasil em dois polos da regulação da IA - Consultor Jurídico",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTFVPVjI5eC1kTl9MQUVaMEhWOTc0VEtUNFBicWU2MGdfRy1wN3ZCZ2VjUlV4RTg3a045bjVpNEc2OFF1elNPWnlJUk1xUUlKUGQ2OHFpT19RTlBHVkNndUxvQXJMekNzaElzRWoycTZ0WnpEYzBmMU5Od1ZFeW9fRnJ4WUdBRlpsdlBKVGdUR1F3dmZMOFJpSmZnZkRWUmRJNHE5czVBa0dZVTVGUURjWlFvbjZiY09mbm1oSlRISHpRVUZ6a0tj?oc=5"
         }
       ],
       "title_en": "WAICO lands concrete adoption commitments",
@@ -391,6 +391,11 @@
         "Moonshot IPO valuation"
       ],
       "evidence": [
+        {
+          "date": "2026-09-14",
+          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjVRQ09aTTllamZoeUFHSGw2aW9laVJxQl9EZy1Fd0M1RWw4aXEyMGJzNWhzUjczWmMwNFpjTXo1Z2M5czdSODNvZGE2SW0zMW5nUG9RcDhKaWhlUVdmQi11am1WUWYzUjgxeTF5cjdSV1J5bkZrRjM5QXpjWEZ3aXNPVFI4b1J3dDJHYjR2UnVjZDd6ZnJ3NHRCcHplNnEzdERJM3lXQXByenNkWGc?oc=5"
+        },
         {
           "date": "2026-09-13",
           "title": "DeepSeek e Moonshot usaram respostas do Claude como se fossem suas, acusa Anthropic - yellow.com",
@@ -435,11 +440,6 @@
           "date": "2026-09-09",
           "title": "DeepSeek contrata Citic para preparar IPO em Xangai - Valor Econômico",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMG11ejRFMWtMc0hwMUxzcEY3YWQ5bFp3djN0NUlMWXBRTmFzSXhxdjJrd3ZsODdXTnpENGE3N1llRS16SXBZbE1DMWEtWVo0SUZ5bmNwWW5lT1VSN3RjMHhERmNhVFZYQTlWc0p1OWNVOFFRSlhlcE1vUHFnSTJZcXlTZEFFV2ltUmlaSXhuM3dIdGhkaDhRdldzZUExUG12aGZQdWpIUXdfR3d6NXfSAbwBQVVfeXFMT1VWZHd5em9tXy1VX0pQazJMeUpvTHNvMVFvbnMtMV9zN0dSNDdLSjcxSEJKWFg3bjJrNk5hOXZzY2lacnIzcy1rTnB3b1B1QnQ1R3NPRHhlQlk3c1k5RzlzeDRpb0NYSjg2Ny16bTFUWTJ6Z2sxNzVyQVVrMUVvRkRWUlVaY0hDRzg4UWh3Yl9heFhxN1lfODQtYmNLeENSRTZCd0ZJTTE4QllWaE1OYjlhd3MwTHlhZlhkb2k?oc=5"
-        },
-        {
-          "date": "2026-09-06",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeXlCbkhOdWFIZm9BbzA1SFB1YmRUTTdRUTRZT0FIMVY3bGYxQlBVV1ItS3ZyN25qcnVvQmRMUjBHOWhVWEFWdWRXa2pWT1ZIcW9FbGJnOXdjS0NLaDRnU3RkQWRXOTVWbUhHR3Zva2FNV1VEeGFnc0Fnc1dWa3lobEpHSWpYVDZsZXpJUHg2OC1aajlMU2Vad2RldTdmN3VGM0ZvREV6ajAyNXFma1BrVHhJRVF5TEwzSVFHT1dWcUx4Qzc0NTQ3azBSSQ?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
