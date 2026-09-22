@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -461,6 +461,11 @@
         "China AI inference capacity"
       ],
       "evidence": [
+        {
+          "date": "2026-09-21",
+          "title": "Micron, SanDisk stocks face a new test today: CXMT may have found the pressure point - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVGRLX2hKcTluSTZVeFdHZXJxWWtuVjV1aXVralZmQmZKOWl0TF9NcXp5SjJEXzd4UW10Z3MzRWN5Sk1Vb0s1Ti1McXI2b3gxMmh5VGJITEFrU3VuMFBZa2docWlXSzFRQ0N6aWZ1akRjRXJaRTY5bXdqVDNpRlpad3RUQTlwalV2S3h2Mk8zMTV3RGtNcHljWEppX1JabmN2UDBRa1BjT3N6emZqMzhGZ0hLcGtOVDRuSllFRGtnc2g4a25iMWNPRkMydFp0OC1Ua1MxZQ?oc=5"
+        },
         {
           "date": "2026-09-01",
           "title": "Agência de Comunicação - New Anaqua Report Reveals Surge in AI Semiconductor Patent Filings - Estadão Blue Studio",
