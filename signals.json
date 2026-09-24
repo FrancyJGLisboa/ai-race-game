@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-19",
+          "title": "0.2465 Trade EIGEN/USDT Spot | Crypto, bStocks & tCommodities - Binance",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42Q0J6UEVrVVFQUnlZUWRIbld4RGJZVDR0aDNPVC1UT085V1lkdG5GZER4b1NiTmp4dFFvWlViUS1FMFlFYk9DbzdrZWI3czhpYVdGTWlJaGZ2Zw?oc=5"
+        },
+        {
           "date": "2026-09-18",
           "title": "Google revela Android Bench 2.0 e expõe limites da IA em tarefas complexas de programação - TugaTech",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeWtVeVFEMmxnbmJ5WlRVaEMydS1sR1RmODExM2k2RE1UOV9hR0tIdTNjZkdLTURRM21jbFMzSnN1akdsTkplYzM5TnJLaHpQOWhxXy1Ib0RUTHA5OUJqZS02eGpjTXNvdGFxZFFiM0tvTzg5anVnaUxmYm5XSGpUYW92S04xRjJ2NWo3YWduM3FnTTdzaklHUHNhR1dfU0F1NmZEcFAtTno5TW14TWxiUGpJVElWT0lrT2NQWQ?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-08-28",
           "title": "Alibaba lança modelo Qwen3.8-Flash com custos reduzidos de treino e suporte até 1 milhão de tokens - TugaTech",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSU0tSXlKSGNVdWRDMnp5NDF1b1k1S2EzN0Y2dlZlWFNveUhSdV9EUmFOMWdLdGppMm10X0VGMU56SEZaYmtPSjBFMm5xOXVkTUhUUVQwVzRpU3lZNkxPdmFPc2JhOXFYMk56a01jc0lVUEZJY3VKU3huTWlLdHRMSzVUN1VhNTM3YW56RldoQjVYQldjdEJmQ2w5TENZMjdnMHg5NFVROWkwbDBnNjYydTJKYVBiMzRnLS1UUjZtY2RaUjM1dG0wQQ?oc=5"
-        },
-        {
-          "date": "2026-08-28",
-          "title": "Chinesa Tencent lança IA de código aberto para tarefas de programação e pesquisa que superaria Z.AI - Folha PE",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd2NyX2Zza3QtSFAtckwwekdPeHpacGFaOFc4WlkzYVgxY1luMkJHc2o2S3dWLUdIM2hUakc2T1A4SGtkOVNYWExpM2l6ZnVjX2FHSGdPeDNBQ2xyTmtxOTNPYXY5VXNpbjNNS3kzUkdxVWtfVkc0Vmx0NFZkcVpVTlV3OGNuQ25kb1piM1EzYTduNnd4RTFHNndoS1N3amYyYzhhQi0tRWloSzd6YjROdDNuY9IBtwFBVV95cUxQc1cxdkEyU3VLaHN6Yjd5a3pZZnFaZU9rcHpZTFZGbk1aQ3p2RGUybjZ5bW9XQlV5dG5kRTlJN1ZYM0VwU2ptbUduN1NncE51dEI1OEo3cW56eV9Hd3Eycm8td1hxSnZta3M0ZENKZmJjZXhUYUd5ZDdYdlNQQ01TbGoxMFQtZTJNUC1scWhDcmxHQVhhM3Y3TG9sNzZtSTJNcnBnTUc2Z2xXd3VNRlBxNjM0dmRlNGs?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
