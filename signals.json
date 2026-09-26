@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-24",
+  "updated": "2026-09-26",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -392,6 +392,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-24",
+          "title": "May Mobility: resgates podem reduzir os US$ 337 milhões - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOXBNWXQwZmFrd0tuS0tWSjRZclZsbEhKNGFHQ3hseEk2ekNVT0lpd183T1N1MU00a29UQ1N0T09pX0NjMHVVNlRDbi14V2NhbVFubG84bmYzNnFaSmx5akt5ajNrVWFTY3pWTFlhdXRWS09nN3p0MFZPZVdFY1RxSTBVSzhleFdCaHB3Ym56MA?oc=5"
+        },
+        {
           "date": "2026-09-14",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjVRQ09aTTllamZoeUFHSGw2aW9laVJxQl9EZy1Fd0M1RWw4aXEyMGJzNWhzUjczWmMwNFpjTXo1Z2M5czdSODNvZGE2SW0zMW5nUG9RcDhKaWhlUVdmQi11am1WUWYzUjgxeTF5cjdSV1J5bkZrRjM5QXpjWEZ3aXNPVFI4b1J3dDJHYjR2UnVjZDd6ZnJ3NHRCcHplNnEzdERJM3lXQXByenNkWGc?oc=5"
@@ -435,11 +440,6 @@
           "date": "2026-09-10",
           "title": "A Moonshot AI avalia a entrada em bolsa em Xangai, além do IPO planeado em Hong Kong - Cryptopolitan",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbE1LdTFmZUs1emkxRU12SG5Ga25Za1d3OHdGQkZfY0lSNTJfd0tXSDJHNHNENW1SLVd5aF92eXU2Q0xEbDBwRkIyWUJiN2RleEw4bWNoY3J6d1I2b3NuWkp1OHd3dmZFX1BEMDZ6cUhCbW9sMlFGcUs5bUFZZDlHOFJR?oc=5"
-        },
-        {
-          "date": "2026-09-09",
-          "title": "DeepSeek contrata Citic para preparar IPO em Xangai - Valor Econômico",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMG11ejRFMWtMc0hwMUxzcEY3YWQ5bFp3djN0NUlMWXBRTmFzSXhxdjJrd3ZsODdXTnpENGE3N1llRS16SXBZbE1DMWEtWVo0SUZ5bmNwWW5lT1VSN3RjMHhERmNhVFZYQTlWc0p1OWNVOFFRSlhlcE1vUHFnSTJZcXlTZEFFV2ltUmlaSXhuM3dIdGhkaDhRdldzZUExUG12aGZQdWpIUXdfR3d6NXfSAbwBQVVfeXFMT1VWZHd5em9tXy1VX0pQazJMeUpvTHNvMVFvbnMtMV9zN0dSNDdLSjcxSEJKWFg3bjJrNk5hOXZzY2lacnIzcy1rTnB3b1B1QnQ1R3NPRHhlQlk3c1k5RzlzeDRpb0NYSjg2Ny16bTFUWTJ6Z2sxNzVyQVVrMUVvRkRWUlVaY0hDRzg4UWh3Yl9heFhxN1lfODQtYmNLeENSRTZCd0ZJTTE4QllWaE1OYjlhd3MwTHlhZlhkb2k?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
