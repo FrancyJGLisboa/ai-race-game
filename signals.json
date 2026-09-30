@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-26",
+  "updated": "2026-09-30",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -187,6 +187,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-09-28",
+          "title": "【TMGM Financial Recap】The Chinese And US Leaders Reach An Eight-Point Consensus, Leading To China-US Easing, But Hong Kong-Listed Chinese Concept Stocks Have Instead Declined - tmgm.com",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MY0FNRnozWC1wZ3VVTXBpYTNtX2Nvc1FOblN6Qk9IQU1TV09GRmFWcUUzUnZ4TTdPV3p3OG85dldpdDNHT0ZwVHVDSnpuTUhva2R2eFhKUTBjS0lKQjF1UWJNNDgzci1Na3lWdmVVcWROSHB1N0o4el9oRWc?oc=5"
+        },
+        {
           "date": "2026-09-22",
           "title": "Chinesa CXMT inicia produção de chips para rivalizar com a Samsung - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV1owa1NhdTFwNEZFaVRtdlU2cXV0QUZYQTVyc09pRHF4UnZGNFlTbHB4NEFMbmR2YlRQaFdCdGNQMWJlTXYwS2ZwY25DMUt3U1p3Nllhc2dHMGF2bmJvT2k3dDJtN01JVkttek5zZXFaUGdQMWQxbFhnV0JDQnMtanlBTHJZWnRpMzk3NHIxWVFMZTZPY1dQV0gzSllvUktI?oc=5"
@@ -230,11 +235,6 @@
           "date": "2026-08-19",
           "title": "Alibaba desafia gigantes com chip de 5 nm que roda IA sem placa de vídeo - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQm9nQXUybnNLTkJDZ19tYnYtbkhkZkhzVmkyb2p4ZmRXeDVjcnVNbW8yRnU1RFFLZGRrQWVNZFI1X1JRSW5JQ2FWNTB0TmtpdDdEOVZqZFVVbzhwRFBrbC1WTVRNUDNxUmZ4TGZvUFNBcVR0NTJCaFJCZ3FmVlZ4SXRabUp4anRsN0U3VUFsN183ZkJUTDdiS1N2MENJSGpyUml2OG5R?oc=5"
-        },
-        {
-          "date": "2026-08-13",
-          "title": "O monopólio da IA pode nos levar a uma nova Crise de 2008? - Esquerda Online",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORW11M0JqNzBDeURRalEySzROZHkzaDV4eVk2dUxZcXZPZzQ5UElQWVExUWNGZWtIRUE5Qjh2ZU10UVJ4MGVFUk40WHFEY1BNMjZkM0VLZlF2UmlrZUdwbnFaNlBuR01McnRXOVp0eE5ISHgwRmlNN01ha0J6eEwwZ3lvVnItMjBuSmlwUFlVdjJmekFlR1JRaDhoY2d2aUxw?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
