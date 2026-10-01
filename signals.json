@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -192,6 +192,11 @@
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MY0FNRnozWC1wZ3VVTXBpYTNtX2Nvc1FOblN6Qk9IQU1TV09GRmFWcUUzUnZ4TTdPV3p3OG85dldpdDNHT0ZwVHVDSnpuTUhva2R2eFhKUTBjS0lKQjF1UWJNNDgzci1Na3lWdmVVcWROSHB1N0o4el9oRWc?oc=5"
         },
         {
+          "date": "2026-09-25",
+          "title": "‘Trump Wins Xi, Loses GOP!’: Massive Revolt Amid U.S.-China Summit; Cornyn Drops Midterms Bomb - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOTlU5LUtZOXVzampwQm0wa0l6TDhyTWMxazNkWHUwdFktWmtOUDB5UGRTZE5JREJyY2NsNWY4SWhxVmJXemRwRmJkdkI5MElfWDRLdUZCaTY2NnVPc0tTdkdFa0EyaWVQeGlrMzRGMjZYQXVrSUhWMVE2V3hEbDdiTFVtSlBnUnc0aWV5ZlptSkdkeWNmVU5RZENaNTlvci1pSDMwMVRoSXdpMkM3Y2FfUDhPUVpSSUpkR0dxeXVrd0phVkt2VWhCdHk4NGloalNseVRsR19fWUF5MExpSW5pOFhXcHVhaTNqeUlEYWdUd19nR005WjU1dEE2MlnSAYICQVVfeXFMTVVNRkg0Tmp3V055VnBrSjRKU3E1aVM2dTM4NHhUMjRNRUFGODc3ZTFrNE9iUGIzRTJFczY3Nm1jUDdDaml0eTl3YTBvaGpVNU45Qm5iRFItWmtmV054RUczMXl0UU5VUnFtem9XdFRyY29zamtteDhxdVFVRHRQTTdqNHhObk81MU5kaGpJTXR3SHZBMXRLTUNxbzJLaXlpSG02elZGbzRacW9xcnZkSWxEQXpodW9KWkJFRklEaFdBX09YWHQ1RV9QMzFGUVREbUhFd1pXSjEzT0ViT3dUWWNWdl9ic2Mxc1cyR0Z5Wi1uZ3BQSmFmZHlGTDdVYldsRWdB?oc=5"
+        },
+        {
           "date": "2026-09-22",
           "title": "Chinesa CXMT inicia produção de chips para rivalizar com a Samsung - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV1owa1NhdTFwNEZFaVRtdlU2cXV0QUZYQTVyc09pRHF4UnZGNFlTbHB4NEFMbmR2YlRQaFdCdGNQMWJlTXYwS2ZwY25DMUt3U1p3Nllhc2dHMGF2bmJvT2k3dDJtN01JVkttek5zZXFaUGdQMWQxbFhnV0JDQnMtanlBTHJZWnRpMzk3NHIxWVFMZTZPY1dQV0gzSllvUktI?oc=5"
@@ -230,11 +235,6 @@
           "date": "2026-08-24",
           "title": "Esqueça o Google Veo? Alibaba lança IA Wan 3.0 que gera vídeos de até 30 segundos - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaGtXM3BjWWFPNUVidktjTGhNOXYxNGJlZDhhMmJsZTJPNzdBWjZrUFU3U3NwTlppTDZJbEdHY0xQMXkwakJMckJMZkFiZ21JWlZ0YlhRTGFpbDlxRmlmeDZTZjFqSmdqdjNIV01SZVdWOGptaDA0V0tzVFVJeWFvdGhnU1E3c1Zpc2lydjlNdW9Vb1JYQkdpWVRZdE9HWkVLY2c?oc=5"
-        },
-        {
-          "date": "2026-08-19",
-          "title": "Alibaba desafia gigantes com chip de 5 nm que roda IA sem placa de vídeo - TudoCelular.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQm9nQXUybnNLTkJDZ19tYnYtbkhkZkhzVmkyb2p4ZmRXeDVjcnVNbW8yRnU1RFFLZGRrQWVNZFI1X1JRSW5JQ2FWNTB0TmtpdDdEOVZqZFVVbzhwRFBrbC1WTVRNUDNxUmZ4TGZvUFNBcVR0NTJCaFJCZ3FmVlZ4SXRabUp4anRsN0U3VUFsN183ZkJUTDdiS1N2MENJSGpyUml2OG5R?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
