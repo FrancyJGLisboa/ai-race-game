@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-01",
+  "updated": "2026-10-05",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-05",
+          "title": "AMD se antecipa à NVIDIA e revela desempenho de PCs com até 192 GB de memória para IA - adrenaline.com.br",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb0taOUladU1PYk1mZzU1dHFGMXJBNHR0TFJ0aUJObmR0UkpaT2dPRDNRVVlwM2RzMHBhYVRjTU9vaS0wcXpCQy1ZbFJTMjNHaTNROEw4bGdQUGJZRERVZVRRcjNEaVMwMUljQnRHNVhsTUdjaFdLdGRVeERVbHdTMHgxbFZYWF90R3NuRXlrU3ZTRjZ6UEU4Y2o3dDZnSzFyXzFn?oc=5"
+        },
+        {
           "date": "2026-09-19",
           "title": "0.2465 Trade EIGEN/USDT Spot | Crypto, bStocks & tCommodities - Binance",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42Q0J6UEVrVVFQUnlZUWRIbld4RGJZVDR0aDNPVC1UT085V1lkdG5GZER4b1NiTmp4dFFvWlViUS1FMFlFYk9DbzdrZWI3czhpYVdGTWlJaGZ2Zw?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-08-29",
           "title": "SlowMist alerta para falso Qwen no GitHub com StealC - portalcripto.com.br",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdXZUcG5ONW5NRHhkTVJYX3hfNV9Ba0ZJLXhuWE9yZGtvZGp4WUxONk54Qy1ENlpUUm9aM3dUYVFVSnBIcmhQTFlXcDNLOGNaX1Q3QUlFWjRCOTd1MnpBMmExSHpzWE9JTzNZUm02alJPSS10UXVfeC10NUpic2ZUUUM0YzVuVnB3cEx0X2N0M0FrR0U4MGQyUjYtRUM?oc=5"
-        },
-        {
-          "date": "2026-08-28",
-          "title": "Alibaba lança modelo Qwen3.8-Flash com custos reduzidos de treino e suporte até 1 milhão de tokens - TugaTech",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSU0tSXlKSGNVdWRDMnp5NDF1b1k1S2EzN0Y2dlZlWFNveUhSdV9EUmFOMWdLdGppMm10X0VGMU56SEZaYmtPSjBFMm5xOXVkTUhUUVQwVzRpU3lZNkxPdmFPc2JhOXFYMk56a01jc0lVUEZJY3VKU3huTWlLdHRMSzVUN1VhNTM3YW56RldoQjVYQldjdEJmQ2w5TENZMjdnMHg5NFVROWkwbDBnNjYydTJKYVBiMzRnLS1UUjZtY2RaUjM1dG0wQQ?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
