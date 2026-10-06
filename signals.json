@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -392,6 +392,31 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-06",
+          "title": "Hong Kong: Moonshot AI prepara entrada em bolsa após avaliação, DeepSeek reforça capital - Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYjF6UHkwdGNoNExmM3BLdXdDbGNPeGt5d1E0enpZTktXZXppQ3JTZjlpZGZYano2MXlQWTBRYV9fMEo1Z2Q4Uy1tT0M2aXdlS2d0T2YxTXJIVzIzLWd3c1ItMTF0aDRSbEJtVjRWX1VUNlhXYXNHYzY5RlVDTHVxbFZNVFV1WmVmblhlUktCbmFidndsSTRYWENXX1dtRFN2eEtHZm91RV9NSDZm?oc=5"
+        },
+        {
+          "date": "2026-10-06",
+          "title": "Moonshot mira IPO em Hong Kong no início de 2027 após rodada de US$ 50 bilhões - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQd0tTRFh6SEdMeEFBYmh2RjZJZk5UQkc5ZkprX3R4TEhvSExsRE5EbXVzcUoxTkEzU2d2X2traFBFR2tsemc1MjJXa2N3WEphX2U3NFM4RnVHNU1ZMlEzM2J6cmZpaGJIOE1vTnlxRDMxZ2hjNlZZWXBtbHJHc085Uk5xbWFTblJuX1FoWlRyNmVuVUpZVE9zOVRaelFMNWxodVpjZzVRS1RpbjRWaUUyUmt1Vnc2cHBMY0ZkVlhhOFFaTVpOZVdqcWtiR1hDWXZGSC03WQ?oc=5"
+        },
+        {
+          "date": "2026-10-06",
+          "title": "Chinesa Moonshot conclui ronda de financiamento antes de entrar na bolsa - Dinheiro Vivo",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSGFUYm9PQnFjSmJuTGNUb3lFWVFPbnNERUEyZkQ5Qm9DbHRXNEJ6NVdqcVY1c2Z6c2htNVgwT3ZfLWo3aFltelRVWDhfNXlrc2VrUUdsakZoR1B1WVJ2ZjhzUmVocnhlS3habFNWTmNhdkJPSjFLMTRWcnlhaDh3dnE1UlJKcmlMdDNmTGhoWWhkYUhIWnA5M0pYTlFhT3UxZDMtMlR2TkxwRFk?oc=5"
+        },
+        {
+          "date": "2026-10-06",
+          "title": "Moonshot mira IPO e avaliação de US$ 50 bilhões após avanço do Kimi - Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZWczd2xKMHlDeldIdXlzaV9wM015Mkdja1VPLUNwdWc0ejJtYjd6SXZIOWdfX280U2p6N0VXX09lQVlNUk9qeVdXSmNJNHlzdjg0UURSYnFUYTcxQ0JPem5STWU1RlNiUExrTGNLWElvSTZTeW9JcFZZNVdRb0Y5THg1ZXlyOEY0VWdsTjVwMA?oc=5"
+        },
+        {
+          "date": "2026-10-06",
+          "title": "DeepSeek e Moonshot avançam em captações bilionárias - SpaceMoney",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS1VWTlJWUEVscUZ3Q1hDOS1CTnhlMGxwY2dUTzdILW9GTXRUbkhoX1J3eDBMdDQ2M053YnAtX0ZOc0ZsYmZoRzJIT1o0M0VpVk0tMktadlBlM2N3b2NxZXRCa1hHN3E4aGFlVndQT1JfeHFCeEVhVjIyOWVrY0NzU3hRQk1OSkxIc0tvYlpqcG92c0JUeUJCZEQ1cFJtUjl1aXIw?oc=5"
+        },
+        {
           "date": "2026-09-24",
           "title": "May Mobility: resgates podem reduzir os US$ 337 milhões - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOXBNWXQwZmFrd0tuS0tWSjRZclZsbEhKNGFHQ3hseEk2ekNVT0lpd183T1N1MU00a29UQ1N0T09pX0NjMHVVNlRDbi14V2NhbVFubG84bmYzNnFaSmx5akt5ajNrVWFTY3pWTFlhdXRWS09nN3p0MFZPZVdFY1RxSTBVSzhleFdCaHB3Ym56MA?oc=5"
@@ -415,31 +440,6 @@
           "date": "2026-09-11",
           "title": "Moonshot AI avalia IPO em Hong Kong e na Bolsa de Xangai - portalcripto.com.br",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX1ZkX2Zsa2pxaURub0NNTGN2RVFvSHVya3FQeXVjWUdZYkRMNGVRUGN1d2J5bjdVVkRIVGJsdVFtUVhYYnhSWkw5VlZ1dXFuUDZpbFdtYjJSQnpmZ1dNSmVRaUlfLWlyWWhaTTQybUR4NDJzb0E3NVV4cERoVXRTelFXampkVmtxNnh4LW9DZUJnNGNwdXVZdjVUeEpNQUdJTnc?oc=5"
-        },
-        {
-          "date": "2026-09-11",
-          "title": "Anthropic accuses Alibaba, Moonshot and DeepSeek of copying Claude - portalcripto.com.br",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkxSM3BxeFcxVW1yWjFwcldsWnJXWUVGc2RkVmhKRE1tT3JteVRGdDJxS1RLbm93UTd3eS1lOVJrT3hka0tIQjhsOEFCMmd6NXhpNy1OQVdQR21UNnljTl8taHRnWDFoS1RKOGdsY1VhT1FVMFpVZHhmdzlvTGEtU0pjaWhkeTRndEd3aG51aWhaUUZVQmhEQjVWUk0?oc=5"
-        },
-        {
-          "date": "2026-09-11",
-          "title": "A Moonshot AI da China aposta que a Kimi pode impulsionar a receita de 100 milhões de dólares para 2 mil milhões de dólares num ano - Cryptopolitan",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS2p1aXFIYWhfMFphWUI2eFZvam9QSWh3OHZTMVJSR000dUpYQkZZenJEZTd2MktRRTBrRm9lSXQ3NTM0ZncwbFFUanBSSk5HdGxqNjlDUS1OaUJvWkcySmd3dE8wTlR5eVdJbC1jdGZlRWJDYjlVWkVyZUpsVmNrQw?oc=5"
-        },
-        {
-          "date": "2026-09-11",
-          "title": "Notícias de Israel e do mundo judaico em espanhol - Aurora Israel",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSHNlb2s1ajU0ZGhnYVlGYXRtRk5zdzcyWkVzZm01bmh3SVh1OHFvc0hiVDIyaVN6dW1XaWxIR0lKeGNOb2o3U3pFNkNlZmVtWVcyNk5hR21wR215ek1RVi1VSEZnVzFnRlplVnVaZnRvVUVON1NISjA0UUxEOWRuT08zMjNqbkZzaVBfNnFIeGpGaDFvWEEzbUh6MHhZWHBsQ3huNGdPbTRpaFBLUE12cUExdlRnZw?oc=5"
-        },
-        {
-          "date": "2026-09-10",
-          "title": "Criadora do Kimi, Moonshot AI avalia dupla listagem em Hong Kong e Xangai - Exame",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLVQ1c3dWMnMxUWdFdl9RUlNuaWxrM3gxSkRSMFprZXFFRVdZS25tRGxpWDRpNkVkZzNfUjZ4VjFoaWxSUEhkdlVzSTV0TUIzcFF6R2F5SFZDRUlJaDVpa2pMa08zd3Z2Um51WmcyUzNiRmhwNzYtY1VqREp4MjctT3hyOHI4cjFwVnAxWVN0ZTJPQUhsVmZKODB3VjNCX1E5d0ozVVUxaHJlQll0Z2dKTF9IVEhUQQ?oc=5"
-        },
-        {
-          "date": "2026-09-10",
-          "title": "A Moonshot AI avalia a entrada em bolsa em Xangai, além do IPO planeado em Hong Kong - Cryptopolitan",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbE1LdTFmZUs1emkxRU12SG5Ga25Za1d3OHdGQkZfY0lSNTJfd0tXSDJHNHNENW1SLVd5aF92eXU2Q0xEbDBwRkIyWUJiN2RleEw4bWNoY3J6d1I2b3NuWkp1OHd3dmZFX1BEMDZ6cUhCbW9sMlFGcUs5bUFZZDlHOFJR?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
