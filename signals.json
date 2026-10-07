@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-06",
+          "title": "AMD revela novos testes dos Ryzen Gorgon Halo para antecipar estreia da NVIDIA - TugaTech",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPem1GRGhrQjB5MnpPOWZOejNRekhmZkFQWkVyRnR4ZHBqQS02SVB4MmxVTjN1RXFaT1NiTE9qaXJteGVBVEI0R3kzeTE1OGdLQ003SFNTc3hzZURSQ1VORmVsRVNVRFJscXlzaTR5SGdrU0F5Q3VubDMzNjhoUlNwWlVwZDNXSUk4cERBVzZ0TVVHMHowMG5xZFpONTRwT0Fyd0RvYURXRjd0X1pIYkE?oc=5"
+        },
+        {
           "date": "2026-10-05",
           "title": "AMD se antecipa à NVIDIA e revela desempenho de PCs com até 192 GB de memória para IA - adrenaline.com.br",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb0taOUladU1PYk1mZzU1dHFGMXJBNHR0TFJ0aUJObmR0UkpaT2dPRDNRVVlwM2RzMHBhYVRjTU9vaS0wcXpCQy1ZbFJTMjNHaTNROEw4bGdQUGJZRERVZVRRcjNEaVMwMUljQnRHNVhsTUdjaFdLdGRVeERVbHdTMHgxbFZYWF90R3NuRXlrU3ZTRjZ6UEU4Y2o3dDZnSzFyXzFn?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-08-29",
           "title": "SlowMist alerta para falso Qwen no GitHub com StealC - portalcripto.com.br",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBocm85WmV1c2JyWEJ1LVJFbkdkVGQyLVRfLVBnVkFvdkpCSE81TkRQWnFkUHlwT1NwamRrbXNGd3JFQnBVUjI3S09FUnpZZFZnSU9pbF95eXA4cFdNWVFnMGNpMlQtSHR2Ymh0bVI2VFluTFpGaDJqdnhrVTU?oc=5"
-        },
-        {
-          "date": "2026-08-29",
-          "title": "SlowMist alerta para falso Qwen no GitHub com StealC - portalcripto.com.br",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdXZUcG5ONW5NRHhkTVJYX3hfNV9Ba0ZJLXhuWE9yZGtvZGp4WUxONk54Qy1ENlpUUm9aM3dUYVFVSnBIcmhQTFlXcDNLOGNaX1Q3QUlFWjRCOTd1MnpBMmExSHpzWE9JTzNZUm02alJPSS10UXVfeC10NUpic2ZUUUM0YzVuVnB3cEx0X2N0M0FrR0U4MGQyUjYtRUM?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -256,6 +256,11 @@
         "China open weights flagship"
       ],
       "evidence": [
+        {
+          "date": "2026-10-05",
+          "title": "Reflection AI lança Beam, sua resposta open-source à liderança da China em IA - news.lavx.hu",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYTIxSUlQNFE2aHRrSjNiYS1rZTFCVm1PMnZpSjQ1WWxoWXF2bFNSMXROMVB4YnNiTURKS0tFYlZGQlNHRUdYem9kZzdTOHgyQ1FjM0J6SGVUTEtGY19yMVNLNUlCaW1tSjNWUFdvTzhHa1hkeDRvZFlQNHBSTnhoaDV3YmJZZUxQalpiZnk3S1RBS2tKc2c2dDVvVDVCNURjRDFHbFIyT1BZVnUtdUNZVA?oc=5"
+        },
         {
           "date": "2026-09-12",
           "title": "BRICS pivotal in formulating AI rules - China Daily Global Edition",
@@ -417,6 +422,21 @@
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS1VWTlJWUEVscUZ3Q1hDOS1CTnhlMGxwY2dUTzdILW9GTXRUbkhoX1J3eDBMdDQ2M053YnAtX0ZOc0ZsYmZoRzJIT1o0M0VpVk0tMktadlBlM2N3b2NxZXRCa1hHN3E4aGFlVndQT1JfeHFCeEVhVjIyOWVrY0NzU3hRQk1OSkxIc0tvYlpqcG92c0JUeUJCZEQ1cFJtUjl1aXIw?oc=5"
         },
         {
+          "date": "2026-10-06",
+          "title": "TENDÊNCIAS DE IA | Moonshot mira IPO no início de 2027 após avaliação chegar a US$ 50 bilhões - Binance",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NNWlmTXlGazl2bVU4dGFieDdtMnR0dXY2OXVHaTNTSFVQTUlUb29LNXM0MnJVdmRfTDZ2RnNMcllEazdFWlBCcUF0czBtajY2ck9yTDU2Yk9zOHFJVS0zWV85VzI1N1Bh?oc=5"
+        },
+        {
+          "date": "2026-10-06",
+          "title": "Financiamento de IA na China dispara enquanto concorrentes dos EUA buscam avaliações trilionárias - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRjdhc1h3a1VIMTBCVThOTzlTSUNhRkFUTDdsQzBnZVlDa3Rodmw3cGxCRm9WQWZhYzJEMzMtbHpmQ1ZncHl4Sk9yajNYcFY5aXhKbjY2MjdCWHVLRUVWa0EzSlBsRGxQQXJiZ29ZbHIwckpiWHpWQXhJTHlmT1VmNm9xWHYxR3RJZktxc2dGMW14Y3Zram1ScjVXUENITTJsaWpTYXBxcHhFZkRRWW1vMGx4d3V1QzhNUnN4WUxBVkxjUQ?oc=5"
+        },
+        {
+          "date": "2026-10-01",
+          "title": "OpenAI acusa chinesa Moonshot AI de tentar extrair raciocínio de seus modelos - Times Brasil | CNBC",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDdqZGgyWjRrNHRWM1QzZmtWMFRpRlVyOXhsNVFFTHJYdGJEUWFkWWVOOWczU1JwUmxBeThBUjJTTXBRZGt0VGJ5NWJ5a2c0ejIyUnFibzJQbXZhMHhoclJfMlc0MDFYTFNWOHppLTVNOG03dlRnREtGYUlkMHh4dnlJaW5kQ1d2cnNrZWI2YWg0YmhsbjZlUWdKR28ta2tJQkRTblI4bUlwb2JNSVFDb0NILXU1Wl9fUlpIVlQyVHhyMUlPbVE?oc=5"
+        },
+        {
           "date": "2026-09-24",
           "title": "May Mobility: resgates podem reduzir os US$ 337 milhões - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOXBNWXQwZmFrd0tuS0tWSjRZclZsbEhKNGFHQ3hseEk2ekNVT0lpd183T1N1MU00a29UQ1N0T09pX0NjMHVVNlRDbi14V2NhbVFubG84bmYzNnFaSmx5akt5ajNrVWFTY3pWTFlhdXRWS09nN3p0MFZPZVdFY1RxSTBVSzhleFdCaHB3Ym56MA?oc=5"
@@ -425,21 +445,6 @@
           "date": "2026-09-14",
           "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjVRQ09aTTllamZoeUFHSGw2aW9laVJxQl9EZy1Fd0M1RWw4aXEyMGJzNWhzUjczWmMwNFpjTXo1Z2M5czdSODNvZGE2SW0zMW5nUG9RcDhKaWhlUVdmQi11am1WUWYzUjgxeTF5cjdSV1J5bkZrRjM5QXpjWEZ3aXNPVFI4b1J3dDJHYjR2UnVjZDd6ZnJ3NHRCcHplNnEzdERJM3lXQXByenNkWGc?oc=5"
-        },
-        {
-          "date": "2026-09-13",
-          "title": "DeepSeek e Moonshot usaram respostas do Claude como se fossem suas, acusa Anthropic - yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa0xjNnUxdnkya2IyT1F4dG9wdVM3SDFsclpxal9OQUJVclJFdDJvZVpDTm9Vc2R1cFdVVDJFNHhZeE0yNTVvbWxpeFdPZUtUQnFnZWlMRVloWVdUT1g3X3ltREs0Z1ZaRnlkcUZfekZzNU9pOXQzRFhURmtyQXAybzhtblV4dzFHRGpWZ2ZQWDhTT1Vrbi1TWEppeFZUQXFXM1Y4T3RhQ2ZCQzB3VXc?oc=5"
-        },
-        {
-          "date": "2026-09-13",
-          "title": "Notícias de Israel e do mundo judaico em espanhol - Aurora Israel",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWi1fYXAwcVQzWWpEa1VMV0xqeC0wb1Q2Q21wNnRGa0VFTTEzZVFRdU5ackNVMUJXRXRsMm1mdmhDSnhMSUVZaEx2elRZUjJGZ095djBhRmhtOHJVRHVLRmhjdGo3VHEtYlB2QnpBNVVzOC05ZUxYZnFTN194WmszQkVYZUptV1FfLTBZb2tQVy1PeTNIaWtSMWRYa1dkR0NsT3JhOXU0dmRJZldZTzktdjZCMHpZOUhD?oc=5"
-        },
-        {
-          "date": "2026-09-11",
-          "title": "Moonshot AI avalia IPO em Hong Kong e na Bolsa de Xangai - portalcripto.com.br",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX1ZkX2Zsa2pxaURub0NNTGN2RVFvSHVya3FQeXVjWUdZYkRMNGVRUGN1d2J5bjdVVkRIVGJsdVFtUVhYYnhSWkw5VlZ1dXFuUDZpbFdtYjJSQnpmZ1dNSmVRaUlfLWlyWWhaTTQybUR4NDJzb0E3NVV4cERoVXRTelFXampkVmtxNnh4LW9DZUJnNGNwdXVZdjVUeEpNQUdJTnc?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
