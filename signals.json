@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -432,6 +432,11 @@
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRjdhc1h3a1VIMTBCVThOTzlTSUNhRkFUTDdsQzBnZVlDa3Rodmw3cGxCRm9WQWZhYzJEMzMtbHpmQ1ZncHl4Sk9yajNYcFY5aXhKbjY2MjdCWHVLRUVWa0EzSlBsRGxQQXJiZ29ZbHIwckpiWHpWQXhJTHlmT1VmNm9xWHYxR3RJZktxc2dGMW14Y3Zram1ScjVXUENITTJsaWpTYXBxcHhFZkRRWW1vMGx4d3V1QzhNUnN4WUxBVkxjUQ?oc=5"
         },
         {
+          "date": "2026-10-06",
+          "title": "KINGDOM HEARTS no Switch 2: análise da coleção - NeoTeo",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUnRWSmxtVHpoRzF6ZENiWERZMzVSc3hTeFlrV3QxOFJYTlhQOEZrbkRoa0E0Q0hKb3ZMWXVJbWZuZWVtTzEweVFjWHNjbUl0cXZwaWxsb20xdF9KQ0FnbDZjYXBseDByTHpXWlhBVU9CN1ROZDhqNk9ES3ItTnJzdDYzQ2VIYjlTQm8zU0VFa0tKWEdZb0pHX0Q1UlA?oc=5"
+        },
+        {
           "date": "2026-10-01",
           "title": "OpenAI acusa chinesa Moonshot AI de tentar extrair raciocínio de seus modelos - Times Brasil | CNBC",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDdqZGgyWjRrNHRWM1QzZmtWMFRpRlVyOXhsNVFFTHJYdGJEUWFkWWVOOWczU1JwUmxBeThBUjJTTXBRZGt0VGJ5NWJ5a2c0ejIyUnFibzJQbXZhMHhoclJfMlc0MDFYTFNWOHppLTVNOG03dlRnREtGYUlkMHh4dnlJaW5kQ1d2cnNrZWI2YWg0YmhsbjZlUWdKR28ta2tJQkRTblI4bUlwb2JNSVFDb0NILXU1Wl9fUlpIVlQyVHhyMUlPbVE?oc=5"
@@ -440,11 +445,6 @@
           "date": "2026-09-24",
           "title": "May Mobility: resgates podem reduzir os US$ 337 milhões - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOXBNWXQwZmFrd0tuS0tWSjRZclZsbEhKNGFHQ3hseEk2ekNVT0lpd183T1N1MU00a29UQ1N0T09pX0NjMHVVNlRDbi14V2NhbVFubG84bmYzNnFaSmx5akt5ajNrVWFTY3pWTFlhdXRWS09nN3p0MFZPZVdFY1RxSTBVSzhleFdCaHB3Ym56MA?oc=5"
-        },
-        {
-          "date": "2026-09-14",
-          "title": "Your Easiest Way to Crypto - Trade Bitcoin, Ethereum &Most Trending Tokens - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjVRQ09aTTllamZoeUFHSGw2aW9laVJxQl9EZy1Fd0M1RWw4aXEyMGJzNWhzUjczWmMwNFpjTXo1Z2M5czdSODNvZGE2SW0zMW5nUG9RcDhKaWhlUVdmQi11am1WUWYzUjgxeTF5cjdSV1J5bkZrRjM5QXpjWEZ3aXNPVFI4b1J3dDJHYjR2UnVjZDd6ZnJ3NHRCcHplNnEzdERJM3lXQXByenNkWGc?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
