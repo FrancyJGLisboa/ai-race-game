@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-08",
+  "updated": "2026-10-10",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-08",
+          "title": "Meta lança modelo de IA e Zuckerberg defende \"open weight\" - CNN Brasil",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOREpKMzVNcTRoYW91SzNNVTlraUZoTjdUU254QVVyTF9NUnZkM2x6V1JGUzdDd0ZiUVEyT3Y0YmRKZFlBX3NGV1c0LUdrRXBhdWVCMi1iUWpLZlZDTzZpd0haZWNtaERLRlhGRUFhc3ZZTVR6aTMyQTY2a2lTMGg0aDJxbC1DSkR4MGZ0d204RzZpYnVhY3JLc1g5QU9JY0hYSV9SRWIwZUVpTlFBY0pUTkNjRVAxc1Y4ZWFnSGs2Y1RGd3M?oc=5"
+        },
+        {
           "date": "2026-09-18",
           "title": "Kimi K3 da Moonshot AI chega ao Amazon Bedrock com contexto de 1 milhão de tokens - Unite.AI",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGdwT2I4WW1rUmhCZnQxM1R4X2Z4VjNyaDExSVdjajBidjFJQVk0UlhzaFNtX3hqNlFtTXlDMmlUMkJ6T3IyR2JqUExtVlJ5eXhDRmFDUUM3a3ZCNW8wXzNrekJOUUpvNlZzSlkxWFlQZ0J1a3V3Q0c2LVI2MFA4MFh2aDVzaU1lRzNGeWpHWkppTnpuYkp2TQ?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-08-26",
           "title": "A Moonshot AI, empresa chinesa de inteligência artificial, está perto de fechar negociações com os gigantes da computação em nuvem dos EUA para partilhar 30% das receitas - Cryptopolitan",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWE94NWlVbldmLTJJbkZRRXNUWXJUQTVTOU5BX0gyZ1RWMXhua0ZKRmhyVzlscnFyN2tvdWo0QVBOaGhyZk84R0xEa2NtOW81alR5YlNrXzg5T1NPYzNjeWFLN3JlaGthTTltM25pWGlDWllZODBjT0NvcXRGQVVFLW52OA?oc=5"
-        },
-        {
-          "date": "2026-08-21",
-          "title": "Chegada do Kimi K3 pode mudar ranking de popularidade de IAs? - DComercio",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVnFmVU9uZ2otSU1YQXNpVzMtbWpGeFR3NS1MNkZraVVSZ2NpTkFSMV8waC1fVU4wbERCcW5CUy1XSVhVTXU5TUZ5RlBNQlpvUWVxbmxXNElfaGk3UTE4UXdERUMySHJVR1R3dkl2ak9KNUVoS2NJSlJJQjRXODRyUVJsM2RGaDNWaTRmcmRRbE1pcEhyX0E4Z1lHVFdzR0U?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -257,6 +257,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-09",
+          "title": "What can China’s innovation bring to the Asia-Pacific region? – Global South Institute - Brasil 247",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeV9ScVNaa1kycVV1SjQybFpSOHI0RFgyc0U5X0hCNzVycXdveE5TZHV4SXBtWHUxRE1kbzZ2S1I0N2VXUXVlaXpOb3RMYWo4aE9IXzd1WnNfT1pkanRZN3ZXMHZJV09oMW5uamFDLThWdW1VaGdBbWxmVUVWdVhGMEMxdWNfejlXQU1DellRQUdfYV9rYnhKc2tIZHdTNmR6dk55bTRKTUN1d1N5VWtQVHAyQmNKUkdEd0ljM2JHRWsxMDhHckhaUzlSQk5UcU1kUnc0?oc=5"
+        },
+        {
           "date": "2026-10-05",
           "title": "Reflection AI lança Beam, sua resposta open-source à liderança da China em IA - news.lavx.hu",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYTIxSUlQNFE2aHRrSjNiYS1rZTFCVm1PMnZpSjQ1WWxoWXF2bFNSMXROMVB4YnNiTURKS0tFYlZGQlNHRUdYem9kZzdTOHgyQ1FjM0J6SGVUTEtGY19yMVNLNUlCaW1tSjNWUFdvTzhHa1hkeDRvZFlQNHBSTnhoaDV3YmJZZUxQalpiZnk3S1RBS2tKc2c2dDVvVDVCNURjRDFHbFIyT1BZVnUtdUNZVA?oc=5"
@@ -300,11 +305,6 @@
           "date": "2026-07-17",
           "title": "Startup chinesa Moonshot lança IA de código aberto que desafia modelos dos EUA - Valor Econômico",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRVg0RlVCQ1BOdmQ2RENvcmZMZUtJcGViSGlhZ3EybmhKYlNsXzc5czRmQ2VZZ0VKbzdsaFV1TktlZEJ6SzZsTlR2UF94TUxFYlhwS0NBT3J6anhTQ3c5bXRDSXI0ejBiUGdPN29tenU2LWlidzZpNXNuV1hZTXJEYzM2emFna0hsaEdXcnRNZkkyc3ZqYzNNM1piLTN2alZzTnhCcW1FMUd2dHdGc0s0YmowU3VJT3hBLXZGYVdvOVVNREEzT0Z3V2NhaEpnTGJsdWfSAeABQVVfeXFMT2VWVTlxbXQyQjN3STVWNGlkSEFPTHNCdUZOaTVOS0pwWUk1MFNYMURlSlZSakFZVmh3RlhRdWRXNVJiSTdPbmhvd2hucWJFaVVNbjRYRGRTT214bVNIQVhRT1VNSXRZWmNTSXM2X09VbldWODdwXzRqUjNqY1VUYkRxZk5DN1dBT1MtYk02aWhnT1BDUTFOZWFTamFsc3BNeVdWZXdUWThQVW1jZEtXRWJJbXZES2VJclBfTDhuN2NzR2JNNEhaRjFDOHgxTThDaGp4clNYa2VPeHpHUGxyWms?oc=5"
-        },
-        {
-          "date": "2026-07-17",
-          "title": "IA chinesa Kimi K3 é desmascarada e se identifica como o Claude da Anthropic - TudoCelular.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQmoyLXNqQlowR3o1RmU3aVRzQVh2TkFkQWFuUFhkdlY2YlhmRlQ0TERXdVV4aHJTdktPQlNVNjc1dFo5M2RBZW9nSWRIMmVaaXJoMnAwQy1fT0ozZXhwVDBkMGVZZGFQZWNrTTdzTU44OGRHLW9HRkZxVnBwd1VxelNYeXdLcnNoMjk2OFRqQUlKdDhBeEhjZzNqY2VpbWRXM2k2bA?oc=5"
         }
       ],
       "title_en": "Other Chinese labs open previously closed flagships",
