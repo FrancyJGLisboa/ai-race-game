@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-10",
+  "updated": "2026-10-13",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-13",
+          "title": "Kimi K3 vs Claude Fable 5: Vale a pena 3,33x por seis pontos? - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10SmM5RGhNdXl5ODFsYzVpT0VLWFlmNXhOMzZNbExRc3phQ0FjVXBodzlEU0ItX2lhTkhrWVZmSS1sNU5UaGs1eG96MDEwQUZSTGR0TDY0WUx5QkZXRFlqbTNB?oc=5"
+        },
+        {
           "date": "2026-10-08",
           "title": "Meta lança modelo de IA e Zuckerberg defende \"open weight\" - CNN Brasil",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOREpKMzVNcTRoYW91SzNNVTlraUZoTjdUU254QVVyTF9NUnZkM2x6V1JGUzdDd0ZiUVEyT3Y0YmRKZFlBX3NGV1c0LUdrRXBhdWVCMi1iUWpLZlZDTzZpd0haZWNtaERLRlhGRUFhc3ZZTVR6aTMyQTY2a2lTMGg0aDJxbC1DSkR4MGZ0d204RzZpYnVhY3JLc1g5QU9JY0hYSV9SRWIwZUVpTlFBY0pUTkNjRVAxc1Y4ZWFnSGs2Y1RGd3M?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-08-26",
           "title": "Moonshot AI negocia cobrar até 30% da receita de nuvens - portalcripto.com.br",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZlRpQ201SkdoNnNxU0pnOUdjalg5MHE2NVJNVzVOZUF6R2dEREJVenBxbXRnaURYcktJSUM2bUF3X1RseXVGYldabHFyWUtUX2ZtbjFNUXFNcTVtbmtnY3BwamRZYUhSeWlzb3E0NzAtN1ZUUEN3RG43TzhfTXlkT3VqNTRmdFVmc0p0ZmI2c0c4MjlNc0ZId0pORkUyM1U?oc=5"
-        },
-        {
-          "date": "2026-08-26",
-          "title": "A Moonshot AI, empresa chinesa de inteligência artificial, está perto de fechar negociações com os gigantes da computação em nuvem dos EUA para partilhar 30% das receitas - Cryptopolitan",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWE94NWlVbldmLTJJbkZRRXNUWXJUQTVTOU5BX0gyZ1RWMXhua0ZKRmhyVzlscnFyN2tvdWo0QVBOaGhyZk84R0xEa2NtOW81alR5YlNrXzg5T1NPYzNjeWFLN3JlaGthTTltM25pWGlDWllZODBjT0NvcXRGQVVFLW52OA?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -117,6 +117,36 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-13",
+          "title": "Qwen 3.7 vs Qwen 3.8: Qual geração você deveria realmente estar chamando? - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tVURORW1QRnM0NlE4d2hqWkZHbVFfS21Ua0c0ZXZuUnd1UWNmNnppR19pYmsxT3JtNzF1N3FHdXF4c3RYZHRiVE9TUUJYdlZhbllLUnU5OVQ5aThvWjRUWlpSSFI?oc=5"
+        },
+        {
+          "date": "2026-10-13",
+          "title": "Qwen3.8-Flash: o nível ajustado para latência da linha Qwen 3.8 - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13YW1VQkNISUZEcEtydkF4MHNXUE4tanVuRFpBZ0ZiTWprYWkzU253UWxpNmFMWVgtUHdNU1R1eHBFbVdSUE5qZTJ6MENfNXhvSkplMlZGa1VQMEpu?oc=5"
+        },
+        {
+          "date": "2026-10-13",
+          "title": "Gemma 4 vs Qwen 3.8: Qual linha você deve escolher? - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0ZEdYZGFNbFV4YU5RM1FCZ1A1SkZjTXMxS21sSDVWbjBKV0FGaktWYUtuR1g3RTBtcmN5bzBoWVNMVFBzeGF3Snpsb1hkT2s5MFk0SFpCdFJJQVhSN0Z2MDRHUQ?oc=5"
+        },
+        {
+          "date": "2026-10-13",
+          "title": "Qwen 3.7: Três Níveis, Sem Pesos e os Quatro IDs que Você Pode Chamar - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xWmdUQ2RqT0xuaUp0WFVCSjAzSGxQa3Q0NmFab1RxNEg5cWFEclJ1YXN3Um0yQ2cwVnM2RkFiS0N5cjVNUHdMZ2JpRjFvRElHcmNiQg?oc=5"
+        },
+        {
+          "date": "2026-10-12",
+          "title": "Qwen 4 27B: confirmado, não confirmado e o que roda hoje - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBsdUJQam5hOERQYVUzX3VTNU1aYTNpRTBlaG5uZndhY2FKVWZtLTJvUEd6UDQ3M0c0bFJ0V2FiLVhjUGlBTzRlWkJyVFNFZVVfQ3ZTU19kdw?oc=5"
+        },
+        {
+          "date": "2026-10-09",
+          "title": "HeyGen Voice vs Qwen-Audio-3.0-TTS: quanto custa o Elo - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ya29Jd2RMV1ZCcnZYSkxxY1pYYmVaZDVDSGswS3ZNcUNYM3l4NV9jX0NDcV9UMk95azc0eVFvRWhaeGZJRFlPbEtrdFQtYTcza2NrNjl5SDliaGROOXNyRExiT0xQdkdKTEFyRlFraUZPUHBpWlVB?oc=5"
+        },
+        {
           "date": "2026-10-06",
           "title": "AMD revela novos testes dos Ryzen Gorgon Halo para antecipar estreia da NVIDIA - TugaTech",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPem1GRGhrQjB5MnpPOWZOejNRekhmZkFQWkVyRnR4ZHBqQS02SVB4MmxVTjN1RXFaT1NiTE9qaXJteGVBVEI0R3kzeTE1OGdLQ003SFNTc3hzZURSQ1VORmVsRVNVRFJscXlzaTR5SGdrU0F5Q3VubDMzNjhoUlNwWlVwZDNXSUk4cERBVzZ0TVVHMHowMG5xZFpONTRwT0Fyd0RvYURXRjd0X1pIYkE?oc=5"
@@ -135,36 +165,6 @@
           "date": "2026-09-18",
           "title": "Google revela Android Bench 2.0 e expõe limites da IA em tarefas complexas de programação - TugaTech",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeWtVeVFEMmxnbmJ5WlRVaEMydS1sR1RmODExM2k2RE1UOV9hR0tIdTNjZkdLTURRM21jbFMzSnN1akdsTkplYzM5TnJLaHpQOWhxXy1Ib0RUTHA5OUJqZS02eGpjTXNvdGFxZFFiM0tvTzg5anVnaUxmYm5XSGpUYW92S04xRjJ2NWo3YWduM3FnTTdzaklHUHNhR1dfU0F1NmZEcFAtTno5TW14TWxiUGpJVElWT0lrT2NQWQ?oc=5"
-        },
-        {
-          "date": "2026-09-17",
-          "title": "Nem o GPT passa fácil: Android Bench 2.0 expõe limites da IA em programação - TudoCelular.com",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORDFXTUoxc25rSnFNOEUxa0x6V3ppek16NHRGRG5NWFlkaFo0T0lnNWI1U0Z5Q2tSZ2Ria1dEd2c2UUNJSWY2dFc3bHhReFRoeUZEV1dWWjFnMFdYUDg2TUNoZGJ1NU9DT1NKYS1nME1tVmJEUjd2NU9JemtlaWlZTUdSQWo4c2RyZVlnbVVMWmdmUkJ3bXV4OG9mT0xzSnp0MkRmeGYxVQ?oc=5"
-        },
-        {
-          "date": "2026-09-13",
-          "title": "Novo modelo de IA da DeepSeek quase iguala o GPT-6 Astra, mas custa 1,4% do valor - Portal do Bitcoin",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcmJSRkI0cl9hOHFDOFpFYmRkbURUZkJYWGl6cWJDUGJqampTVkFsQzVpVFQ3XzFLcF9XSkpBOE5Rem1CTTVZUmMzelF6QlMwdjFaQ09ZTmpwUjYwZ2dyM1BrY2xrRkY0T3NuSDJuTjc5WTFJOTkwZVVvbmpmbjg3bjI0eVJiSV9VSzRsNDhTMFZUbHdUR1U4MVU1eTlZckhrMjdTbmVyb1o2cjBYaDRIYU10dlQyZFN2YmfSAboBQVVfeXFMTXJiUkZCNHJfYThxQzhaRWJkZG1EVGZCWFhpenFiQ1BiampqU1ZBbEM1aVRUN18xS3BfV0pKQThOUXptQk01WVJjM3pRekJTMHYxWkNPWU5qcFI2MGdncjNQa2Nsa0ZGNE9zbkgybk43OVkxSTk5MGVVb25qZm44N24yNHlSYklfVUs0bDQ4UzBWVGx3VEdVODFVNXk5WXJIazI3U25lcm9aNnIwWGg0SGFNdHZUMmRTdmJn?oc=5"
-        },
-        {
-          "date": "2026-09-13",
-          "title": "Novo modelo de IA da DeepSeek quase iguala o GPT-6 Astra, mas custa 1,4% do valor - Portal do Bitcoin",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZXBhYTNlU2dwd3JESUkzTnNoUUluV0l1ZThkMzZQRVBoZERsX0RLT3luTzRWaWJZMW90UmtWcU9SdEJBT0pHUUVVSFE5X1I0VmIwMXdxZHI0VjB1czItWk5LNlFIT3ItYzJDTmp0cm9HbU5idld3b29XcmttYUY5TmoybFpqU2h4WDg2Y2gyMWNBYTRLU0JnMGkwOVF0T0xScHd6SVJVcExJX1ZrNXlUX2JmejnSAboBQVVfeXFMTXJiUkZCNHJfYThxQzhaRWJkZG1EVGZCWFhpenFiQ1BiampqU1ZBbEM1aVRUN18xS3BfV0pKQThOUXptQk01WVJjM3pRekJTMHYxWkNPWU5qcFI2MGdncjNQa2Nsa0ZGNE9zbkgybk43OVkxSTk5MGVVb25qZm44N24yNHlSYklfVUs0bDQ4UzBWVGx3VEdVODFVNXk5WXJIazI3U25lcm9aNnIwWGg0SGFNdHZUMmRTdmJn?oc=5"
-        },
-        {
-          "date": "2026-09-06",
-          "title": "Qwen 3.8 da Alibaba Abre 2,4 Biliões de Parâmetros [2026] - shattered.io",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80cklKc0otZks2SGItTFNSZ2h2Z2E1cTNBY1ZvbFRfckhzLUJPUnByT3RUb3d6cGU1ZWFmOS1jV1Z6X2FlTUJ0Wk55NWpOSlNaeWNiZnE5MUJGLXV3VXB3UWtfY3BrRTlJZ3c0Uw?oc=5"
-        },
-        {
-          "date": "2026-08-29",
-          "title": "AMD lança plataforma ROCm 10 e traz IA para otimizar programação de chips - TudoCelular.com",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcExaN2d1OEZQd1NMX0E0OEVSUUpLSHVhMGxySWJ4ZEpOc0R4dnRUV2czQ1BIV0dpWXhYaWJtWHdLc1JiVm1HRHBYNXBGR2EtUWJUS0JZczVPcTUzR2ZoM0RzcE1FaUZSaXdqZDdWSE1KMlpSdExVcjRkcS1CWUx1UnpqOGl5UTljR3RBMlFnenRqbUtiTENpa1VKSTdobUFBRVpoX05Lbw?oc=5"
-        },
-        {
-          "date": "2026-08-29",
-          "title": "SlowMist alerta para falso Qwen no GitHub com StealC - portalcripto.com.br",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBocm85WmV1c2JyWEJ1LVJFbkdkVGQyLVRfLVBnVkFvdkpCSE81TkRQWnFkUHlwT1NwamRrbXNGd3JFQnBVUjI3S09FUnpZZFZnSU9pbF95eXA4cFdNWVFnMGNpMlQtSHR2Ymh0bVI2VFluTFpGaDJqdnhrVTU?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -397,6 +397,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-12",
+          "title": "Startup Chinesa de IA Quer Valer US$ 50 Bilhões, Mas Enfrenta Acusação de Fraude - Forbes Brasil",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbDlzN19rN2dZZnNlMmEyNjctcFRfcnlHTy1WZjZEMkQ4cG92U2psQWVvd0lCVEl2Y2ZjVWxlMnJKRm1CNndLZ0hvc1pjQXNaRVM0blVaMnRRWlQ1b2RIbmhuUUxOUTFMa09DV2tyQndxb3pPV0lNQUNneDdnU0dhTUtGTlc1RzQteEJIbm8tUU52U2YyMG1mbURVSnA4SkxmWk9OQ3Z0NGx5ZUFobHR4b2hGTG05U2hEMnRsaFVOYw?oc=5"
+        },
+        {
           "date": "2026-10-06",
           "title": "Hong Kong: Moonshot AI prepara entrada em bolsa após avaliação, DeepSeek reforça capital - Euronews.com",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYjF6UHkwdGNoNExmM3BLdXdDbGNPeGt5d1E0enpZTktXZXppQ3JTZjlpZGZYano2MXlQWTBRYV9fMEo1Z2Q4Uy1tT0M2aXdlS2d0T2YxTXJIVzIzLWd3c1ItMTF0aDRSbEJtVjRWX1VUNlhXYXNHYzY5RlVDTHVxbFZNVFV1WmVmblhlUktCbmFidndsSTRYWENXX1dtRFN2eEtHZm91RV9NSDZm?oc=5"
@@ -440,11 +445,6 @@
           "date": "2026-10-01",
           "title": "OpenAI acusa chinesa Moonshot AI de tentar extrair raciocínio de seus modelos - Times Brasil | CNBC",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDdqZGgyWjRrNHRWM1QzZmtWMFRpRlVyOXhsNVFFTHJYdGJEUWFkWWVOOWczU1JwUmxBeThBUjJTTXBRZGt0VGJ5NWJ5a2c0ejIyUnFibzJQbXZhMHhoclJfMlc0MDFYTFNWOHppLTVNOG03dlRnREtGYUlkMHh4dnlJaW5kQ1d2cnNrZWI2YWg0YmhsbjZlUWdKR28ta2tJQkRTblI4bUlwb2JNSVFDb0NILXU1Wl9fUlpIVlQyVHhyMUlPbVE?oc=5"
-        },
-        {
-          "date": "2026-09-24",
-          "title": "May Mobility: resgates podem reduzir os US$ 337 milhões - quasa.io",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOXBNWXQwZmFrd0tuS0tWSjRZclZsbEhKNGFHQ3hseEk2ekNVT0lpd183T1N1MU00a29UQ1N0T09pX0NjMHVVNlRDbi14V2NhbVFubG84bmYzNnFaSmx5akt5ajNrVWFTY3pWTFlhdXRWS09nN3p0MFZPZVdFY1RxSTBVSzhleFdCaHB3Ym56MA?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
