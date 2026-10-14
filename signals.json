@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-14",
+          "title": "StepFun Step 5 Preview: 600B a $1 o Milhão [2026] - shattered.io",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WmFRV2tyYVJNanpPLXJCMDlhbXF3R1p6SUQ5Q0s1Y1ZOOXJOLTNLbjM3WHhkbWtLeGg3NnJseG1Dc0VwaU16SmxGc21CY0QweVVLYzVkbWNoWmhnWVliM1lDbDFaUVJm?oc=5"
+        },
+        {
           "date": "2026-10-13",
           "title": "Qwen 3.7 vs Qwen 3.8: Qual geração você deveria realmente estar chamando? - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tVURORW1QRnM0NlE4d2hqWkZHbVFfS21Ua0c0ZXZuUnd1UWNmNnppR19pYmsxT3JtNzF1N3FHdXF4c3RYZHRiVE9TUUJYdlZhbllLUnU5OVQ5aThvWjRUWlpSSFI?oc=5"
@@ -137,34 +142,29 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xWmdUQ2RqT0xuaUp0WFVCSjAzSGxQa3Q0NmFab1RxNEg5cWFEclJ1YXN3Um0yQ2cwVnM2RkFiS0N5cjVNUHdMZ2JpRjFvRElHcmNiQg?oc=5"
         },
         {
+          "date": "2026-10-13",
+          "title": "Qwen 3.8: cada membro da família e como escolher um - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94ZVl1R252UlhvR1Y3N0tBNHI0bFlpSjBUNVF5aVFoT0NVS012U0toWUtFZGQ4ZHlRaFZYMTEwZ0dqWmJWSG9KWnlFUE43SURlMlhEZQ?oc=5"
+        },
+        {
+          "date": "2026-10-13",
+          "title": "Qwen 3.5: Quatro Classes de Tamanho, Dois Níveis Hospedados e os Oito IDs que Atendemos - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DZTJNREhzYjJnNGxKRUQ0dDZuRzBObUs5QWo2cVJzTTZJN3BCaVFlM3VDN1ltZXZuWUhEQnpjV2F3TGVmZHRFQlhBTWhxaUx0Q1p0aQ?oc=5"
+        },
+        {
+          "date": "2026-10-13",
+          "title": "Qwen 4: o que a Alibaba disse e o que já está rodando hoje - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kNmswdXY2N3dVY2FCMFppUjVjX2FxdVRjOGZnNnBMeFNNUHZzVGNrSmsyS3FkaVRiV29MQ013NlJ2TVlGaXUwZEZNX2FITUVJNGc?oc=5"
+        },
+        {
           "date": "2026-10-12",
           "title": "Qwen 4 27B: confirmado, não confirmado e o que roda hoje - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBsdUJQam5hOERQYVUzX3VTNU1aYTNpRTBlaG5uZndhY2FKVWZtLTJvUEd6UDQ3M0c0bFJ0V2FiLVhjUGlBTzRlWkJyVFNFZVVfQ3ZTU19kdw?oc=5"
         },
         {
-          "date": "2026-10-09",
-          "title": "HeyGen Voice vs Qwen-Audio-3.0-TTS: quanto custa o Elo - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ya29Jd2RMV1ZCcnZYSkxxY1pYYmVaZDVDSGswS3ZNcUNYM3l4NV9jX0NDcV9UMk95azc0eVFvRWhaeGZJRFlPbEtrdFQtYTcza2NrNjl5SDliaGROOXNyRExiT0xQdkdKTEFyRlFraUZPUHBpWlVB?oc=5"
-        },
-        {
-          "date": "2026-10-06",
-          "title": "AMD revela novos testes dos Ryzen Gorgon Halo para antecipar estreia da NVIDIA - TugaTech",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPem1GRGhrQjB5MnpPOWZOejNRekhmZkFQWkVyRnR4ZHBqQS02SVB4MmxVTjN1RXFaT1NiTE9qaXJteGVBVEI0R3kzeTE1OGdLQ003SFNTc3hzZURSQ1VORmVsRVNVRFJscXlzaTR5SGdrU0F5Q3VubDMzNjhoUlNwWlVwZDNXSUk4cERBVzZ0TVVHMHowMG5xZFpONTRwT0Fyd0RvYURXRjd0X1pIYkE?oc=5"
-        },
-        {
-          "date": "2026-10-05",
-          "title": "AMD se antecipa à NVIDIA e revela desempenho de PCs com até 192 GB de memória para IA - adrenaline.com.br",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb0taOUladU1PYk1mZzU1dHFGMXJBNHR0TFJ0aUJObmR0UkpaT2dPRDNRVVlwM2RzMHBhYVRjTU9vaS0wcXpCQy1ZbFJTMjNHaTNROEw4bGdQUGJZRERVZVRRcjNEaVMwMUljQnRHNVhsTUdjaFdLdGRVeERVbHdTMHgxbFZYWF90R3NuRXlrU3ZTRjZ6UEU4Y2o3dDZnSzFyXzFn?oc=5"
-        },
-        {
-          "date": "2026-09-19",
-          "title": "0.2465 Trade EIGEN/USDT Spot | Crypto, bStocks & tCommodities - Binance",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42Q0J6UEVrVVFQUnlZUWRIbld4RGJZVDR0aDNPVC1UT085V1lkdG5GZER4b1NiTmp4dFFvWlViUS1FMFlFYk9DbzdrZWI3czhpYVdGTWlJaGZ2Zw?oc=5"
-        },
-        {
-          "date": "2026-09-18",
-          "title": "Google revela Android Bench 2.0 e expõe limites da IA em tarefas complexas de programação - TugaTech",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeWtVeVFEMmxnbmJ5WlRVaEMydS1sR1RmODExM2k2RE1UOV9hR0tIdTNjZkdLTURRM21jbFMzSnN1akdsTkplYzM5TnJLaHpQOWhxXy1Ib0RUTHA5OUJqZS02eGpjTXNvdGFxZFFiM0tvTzg5anVnaUxmYm5XSGpUYW92S04xRjJ2NWo3YWduM3FnTTdzaklHUHNhR1dfU0F1NmZEcFAtTno5TW14TWxiUGpJVElWT0lrT2NQWQ?oc=5"
+          "date": "2026-10-12",
+          "title": "Muse Wonder vs Qwen 4 Max: O que você realmente consegue rodar - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBVXzhtS1dyRkQxaXlQUjdfV2RPUDRnV3d0bU85UVpzQ0RGZktqejlSZWx1VEFwcUM4amRReWhvc3VEdFlTdUlINXZqdHc0S1BQQ2dDU3lvbWxRNmwwZ1ZTWmZFNHVuLTJoN0FV?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -186,6 +186,11 @@
         "banimento modelos IA chineses"
       ],
       "evidence": [
+        {
+          "date": "2026-10-13",
+          "title": "Alibaba unveils $450 AI glasses - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQjRjVEFMR19YRlhBVW9UOTZSLWtqdjM4Y1B3QTIyUUEyOElibFBPNmd4d1JBS2J5VUJzN1BWbTlkTDByVlV4TGJUQXllOEJRdU1jLVBGZDh1Yk43YmtSbUxLSFQtZEZyWGwteDNDbDRWcnRTOThMRy1PUl8tejFGa1BQVXNVWlFyZVZBek9COExueVRfTTA0?oc=5"
+        },
         {
           "date": "2026-09-28",
           "title": "【TMGM Financial Recap】The Chinese And US Leaders Reach An Eight-Point Consensus, Leading To China-US Easing, But Hong Kong-Listed Chinese Concept Stocks Have Instead Declined - tmgm.com",
@@ -230,11 +235,6 @@
           "date": "2026-08-26",
           "title": "Empresas americanas estariam negociando acesso a IA da China - CNN Brasil",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYnNiN1F6Y3h5bzJkd0dPMG1GQTdaZjlxQUZOZWlxLTRmOWROcDBMUmE4TVB4bXBTS2gxbEZpTHBreG9Pc29WdFk0TmlVVV90WE9YN3o4WGtOZ1JxRHNhV0w0LWs0VlNKTmtkY1Y3dUl6ZFNhRFhRN3ZiNGtXY2tPa1Rvb0FYQXhLLWZGSGY3ZmJlV0VreWl4OHBTM1RpYlR0T0VvZk9JbmxsNGY0aVFabE1MVjJvSGxvcDQxX2tnaDM1d2dYa0hNRw?oc=5"
-        },
-        {
-          "date": "2026-08-24",
-          "title": "Esqueça o Google Veo? Alibaba lança IA Wan 3.0 que gera vídeos de até 30 segundos - TudoCelular.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaGtXM3BjWWFPNUVidktjTGhNOXYxNGJlZDhhMmJsZTJPNzdBWjZrUFU3U3NwTlppTDZJbEdHY0xQMXkwakJMckJMZkFiZ21JWlZ0YlhRTGFpbDlxRmlmeDZTZjFqSmdqdjNIV01SZVdWOGptaDA0V0tzVFVJeWFvdGhnU1E3c1Zpc2lydjlNdW9Vb1JYQkdpWVRZdE9HWkVLY2c?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
@@ -397,9 +397,19 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-13",
+          "title": "MNX impulsionado pela MegaETH é lançado com futuros pré-IPO para OpenAI, Anthropic e DeepSeek - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbFZWRXNnQ2FEV3NmczNDMEhnSnNZbWFwZVVPWEZZTWh3VmhTNU9lQl9WTVYtVHpKMjZvUUVhWTJPaGI3RURPWVh0cHljUkE0aU5jWGdUa3hhUFVPajhxc1Q1aGx1Y2tNeUlTRlRRZGpWNWR6TGdGQ1JFWGptMHR6cW9nUWtlLTNOZXJ4ZlZWYms4NURHSzE2Z1N6S3ZKUXA2ODRBVUdBVHZSNnZ0RGRXOHFGZi00UXlNVkZIX1pRWEdwYnM?oc=5"
+        },
+        {
           "date": "2026-10-12",
           "title": "Startup Chinesa de IA Quer Valer US$ 50 Bilhões, Mas Enfrenta Acusação de Fraude - Forbes Brasil",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbDlzN19rN2dZZnNlMmEyNjctcFRfcnlHTy1WZjZEMkQ4cG92U2psQWVvd0lCVEl2Y2ZjVWxlMnJKRm1CNndLZ0hvc1pjQXNaRVM0blVaMnRRWlQ1b2RIbmhuUUxOUTFMa09DV2tyQndxb3pPV0lNQUNneDdnU0dhTUtGTlc1RzQteEJIbm8tUU52U2YyMG1mbURVSnA4SkxmWk9OQ3Z0NGx5ZUFobHR4b2hGTG05U2hEMnRsaFVOYw?oc=5"
+        },
+        {
+          "date": "2026-10-12",
+          "title": "Moonshot enfrenta disputa de acionistas de $700M às vésperas do IPO em Hong Kong - Cryptopolitan",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zSEw4ZjZWb1cyVW5wT3dMOHplMWlDSzVDOTBfUTA2d0JGTEwxeHhTMEpOdk1yTzVhQ2xxX2dLZ01qR2ZSMnRTU2ZpcVdLZm5oWDdGaGNrSUhUWUdaNjFKaUR5dGxsdnNEYzJIZmI0aElzaVVoc25Kd3owRUdNZw?oc=5"
         },
         {
           "date": "2026-10-06",
@@ -435,16 +445,6 @@
           "date": "2026-10-06",
           "title": "Financiamento de IA na China dispara enquanto concorrentes dos EUA buscam avaliações trilionárias - CoinDesk",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRjdhc1h3a1VIMTBCVThOTzlTSUNhRkFUTDdsQzBnZVlDa3Rodmw3cGxCRm9WQWZhYzJEMzMtbHpmQ1ZncHl4Sk9yajNYcFY5aXhKbjY2MjdCWHVLRUVWa0EzSlBsRGxQQXJiZ29ZbHIwckpiWHpWQXhJTHlmT1VmNm9xWHYxR3RJZktxc2dGMW14Y3Zram1ScjVXUENITTJsaWpTYXBxcHhFZkRRWW1vMGx4d3V1QzhNUnN4WUxBVkxjUQ?oc=5"
-        },
-        {
-          "date": "2026-10-06",
-          "title": "KINGDOM HEARTS no Switch 2: análise da coleção - NeoTeo",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUnRWSmxtVHpoRzF6ZENiWERZMzVSc3hTeFlrV3QxOFJYTlhQOEZrbkRoa0E0Q0hKb3ZMWXVJbWZuZWVtTzEweVFjWHNjbUl0cXZwaWxsb20xdF9KQ0FnbDZjYXBseDByTHpXWlhBVU9CN1ROZDhqNk9ES3ItTnJzdDYzQ2VIYjlTQm8zU0VFa0tKWEdZb0pHX0Q1UlA?oc=5"
-        },
-        {
-          "date": "2026-10-01",
-          "title": "OpenAI acusa chinesa Moonshot AI de tentar extrair raciocínio de seus modelos - Times Brasil | CNBC",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDdqZGgyWjRrNHRWM1QzZmtWMFRpRlVyOXhsNVFFTHJYdGJEUWFkWWVOOWczU1JwUmxBeThBUjJTTXBRZGt0VGJ5NWJ5a2c0ejIyUnFibzJQbXZhMHhoclJfMlc0MDFYTFNWOHppLTVNOG03dlRnREtGYUlkMHh4dnlJaW5kQ1d2cnNrZWI2YWg0YmhsbjZlUWdKR28ta2tJQkRTblI4bUlwb2JNSVFDb0NILXU1Wl9fUlpIVlQyVHhyMUlPbVE?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
