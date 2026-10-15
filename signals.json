@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -122,6 +122,16 @@
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WmFRV2tyYVJNanpPLXJCMDlhbXF3R1p6SUQ5Q0s1Y1ZOOXJOLTNLbjM3WHhkbWtLeGg3NnJseG1Dc0VwaU16SmxGc21CY0QweVVLYzVkbWNoWmhnWVliM1lDbDFaUVJm?oc=5"
         },
         {
+          "date": "2026-10-14",
+          "title": "RepGen-4B vs Qwen 3.8: Uma Geração Atrás, de Propósito - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GTGxHQnQ4N3pVOTZjXzFEdlFqMDZEb3JPTEk5VFR5VDQ0a2VBTnhDUVUyamxHaVlSUlBockhtWmxaQXZvdGxVT1ZCV3NaTmZrb3B4LWMtXzdYaDNYcldvUTlsaFRJRkJNWnBZ?oc=5"
+        },
+        {
+          "date": "2026-10-14",
+          "title": "IA e PS5, Qwen 27B chega ao PlayStation 5 com jailbreak e já roda - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTjc1X3BkTjExSDkzN2phVnhGR2M3S0t0d3BqYW5pcURPaDdkcWNxdGhNQmFSQW9BSmdlSXIyQ2kxdGN4UW9kSXAyLVVDd0ZuclRrdHZNWENZek1rY3dzMGhDRnF3UE85aUQxNThUa2p6Q0hvR0hGTGwtZ3FsOThwZGxPa0JFRm1GbW5jVEEwWTlqdnlwVGhhbWdwWQ?oc=5"
+        },
+        {
           "date": "2026-10-13",
           "title": "Qwen 3.7 vs Qwen 3.8: Qual geração você deveria realmente estar chamando? - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tVURORW1QRnM0NlE4d2hqWkZHbVFfS21Ua0c0ZXZuUnd1UWNmNnppR19pYmsxT3JtNzF1N3FHdXF4c3RYZHRiVE9TUUJYdlZhbllLUnU5OVQ5aThvWjRUWlpSSFI?oc=5"
@@ -155,16 +165,6 @@
           "date": "2026-10-13",
           "title": "Qwen 4: o que a Alibaba disse e o que já está rodando hoje - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kNmswdXY2N3dVY2FCMFppUjVjX2FxdVRjOGZnNnBMeFNNUHZzVGNrSmsyS3FkaVRiV29MQ013NlJ2TVlGaXUwZEZNX2FITUVJNGc?oc=5"
-        },
-        {
-          "date": "2026-10-12",
-          "title": "Qwen 4 27B: confirmado, não confirmado e o que roda hoje - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBsdUJQam5hOERQYVUzX3VTNU1aYTNpRTBlaG5uZndhY2FKVWZtLTJvUEd6UDQ3M0c0bFJ0V2FiLVhjUGlBTzRlWkJyVFNFZVVfQ3ZTU19kdw?oc=5"
-        },
-        {
-          "date": "2026-10-12",
-          "title": "Muse Wonder vs Qwen 4 Max: O que você realmente consegue rodar - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBVXzhtS1dyRkQxaXlQUjdfV2RPUDRnV3d0bU85UVpzQ0RGZktqejlSZWx1VEFwcUM4amRReWhvc3VEdFlTdUlINXZqdHc0S1BQQ2dDU3lvbWxRNmwwZ1ZTWmZFNHVuLTJoN0FV?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -257,6 +257,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-12",
+          "title": "Intel CEO Says DeepSeek, Kimi, GLM Are 'Good Enough' – Reportedly Backs Open Source For Efficiency Gains - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMjQ1SUVGWk1fRnpDWXItMGhuZVVjUml6TTV0UGNydFhZSVFfSXBlczlTUk9jYTV1bVpYcl9Lb3FPSEJnZWNPUEZZTDNWZXdfUnA3Tjg2emxaSmFSeDBoc0hSc1p3clJzRzNFVnpnaWV4V09ZOHdRXzE5WHF5NGV5TEZ5U0puVVc3bW9aak14a0Fwa21uQjhwYXFuRGU5Sl96SHJOOFBPX2FQdmxZckdSbHJVTXZsZmZDektGdlZkNjRaXy1UTk9temNuNF9zbUQwc1VkX3o3OTNXR1d3TnRQQ3pMNTJ4VGJpUVV5UWZucw?oc=5"
+        },
+        {
           "date": "2026-10-09",
           "title": "What can China’s innovation bring to the Asia-Pacific region? – Global South Institute - Brasil 247",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeV9ScVNaa1kycVV1SjQybFpSOHI0RFgyc0U5X0hCNzVycXdveE5TZHV4SXBtWHUxRE1kbzZ2S1I0N2VXUXVlaXpOb3RMYWo4aE9IXzd1WnNfT1pkanRZN3ZXMHZJV09oMW5uamFDLThWdW1VaGdBbWxmVUVWdVhGMEMxdWNfejlXQU1DellRQUdfYV9rYnhKc2tIZHdTNmR6dk55bTRKTUN1d1N5VWtQVHAyQmNKUkdEd0ljM2JHRWsxMDhHckhaUzlSQk5UcU1kUnc0?oc=5"
@@ -300,11 +305,6 @@
           "date": "2026-07-18",
           "title": "Chinesa Moonshot AI desafia OpenAI com novo modelo de IA de Open Source - Jornal Económico",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZmt6amgxSFJUX2pfYlo0ZnpVSkRSYUFOeXFHOXEzUDB5NkZqNWplem16YUFGQUhaRU5TYnpRTkZMU0wxdDF1WlBKRFNfUExtYTVCZzZoeU5RaUhiNklDY3VIVVlTeGE5ZHRBOEJhZHpPM3RJemxVdTBpcVhzN3V3bEVnRjJWMW9FZ3lBaXNrbktHLTA0Zl9IVnhQdkVDcnlnTllLMGdDVnNqLW01NldsM2F5QlZnQQ?oc=5"
-        },
-        {
-          "date": "2026-07-17",
-          "title": "Startup chinesa Moonshot lança IA de código aberto que desafia modelos dos EUA - Valor Econômico",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRVg0RlVCQ1BOdmQ2RENvcmZMZUtJcGViSGlhZ3EybmhKYlNsXzc5czRmQ2VZZ0VKbzdsaFV1TktlZEJ6SzZsTlR2UF94TUxFYlhwS0NBT3J6anhTQ3c5bXRDSXI0ejBiUGdPN29tenU2LWlidzZpNXNuV1hZTXJEYzM2emFna0hsaEdXcnRNZkkyc3ZqYzNNM1piLTN2alZzTnhCcW1FMUd2dHdGc0s0YmowU3VJT3hBLXZGYVdvOVVNREEzT0Z3V2NhaEpnTGJsdWfSAeABQVVfeXFMT2VWVTlxbXQyQjN3STVWNGlkSEFPTHNCdUZOaTVOS0pwWUk1MFNYMURlSlZSakFZVmh3RlhRdWRXNVJiSTdPbmhvd2hucWJFaVVNbjRYRGRTT214bVNIQVhRT1VNSXRZWmNTSXM2X09VbldWODdwXzRqUjNqY1VUYkRxZk5DN1dBT1MtYk02aWhnT1BDUTFOZWFTamFsc3BNeVdWZXdUWThQVW1jZEtXRWJJbXZES2VJclBfTDhuN2NzR2JNNEhaRjFDOHgxTThDaGp4clNYa2VPeHpHUGxyWms?oc=5"
         }
       ],
       "title_en": "Other Chinese labs open previously closed flagships",
@@ -466,6 +466,11 @@
         "China AI inference capacity"
       ],
       "evidence": [
+        {
+          "date": "2026-10-12",
+          "title": "Intel CEO Says DeepSeek, Kimi, GLM Are 'Good Enough' – Reportedly Backs Open Source For Efficiency Gains - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMjQ1SUVGWk1fRnpDWXItMGhuZVVjUml6TTV0UGNydFhZSVFfSXBlczlTUk9jYTV1bVpYcl9Lb3FPSEJnZWNPUEZZTDNWZXdfUnA3Tjg2emxaSmFSeDBoc0hSc1p3clJzRzNFVnpnaWV4V09ZOHdRXzE5WHF5NGV5TEZ5U0puVVc3bW9aak14a0Fwa21uQjhwYXFuRGU5Sl96SHJOOFBPX2FQdmxZckdSbHJVTXZsZmZDektGdlZkNjRaXy1UTk9temNuNF9zbUQwc1VkX3o3OTNXR1d3TnRQQ3pMNTJ4VGJpUVV5UWZucw?oc=5"
+        },
         {
           "date": "2026-09-21",
           "title": "Micron, SanDisk stocks face a new test today: CXMT may have found the pressure point - TradingView",
