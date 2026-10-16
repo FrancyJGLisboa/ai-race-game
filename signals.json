@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,26 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-15",
+          "title": "Os melhores modelos open weight de outubro de 2026, comparativo - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWnVDUjVaYm9UQ3BPVEh1bW05M1BjbldBNUZTZUdORFdQaGVlZEVqN25CRVctbWhBd29kdGtiMEd1WktEOGJUUU42SHk4eUxOdEhsQmVHVzY3MnB2Sy1venJlc0g2OXoxQTVvZUl4NS03N2VqWGRrbkNUU2E2WWFqa3UwajhSOEV1aEVQSTdwcHdqcHhlNWZsVl9PQm1jdw?oc=5"
+        },
+        {
+          "date": "2026-10-15",
+          "title": "Meta lança o Muse Spark Open, 816B de parâmetros e pesos abertos - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYzBYZloxQ1FwNGJYb2h0X1JpdGVLQkt4dFNEZFJEWHVSZWFzOXA3eW8tZWVVNUhkdlZCNWxKZmNreUotX0FlcWVlV0czekNCTkpVUjJrSXRtZDg1MG5kMlpCTU1wd2QxZWswc2lYSW5nZThaSFR5OEZiUTA5bFJhMDNCTlNIZVo0WE9n?oc=5"
+        },
+        {
+          "date": "2026-10-15",
+          "title": "Meta apresenta novo modelo aberto de IA para competir com a China - Folha PE",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQTluLVFaT3k0dE9sclU4U3BfaDNmVXpiMDJqeVdZMk95eUM5NmVQV0ZjU3NIckpDc2dZa2lURkVSZFlsWlBndG1vVmJQY2xmdm1ud1huWGpDeE1RTDlZM3VhdnpCUTFQSW1pMnBJb1pXOGpCNkVUYnFYdG9mUWhFZDE3S04tTkU3alc0MmV4MkxpWnZLSHprXzN1SzNmX3pvc01PbVRyM2g0RXhpNFJRXzdR0gGyAUFVX3lxTE1BOW4tUVpPeTR0T2xyVThTcF9oM2ZVemIwMmp5V1kyT3l5Qzk2ZVBXRmNTc0hySkNzZ1lraVRGRVJkWWxaUGd0bW9WYlBjbGZ2bW53WG5YakN4TVFMOVkzdWF2ekJRMVBJbWkycElvWlc4akI2RVRicVh0b2ZRaEVkMTdLTi1ORTdqVzQyZXgyTGladktIemtfM3VLM2Zfem9zTU9tVHIzaDRFeGk0UlFfN1E?oc=5"
+        },
+        {
+          "date": "2026-10-15",
+          "title": "Microsoft revela MAI-Base-2, um modelo de 2,8 trilhões de parâmetros - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdEl0bU5lRTY1QTg4dERyd2hZTGJTS292bzhsQ2lSRllqa0cwdnRtamFBMU5qUUVKRFIxUV9rQVFRRDIzZVhKcVozZXFqbjNHTzFXUXZ2R2ZFcF94OUpKc1dvUXpta3Z0VGZ3UWIySEY4eU1PMlMtNEpwYlAtWkRkWHhSV05yUU1iQzYtZ3JEdDVXdGxwdTRQUmgzS1h1cjg?oc=5"
+        },
+        {
           "date": "2026-10-13",
           "title": "Kimi K3 vs Claude Fable 5: Vale a pena 3,33x por seis pontos? - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10SmM5RGhNdXl5ODFsYzVpT0VLWFlmNXhOMzZNbExRc3phQ0FjVXBodzlEU0ItX2lhTkhrWVZmSS1sNU5UaGs1eG96MDEwQUZSTGR0TDY0WUx5QkZXRFlqbTNB?oc=5"
@@ -75,26 +95,6 @@
           "date": "2026-09-06",
           "title": "O open source alcança os modelos fechados segundo o Artificial Analysis - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbC14cEt6eEtLLUZNTk83UUJSUWp1X2ZpbktHbkViOGV0d0dEMGhnZHg1a01rWS10dU4weE55LUdGcDJtYzdNX1h5WjY4bWd6cVZzMVd3MTdDN3dLSDZmbWFHUEpWRzZSN21rR1prODBQUkZsZklsWWo3Yi1YSkstU0tOTzUzZWxpcENTeTUzM19kV29hczRnd0Y3UGMxSVZaWkE?oc=5"
-        },
-        {
-          "date": "2026-09-03",
-          "title": "Empresa chinesa de IA Moonshot busca IPO em Hong Kong com Kimi K3 enquanto OpenAI e Anthropic enfrentam pressão de modelos abertos antes de listagens nos EUA - TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUmhKQ1p5VEFJWlUydkpKcThWYkpSeUgzaUYzSmdQeEFSbjZGdHZ1bVE4RVBoc3lVdnMzSU51ZzdTa1ZOT0VibkFfdUlHeGxWSDVaM2llcWYzR3dxYkFmUUVWMGZTWjdyeUk2S0NUQWkwUlc3dHNyWElKeUNHY2xHb2tBRkZzSUlsSzVfTlBKLUlIUEtlZ3dmN0pEcFprYldLMEdTb25YUkRjWTlsbXdFajQzbDl0MnE5ZHdwN05laEkzTkxZOHgzc3JnTkp2cVdJdkdLNXNWcUlmdw?oc=5"
-        },
-        {
-          "date": "2026-08-26",
-          "title": "Moonshot AI negocia acordos de hospedagem do Kimi K3 com Microsoft, Amazon e Google: relatório - Invezz",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRFA3NnViYk1Xd3pJU3JVVEVWSWxsZ2lJSUxvdFBoWXNDejJza2lTM1kxMUdXZW1INDBTeThGdjE1NXByYml2b3hkUi1uVlZ0TnNrQkVuYVJkS3pXeVJ3cC1WbXFwSVVNeE1ya1BqNnd1QkstUFRoMXRBb1F6WjJ2d1JIYzJDVTFwOG9yQ1NiRDdHZk8yTGNibUJvSEFvT1h6NDZHNzFTdjNIWl9TNlFvT08waUJabW5FZkNwYnl3MmxZaFBqQ1kyQ0FxLU9aWndF?oc=5"
-        },
-        {
-          "date": "2026-08-26",
-          "title": "Moonshot AI negocia cobrar até 30% da receita de nuvens - portalcripto.com.br",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeHFEM25hVEtFVDFFY1pkQ1ZUSDhsckFDdHhXdExNOTJmRlNPaDIxcUM4MlZZYm5Ha1dyWDh2N08tV3Nsd3d1UWd2M0JVSXFkTUV6ODBYWkg5OUd0Q1JxazZkS2hicHptWFlSU0VxTGRZR1pMTkd6dDVobEtBS2N5b2dKakNxdGJVS1ZZMHFybGhFSnB1cTFEMjdodjV4aWZXM1FaeQ?oc=5"
-        },
-        {
-          "date": "2026-08-26",
-          "title": "Moonshot AI negocia cobrar até 30% da receita de nuvens - portalcripto.com.br",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZlRpQ201SkdoNnNxU0pnOUdjalg5MHE2NVJNVzVOZUF6R2dEREJVenBxbXRnaURYcktJSUM2bUF3X1RseXVGYldabHFyWUtUX2ZtbjFNUXFNcTVtbmtnY3BwamRZYUhSeWlzb3E0NzAtN1ZUUEN3RG43TzhfTXlkT3VqNTRmdFVmc0p0ZmI2c0c4MjlNc0ZId0pORkUyM1U?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -117,6 +117,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-16",
+          "title": "Muse Spark vs Qwen 4 Max: um lado não tem endpoint - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKYzZxZE5qREhEYllrRmhRRG9rMjF0UlF2cTEweUU0YllLZjJQYjBHaFl4Z2F6ejFRSHIyLURJdXFISlVEUTAtTk5sU1A1UmdIcjRYZUd5alU3cHROekVET3gtMk5wQUF0Vmc?oc=5"
+        },
+        {
+          "date": "2026-10-16",
+          "title": "Nemotron 3.5 Bolt vs Qwen 3.8 Max: Ambos estes modelos assistem a vídeos - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12aFBTUkRlWDZXQ0VGb3BYXzd2TThpRjMxRXIySXVTWDNUcVNIM2xYUlJ0eW84NnBqb0F6V2ROWmJycDloQmRrT2YtUEUxODlVYVpmTjZOU3hRSENpQklJQi1YR1I1VDJ3LVhnMEEtTWVrcWFSdUE?oc=5"
+        },
+        {
           "date": "2026-10-14",
           "title": "StepFun Step 5 Preview: 600B a $1 o Milhão [2026] - shattered.io",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WmFRV2tyYVJNanpPLXJCMDlhbXF3R1p6SUQ5Q0s1Y1ZOOXJOLTNLbjM3WHhkbWtLeGg3NnJseG1Dc0VwaU16SmxGc21CY0QweVVLYzVkbWNoWmhnWVliM1lDbDFaUVJm?oc=5"
@@ -130,6 +140,11 @@
           "date": "2026-10-14",
           "title": "IA e PS5, Qwen 27B chega ao PlayStation 5 com jailbreak e já roda - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTjc1X3BkTjExSDkzN2phVnhGR2M3S0t0d3BqYW5pcURPaDdkcWNxdGhNQmFSQW9BSmdlSXIyQ2kxdGN4UW9kSXAyLVVDd0ZuclRrdHZNWENZek1rY3dzMGhDRnF3UE85aUQxNThUa2p6Q0hvR0hGTGwtZ3FsOThwZGxPa0JFRm1GbW5jVEEwWTlqdnlwVGhhbWdwWQ?oc=5"
+        },
+        {
+          "date": "2026-10-14",
+          "title": "HiRO-ACEv2 vs Qwen 3.8: Um repositório discreto e um lançamento completo - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwMm5kUGkxQ1NGendUY2RRSVU3blhvNWJoRHlqMDBwLU1ORzlGT1JwYUZKM0xlM3Q3bVpBSFZSU01UZVhyRHZqU0JCS1lMZ3YwUUR5ek5QXzVEVjk3SUtFRU1aS0hSZDQ?oc=5"
         },
         {
           "date": "2026-10-13",
@@ -150,21 +165,6 @@
           "date": "2026-10-13",
           "title": "Qwen 3.7: Três Níveis, Sem Pesos e os Quatro IDs que Você Pode Chamar - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xWmdUQ2RqT0xuaUp0WFVCSjAzSGxQa3Q0NmFab1RxNEg5cWFEclJ1YXN3Um0yQ2cwVnM2RkFiS0N5cjVNUHdMZ2JpRjFvRElHcmNiQg?oc=5"
-        },
-        {
-          "date": "2026-10-13",
-          "title": "Qwen 3.8: cada membro da família e como escolher um - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94ZVl1R252UlhvR1Y3N0tBNHI0bFlpSjBUNVF5aVFoT0NVS012U0toWUtFZGQ4ZHlRaFZYMTEwZ0dqWmJWSG9KWnlFUE43SURlMlhEZQ?oc=5"
-        },
-        {
-          "date": "2026-10-13",
-          "title": "Qwen 3.5: Quatro Classes de Tamanho, Dois Níveis Hospedados e os Oito IDs que Atendemos - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DZTJNREhzYjJnNGxKRUQ0dDZuRzBObUs5QWo2cVJzTTZJN3BCaVFlM3VDN1ltZXZuWUhEQnpjV2F3TGVmZHRFQlhBTWhxaUx0Q1p0aQ?oc=5"
-        },
-        {
-          "date": "2026-10-13",
-          "title": "Qwen 4: o que a Alibaba disse e o que já está rodando hoje - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kNmswdXY2N3dVY2FCMFppUjVjX2FxdVRjOGZnNnBMeFNNUHZzVGNrSmsyS3FkaVRiV29MQ013NlJ2TVlGaXUwZEZNX2FITUVJNGc?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
