@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-16",
+          "title": "Beam 1.0 Open Weights Foram Lançados e Pontuaram 30 de Forma Independente - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZDZOYVBfVllwTGh5aUl2MnhpMGF0dVZEUVZVdjh6MFhsazh0eFM0MzFwSGo5TEdtWWZWeVNaN1BpTElDZkFfSFo1ajdwMkpyME91cUxXWUJEc1BqaUMxMmRicG9PWS04UU5IX3dQZU9EbU1Sdy1yS3V5SVZoRVJaV2pB?oc=5"
+        },
+        {
+          "date": "2026-10-16",
+          "title": "China exige licença para grandes modelos de IA; Kimi K3.1 em risco - diariodamidia.com.br",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaDBVX2FlcmEwVWZfbUExdWNCY196SHl1MGZjWFRmeFVST3lVc09ZdHdZekRzMXdzV081cV9sRDdzOGZHNVVwbFlmMUJQLXc0YVQyMHFIQ0t1Y3d1VkRpX2hlWDJZT1M4dE5WaTdpcnJtRFQ4cHppSm9uR3dsSUVBX3d6Q1RBOW5EeTMwcnE2RnRsUjdIN01tcA?oc=5"
+        },
+        {
           "date": "2026-10-15",
           "title": "Os melhores modelos open weight de outubro de 2026, comparativo - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWnVDUjVaYm9UQ3BPVEh1bW05M1BjbldBNUZTZUdORFdQaGVlZEVqN25CRVctbWhBd29kdGtiMEd1WktEOGJUUU42SHk4eUxOdEhsQmVHVzY3MnB2Sy1venJlc0g2OXoxQTVvZUl4NS03N2VqWGRrbkNUU2E2WWFqa3UwajhSOEV1aEVQSTdwcHdqcHhlNWZsVl9PQm1jdw?oc=5"
@@ -85,16 +95,6 @@
           "date": "2026-09-10",
           "title": "IA chinesa: Kimi K3 e Qwen3 chocalam Vale do Silício - nssmag.com",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ09qRnRXZmF6TDA0cHpyb1RpbHlRWFZKeHRyOE5VRU9xUWwwWllYX0tIaHo4OWhCRUIzV3JSZjR1QmxHbHpiQjA1NS1TQ0pBVW1xZmU1NjIzLW5BU0gweUo4SjE4eFhpWjNNRktQUWNxOUZmekVhby1Pa3FubWhMMw?oc=5"
-        },
-        {
-          "date": "2026-09-08",
-          "title": "Kimi K3: Instala e Usa o Modelo em 12 Passos [2026] - shattered.io",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qd0Z6UmFRUEZVQVQ3TVluTllxS0s4SXlmclJvMmNtMUhrdmVjSW5PSUh2aWk1TVFSQWJWN2N0cTJhU01YRlhiVkNqa1d3YTVNbzB5M2JxWGQxdFczZS1CZjdhOTdkVjlWWG9Bcw?oc=5"
-        },
-        {
-          "date": "2026-09-06",
-          "title": "O open source alcança os modelos fechados segundo o Artificial Analysis - Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbC14cEt6eEtLLUZNTk83UUJSUWp1X2ZpbktHbkViOGV0d0dEMGhnZHg1a01rWS10dU4weE55LUdGcDJtYzdNX1h5WjY4bWd6cVZzMVd3MTdDN3dLSDZmbWFHUEpWRzZSN21rR1prODBQUkZsZklsWWo3Yi1YSkstU0tOTzUzZWxpcENTeTUzM19kV29hczRnd0Y3UGMxSVZaWkE?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-17",
+          "title": "Dory 1.0 4B vs Qwen 3.8: um 4B contra uma linha de três níveis - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16alFfODBtSHQxeVlKd2g5MjBWVGpNb2pCajQ1bUdSVVJQZkxMU0Yzd1haRmoxbUFmZXZTRHZRLXBBMVRFamZFX0J3WWpLRXJsNHdNZHc3MlE0cTRfZjZlODJ1OUdsQ0ZpSml0c09oaDJqalBU?oc=5"
+        },
+        {
           "date": "2026-10-16",
           "title": "Muse Spark vs Qwen 4 Max: um lado não tem endpoint - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKYzZxZE5qREhEYllrRmhRRG9rMjF0UlF2cTEweUU0YllLZjJQYjBHaFl4Z2F6ejFRSHIyLURJdXFISlVEUTAtTk5sU1A1UmdIcjRYZUd5alU3cHROekVET3gtMk5wQUF0Vmc?oc=5"
@@ -125,6 +130,16 @@
           "date": "2026-10-16",
           "title": "Nemotron 3.5 Bolt vs Qwen 3.8 Max: Ambos estes modelos assistem a vídeos - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12aFBTUkRlWDZXQ0VGb3BYXzd2TThpRjMxRXIySXVTWDNUcVNIM2xYUlJ0eW84NnBqb0F6V2ROWmJycDloQmRrT2YtUEUxODlVYVpmTjZOU3hRSENpQklJQi1YR1I1VDJ3LVhnMEEtTWVrcWFSdUE?oc=5"
+        },
+        {
+          "date": "2026-10-16",
+          "title": "Beam 1.0 vs Qwen 3.8: Pesos liberados vs. uma tabela de preços - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TOEQ5WWs1LXB2YlltdTBhVGhLSVZxRDZ3N0tsM3BPWHg2XzVCRmQwQ3UxN1FsLU1uNkxvVWNnSHVZTTgzZVFuNjFYTUNHbVIybXNhRC1JTlBwdWdxczRLaC1iQ2k?oc=5"
+        },
+        {
+          "date": "2026-10-16",
+          "title": "Glimpse vs Qwen 3.8: uma janela de um milhão de tokens vs. um vazio - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE90eVotVW1iOFNKbFBTeXlRZVk4Y0ZYUVJKcmY0X3A0MGRPeTFJRnRTU2VNcUR2WVJ6ajRCYlZySXZ6R2xQZFEybnZaczJWQ0ZKYTdVbW9rQ2wzYUNDbkgtTDA1MA?oc=5"
         },
         {
           "date": "2026-10-14",
@@ -150,21 +165,6 @@
           "date": "2026-10-13",
           "title": "Qwen 3.7 vs Qwen 3.8: Qual geração você deveria realmente estar chamando? - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tVURORW1QRnM0NlE4d2hqWkZHbVFfS21Ua0c0ZXZuUnd1UWNmNnppR19pYmsxT3JtNzF1N3FHdXF4c3RYZHRiVE9TUUJYdlZhbllLUnU5OVQ5aThvWjRUWlpSSFI?oc=5"
-        },
-        {
-          "date": "2026-10-13",
-          "title": "Qwen3.8-Flash: o nível ajustado para latência da linha Qwen 3.8 - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13YW1VQkNISUZEcEtydkF4MHNXUE4tanVuRFpBZ0ZiTWprYWkzU253UWxpNmFMWVgtUHdNU1R1eHBFbVdSUE5qZTJ6MENfNXhvSkplMlZGa1VQMEpu?oc=5"
-        },
-        {
-          "date": "2026-10-13",
-          "title": "Gemma 4 vs Qwen 3.8: Qual linha você deve escolher? - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0ZEdYZGFNbFV4YU5RM1FCZ1A1SkZjTXMxS21sSDVWbjBKV0FGaktWYUtuR1g3RTBtcmN5bzBoWVNMVFBzeGF3Snpsb1hkT2s5MFk0SFpCdFJJQVhSN0Z2MDRHUQ?oc=5"
-        },
-        {
-          "date": "2026-10-13",
-          "title": "Qwen 3.7: Três Níveis, Sem Pesos e os Quatro IDs que Você Pode Chamar - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xWmdUQ2RqT0xuaUp0WFVCSjAzSGxQa3Q0NmFab1RxNEg5cWFEclJ1YXN3Um0yQ2cwVnM2RkFiS0N5cjVNUHdMZ2JpRjFvRElHcmNiQg?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -186,6 +186,11 @@
         "banimento modelos IA chineses"
       ],
       "evidence": [
+        {
+          "date": "2026-10-16",
+          "title": "OPINIÃO: IA, Microsoft e a falta de convicção dos arautos do Apocalipse - Meio Bit",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNmJka1RfckdyTEUwdDVxWk9MdXkyUFozTTFpRFJ0M3JiN1JSOHUwdE13VGVzbno1VGJIN2VWcFdjd3c5QTh5WmlnbXh1UUdwRE9zQm5yQ29Sb3FpWllUcXpGd2RkYkk2WXIwVTFoNWlPbEUxZm1tMXR5QWVReDBGdmJ0U0tQZkFZeXBDU2o1bURDQTZoNHNXZnNNSXp4Zw?oc=5"
+        },
         {
           "date": "2026-10-13",
           "title": "Alibaba unveils $450 AI glasses - TradingView",
@@ -230,11 +235,6 @@
           "date": "2026-09-01",
           "title": "ChatGPT e Grok chegam ao Pentágono para operar na área militar dos EUA - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVU5dWFvMTBuTlV4UDhYbi15Z2ZvS1pCd2tTaUpqU1FsaUlXYnMxZTNOTl9PbTRKbVp5eGd4SlBwNDhTcEVxeV9vLUEtdGRLRGxvY1oyejRxY1Ewa0FiVUlnOG1zY1lmM1FWemVETFhkbWo4NzZMRVRPbF9UTEhjbVBwZ1FoejgwS1FldWlCTExWNFNSU3g0bnpnUnJjVWY3WVRnaQ?oc=5"
-        },
-        {
-          "date": "2026-08-26",
-          "title": "Empresas americanas estariam negociando acesso a IA da China - CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYnNiN1F6Y3h5bzJkd0dPMG1GQTdaZjlxQUZOZWlxLTRmOWROcDBMUmE4TVB4bXBTS2gxbEZpTHBreG9Pc29WdFk0TmlVVV90WE9YN3o4WGtOZ1JxRHNhV0w0LWs0VlNKTmtkY1Y3dUl6ZFNhRFhRN3ZiNGtXY2tPa1Rvb0FYQXhLLWZGSGY3ZmJlV0VreWl4OHBTM1RpYlR0T0VvZk9JbmxsNGY0aVFabE1MVjJvSGxvcDQxX2tnaDM1d2dYa0hNRw?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
@@ -397,6 +397,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-17",
+          "title": "Jovem prodígio da inteligência artificial, de 17 anos, deixa inesperadamente empresa chinesa. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM3NISE1yaFl6aV8yNFZvM0tjM3B0Tk1BaXYwY3FaNlFIRmE2NGhmVFE4RnZwSVFCejVaQXNiTG05UUhMZklQcExtc3NHRmZxVktkODFLelR3OFhVMGlrUFNBQnV6WmtuaWE1RjFLRE1wbUZpRkZ5Y3VNTmsyTzlxQVplaw?oc=5"
+        },
+        {
           "date": "2026-10-13",
           "title": "MNX impulsionado pela MegaETH é lançado com futuros pré-IPO para OpenAI, Anthropic e DeepSeek - CoinDesk",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbFZWRXNnQ2FEV3NmczNDMEhnSnNZbWFwZVVPWEZZTWh3VmhTNU9lQl9WTVYtVHpKMjZvUUVhWTJPaGI3RURPWVh0cHljUkE0aU5jWGdUa3hhUFVPajhxc1Q1aGx1Y2tNeUlTRlRRZGpWNWR6TGdGQ1JFWGptMHR6cW9nUWtlLTNOZXJ4ZlZWYms4NURHSzE2Z1N6S3ZKUXA2ODRBVUdBVHZSNnZ0RGRXOHFGZi00UXlNVkZIX1pRWEdwYnM?oc=5"
@@ -440,11 +445,6 @@
           "date": "2026-10-06",
           "title": "TENDÊNCIAS DE IA | Moonshot mira IPO no início de 2027 após avaliação chegar a US$ 50 bilhões - Binance",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NNWlmTXlGazl2bVU4dGFieDdtMnR0dXY2OXVHaTNTSFVQTUlUb29LNXM0MnJVdmRfTDZ2RnNMcllEazdFWlBCcUF0czBtajY2ck9yTDU2Yk9zOHFJVS0zWV85VzI1N1Bh?oc=5"
-        },
-        {
-          "date": "2026-10-06",
-          "title": "Financiamento de IA na China dispara enquanto concorrentes dos EUA buscam avaliações trilionárias - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRjdhc1h3a1VIMTBCVThOTzlTSUNhRkFUTDdsQzBnZVlDa3Rodmw3cGxCRm9WQWZhYzJEMzMtbHpmQ1ZncHl4Sk9yajNYcFY5aXhKbjY2MjdCWHVLRUVWa0EzSlBsRGxQQXJiZ29ZbHIwckpiWHpWQXhJTHlmT1VmNm9xWHYxR3RJZktxc2dGMW14Y3Zram1ScjVXUENITTJsaWpTYXBxcHhFZkRRWW1vMGx4d3V1QzhNUnN4WUxBVkxjUQ?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
