@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -77,6 +77,11 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdEl0bU5lRTY1QTg4dERyd2hZTGJTS292bzhsQ2lSRllqa0cwdnRtamFBMU5qUUVKRFIxUV9rQVFRRDIzZVhKcVozZXFqbjNHTzFXUXZ2R2ZFcF94OUpKc1dvUXpta3Z0VGZ3UWIySEY4eU1PMlMtNEpwYlAtWkRkWHhSV05yUU1iQzYtZ3JEdDVXdGxwdTRQUmgzS1h1cjg?oc=5"
         },
         {
+          "date": "2026-10-15",
+          "title": "Meta apresenta novo modelo \"aberto\" de IA para competir com a China - BOL",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcXV4S2pEalQycW9RWXdZalo1ZWxSeGpsd05VZ014ZEgwT0RHWlR1ZmFmbDBWWU5fWmNvYkFCYmZ5R1M3YUlTQ2VVaTVDUHF4aDdqeUZWYjQtY2VCOURRS3ZibzFHSjVjY1VyYVhQai1BVENuN0hmUDdIM1FrdV92b1o4eDdZYTliS2ZxS2pLNmt6NkU0LVBJZUhrc21KN3k4RVFhTVM5VjJVVDJRUEczQXdQcVEyMnfSAbwBQVVfeXFMTkU0R3JROXB4YVAzNkVWMWhfSXdWc3Q4YTRzTk5kSkg1eHNHN3BqWkRPbV9VWlRja3NTaVV4c2Z3OVR4dnoyT2RWeldudnlERXJDbDVuOFdUMGRYOUp5VXIyMkRyR2g3Z0JyTWZWUkZaSG9KWkZUZ0FSMVI0MTJqQWtZS1Z6M0VJS2FRLThXODZBN01ndVl4c19MM3dzTWUyei1iclBCX2dhNTF6bmJTbG5PbG4wRjhNaTVJV18?oc=5"
+        },
+        {
           "date": "2026-10-13",
           "title": "Kimi K3 vs Claude Fable 5: Vale a pena 3,33x por seis pontos? - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10SmM5RGhNdXl5ODFsYzVpT0VLWFlmNXhOMzZNbExRc3phQ0FjVXBodzlEU0ItX2lhTkhrWVZmSS1sNU5UaGs1eG96MDEwQUZSTGR0TDY0WUx5QkZXRFlqbTNB?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-09-18",
           "title": "Kimi K3 da Moonshot AI chega ao Amazon Bedrock com contexto de 1 milhão de tokens - Unite.AI",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGdwT2I4WW1rUmhCZnQxM1R4X2Z4VjNyaDExSVdjajBidjFJQVk0UlhzaFNtX3hqNlFtTXlDMmlUMkJ6T3IyR2JqUExtVlJ5eXhDRmFDUUM3a3ZCNW8wXzNrekJOUUpvNlZzSlkxWFlQZ0J1a3V3Q0c2LVI2MFA4MFh2aDVzaU1lRzNGeWpHWkppTnpuYkp2TQ?oc=5"
-        },
-        {
-          "date": "2026-09-10",
-          "title": "IA chinesa: Kimi K3 e Qwen3 chocalam Vale do Silício - nssmag.com",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ09qRnRXZmF6TDA0cHpyb1RpbHlRWFZKeHRyOE5VRU9xUWwwWllYX0tIaHo4OWhCRUIzV3JSZjR1QmxHbHpiQjA1NS1TQ0pBVW1xZmU1NjIzLW5BU0gweUo4SjE4eFhpWjNNRktQUWNxOUZmekVhby1Pa3FubWhMMw?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
