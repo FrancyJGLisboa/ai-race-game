@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -257,6 +257,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-16",
+          "title": "Meta apresenta novo modelo de código aberto de IA para competir com a China - Jornal Económico",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVHhYeTVpMHJxVlMxLWRwTXVUZjdScXAyYm1hbEMtMzZLZElINEpJN2ZueldCTy1mZFNXSWZnSWY0a00xQXBBR1l1U0FaSUVwVS1MMVpoV0s3X3hiYm5tc0Q3T1dEM05ENHNGc2VrdDg1djZqSUdKNFR0Y1BMaHhVMFFhMzZnN2t0R2NYZnVFOGJ4eU5kc3FlN2VyYU9HYlRIc25zZHBsVGNuS3p0dkFMdzI0VHdSSWZv?oc=5"
+        },
+        {
           "date": "2026-10-12",
           "title": "Intel CEO Says DeepSeek, Kimi, GLM Are 'Good Enough' – Reportedly Backs Open Source For Efficiency Gains - TradingView",
           "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMjQ1SUVGWk1fRnpDWXItMGhuZVVjUml6TTV0UGNydFhZSVFfSXBlczlTUk9jYTV1bVpYcl9Lb3FPSEJnZWNPUEZZTDNWZXdfUnA3Tjg2emxaSmFSeDBoc0hSc1p3clJzRzNFVnpnaWV4V09ZOHdRXzE5WHF5NGV5TEZ5U0puVVc3bW9aak14a0Fwa21uQjhwYXFuRGU5Sl96SHJOOFBPX2FQdmxZckdSbHJVTXZsZmZDektGdlZkNjRaXy1UTk9temNuNF9zbUQwc1VkX3o3OTNXR1d3TnRQQ3pMNTJ4VGJpUVV5UWZucw?oc=5"
@@ -300,11 +305,6 @@
           "date": "2026-07-27",
           "title": "NVIDIA alerta a indústria da IA para não repetir o erro da década de 1980 - Pplware",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZXRrNU1LTlJRTVpWb0VwLUNtMnF3VjFPaTY5VXBPNE5aOVgySC1QZ001VHdKejZDdnQtLUMtR1N1Ri1zeHJOZDdocTdFU045WXRDS3Q2d3RGeEEyQ1U3MlZoREJ3TkVJSVVpX3pVZHhnaTJ2X3otWXBkLVh3THN0X1NMb244MHFkWFRCRloydG5ackZoU3c4em83ZlREREpjcnhUT3pWNWJJVUl6eUc1QU1GcWdGQdIBuwFBVV95cUxQWEpTS2FmeHRWMlFBSG9hb1dlUjdKZktkcDh2eE12UGxrNWlHTkJyUFM5X3F4UkdjYzdmN1VoM2NGaGRzY29OMC1iOFRLTmRyZnlpR2J1UHlIV1puS3pKQy1NTDd5a3REUkItVEhXWFdDLWdqM1A0QXI1aU5kS2FtYmQ2YTZGd1R4RWcyd2x6X0ppMlI0TlZabE9QaWVuY04yRWtDVXpVdllCekdFMDJIS05fRF9lWUhINHpZ?oc=5"
-        },
-        {
-          "date": "2026-07-18",
-          "title": "Chinesa Moonshot AI desafia OpenAI com novo modelo de IA de Open Source - Jornal Económico",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZmt6amgxSFJUX2pfYlo0ZnpVSkRSYUFOeXFHOXEzUDB5NkZqNWplem16YUFGQUhaRU5TYnpRTkZMU0wxdDF1WlBKRFNfUExtYTVCZzZoeU5RaUhiNklDY3VIVVlTeGE5ZHRBOEJhZHpPM3RJemxVdTBpcVhzN3V3bEVnRjJWMW9FZ3lBaXNrbktHLTA0Zl9IVnhQdkVDcnlnTllLMGdDVnNqLW01NldsM2F5QlZnQQ?oc=5"
         }
       ],
       "title_en": "Other Chinese labs open previously closed flagships",
