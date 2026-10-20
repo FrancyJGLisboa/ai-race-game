@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-20",
+          "title": "SKY-001: Modelo de Mundo de Engenharia da Skyfall vs GPT-6 Astra - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlTjRUdEJSbmsyUmk5WFFZQ1R3LUxkSW4tUVkwLThVUzJrLWd6SGNGb2xUX2xSbXhuX1B6N3FxQ3dtUUhRQXpLWnNhQjBJY1pWRlFjY2xic0VtVVlFMW9NQVQ2R3Q5dnBTby11Tl9mRGhZd1U?oc=5"
+        },
+        {
           "date": "2026-10-17",
           "title": "Dory 1.0 4B vs Qwen 3.8: um 4B contra uma linha de três níveis - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16alFfODBtSHQxeVlKd2g5MjBWVGpNb2pCajQ1bUdSVVJQZkxMU0Yzd1haRmoxbUFmZXZTRHZRLXBBMVRFamZFX0J3WWpLRXJsNHdNZHc3MlE0cTRfZjZlODJ1OUdsQ0ZpSml0c09oaDJqalBU?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-10-14",
           "title": "HiRO-ACEv2 vs Qwen 3.8: Um repositório discreto e um lançamento completo - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwMm5kUGkxQ1NGendUY2RRSVU3blhvNWJoRHlqMDBwLU1ORzlGT1JwYUZKM0xlM3Q3bVpBSFZSU01UZVhyRHZqU0JCS1lMZ3YwUUR5ek5QXzVEVjk3SUtFRU1aS0hSZDQ?oc=5"
-        },
-        {
-          "date": "2026-10-13",
-          "title": "Qwen 3.7 vs Qwen 3.8: Qual geração você deveria realmente estar chamando? - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tVURORW1QRnM0NlE4d2hqWkZHbVFfS21Ua0c0ZXZuUnd1UWNmNnppR19pYmsxT3JtNzF1N3FHdXF4c3RYZHRiVE9TUUJYdlZhbllLUnU5OVQ5aThvWjRUWlpSSFI?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -186,6 +186,16 @@
         "banimento modelos IA chineses"
       ],
       "evidence": [
+        {
+          "date": "2026-10-20",
+          "title": "EUA proíbem uso de inteligência artificial chinesa em agências do governo - bra1.com.br",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ0hOMEZGbTZRazIyQ1NvX01nUi15OGRqQzcweUZQaC1rOFd0R3czdzhRS19rbDNCb3hZaGtMM2NzZkh2cU9zZzByUF9QUWlnTTVMc25RVDM3czRYRHJpLUFNZV8xU3E1ZEU1Rk5wZ1Rfd3F0TmZWQm5xbEFwMWlrNjFBNjdDZXVfQXBuUlE5alRwRy1ZQ1VTSFFFY2ZTQTBUdFJQZUZyYXE5bVh4TWxoWTNyT0JReW9oZkE?oc=5"
+        },
+        {
+          "date": "2026-10-19",
+          "title": "Governo dos EUA bane DeepSeek de órgãos oficiais após atualização da IA - Minha Operadora",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb19NTlNwUzEwOXpwb2daT20wSlZLbUl0andfWFE0R3ExaGJzWHVjME5Ra05TQnFVUlJqWnZvVy1ZSnd6T3AzMjhhTWdtN2FBZ004WE1VclFBOVBYYko1QU4yT2F0VW9DcVhwMkw4X2tJSE9pYTJxZ0tJM1NoM0YtbXk1QmlzLUViaU14aGVJMjJKZkJDSWpKUVdsdm84d0VBSThjRlZtcTB6V3VodWozTnRndkw1d0pieUE?oc=5"
+        },
         {
           "date": "2026-10-16",
           "title": "OPINIÃO: IA, Microsoft e a falta de convicção dos arautos do Apocalipse - Meio Bit",
@@ -225,16 +235,6 @@
           "date": "2026-09-16",
           "title": "China já usa IA para consultas médicas em cabines no meio da rua - Estadão",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT2dMQzVvZEJ2eHJIZWIzQXNCem15c3pBODhWRGcxWjZIXzlUU2wzR1JyVDdpSjM2cG0yblZESjlEeDA1ajQzMGJ0bWxYNnZFVnJvVjFUS2MyQmc4OFFvem1CRXlNckN2cGpJQ3dEeUZ0VFpmU1ZfNVBJb2FSWlQ5TFpfckM5WjBHMW96OG92ME9wWU1pOWpiRVg4RDdiRXQydm44LXNOZUpkbkxjam9RZEJlSkgzd09NY01OV2p2LVlLWlNQbjlrMw?oc=5"
-        },
-        {
-          "date": "2026-09-01",
-          "title": "CXMT: gigante dos chips entra com ação contra o Pentágono para driblar o banimento nos EUA - TudoCelular.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQU1FcnZUV01ZRXpwZ3VQcGR0bXRVVkY4R1B5NlJ6WnNJSkJCNlllbm95ZGotanJ6eHRSRXhpWFpWN2d5eTdiVFk3Q25ReWVVQ09WNHZyQ0lyNEVqQWNfLVFYeV81OEt1Q09kaUZwYlU5UVZhMEd0MzZSeldaV1RmMWdLajhhbDI0Tm1UTVRLMk8xNldGQWlMc2VQQ1U?oc=5"
-        },
-        {
-          "date": "2026-09-01",
-          "title": "ChatGPT e Grok chegam ao Pentágono para operar na área militar dos EUA - TudoCelular.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVU5dWFvMTBuTlV4UDhYbi15Z2ZvS1pCd2tTaUpqU1FsaUlXYnMxZTNOTl9PbTRKbVp5eGd4SlBwNDhTcEVxeV9vLUEtdGRLRGxvY1oyejRxY1Ewa0FiVUlnOG1zY1lmM1FWemVETFhkbWo4NzZMRVRPbF9UTEhjbVBwZ1FoejgwS1FldWlCTExWNFNSU3g0bnpnUnJjVWY3WVRnaQ?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
