@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -122,6 +122,16 @@
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlTjRUdEJSbmsyUmk5WFFZQ1R3LUxkSW4tUVkwLThVUzJrLWd6SGNGb2xUX2xSbXhuX1B6N3FxQ3dtUUhRQXpLWnNhQjBJY1pWRlFjY2xic0VtVVlFMW9NQVQ2R3Q5dnBTby11Tl9mRGhZd1U?oc=5"
         },
         {
+          "date": "2026-10-20",
+          "title": "Vyb vs Qwen 3.8: A etapa de design cujo orçamento ninguém consegue prever - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iZFhlb1NaNGZPN1pIMkpEc2JpVUY5c21LQWwzZkVtc1ljeFBrU1U4bUVWcEI3R2I3elM2SDI3WkVXanJvODNDQ2xzT3NBR202NU9BaHV2TjlBeGIzOGc?oc=5"
+        },
+        {
+          "date": "2026-10-20",
+          "title": "Fibo 2.0 vs Qwen 3.8: A Fatura, Não o Ranking - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wbmx1aFZhY3BhRTJHSkdYeDUwRG01aUNCcFU1aU5PRXFrOExIaFhSSVR2NWFrcGNLM1pzM2RPeHAweWh2NUlHdTdyMThtZXpRamlDV2c1UnNhb2hpRnFGQTQySmE?oc=5"
+        },
+        {
           "date": "2026-10-17",
           "title": "Dory 1.0 4B vs Qwen 3.8: um 4B contra uma linha de três níveis - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16alFfODBtSHQxeVlKd2g5MjBWVGpNb2pCajQ1bUdSVVJQZkxMU0Yzd1haRmoxbUFmZXZTRHZRLXBBMVRFamZFX0J3WWpLRXJsNHdNZHc3MlE0cTRfZjZlODJ1OUdsQ0ZpSml0c09oaDJqalBU?oc=5"
@@ -155,16 +165,6 @@
           "date": "2026-10-14",
           "title": "RepGen-4B vs Qwen 3.8: Uma Geração Atrás, de Propósito - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GTGxHQnQ4N3pVOTZjXzFEdlFqMDZEb3JPTEk5VFR5VDQ0a2VBTnhDUVUyamxHaVlSUlBockhtWmxaQXZvdGxVT1ZCV3NaTmZrb3B4LWMtXzdYaDNYcldvUTlsaFRJRkJNWnBZ?oc=5"
-        },
-        {
-          "date": "2026-10-14",
-          "title": "IA e PS5, Qwen 27B chega ao PlayStation 5 com jailbreak e já roda - Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTjc1X3BkTjExSDkzN2phVnhGR2M3S0t0d3BqYW5pcURPaDdkcWNxdGhNQmFSQW9BSmdlSXIyQ2kxdGN4UW9kSXAyLVVDd0ZuclRrdHZNWENZek1rY3dzMGhDRnF3UE85aUQxNThUa2p6Q0hvR0hGTGwtZ3FsOThwZGxPa0JFRm1GbW5jVEEwWTlqdnlwVGhhbWdwWQ?oc=5"
-        },
-        {
-          "date": "2026-10-14",
-          "title": "HiRO-ACEv2 vs Qwen 3.8: Um repositório discreto e um lançamento completo - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwMm5kUGkxQ1NGendUY2RRSVU3blhvNWJoRHlqMDBwLU1ORzlGT1JwYUZKM0xlM3Q3bVpBSFZSU01UZVhyRHZqU0JCS1lMZ3YwUUR5ek5QXzVEVjk3SUtFRU1aS0hSZDQ?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -187,9 +187,19 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-21",
+          "title": "EUA banem Deepseek do governo; China protesta e acusa hipocrisia por bloquear IAs rivais - TecStudio",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSVk1dHBWTnZVV1FyMzczVU1jdGo3elVDaUM2WDBWQnptamg3V0tqU3dsS0dWbktRajZUeVBIenlLdUZWMUVycF9PNTBUVXpxZFY1SXdiZHd4OVJMVmlxV3I2MHg1eE9DNnJVeVgzRnB5aThja1pJRVl1b2Z5SXBCU3V4ZVhuc01GdGREcktrT1Q2SHNlOTNoQks4VjZQSGh6YlgwcVVweGoxWXp3ZnNKNjA5QUNtS2d5b1M1cmVvZWtvNUIxYWtFQVlTTjZGUUVTWkZaWjhvSGg?oc=5"
+        },
+        {
           "date": "2026-10-20",
           "title": "EUA proíbem uso de inteligência artificial chinesa em agências do governo - bra1.com.br",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ0hOMEZGbTZRazIyQ1NvX01nUi15OGRqQzcweUZQaC1rOFd0R3czdzhRS19rbDNCb3hZaGtMM2NzZkh2cU9zZzByUF9QUWlnTTVMc25RVDM3czRYRHJpLUFNZV8xU3E1ZEU1Rk5wZ1Rfd3F0TmZWQm5xbEFwMWlrNjFBNjdDZXVfQXBuUlE5alRwRy1ZQ1VTSFFFY2ZTQTBUdFJQZUZyYXE5bVh4TWxoWTNyT0JReW9oZkE?oc=5"
+        },
+        {
+          "date": "2026-10-20",
+          "title": "China reage ao banimento do DeepSeek; exige revogação imediata da proibição nos sistemas de TI dos EUA - ConvergenciaDigital",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeE1LLUlmRk1MalpkM01YaV94UFNrWXNBbGhyeWdXbUZaQXVYdl9BeUhoOWl5SDNNSm9rbDF4X0xKWDdkRnh6Q0xXVVJmU0RpUEtac0hJdXBmUWROTWtVNDNUZVVVME9pamM5eUdzMzBQRVBUbVdhNjRYWU95RlNsUlhLYTJzd056UlVyZ20xZ3BMeUR3ZHB2VlJmTGxyVXFTYWdrZkpxWi1pdUhrQ2hfZGp4bzVxaFJTLU5Ra0RrRlZLdWdzYk5kNHBnZzdxSGxSUWJXaVVTYWtDS2Z6TzRJ?oc=5"
         },
         {
           "date": "2026-10-19",
@@ -225,16 +235,6 @@
           "date": "2026-09-17",
           "title": "Especialistas de EUA e China propõem para IA ações de segurança semelhantes às do setor nuclear - G1",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcm5mUThHd0pmZHNsaXlOMUtrU1RJYVlsZHZhRmtVcXFIX1lxaWQ1ZjVCV3V6TVM0RUVaYkxSUXJXRDZibTNfckJGbUxWQVFwUlNyYVJ4ZTJaeWNvOGozOFZHaFRyZ0NWeXlXR1EzRndTc1BrbVlpeVhlN1U5bmllNGVGcWhUT0pUNWZhRjF0YTN5NDd4ZTEzanE5cHVDandvNkh1azBITmFRcFMydVZxMk45NUtkM2pKS3hEQ0pRc3YwUEdOX0pMM3VaSEJJOXl1RVgxT3V3ZHV0R2tRVC1vUVI4cEoxMDTSAfYBQVVfeXFMT1NpM3pJZ3E5S0k2cGlIbjhPNThzMU5KWEVZOXR4RmxwSHRMQmpmVUhabl93LVhTUXBBdWhYNXlnTk1xaUtWNEJxa3pBV1VUUFRtYThweUg4eU1kRmNhUThMZHNkSVpaRVJyTHlPRkxqZ2pjZm5MQ0wxMGFad3JIWkZTeVFnN052M3VnaE1FdFpjVFVZOTFaN3pFT19qOWNPSkNmT04wRC1ZNjY3U1hoN1BoX1U5THgxLVVBR2xuNllaWlQtVWpOdFJnRXdRcEMyb25OblREdTRfbVpsdkp6cXhaOW1Gd3hTbDFXc2hLWjFrYWhqaWF3?oc=5"
-        },
-        {
-          "date": "2026-09-16",
-          "title": "Microsoft amplia oferta de IA chinesa open-weight com DeepSeek - diariodamidia.com.br",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVE9jT0ZSSjZzaUFwZ1Eya0NFTFlQblZ6TEtuRDcwYWRCb1RiSENXZnFfNU1DSHJRcHhXUjNkODVud0ZxUkpVVC1jSko2Z0lzdkFJS0lsR0YxR1hzbG5QNWZqVno5U0JYTHF1a3ByWU5oVUZxNC1UY3l0bGdWTlB6UnIyS1hkY21MLUxrdF9KNW5hcVlkMWc?oc=5"
-        },
-        {
-          "date": "2026-09-16",
-          "title": "China já usa IA para consultas médicas em cabines no meio da rua - Estadão",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT2dMQzVvZEJ2eHJIZWIzQXNCem15c3pBODhWRGcxWjZIXzlUU2wzR1JyVDdpSjM2cG0yblZESjlEeDA1ajQzMGJ0bWxYNnZFVnJvVjFUS2MyQmc4OFFvem1CRXlNckN2cGpJQ3dEeUZ0VFpmU1ZfNVBJb2FSWlQ5TFpfckM5WjBHMW96OG92ME9wWU1pOWpiRVg4RDdiRXQydm44LXNOZUpkbkxjam9RZEJlSkgzd09NY01OV2p2LVlLWlNQbjlrMw?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
@@ -256,6 +256,11 @@
         "China open weights flagship"
       ],
       "evidence": [
+        {
+          "date": "2026-10-20",
+          "title": "Navigating Open Source Software Development in the Generative AI Era - Linux Foundation",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CZlBPRHZROEx0b1dpWjZNWG5OSGVsVFFIN0pjM205ODdYbzRhMFg0dG1Rc1RrNGxEbkl6cU1vMXY5Szg0Q2ZmXzc5Tm55ZUJyUmVlRXJqSHE5TjNnQ19ZMmRaT0tUNWhyNkRXMGpSM2hLaFd6d2tpWnlrVTU?oc=5"
+        },
         {
           "date": "2026-10-16",
           "title": "Meta apresenta novo modelo de código aberto de IA para competir com a China - Jornal Económico",
@@ -300,11 +305,6 @@
           "date": "2026-08-11",
           "title": "Ex-MI6 chief says the biggest risks for CEOs are the threats they already know about - Fortune",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMTc0UVBzNVlaT25PVmV1dXpmenpYSlJFN3JuN2wzRXFhRXdBLUM3M0VkXy02UjY1aE1LMHh5MkxMUFZpRjdRZXdfYmx5b3ZYeGJuMHBvNzBTZ2lVS2xQSWFvXy14TjZmMmtuRl9ENTRFYmFMeFRkcEpMcDRubmk1UWtaVkpPci1Z?oc=5"
-        },
-        {
-          "date": "2026-07-27",
-          "title": "NVIDIA alerta a indústria da IA para não repetir o erro da década de 1980 - Pplware",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZXRrNU1LTlJRTVpWb0VwLUNtMnF3VjFPaTY5VXBPNE5aOVgySC1QZ001VHdKejZDdnQtLUMtR1N1Ri1zeHJOZDdocTdFU045WXRDS3Q2d3RGeEEyQ1U3MlZoREJ3TkVJSVVpX3pVZHhnaTJ2X3otWXBkLVh3THN0X1NMb244MHFkWFRCRloydG5ackZoU3c4em83ZlREREpjcnhUT3pWNWJJVUl6eUc1QU1GcWdGQdIBuwFBVV95cUxQWEpTS2FmeHRWMlFBSG9hb1dlUjdKZktkcDh2eE12UGxrNWlHTkJyUFM5X3F4UkdjYzdmN1VoM2NGaGRzY29OMC1iOFRLTmRyZnlpR2J1UHlIV1puS3pKQy1NTDd5a3REUkItVEhXWFdDLWdqM1A0QXI1aU5kS2FtYmQ2YTZGd1R4RWcyd2x6X0ppMlI0TlZabE9QaWVuY04yRWtDVXpVdllCekdFMDJIS05fRF9lWUhINHpZ?oc=5"
         }
       ],
       "title_en": "Other Chinese labs open previously closed flagships",
