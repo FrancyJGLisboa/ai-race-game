@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-22",
+          "title": "Muse Wonder vs Kimi K3.1: O nome não é um lançamento - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12UU93cGdvUnAzNFBTMklLYVRJVjJlSzl1R2Y0R2Z6ckczbFVDc3YyWTN5d3ZiOTRja3FwTllKbGxvMFVyQnJyV21yYmxSV0R6YkY3bWphN0R4TG5WQ3hWWS1iSzVLNUhwVkE?oc=5"
+        },
+        {
+          "date": "2026-10-19",
+          "title": "Mercury 3 vs Kimi K3: Pesos Abertos ou Aluguel Fechado - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyZENEVGRJSG1XMFRfT1BCSXdHb2FiQkY5R0FhbVQ3RGdzOE12emdlSzhqQm1XNnRkeDltZDZXVUJpdTVHTUtIVVhMZE9ScHZycXdqdk5obkdSWUNGeFpJdk9WX2c?oc=5"
+        },
+        {
           "date": "2026-10-16",
           "title": "Beam 1.0 Open Weights Foram Lançados e Pontuaram 30 de Forma Independente - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZDZOYVBfVllwTGh5aUl2MnhpMGF0dVZEUVZVdjh6MFhsazh0eFM0MzFwSGo5TEdtWWZWeVNaN1BpTElDZkFfSFo1ajdwMkpyME91cUxXWUJEc1BqaUMxMmRicG9PWS04UU5IX3dQZU9EbU1Sdy1yS3V5SVZoRVJaV2pB?oc=5"
@@ -85,16 +95,6 @@
           "date": "2026-10-13",
           "title": "Kimi K3 vs Claude Fable 5: Vale a pena 3,33x por seis pontos? - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10SmM5RGhNdXl5ODFsYzVpT0VLWFlmNXhOMzZNbExRc3phQ0FjVXBodzlEU0ItX2lhTkhrWVZmSS1sNU5UaGs1eG96MDEwQUZSTGR0TDY0WUx5QkZXRFlqbTNB?oc=5"
-        },
-        {
-          "date": "2026-10-08",
-          "title": "Meta lança modelo de IA e Zuckerberg defende \"open weight\" - CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOREpKMzVNcTRoYW91SzNNVTlraUZoTjdUU254QVVyTF9NUnZkM2x6V1JGUzdDd0ZiUVEyT3Y0YmRKZFlBX3NGV1c0LUdrRXBhdWVCMi1iUWpLZlZDTzZpd0haZWNtaERLRlhGRUFhc3ZZTVR6aTMyQTY2a2lTMGg0aDJxbC1DSkR4MGZ0d204RzZpYnVhY3JLc1g5QU9JY0hYSV9SRWIwZUVpTlFBY0pUTkNjRVAxc1Y4ZWFnSGs2Y1RGd3M?oc=5"
-        },
-        {
-          "date": "2026-09-18",
-          "title": "Kimi K3 da Moonshot AI chega ao Amazon Bedrock com contexto de 1 milhão de tokens - Unite.AI",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGdwT2I4WW1rUmhCZnQxM1R4X2Z4VjNyaDExSVdjajBidjFJQVk0UlhzaFNtX3hqNlFtTXlDMmlUMkJ6T3IyR2JqUExtVlJ5eXhDRmFDUUM3a3ZCNW8wXzNrekJOUUpvNlZzSlkxWFlQZ0J1a3V3Q0c2LVI2MFA4MFh2aDVzaU1lRzNGeWpHWkppTnpuYkp2TQ?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -116,6 +116,11 @@
         "Alibaba Qwen 3.8"
       ],
       "evidence": [
+        {
+          "date": "2026-10-22",
+          "title": "MiniMax M3.1 Flash vs Qwen 3.8 Flash: Dois Designs, Um Preço - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MalcxMlZKbExkUDZfeFQzajUwM3ZMLUNBYU9tM0VLOVdIamNreDQ1SmZEV2Z1NWhWa0ExblIzd2w2ell2NHdBZ3NYaXJjcy10VVI3MzAtWERBbTdpYkwxRExrUlZOWEQwZWtBalF0YWtqT3hWRUtrUEtn?oc=5"
+        },
         {
           "date": "2026-10-20",
           "title": "SKY-001: Modelo de Mundo de Engenharia da Skyfall vs GPT-6 Astra - OrcaRouter",
@@ -160,11 +165,6 @@
           "date": "2026-10-14",
           "title": "StepFun Step 5 Preview: 600B a $1 o Milhão [2026] - shattered.io",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WmFRV2tyYVJNanpPLXJCMDlhbXF3R1p6SUQ5Q0s1Y1ZOOXJOLTNLbjM3WHhkbWtLeGg3NnJseG1Dc0VwaU16SmxGc21CY0QweVVLYzVkbWNoWmhnWVliM1lDbDFaUVJm?oc=5"
-        },
-        {
-          "date": "2026-10-14",
-          "title": "RepGen-4B vs Qwen 3.8: Uma Geração Atrás, de Propósito - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GTGxHQnQ4N3pVOTZjXzFEdlFqMDZEb3JPTEk5VFR5VDQ0a2VBTnhDUVUyamxHaVlSUlBockhtWmxaQXZvdGxVT1ZCV3NaTmZrb3B4LWMtXzdYaDNYcldvUTlsaFRJRkJNWnBZ?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -397,6 +397,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-22",
+          "title": "DeepSeek capta US$ 15 bi em nova rodada e acelera planos de IPO em Xangai - InfoMoney",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNb3pkVW1uY3U2UjhjYXo2RWlGdWo4Y3V3aDZfZzNXMXdLYUYwUlo1WWRXUUVKZzNtWmJVZHQ1c3lZWFY3c2xpbmVKRDc4d0Zma0kzbW5PUEdIc0dNYzIxYXVlanhYTWNzNEYwUTRzWUdrLXhaVDhOZGVIT3FPU1VQM0RtVWQ0VzhneWxFRkZodk0wM1FNdi03cUNrVmFHSjRsUVJsa0JVblhQUWFVVHhGbNIBtgFBVV95cUxOOVdCdXpPbmxfYkYxWUM2aDhZOXgzbHpkbkFHOXYzWWIxSkM0V3o0VkJFLVJ6bjUza0Rfa0xBS3djQXNueWV1SUZiNUkxMzFtWm8ySEc4YXdmWVhvOGpqNldwTV9EQWk0MldXSGw4clBDNmNGMmZ6czBGd3BHNHIzc1FSQWt2c0NpYVBaM1VlU2hvLUFkcDBrSjZHZk9qRTZQSktTZGFBUzZvU2JraFEwTFh1Wkx5dw?oc=5"
+        },
+        {
+          "date": "2026-10-22",
+          "title": "DeepSeek capta US$ 15 bi e prepara IPO em Xangai - ISTOÉ DINHEIRO",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DU1ZSRkJKUHN6a0ktWGRJMm1Ja3ZwODhUdkZuQlg1WUVnUEhZckJteUFhak5LNW1mSWtMRVNkekpfRkc1cmx5d3NjS0RTSlVwaG03UlVTVUxBUGthdXhEQ2RZdEx6ajMzUXViM3hrc0M3dTNBNTk5RlRHdw?oc=5"
+        },
+        {
           "date": "2026-10-17",
           "title": "Jovem prodígio da inteligência artificial, de 17 anos, deixa inesperadamente empresa chinesa. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM3NISE1yaFl6aV8yNFZvM0tjM3B0Tk1BaXYwY3FaNlFIRmE2NGhmVFE4RnZwSVFCejVaQXNiTG05UUhMZklQcExtc3NHRmZxVktkODFLelR3OFhVMGlrUFNBQnV6WmtuaWE1RjFLRE1wbUZpRkZ5Y3VNTmsyTzlxQVplaw?oc=5"
@@ -435,16 +445,6 @@
           "date": "2026-10-06",
           "title": "Moonshot mira IPO e avaliação de US$ 50 bilhões após avanço do Kimi - Traders Union",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZWczd2xKMHlDeldIdXlzaV9wM015Mkdja1VPLUNwdWc0ejJtYjd6SXZIOWdfX280U2p6N0VXX09lQVlNUk9qeVdXSmNJNHlzdjg0UURSYnFUYTcxQ0JPem5STWU1RlNiUExrTGNLWElvSTZTeW9JcFZZNVdRb0Y5THg1ZXlyOEY0VWdsTjVwMA?oc=5"
-        },
-        {
-          "date": "2026-10-06",
-          "title": "DeepSeek e Moonshot avançam em captações bilionárias - SpaceMoney",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS1VWTlJWUEVscUZ3Q1hDOS1CTnhlMGxwY2dUTzdILW9GTXRUbkhoX1J3eDBMdDQ2M053YnAtX0ZOc0ZsYmZoRzJIT1o0M0VpVk0tMktadlBlM2N3b2NxZXRCa1hHN3E4aGFlVndQT1JfeHFCeEVhVjIyOWVrY0NzU3hRQk1OSkxIc0tvYlpqcG92c0JUeUJCZEQ1cFJtUjl1aXIw?oc=5"
-        },
-        {
-          "date": "2026-10-06",
-          "title": "TENDÊNCIAS DE IA | Moonshot mira IPO no início de 2027 após avaliação chegar a US$ 50 bilhões - Binance",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NNWlmTXlGazl2bVU4dGFieDdtMnR0dXY2OXVHaTNTSFVQTUlUb29LNXM0MnJVdmRfTDZ2RnNMcllEazdFWlBCcUF0czBtajY2ck9yTDU2Yk9zOHFJVS0zWV85VzI1N1Bh?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
