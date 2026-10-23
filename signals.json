@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -407,6 +407,16 @@
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DU1ZSRkJKUHN6a0ktWGRJMm1Ja3ZwODhUdkZuQlg1WUVnUEhZckJteUFhak5LNW1mSWtMRVNkekpfRkc1cmx5d3NjS0RTSlVwaG03UlVTVUxBUGthdXhEQ2RZdEx6ajMzUXViM3hrc0M3dTNBNTk5RlRHdw?oc=5"
         },
         {
+          "date": "2026-10-22",
+          "title": "IPO vem aí? DeepSeek capta US$ 15 bilhões em nova rodada de financiamento antes de abrir capital em Xangai - Seu Dinheiro",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVjR4ejM0d3ZqWm1DTHdQWEFhZzVPWW14M21oYjZsMGg1YUExdHJLaDM4QjlMWlRRY3QwN25aMkpnZFQzVUVFMFVYckp6b2RwOFU5VExRUXl0d01ZRGYwUXNyUmp2WUljVmJfQm1FNm9ENVpqb29mWjdLYUpNeGFlLWhRbjlFcXZYT18zWVB5SnRfM0wtOERTM3ZZY0NheFh4UDZJMkk1eHQ1b3VmZWR4ZlZaZnRNZVlvSDNkQmRBNDRyeDRKQnNESFh1MXBLQ1JxRmd5eU54dlRLQQ?oc=5"
+        },
+        {
+          "date": "2026-10-22",
+          "title": "DeepSeek capta US$ 15 bilhões e acelera planos para IPO na Bolsa de Xangai - BPMoney",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNc1A5Q3RVWlViSDNPQkFKT1E5WlNsbF9GNzRVc0VSUWQ1TGVTSDNPNU5sdVg2SzJ4ZS1qZ2FYekd5LWphelVORUdMSmwtWVQ4QkFZM0ExWWd2dm9ma09XSkV1eDBwek51TFlyTi1oMnQ2bmg0Y3RNRUdrMWRCZ25DWWU0bHYxX3dnVGpkUzRYR3NEdzN3a1JIcVRLVzJZVWwzLTlfT3VCY3ozLWNTRTNTVkZVSEp0bUNBNVVkNVR1TFdidw?oc=5"
+        },
+        {
           "date": "2026-10-17",
           "title": "Jovem prodígio da inteligência artificial, de 17 anos, deixa inesperadamente empresa chinesa. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM3NISE1yaFl6aV8yNFZvM0tjM3B0Tk1BaXYwY3FaNlFIRmE2NGhmVFE4RnZwSVFCejVaQXNiTG05UUhMZklQcExtc3NHRmZxVktkODFLelR3OFhVMGlrUFNBQnV6WmtuaWE1RjFLRE1wbUZpRkZ5Y3VNTmsyTzlxQVplaw?oc=5"
@@ -435,16 +445,6 @@
           "date": "2026-10-06",
           "title": "Moonshot mira IPO em Hong Kong no início de 2027 após rodada de US$ 50 bilhões - Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQd0tTRFh6SEdMeEFBYmh2RjZJZk5UQkc5ZkprX3R4TEhvSExsRE5EbXVzcUoxTkEzU2d2X2traFBFR2tsemc1MjJXa2N3WEphX2U3NFM4RnVHNU1ZMlEzM2J6cmZpaGJIOE1vTnlxRDMxZ2hjNlZZWXBtbHJHc085Uk5xbWFTblJuX1FoWlRyNmVuVUpZVE9zOVRaelFMNWxodVpjZzVRS1RpbjRWaUUyUmt1Vnc2cHBMY0ZkVlhhOFFaTVpOZVdqcWtiR1hDWXZGSC03WQ?oc=5"
-        },
-        {
-          "date": "2026-10-06",
-          "title": "Chinesa Moonshot conclui ronda de financiamento antes de entrar na bolsa - Dinheiro Vivo",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSGFUYm9PQnFjSmJuTGNUb3lFWVFPbnNERUEyZkQ5Qm9DbHRXNEJ6NVdqcVY1c2Z6c2htNVgwT3ZfLWo3aFltelRVWDhfNXlrc2VrUUdsakZoR1B1WVJ2ZjhzUmVocnhlS3habFNWTmNhdkJPSjFLMTRWcnlhaDh3dnE1UlJKcmlMdDNmTGhoWWhkYUhIWnA5M0pYTlFhT3UxZDMtMlR2TkxwRFk?oc=5"
-        },
-        {
-          "date": "2026-10-06",
-          "title": "Moonshot mira IPO e avaliação de US$ 50 bilhões após avanço do Kimi - Traders Union",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZWczd2xKMHlDeldIdXlzaV9wM015Mkdja1VPLUNwdWc0ejJtYjd6SXZIOWdfX280U2p6N0VXX09lQVlNUk9qeVdXSmNJNHlzdjg0UURSYnFUYTcxQ0JPem5STWU1RlNiUExrTGNLWElvSTZTeW9JcFZZNVdRb0Y5THg1ZXlyOEY0VWdsTjVwMA?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
