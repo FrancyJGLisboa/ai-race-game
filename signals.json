@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,21 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-24",
+          "title": "Kimi K3.1 Pro: modelo chinês chega ao AI Gateway da Vercel - iMasters",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdFZkcDVJakREX2hVWWlEbE9KUHlhRjBXdHdteXFUUGR5emFxdDV6M1kyTXRtd3kxY0dYcks1X0NzeWZDTHNhOUVEUUR1QVV2dWpBTXRCZXNxVjZUTXd2a2JUQlg0WWNhX3Y2YWRRVXFkWTJRbzM3ODI3QmZVV1FjOVJJU1E3cmFZRW1BSGRHcGgwVnB6YzBtX3Q3RVQ4UFpSWkNXN2x3OVV0SnZMdDd1NXhvVmk?oc=5"
+        },
+        {
+          "date": "2026-10-23",
+          "title": "Kimi K3.1 Pro chega com 1 milhão de tokens e pesos abertos até 4 de novembro - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaHZESVJMRkpJXzhGX1hndzcwWnlEUzBuYVRUNjFyeklmY3BLNWswNEVoOURwdXB2V1RXRm1mNDJkZ09LYzdPZzZJd0ZZdkoydm5kYm1jb3MtZ1dRWnF6ZmdqdGtMX0RVNEVaTlgzckRmUGN0N1ctUF8tUEZUNDExcnZDVng4VVBBMkxCRnB3T2VPZw?oc=5"
+        },
+        {
+          "date": "2026-10-23",
+          "title": "Moonshot AI lança Kimi K3.1 Pro, primeiro modelo da nova série K3.1 - Unite.AI",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMGhQellhanh2b3dnQkpGUXc5VFNnUTgxcjlxUUE2eGxudXJRMFFPdHhlQ1hUN25DcmpiY1M1Sks5NkJ6d1IzRl8wTDF2RExqMjZzb1BlV3R6WFhnZmtKbHVaQldCd1J2aEU3endHQnFfanQ5a2o0OERtVDFULWhvd2JzeHAxSjIyeUMxUWU4QzNrWVZz?oc=5"
+        },
+        {
           "date": "2026-10-22",
           "title": "Muse Wonder vs Kimi K3.1: O nome não é um lançamento - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12UU93cGdvUnAzNFBTMklLYVRJVjJlSzl1R2Y0R2Z6ckczbFVDc3YyWTN5d3ZiOTRja3FwTllKbGxvMFVyQnJyV21yYmxSV0R6YkY3bWphN0R4TG5WQ3hWWS1iSzVLNUhwVkE?oc=5"
@@ -80,21 +95,6 @@
           "date": "2026-10-15",
           "title": "Meta apresenta novo modelo aberto de IA para competir com a China - Folha PE",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQTluLVFaT3k0dE9sclU4U3BfaDNmVXpiMDJqeVdZMk95eUM5NmVQV0ZjU3NIckpDc2dZa2lURkVSZFlsWlBndG1vVmJQY2xmdm1ud1huWGpDeE1RTDlZM3VhdnpCUTFQSW1pMnBJb1pXOGpCNkVUYnFYdG9mUWhFZDE3S04tTkU3alc0MmV4MkxpWnZLSHprXzN1SzNmX3pvc01PbVRyM2g0RXhpNFJRXzdR0gGyAUFVX3lxTE1BOW4tUVpPeTR0T2xyVThTcF9oM2ZVemIwMmp5V1kyT3l5Qzk2ZVBXRmNTc0hySkNzZ1lraVRGRVJkWWxaUGd0bW9WYlBjbGZ2bW53WG5YakN4TVFMOVkzdWF2ekJRMVBJbWkycElvWlc4akI2RVRicVh0b2ZRaEVkMTdLTi1ORTdqVzQyZXgyTGladktIemtfM3VLM2Zfem9zTU9tVHIzaDRFeGk0UlFfN1E?oc=5"
-        },
-        {
-          "date": "2026-10-15",
-          "title": "Microsoft revela MAI-Base-2, um modelo de 2,8 trilhões de parâmetros - Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdEl0bU5lRTY1QTg4dERyd2hZTGJTS292bzhsQ2lSRllqa0cwdnRtamFBMU5qUUVKRFIxUV9rQVFRRDIzZVhKcVozZXFqbjNHTzFXUXZ2R2ZFcF94OUpKc1dvUXpta3Z0VGZ3UWIySEY4eU1PMlMtNEpwYlAtWkRkWHhSV05yUU1iQzYtZ3JEdDVXdGxwdTRQUmgzS1h1cjg?oc=5"
-        },
-        {
-          "date": "2026-10-15",
-          "title": "Meta apresenta novo modelo \"aberto\" de IA para competir com a China - BOL",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcXV4S2pEalQycW9RWXdZalo1ZWxSeGpsd05VZ014ZEgwT0RHWlR1ZmFmbDBWWU5fWmNvYkFCYmZ5R1M3YUlTQ2VVaTVDUHF4aDdqeUZWYjQtY2VCOURRS3ZibzFHSjVjY1VyYVhQai1BVENuN0hmUDdIM1FrdV92b1o4eDdZYTliS2ZxS2pLNmt6NkU0LVBJZUhrc21KN3k4RVFhTVM5VjJVVDJRUEczQXdQcVEyMnfSAbwBQVVfeXFMTkU0R3JROXB4YVAzNkVWMWhfSXdWc3Q4YTRzTk5kSkg1eHNHN3BqWkRPbV9VWlRja3NTaVV4c2Z3OVR4dnoyT2RWeldudnlERXJDbDVuOFdUMGRYOUp5VXIyMkRyR2g3Z0JyTWZWUkZaSG9KWkZUZ0FSMVI0MTJqQWtZS1Z6M0VJS2FRLThXODZBN01ndVl4c19MM3dzTWUyei1iclBCX2dhNTF6bmJTbG5PbG4wRjhNaTVJV18?oc=5"
-        },
-        {
-          "date": "2026-10-13",
-          "title": "Kimi K3 vs Claude Fable 5: Vale a pena 3,33x por seis pontos? - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10SmM5RGhNdXl5ODFsYzVpT0VLWFlmNXhOMzZNbExRc3phQ0FjVXBodzlEU0ItX2lhTkhrWVZmSS1sNU5UaGs1eG96MDEwQUZSTGR0TDY0WUx5QkZXRFlqbTNB?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -137,6 +137,11 @@
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wbmx1aFZhY3BhRTJHSkdYeDUwRG01aUNCcFU1aU5PRXFrOExIaFhSSVR2NWFrcGNLM1pzM2RPeHAweWh2NUlHdTdyMThtZXpRamlDV2c1UnNhb2hpRnFGQTQySmE?oc=5"
         },
         {
+          "date": "2026-10-20",
+          "title": "Voxtral 3 vs Qwen-Audio 3.1: Cobertura, não preço por token - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41YXJva3lvUWgzTDVnVE9pVHIyTFlhaVpKamtodHJ5c0RQOVpZNlFlNlVtekxMbEduSGs4SllQZkEwUjlqQ096d1l4NnNVdkREdVFCQkpwU1pGTWF6N2p0c0VibzluSnpJV0lwTHZR?oc=5"
+        },
+        {
           "date": "2026-10-17",
           "title": "Dory 1.0 4B vs Qwen 3.8: um 4B contra uma linha de três níveis - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16alFfODBtSHQxeVlKd2g5MjBWVGpNb2pCajQ1bUdSVVJQZkxMU0Yzd1haRmoxbUFmZXZTRHZRLXBBMVRFamZFX0J3WWpLRXJsNHdNZHc3MlE0cTRfZjZlODJ1OUdsQ0ZpSml0c09oaDJqalBU?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-10-16",
           "title": "Glimpse vs Qwen 3.8: uma janela de um milhão de tokens vs. um vazio - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE90eVotVW1iOFNKbFBTeXlRZVk4Y0ZYUVJKcmY0X3A0MGRPeTFJRnRTU2VNcUR2WVJ6ajRCYlZySXZ6R2xQZFEybnZaczJWQ0ZKYTdVbW9rQ2wzYUNDbkgtTDA1MA?oc=5"
-        },
-        {
-          "date": "2026-10-14",
-          "title": "StepFun Step 5 Preview: 600B a $1 o Milhão [2026] - shattered.io",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WmFRV2tyYVJNanpPLXJCMDlhbXF3R1p6SUQ5Q0s1Y1ZOOXJOLTNLbjM3WHhkbWtLeGg3NnJseG1Dc0VwaU16SmxGc21CY0QweVVLYzVkbWNoWmhnWVliM1lDbDFaUVJm?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
