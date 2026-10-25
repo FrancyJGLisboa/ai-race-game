@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,9 +47,34 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-25",
+          "title": "Moonshot AI limita capacidades de ciberataques do novo modelo Kimi K3.1 Pro - TugaTech",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObkFpdXhEcndERnBqS19ybC1IU1BWWGZLVU44MUNzSmRnUVY3NE56QTdYdjlWZWp0UXVKZGdWanU2TURkWlp3aFNpd01fbWFIYTFVeDdBemFHOUZ5LVZ2a0FwcWtraWx2VFNTdElIcUVzSUw4TDZXWVl4Z3lMT1FseTVVZFR0c2xyXzZmUTI4THdZRGJNRzE4UWM2VnVxaHFUa3ZOVVY2LTUzUQ?oc=5"
+        },
+        {
+          "date": "2026-10-25",
+          "title": "Kimi K3.1 Pro: Grátis para testar, habilidades de hacking deliberadamente enfraquecidas - Notebookcheck.info",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObWN4MkIzZWFmaEQzWE84VG82NjhJazJMMXdadjJJUUVVSmsxWnZPTm1ONHMwRlBaanJzVGtpeW1KODlkRk1VcGJUa3RvUnhRdnFzU0RfVGZjYXV4dDNhUlF6Zk9HbThUOEFucWlVMVMxVWtIRkxRTE5mMEhLcUFYLU1XOVRjMWNQTVk4NVhoM0I2WFRqa2dfSTQ3cXc3SVRhS3hZbzl5eGtvd05xSDJVcXVUQk56Qzc2SFVPYkV2ck1xQUp0T3F5cU8wTQ?oc=5"
+        },
+        {
+          "date": "2026-10-25",
+          "title": "Kimi K3.1 Pro: Moonshot Limita Ciber, 81,0% vs 90,5% - shattered.io",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DWEd2X2tfeW93M2NMV2pTd0NKYjFYcFVNOVJ3NkhZVG1QUFNDUkFVTEI1TWNVcUsyTk9OYWhwSTd2VDdRVVdDOVpZTm5ZMkdReEJPOGdGQ1JCTmpLMW5FSVpZbGxlZ3B2R3RwZVJDenJzdjItRmNkVy1UQzk?oc=5"
+        },
+        {
           "date": "2026-10-24",
           "title": "Kimi K3.1 Pro: modelo chinês chega ao AI Gateway da Vercel - iMasters",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdFZkcDVJakREX2hVWWlEbE9KUHlhRjBXdHdteXFUUGR5emFxdDV6M1kyTXRtd3kxY0dYcks1X0NzeWZDTHNhOUVEUUR1QVV2dWpBTXRCZXNxVjZUTXd2a2JUQlg0WWNhX3Y2YWRRVXFkWTJRbzM3ODI3QmZVV1FjOVJJU1E3cmFZRW1BSGRHcGgwVnB6YzBtX3Q3RVQ4UFpSWkNXN2x3OVV0SnZMdDd1NXhvVmk?oc=5"
+        },
+        {
+          "date": "2026-10-24",
+          "title": "Moonshot limita capacidades de hacking do Kimi K3.1 Pro - TecheNet",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xLVZYSUlRekxiR1Jfc1NXdW9EaXNyN3RGRTlSaTd0VTZDOHZ6ME1EWDNoTFRINjE3Q3NMdVhjQy1QaTY5djVOWDFnWE9PbXg1Z2dhbmc3LVB0S0kyVFBQVlYxNnZaaHVYb21VT0lYOWx2YWM2RjFLU2J4a044dw?oc=5"
+        },
+        {
+          "date": "2026-10-24",
+          "title": "Moonshot AI vale 50 bilhões de dólares e mira a Bolsa de Hong Kong - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc3ZKUEN6UEgxOFZERE9taEU1ZEg0dERuN0laREhhdUlOX1pwaVlsTjdKeEpveXJveVZBQjc0YTdtSkhaeHdISFdid3djUDJQYkJRbnhEWWlvdEpyZlJLSUJfZkhNX3d0QXJaV3hnRURqOEFvVFBaMXFTSlpNaVZHbU9ReEdHLUx3UFE?oc=5"
         },
         {
           "date": "2026-10-23",
@@ -62,39 +87,14 @@
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMGhQellhanh2b3dnQkpGUXc5VFNnUTgxcjlxUUE2eGxudXJRMFFPdHhlQ1hUN25DcmpiY1M1Sks5NkJ6d1IzRl8wTDF2RExqMjZzb1BlV3R6WFhnZmtKbHVaQldCd1J2aEU3endHQnFfanQ5a2o0OERtVDFULWhvd2JzeHAxSjIyeUMxUWU4QzNrWVZz?oc=5"
         },
         {
-          "date": "2026-10-22",
-          "title": "Muse Wonder vs Kimi K3.1: O nome não é um lançamento - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12UU93cGdvUnAzNFBTMklLYVRJVjJlSzl1R2Y0R2Z6ckczbFVDc3YyWTN5d3ZiOTRja3FwTllKbGxvMFVyQnJyV21yYmxSV0R6YkY3bWphN0R4TG5WQ3hWWS1iSzVLNUhwVkE?oc=5"
+          "date": "2026-10-23",
+          "title": "Kimi Lança o K3.1 Pro, Seu Modelo de Pesos Abertos Mais Capaz Até Agora - news.lavx.hu",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaUxielpQLTd3OXFXYVJyRVdvOWpLSy1FTU5wLVdob3VHQ0t0S0Z5dlNjb1VrWDMwaHRCcEFJS1YybF9xMWVqRVNLN2o3ZmN4NUNCLTJGdG82NTVJZ3Zrd3RDU2dpMVkwaVVmYURBWmZYRUhEcTRBRXJZZTAyUEJRQXFrQTBHV2VfeFYwdlBGRjR4dU12MllTRXl1dkRjV0d3MGZvd2xVaDE?oc=5"
         },
         {
-          "date": "2026-10-19",
-          "title": "Mercury 3 vs Kimi K3: Pesos Abertos ou Aluguel Fechado - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyZENEVGRJSG1XMFRfT1BCSXdHb2FiQkY5R0FhbVQ3RGdzOE12emdlSzhqQm1XNnRkeDltZDZXVUJpdTVHTUtIVVhMZE9ScHZycXdqdk5obkdSWUNGeFpJdk9WX2c?oc=5"
-        },
-        {
-          "date": "2026-10-16",
-          "title": "Beam 1.0 Open Weights Foram Lançados e Pontuaram 30 de Forma Independente - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZDZOYVBfVllwTGh5aUl2MnhpMGF0dVZEUVZVdjh6MFhsazh0eFM0MzFwSGo5TEdtWWZWeVNaN1BpTElDZkFfSFo1ajdwMkpyME91cUxXWUJEc1BqaUMxMmRicG9PWS04UU5IX3dQZU9EbU1Sdy1yS3V5SVZoRVJaV2pB?oc=5"
-        },
-        {
-          "date": "2026-10-16",
-          "title": "China exige licença para grandes modelos de IA; Kimi K3.1 em risco - diariodamidia.com.br",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaDBVX2FlcmEwVWZfbUExdWNCY196SHl1MGZjWFRmeFVST3lVc09ZdHdZekRzMXdzV081cV9sRDdzOGZHNVVwbFlmMUJQLXc0YVQyMHFIQ0t1Y3d1VkRpX2hlWDJZT1M4dE5WaTdpcnJtRFQ4cHppSm9uR3dsSUVBX3d6Q1RBOW5EeTMwcnE2RnRsUjdIN01tcA?oc=5"
-        },
-        {
-          "date": "2026-10-15",
-          "title": "Os melhores modelos open weight de outubro de 2026, comparativo - Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWnVDUjVaYm9UQ3BPVEh1bW05M1BjbldBNUZTZUdORFdQaGVlZEVqN25CRVctbWhBd29kdGtiMEd1WktEOGJUUU42SHk4eUxOdEhsQmVHVzY3MnB2Sy1venJlc0g2OXoxQTVvZUl4NS03N2VqWGRrbkNUU2E2WWFqa3UwajhSOEV1aEVQSTdwcHdqcHhlNWZsVl9PQm1jdw?oc=5"
-        },
-        {
-          "date": "2026-10-15",
-          "title": "Meta lança o Muse Spark Open, 816B de parâmetros e pesos abertos - Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYzBYZloxQ1FwNGJYb2h0X1JpdGVLQkt4dFNEZFJEWHVSZWFzOXA3eW8tZWVVNUhkdlZCNWxKZmNreUotX0FlcWVlV0czekNCTkpVUjJrSXRtZDg1MG5kMlpCTU1wd2QxZWswc2lYSW5nZThaSFR5OEZiUTA5bFJhMDNCTlNIZVo0WE9n?oc=5"
-        },
-        {
-          "date": "2026-10-15",
-          "title": "Meta apresenta novo modelo aberto de IA para competir com a China - Folha PE",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQTluLVFaT3k0dE9sclU4U3BfaDNmVXpiMDJqeVdZMk95eUM5NmVQV0ZjU3NIckpDc2dZa2lURkVSZFlsWlBndG1vVmJQY2xmdm1ud1huWGpDeE1RTDlZM3VhdnpCUTFQSW1pMnBJb1pXOGpCNkVUYnFYdG9mUWhFZDE3S04tTkU3alc0MmV4MkxpWnZLSHprXzN1SzNmX3pvc01PbVRyM2g0RXhpNFJRXzdR0gGyAUFVX3lxTE1BOW4tUVpPeTR0T2xyVThTcF9oM2ZVemIwMmp5V1kyT3l5Qzk2ZVBXRmNTc0hySkNzZ1lraVRGRVJkWWxaUGd0bW9WYlBjbGZ2bW53WG5YakN4TVFMOVkzdWF2ekJRMVBJbWkycElvWlc4akI2RVRicVh0b2ZRaEVkMTdLTi1ORTdqVzQyZXgyTGladktIemtfM3VLM2Zfem9zTU9tVHIzaDRFeGk0UlFfN1E?oc=5"
+          "date": "2026-10-23",
+          "title": "Kimi K3.1 Pro: lançamento por $2/$10 e uma tabela de benchmarks mais exigente - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WaUJlWEVDZU9RM2tYRWJDQkthS2FhX0dRZXlwcXQzdTFOTERXWlRnVzVQYlVFeVlkYXpGNzRLLUMyRWFIUEZ0RTZMdFVqRE5GRkRsSThJOTBuUFp0Zkd0cFRlLUxBUQ?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -397,6 +397,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-24",
+          "title": "Moonshot AI vale 50 bilhões de dólares e mira a Bolsa de Hong Kong - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc3ZKUEN6UEgxOFZERE9taEU1ZEg0dERuN0laREhhdUlOX1pwaVlsTjdKeEpveXJveVZBQjc0YTdtSkhaeHdISFdid3djUDJQYkJRbnhEWWlvdEpyZlJLSUJfZkhNX3d0QXJaV3hnRURqOEFvVFBaMXFTSlpNaVZHbU9ReEdHLUx3UFE?oc=5"
+        },
+        {
           "date": "2026-10-22",
           "title": "DeepSeek capta US$ 15 bi em nova rodada e acelera planos de IPO em Xangai - InfoMoney",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNb3pkVW1uY3U2UjhjYXo2RWlGdWo4Y3V3aDZfZzNXMXdLYUYwUlo1WWRXUUVKZzNtWmJVZHQ1c3lZWFY3c2xpbmVKRDc4d0Zma0kzbW5PUEdIc0dNYzIxYXVlanhYTWNzNEYwUTRzWUdrLXhaVDhOZGVIT3FPU1VQM0RtVWQ0VzhneWxFRkZodk0wM1FNdi03cUNrVmFHSjRsUVJsa0JVblhQUWFVVHhGbNIBtgFBVV95cUxOOVdCdXpPbmxfYkYxWUM2aDhZOXgzbHpkbkFHOXYzWWIxSkM0V3o0VkJFLVJ6bjUza0Rfa0xBS3djQXNueWV1SUZiNUkxMzFtWm8ySEc4YXdmWVhvOGpqNldwTV9EQWk0MldXSGw4clBDNmNGMmZ6czBGd3BHNHIzc1FSQWt2c0NpYVBaM1VlU2hvLUFkcDBrSjZHZk9qRTZQSktTZGFBUzZvU2JraFEwTFh1Wkx5dw?oc=5"
@@ -440,11 +445,6 @@
           "date": "2026-10-06",
           "title": "Hong Kong: Moonshot AI prepara entrada em bolsa após avaliação, DeepSeek reforça capital - Euronews.com",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYjF6UHkwdGNoNExmM3BLdXdDbGNPeGt5d1E0enpZTktXZXppQ3JTZjlpZGZYano2MXlQWTBRYV9fMEo1Z2Q4Uy1tT0M2aXdlS2d0T2YxTXJIVzIzLWd3c1ItMTF0aDRSbEJtVjRWX1VUNlhXYXNHYzY5RlVDTHVxbFZNVFV1WmVmblhlUktCbmFidndsSTRYWENXX1dtRFN2eEtHZm91RV9NSDZm?oc=5"
-        },
-        {
-          "date": "2026-10-06",
-          "title": "Moonshot mira IPO em Hong Kong no início de 2027 após rodada de US$ 50 bilhões - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQd0tTRFh6SEdMeEFBYmh2RjZJZk5UQkc5ZkprX3R4TEhvSExsRE5EbXVzcUoxTkEzU2d2X2traFBFR2tsemc1MjJXa2N3WEphX2U3NFM4RnVHNU1ZMlEzM2J6cmZpaGJIOE1vTnlxRDMxZ2hjNlZZWXBtbHJHc085Uk5xbWFTblJuX1FoWlRyNmVuVUpZVE9zOVRaelFMNWxodVpjZzVRS1RpbjRWaUUyUmt1Vnc2cHBMY0ZkVlhhOFFaTVpOZVdqcWtiR1hDWXZGSC03WQ?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
