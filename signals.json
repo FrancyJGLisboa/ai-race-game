@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-26",
+          "title": "OpenAI e Anthropic cortam preços de LLMs em até 80% à medida que a concorrência de pesos abertos se intensifica - news.lavx.hu",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYVc4NnBPUktRWVBUWlJUZHQyU0FURXJNTTdUSlAyN3d3ck1EUjhTQUh3V3g2c0VyZW5ldGc2NEprSGJIdF9WbXpxTW1DWXJHdENTMW5CV0I4dHVGTkdkV3MwcWNRMktHYWlSalMzOTJKOEF3SEdfbXR4cWd3d0x0SUk3TVM4VTJxUXQweGVtTFhTWG4xSnVzaHRYeXZLOFJEaUJsdi1RZmhYc2RMbmFYWE94WlhIcUhpSjVhUFI0amZhazRFLTJDSXZoZS11TTRGQTc0VHppY1lCcDN0QkE?oc=5"
+        },
+        {
           "date": "2026-10-25",
           "title": "Moonshot AI limita capacidades de ciberataques do novo modelo Kimi K3.1 Pro - TugaTech",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObkFpdXhEcndERnBqS19ybC1IU1BWWGZLVU44MUNzSmRnUVY3NE56QTdYdjlWZWp0UXVKZGdWanU2TURkWlp3aFNpd01fbWFIYTFVeDdBemFHOUZ5LVZ2a0FwcWtraWx2VFNTdElIcUVzSUw4TDZXWVl4Z3lMT1FseTVVZFR0c2xyXzZmUTI4THdZRGJNRzE4UWM2VnVxaHFUa3ZOVVY2LTUzUQ?oc=5"
@@ -62,6 +67,21 @@
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DWEd2X2tfeW93M2NMV2pTd0NKYjFYcFVNOVJ3NkhZVG1QUFNDUkFVTEI1TWNVcUsyTk9OYWhwSTd2VDdRVVdDOVpZTm5ZMkdReEJPOGdGQ1JCTmpLMW5FSVpZbGxlZ3B2R3RwZVJDenJzdjItRmNkVy1UQzk?oc=5"
         },
         {
+          "date": "2026-10-25",
+          "title": "Pesos Abertos do Kimi K3.1 Pro: O que muda em 4 de novembro - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BS3hlLXF4VmZPSU9JWmJPTmVacDROc3pYbTdxZldmME9YMWN4eWxvSVFidnJPN0tXbzV3bWdGdlBRXzdRc3hDVFkyUU13bENhWk9VLTNuTF9OdTUzNnpSRTBVU1dBNnlMWEhtcg?oc=5"
+        },
+        {
+          "date": "2026-10-25",
+          "title": "Colocando o Kimi K3.1 Pro no Kimi Code CLI: Instalação, Login e a Armadilha do Windows - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvaElfeHJ1Ml9ENi05eEgxeDZJM21EZXBsZDlwYmRpQUNEQ1BiNHNYZ0ZLajRlUXhXQ3o1ZnFnQ3lCN0prTlQwc2VTcXUwRkFPc2Z3aHRORDlYMkczamhvTUhlMDgyNk5EVDFoYkt3?oc=5"
+        },
+        {
+          "date": "2026-10-25",
+          "title": "Kimi K3.1 Pro vs Claude Fable 5.1: Um Quinto do Preço, Dois Pontos à Frente no Índice Independente - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VRVFJUV9YVzF4SFYzc2RpLXVUU3QzZkdjS1dLLVRnRUw1YjdvNlBKRzVKWE82R0N3QlpBdm1BWENyVUtGRzljUDZzMVR0b25TYUlsVmNtcENhT3hBYVdGMmF0NGlleVJyREtvSFg5VHBLSnF4SHc?oc=5"
+        },
+        {
           "date": "2026-10-24",
           "title": "Kimi K3.1 Pro: modelo chinês chega ao AI Gateway da Vercel - iMasters",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdFZkcDVJakREX2hVWWlEbE9KUHlhRjBXdHdteXFUUGR5emFxdDV6M1kyTXRtd3kxY0dYcks1X0NzeWZDTHNhOUVEUUR1QVV2dWpBTXRCZXNxVjZUTXd2a2JUQlg0WWNhX3Y2YWRRVXFkWTJRbzM3ODI3QmZVV1FjOVJJU1E3cmFZRW1BSGRHcGgwVnB6YzBtX3Q3RVQ4UFpSWkNXN2x3OVV0SnZMdDd1NXhvVmk?oc=5"
@@ -75,26 +95,6 @@
           "date": "2026-10-24",
           "title": "Moonshot AI vale 50 bilhões de dólares e mira a Bolsa de Hong Kong - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc3ZKUEN6UEgxOFZERE9taEU1ZEg0dERuN0laREhhdUlOX1pwaVlsTjdKeEpveXJveVZBQjc0YTdtSkhaeHdISFdid3djUDJQYkJRbnhEWWlvdEpyZlJLSUJfZkhNX3d0QXJaV3hnRURqOEFvVFBaMXFTSlpNaVZHbU9ReEdHLUx3UFE?oc=5"
-        },
-        {
-          "date": "2026-10-23",
-          "title": "Kimi K3.1 Pro chega com 1 milhão de tokens e pesos abertos até 4 de novembro - Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaHZESVJMRkpJXzhGX1hndzcwWnlEUzBuYVRUNjFyeklmY3BLNWswNEVoOURwdXB2V1RXRm1mNDJkZ09LYzdPZzZJd0ZZdkoydm5kYm1jb3MtZ1dRWnF6ZmdqdGtMX0RVNEVaTlgzckRmUGN0N1ctUF8tUEZUNDExcnZDVng4VVBBMkxCRnB3T2VPZw?oc=5"
-        },
-        {
-          "date": "2026-10-23",
-          "title": "Moonshot AI lança Kimi K3.1 Pro, primeiro modelo da nova série K3.1 - Unite.AI",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMGhQellhanh2b3dnQkpGUXc5VFNnUTgxcjlxUUE2eGxudXJRMFFPdHhlQ1hUN25DcmpiY1M1Sks5NkJ6d1IzRl8wTDF2RExqMjZzb1BlV3R6WFhnZmtKbHVaQldCd1J2aEU3endHQnFfanQ5a2o0OERtVDFULWhvd2JzeHAxSjIyeUMxUWU4QzNrWVZz?oc=5"
-        },
-        {
-          "date": "2026-10-23",
-          "title": "Kimi Lança o K3.1 Pro, Seu Modelo de Pesos Abertos Mais Capaz Até Agora - news.lavx.hu",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaUxielpQLTd3OXFXYVJyRVdvOWpLSy1FTU5wLVdob3VHQ0t0S0Z5dlNjb1VrWDMwaHRCcEFJS1YybF9xMWVqRVNLN2o3ZmN4NUNCLTJGdG82NTVJZ3Zrd3RDU2dpMVkwaVVmYURBWmZYRUhEcTRBRXJZZTAyUEJRQXFrQTBHV2VfeFYwdlBGRjR4dU12MllTRXl1dkRjV0d3MGZvd2xVaDE?oc=5"
-        },
-        {
-          "date": "2026-10-23",
-          "title": "Kimi K3.1 Pro: lançamento por $2/$10 e uma tabela de benchmarks mais exigente - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WaUJlWEVDZU9RM2tYRWJDQkthS2FhX0dRZXlwcXQzdTFOTERXWlRnVzVQYlVFeVlkYXpGNzRLLUMyRWFIUEZ0RTZMdFVqRE5GRkRsSThJOTBuUFp0Zkd0cFRlLUxBUQ?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -187,6 +187,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-25",
+          "title": "Hugging Face bane os primeiros modelos uncensored, Kimi K2.7 Code desaparece - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZGltVnVmVzBrY2RjaTZmZEhZOVAyc3JhdXZQYjUtMEZtYzZrSUxZdjdDdFFibDBmWnFpR3NzNTFzaldrNmdVMDBldVNTaElxOWphaS1PZko0OUJQTWxRTHNoWWN4bkE4WFRqT2FVWFpnSnRndy1kWUFuc3RiTDdYQjNYdFcwM1R1bG1qeHNKdV9Kc25yUW5zRDRB?oc=5"
+        },
+        {
           "date": "2026-10-21",
           "title": "EUA banem Deepseek do governo; China protesta e acusa hipocrisia por bloquear IAs rivais - TecStudio",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSVk1dHBWTnZVV1FyMzczVU1jdGo3elVDaUM2WDBWQnptamg3V0tqU3dsS0dWbktRajZUeVBIenlLdUZWMUVycF9PNTBUVXpxZFY1SXdiZHd4OVJMVmlxV3I2MHg1eE9DNnJVeVgzRnB5aThja1pJRVl1b2Z5SXBCU3V4ZVhuc01GdGREcktrT1Q2SHNlOTNoQks4VjZQSGh6YlgwcVVweGoxWXp3ZnNKNjA5QUNtS2d5b1M1cmVvZWtvNUIxYWtFQVlTTjZGUUVTWkZaWjhvSGg?oc=5"
@@ -230,11 +235,6 @@
           "date": "2026-09-22",
           "title": "Chinesa CXMT inicia produção de chips para rivalizar com a Samsung - TudoCelular.com",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV1owa1NhdTFwNEZFaVRtdlU2cXV0QUZYQTVyc09pRHF4UnZGNFlTbHB4NEFMbmR2YlRQaFdCdGNQMWJlTXYwS2ZwY25DMUt3U1p3Nllhc2dHMGF2bmJvT2k3dDJtN01JVkttek5zZXFaUGdQMWQxbFhnV0JDQnMtanlBTHJZWnRpMzk3NHIxWVFMZTZPY1dQV0gzSllvUktI?oc=5"
-        },
-        {
-          "date": "2026-09-17",
-          "title": "Especialistas de EUA e China propõem para IA ações de segurança semelhantes às do setor nuclear - G1",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcm5mUThHd0pmZHNsaXlOMUtrU1RJYVlsZHZhRmtVcXFIX1lxaWQ1ZjVCV3V6TVM0RUVaYkxSUXJXRDZibTNfckJGbUxWQVFwUlNyYVJ4ZTJaeWNvOGozOFZHaFRyZ0NWeXlXR1EzRndTc1BrbVlpeVhlN1U5bmllNGVGcWhUT0pUNWZhRjF0YTN5NDd4ZTEzanE5cHVDandvNkh1azBITmFRcFMydVZxMk45NUtkM2pKS3hEQ0pRc3YwUEdOX0pMM3VaSEJJOXl1RVgxT3V3ZHV0R2tRVC1vUVI4cEoxMDTSAfYBQVVfeXFMT1NpM3pJZ3E5S0k2cGlIbjhPNThzMU5KWEVZOXR4RmxwSHRMQmpmVUhabl93LVhTUXBBdWhYNXlnTk1xaUtWNEJxa3pBV1VUUFRtYThweUg4eU1kRmNhUThMZHNkSVpaRVJyTHlPRkxqZ2pjZm5MQ0wxMGFad3JIWkZTeVFnN052M3VnaE1FdFpjVFVZOTFaN3pFT19qOWNPSkNmT04wRC1ZNjY3U1hoN1BoX1U5THgxLVVBR2xuNllaWlQtVWpOdFJnRXdRcEMyb25OblREdTRfbVpsdkp6cXhaOW1Gd3hTbDFXc2hLWjFrYWhqaWF3?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
