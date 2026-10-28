@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-27",
+          "title": "LFM3-1.7B-Base vs Qwen3.8: Classe de peso errada, trabalho certo - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1penRHZmpmMWNtZ0JCdU1lMGZqVVc2SnlNLVlNR0xJUUFzOXZ3SVc1R3l3U21PbHZrVXhNR1pscGZNQi1Sc3VOR2V1ZEUybC1KMlo2SlRmNDFCZG1DcEpZR3VqdkozVlpLV3c3WQ?oc=5"
+        },
+        {
           "date": "2026-10-26",
           "title": "Qwen3.8-Flash-Next vs Gemini 3.8 Flash: A Prévia Barata Encontra o Agente Gerenciado - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41LXJId2dpS1NjMDlMQ0dqbXpRdXMtaGsxMWt1VlE1V2wyV1FBUUc3MDFSMEpLc1BfN1pKdDR2ZEo2OHJsSDdFajJwS3RzazRCN2hkeHpVdnUtMXpaekFiS3VldHNBMm16Wl9rbGxZOGtzeUw3eHZxYUsxZWtzZw?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-10-16",
           "title": "Nemotron 3.5 Bolt vs Qwen 3.8 Max: Ambos estes modelos assistem a vídeos - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12aFBTUkRlWDZXQ0VGb3BYXzd2TThpRjMxRXIySXVTWDNUcVNIM2xYUlJ0eW84NnBqb0F6V2ROWmJycDloQmRrT2YtUEUxODlVYVpmTjZOU3hRSENpQklJQi1YR1I1VDJ3LVhnMEEtTWVrcWFSdUE?oc=5"
-        },
-        {
-          "date": "2026-10-16",
-          "title": "Beam 1.0 vs Qwen 3.8: Pesos liberados vs. uma tabela de preços - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TOEQ5WWs1LXB2YlltdTBhVGhLSVZxRDZ3N0tsM3BPWHg2XzVCRmQwQ3UxN1FsLU1uNkxvVWNnSHVZTTgzZVFuNjFYTUNHbVIybXNhRC1JTlBwdWdxczRLaC1iQ2k?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
