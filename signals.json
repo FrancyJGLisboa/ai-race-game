@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -422,6 +422,11 @@
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNc1A5Q3RVWlViSDNPQkFKT1E5WlNsbF9GNzRVc0VSUWQ1TGVTSDNPNU5sdVg2SzJ4ZS1qZ2FYekd5LWphelVORUdMSmwtWVQ4QkFZM0ExWWd2dm9ma09XSkV1eDBwek51TFlyTi1oMnQ2bmg0Y3RNRUdrMWRCZ25DWWU0bHYxX3dnVGpkUzRYR3NEdzN3a1JIcVRLVzJZVWwzLTlfT3VCY3ozLWNTRTNTVkZVSEp0bUNBNVVkNVR1TFdidw?oc=5"
         },
         {
+          "date": "2026-10-22",
+          "title": "DeepSeek capta US$ 15 bi e acelera planos de IPO na Bolsa de Xangai - Bora Investir",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzV2YnphZU1tNDdSWkgtLThCM1JhbExkQnpZMmZsZm9sbE52ejB5X21nQTV0SDRVZHc1SkdEbEdsTFFuSFhzdWNDRjc0YWlYTVZvWi11akdmT2V4SHc0YlhnZ1d1V3JoaGYyci1NakVJTG9TS3Q5Q0NBZ3dlLXNXOURaeTV5UDBvMFdtbS1HYWVDY0ZONTNHcFlxQm5pRjVTeWtGZFVveDVnSVRCUFRtYkxySUFZdw?oc=5"
+        },
+        {
           "date": "2026-10-17",
           "title": "Jovem prodígio da inteligência artificial, de 17 anos, deixa inesperadamente empresa chinesa. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM3NISE1yaFl6aV8yNFZvM0tjM3B0Tk1BaXYwY3FaNlFIRmE2NGhmVFE4RnZwSVFCejVaQXNiTG05UUhMZklQcExtc3NHRmZxVktkODFLelR3OFhVMGlrUFNBQnV6WmtuaWE1RjFLRE1wbUZpRkZ5Y3VNTmsyTzlxQVplaw?oc=5"
@@ -440,11 +445,6 @@
           "date": "2026-10-12",
           "title": "Moonshot enfrenta disputa de acionistas de $700M às vésperas do IPO em Hong Kong - Cryptopolitan",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zSEw4ZjZWb1cyVW5wT3dMOHplMWlDSzVDOTBfUTA2d0JGTEwxeHhTMEpOdk1yTzVhQ2xxX2dLZ01qR2ZSMnRTU2ZpcVdLZm5oWDdGaGNrSUhUWUdaNjFKaUR5dGxsdnNEYzJIZmI0aElzaVVoc25Kd3owRUdNZw?oc=5"
-        },
-        {
-          "date": "2026-10-06",
-          "title": "Hong Kong: Moonshot AI prepara entrada em bolsa após avaliação, DeepSeek reforça capital - Euronews.com",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYjF6UHkwdGNoNExmM3BLdXdDbGNPeGt5d1E0enpZTktXZXppQ3JTZjlpZGZYano2MXlQWTBRYV9fMEo1Z2Q4Uy1tT0M2aXdlS2d0T2YxTXJIVzIzLWd3c1ItMTF0aDRSbEJtVjRWX1VUNlhXYXNHYzY5RlVDTHVxbFZNVFV1WmVmblhlUktCbmFidndsSTRYWENXX1dtRFN2eEtHZm91RV9NSDZm?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
@@ -466,6 +466,11 @@
         "China AI inference capacity"
       ],
       "evidence": [
+        {
+          "date": "2026-10-27",
+          "title": "Compal and ARC Cloud Forge Strategic Partnership to Accelerate Large-Scale AI Infrastructure - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOajRFbDR6Y1B1LW1YVkV3UTh6NEtfam5IQWZLTG9FdnRmYUFUSThQSDNPLWtQNG1ndDVOX3E3cXJaQ3RRek5jZWpFbTFhRXBJYjBrQmhfMFhOV2prXzdqb05sUDYycllrMUlCQ2dTUWNRT0RaV0Vrd3plRllWdnA0SURXMFRvSVZQRWVxX0hzZVhXQjNhb0wzY0d1TkVxbVdqZDdfWXdNMnFJU0xiYjE3ajVJblFIR18xcnFvVHotbWp1YmRJRkZxNUpHSnp5ajdWZTR6WFBmNmh3ajctZGx4aFRMWENsNHM?oc=5"
+        },
         {
           "date": "2026-10-12",
           "title": "Intel CEO Says DeepSeek, Kimi, GLM Are 'Good Enough' – Reportedly Backs Open Source For Efficiency Gains - TradingView",
