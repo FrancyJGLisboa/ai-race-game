@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -466,6 +466,11 @@
         "China AI inference capacity"
       ],
       "evidence": [
+        {
+          "date": "2026-10-28",
+          "title": "Why Is Micron Technology Stock Surging Wednesday? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZm9wS0pxOHFnaG5CYWhKNjduWDBQMmFkMEJkaE13VHlWSEduRWl0U05RVWVSQXREOUkzUlQxMEdRby1JUnYwWDVpdEtGd3FTa19KaXRxck16N0pDbDRJQjVLVThHcTZvbkxTYUFtcHhHdTMtamxCd0ZhWHZ2Ul9IaGtqVkFBSWgyMm96M3NsWWRyakVBVm9hdFF5OHBuY3hxaGNJX0ZFQzV4Zw?oc=5"
+        },
         {
           "date": "2026-10-27",
           "title": "Compal and ARC Cloud Forge Strategic Partnership to Accelerate Large-Scale AI Infrastructure - TradingView",
