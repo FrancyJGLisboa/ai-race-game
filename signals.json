@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,14 +117,29 @@
       ],
       "evidence": [
         {
+          "date": "2026-10-29",
+          "title": "Phonic 1 vs Qwen Audio 3.1: 82,0% vs 79,9% não é empate - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tRHVlSFd0V3NFbU9QSVh1R3p1VWd2WTBMNHJhQmFqQURkMnI4eFNVbUgzRi1IWHZsQ0FOZUJPZW1HMzRqb3NuNkxtOUw1aVZJMTlNNDVqV20wS1phd0VKSkIwMTFmNWFSRjYtbA?oc=5"
+        },
+        {
           "date": "2026-10-27",
           "title": "LFM3-1.7B-Base vs Qwen3.8: Classe de peso errada, trabalho certo - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1penRHZmpmMWNtZ0JCdU1lMGZqVVc2SnlNLVlNR0xJUUFzOXZ3SVc1R3l3U21PbHZrVXhNR1pscGZNQi1Sc3VOR2V1ZEUybC1KMlo2SlRmNDFCZG1DcEpZR3VqdkozVlpLV3c3WQ?oc=5"
         },
         {
+          "date": "2026-10-27",
+          "title": "ZwZ2-27B vs Qwen3.8-27B: Mesmo esqueleto, duas apostas muito diferentes - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CMnJTRS1SMTZ6eHNQNF9Pb1ZGT0s0YzVMcVh1MGFsSHlGd2dNeHF2UFVUaTE1NHdmWUVpWkNmejlIOHhIQzlfQnBNR0lPWHE4NFQxS3VrZ0FRd3MteTV4Rm91el95cEZlQ0E?oc=5"
+        },
+        {
           "date": "2026-10-26",
           "title": "Qwen3.8-Flash-Next vs Gemini 3.8 Flash: A Prévia Barata Encontra o Agente Gerenciado - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41LXJId2dpS1NjMDlMQ0dqbXpRdXMtaGsxMWt1VlE1V2wyV1FBUUc3MDFSMEpLc1BfN1pKdDR2ZEo2OHJsSDdFajJwS3RzazRCN2hkeHpVdnUtMXpaekFiS3VldHNBMm16Wl9rbGxZOGtzeUw3eHZxYUsxZWtzZw?oc=5"
+        },
+        {
+          "date": "2026-10-26",
+          "title": "Kimi K3.1 Pro vs Qwen 4 Max: Apenas Um Deles Tem uma Tabela de Preços - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84S1I5WWlKUU5pdGdIY0lVLVU5TmtpZXpYSWJRdnNvNEdDczlZUVVXM2IxcTkwckJ0bGRqaFFScnBlODhWa2J2SllZZU5rcllfcHJhXy03SjZIbXh0Y09qcE9YaW9PcV9KbUQzZ1J3?oc=5"
         },
         {
           "date": "2026-10-22",
@@ -150,21 +165,6 @@
           "date": "2026-10-20",
           "title": "Voxtral 3 vs Qwen-Audio 3.1: Cobertura, não preço por token - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41YXJva3lvUWgzTDVnVE9pVHIyTFlhaVpKamtodHJ5c0RQOVpZNlFlNlVtekxMbEduSGs4SllQZkEwUjlqQ096d1l4NnNVdkREdVFCQkpwU1pGTWF6N2p0c0VibzluSnpJV0lwTHZR?oc=5"
-        },
-        {
-          "date": "2026-10-17",
-          "title": "Dory 1.0 4B vs Qwen 3.8: um 4B contra uma linha de três níveis - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16alFfODBtSHQxeVlKd2g5MjBWVGpNb2pCajQ1bUdSVVJQZkxMU0Yzd1haRmoxbUFmZXZTRHZRLXBBMVRFamZFX0J3WWpLRXJsNHdNZHc3MlE0cTRfZjZlODJ1OUdsQ0ZpSml0c09oaDJqalBU?oc=5"
-        },
-        {
-          "date": "2026-10-16",
-          "title": "Muse Spark vs Qwen 4 Max: um lado não tem endpoint - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKYzZxZE5qREhEYllrRmhRRG9rMjF0UlF2cTEweUU0YllLZjJQYjBHaFl4Z2F6ejFRSHIyLURJdXFISlVEUTAtTk5sU1A1UmdIcjRYZUd5alU3cHROekVET3gtMk5wQUF0Vmc?oc=5"
-        },
-        {
-          "date": "2026-10-16",
-          "title": "Nemotron 3.5 Bolt vs Qwen 3.8 Max: Ambos estes modelos assistem a vídeos - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12aFBTUkRlWDZXQ0VGb3BYXzd2TThpRjMxRXIySXVTWDNUcVNIM2xYUlJ0eW84NnBqb0F6V2ROWmJycDloQmRrT2YtUEUxODlVYVpmTjZOU3hRSENpQklJQi1YR1I1VDJ3LVhnMEEtTWVrcWFSdUE?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -186,6 +186,11 @@
         "banimento modelos IA chineses"
       ],
       "evidence": [
+        {
+          "date": "2026-10-29",
+          "title": "Primeiro filme feito 100% em IA generativa da China fracassa nas bilheterias - Omelete",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObUFGcDJvVVFKX0Zfc2FHZ1FaLXdoY1A4M003Wmd0dFlVVzJDVExWTVlvVGppeG4zZC1WSVVEVFVHeEx0UEJ5UnpuclR2RlExSWx4YTBuNGN2Zk1QUzRHQ05uTGhHSEo4UzRELWx4MzMyQzVpLVpTUmJQYl9UNU9vNkJTV0tldU14N1Nhbk5ObTlfdVN0dmFHN0hKOVpNdkw1eVREMHc5cWV3Xy0taFE?oc=5"
+        },
         {
           "date": "2026-10-25",
           "title": "Hugging Face bane os primeiros modelos uncensored, Kimi K2.7 Code desaparece - Pasquale Pillitteri",
@@ -230,11 +235,6 @@
           "date": "2026-09-25",
           "title": "‘Trump Wins Xi, Loses GOP!’: Massive Revolt Amid U.S.-China Summit; Cornyn Drops Midterms Bomb - The Times of India",
           "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOTlU5LUtZOXVzampwQm0wa0l6TDhyTWMxazNkWHUwdFktWmtOUDB5UGRTZE5JREJyY2NsNWY4SWhxVmJXemRwRmJkdkI5MElfWDRLdUZCaTY2NnVPc0tTdkdFa0EyaWVQeGlrMzRGMjZYQXVrSUhWMVE2V3hEbDdiTFVtSlBnUnc0aWV5ZlptSkdkeWNmVU5RZENaNTlvci1pSDMwMVRoSXdpMkM3Y2FfUDhPUVpSSUpkR0dxeXVrd0phVkt2VWhCdHk4NGloalNseVRsR19fWUF5MExpSW5pOFhXcHVhaTNqeUlEYWdUd19nR005WjU1dEE2MlnSAYICQVVfeXFMTVVNRkg0Tmp3V055VnBrSjRKU3E1aVM2dTM4NHhUMjRNRUFGODc3ZTFrNE9iUGIzRTJFczY3Nm1jUDdDaml0eTl3YTBvaGpVNU45Qm5iRFItWmtmV054RUczMXl0UU5VUnFtem9XdFRyY29zamtteDhxdVFVRHRQTTdqNHhObk81MU5kaGpJTXR3SHZBMXRLTUNxbzJLaXlpSG02elZGbzRacW9xcnZkSWxEQXpodW9KWkJFRklEaFdBX09YWHQ1RV9QMzFGUVREbUhFd1pXSjEzT0ViT3dUWWNWdl9ic2Mxc1cyR0Z5Wi1uZ3BQSmFmZHlGTDdVYldsRWdB?oc=5"
-        },
-        {
-          "date": "2026-09-22",
-          "title": "Chinesa CXMT inicia produção de chips para rivalizar com a Samsung - TudoCelular.com",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV1owa1NhdTFwNEZFaVRtdlU2cXV0QUZYQTVyc09pRHF4UnZGNFlTbHB4NEFMbmR2YlRQaFdCdGNQMWJlTXYwS2ZwY25DMUt3U1p3Nllhc2dHMGF2bmJvT2k3dDJtN01JVkttek5zZXFaUGdQMWQxbFhnV0JDQnMtanlBTHJZWnRpMzk3NHIxWVFMZTZPY1dQV0gzSllvUktI?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
@@ -475,6 +475,11 @@
           "date": "2026-10-27",
           "title": "Compal and ARC Cloud Forge Strategic Partnership to Accelerate Large-Scale AI Infrastructure - TradingView",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOajRFbDR6Y1B1LW1YVkV3UTh6NEtfam5IQWZLTG9FdnRmYUFUSThQSDNPLWtQNG1ndDVOX3E3cXJaQ3RRek5jZWpFbTFhRXBJYjBrQmhfMFhOV2prXzdqb05sUDYycllrMUlCQ2dTUWNRT0RaV0Vrd3plRllWdnA0SURXMFRvSVZQRWVxX0hzZVhXQjNhb0wzY0d1TkVxbVdqZDdfWXdNMnFJU0xiYjE3ajVJblFIR18xcnFvVHotbWp1YmRJRkZxNUpHSnp5ajdWZTR6WFBmNmh3ajctZGx4aFRMWENsNHM?oc=5"
+        },
+        {
+          "date": "2026-10-27",
+          "title": "ARC Cloud and Compal Forge Strategic Partnership to Accelerate Large-Scale AI Infrastructure - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbk5oc3dMS2dfQ2tYdG1XbXhOeHNXUnM5WjIwVzRxcVlZTkpZTkE4LUlIM2RCOTQ1N1o4QTAzTU5xR2dFb3Q1LTlRRFhldE54R011SXd6dnJxREYzeGt2Y0RXN1d5S2xDdjBqMnVLd1Y2RWhpZWgyVjI4Z1VyTkQ4ZXFsN3FXMVNGNzVQenp6M1pRay1mUUVBS1JucXVXSmxGT2pxenA1Q0Y0QUd5eE5iU21OQUpJNXFuR1BYNWVMYWZVTTlmOF9qS0xQblN2UFFFVWUyaEFVZGxDcUZDOXVyMi1GOVY3ZUk?oc=5"
         },
         {
           "date": "2026-10-12",
