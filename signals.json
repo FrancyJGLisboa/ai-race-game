@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-03",
+          "title": "Segurança do código gerado por IA no teste Veracode - NeoTeo",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRXlKVlRaS3pTYm5iY3lvYUx2Q0JUeVJrY1hJVjVKZzV1ZzFGTWpaNFNxcHBDMkhGbEo2NWY2YUk5bndtNXd4NGg2d0VnNnFhdGJWTlRLbDFjTVlZYlhTNU8tYm5zVDMyeWdCYlBwVnVtdEtzQVVUTXFWS0FYWElBemNLenhvN1h2ck1LdVBDS19WeFU?oc=5"
+        },
+        {
           "date": "2026-11-02",
           "title": "Chega o Memdoor, cinco Qwen3.8-27B empatam com o Fable 5 no LiveCodeBench Hard - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUGgwSVE1U1dKR3dTOEtoUHFNLTRrZkRpUUd0MlhDQVU3S19KSS1sQklWdFhBYVdXX05DdUJHaXFsa3QyU0dHRjdfRzRGc0x1Ukp1NFQ0cFBsaDZxTWsxc2gzR292WlpEZGZfMnpKZ1lVeEFISWpWbTQtcExETEhXTlJNWFNhRWhmZlU1SzJ4TTg3QUJvR28xTy1GeHBGUQ?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-10-20",
           "title": "Vyb vs Qwen 3.8: A etapa de design cujo orçamento ninguém consegue prever - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iZFhlb1NaNGZPN1pIMkpEc2JpVUY5c21LQWwzZkVtc1ljeFBrU1U4bUVWcEI3R2I3elM2SDI3WkVXanJvODNDQ2xzT3NBR202NU9BaHV2TjlBeGIzOGc?oc=5"
-        },
-        {
-          "date": "2026-10-20",
-          "title": "Fibo 2.0 vs Qwen 3.8: A Fatura, Não o Ranking - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wbmx1aFZhY3BhRTJHSkdYeDUwRG01aUNCcFU1aU5PRXFrOExIaFhSSVR2NWFrcGNLM1pzM2RPeHAweWh2NUlHdTdyMThtZXpRamlDV2c1UnNhb2hpRnFGQTQySmE?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
