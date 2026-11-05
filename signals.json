@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-03",
+  "updated": "2026-11-05",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-05",
+          "title": "ERNIE-5.5-Flash vs Qwen 3.8 Flash: Base vs Produto - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12VEhlWGMybVhxMlRFbS1rZ2pPODhDYkNSeFJRUFgxSnY4ZF9hRDZ5ZFNJakJiTlF4dDhLZEN5QUlHUHJ4WHBjUGNETHMyUDh3bGRNUnBNMHM3UUpTUVlxS241X2pCWS1DWkliRTFEMFRJSkJzOEE?oc=5"
+        },
+        {
           "date": "2026-11-03",
           "title": "Segurança do código gerado por IA no teste Veracode - NeoTeo",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRXlKVlRaS3pTYm5iY3lvYUx2Q0JUeVJrY1hJVjVKZzV1ZzFGTWpaNFNxcHBDMkhGbEo2NWY2YUk5bndtNXd4NGg2d0VnNnFhdGJWTlRLbDFjTVlZYlhTNU8tYm5zVDMyeWdCYlBwVnVtdEtzQVVUTXFWS0FYWElBemNLenhvN1h2ck1LdVBDS19WeFU?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-10-20",
           "title": "SKY-001: Modelo de Mundo de Engenharia da Skyfall vs GPT-6 Astra - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlTjRUdEJSbmsyUmk5WFFZQ1R3LUxkSW4tUVkwLThVUzJrLWd6SGNGb2xUX2xSbXhuX1B6N3FxQ3dtUUhRQXpLWnNhQjBJY1pWRlFjY2xic0VtVVlFMW9NQVQ2R3Q5dnBTby11Tl9mRGhZd1U?oc=5"
-        },
-        {
-          "date": "2026-10-20",
-          "title": "Vyb vs Qwen 3.8: A etapa de design cujo orçamento ninguém consegue prever - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iZFhlb1NaNGZPN1pIMkpEc2JpVUY5c21LQWwzZkVtc1ljeFBrU1U4bUVWcEI3R2I3elM2SDI3WkVXanJvODNDQ2xzT3NBR202NU9BaHV2TjlBeGIzOGc?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -466,6 +466,11 @@
         "China AI inference capacity"
       ],
       "evidence": [
+        {
+          "date": "2026-11-05",
+          "title": "Moonshot AI busca acesso a chips Blackwell da NVIDIA na Europa - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRFVnNkVidjNvbkhwUXpTOFZaUV9rWmRabWlmT1ZHWWF6eXpmT1dtQ3prSmROVFctMjF4Tkd4QW45ZkotYk5IQTNxaFNCZlljTGNPcENGNk5SUXpIQml0SzlmM1ltRTN1SUFCeE1qZzJDaGx5NFRoeGV2X2xWYjZWREtlbE0yRWtGajZNYXp2dnVHNjJQeFZycXFPZFBXc2ppb29oMGVQZHFQbHZZV3BIM1d2R0VnMWhpY3c?oc=5"
+        },
         {
           "date": "2026-10-28",
           "title": "Why Is Micron Technology Stock Surging Wednesday? - TradingView",
