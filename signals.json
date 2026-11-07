@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-07",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-04",
+          "title": "Kimi K3: O Modelo de Open Weights de 2,8B da Moonshot Explicado, Especificações, Preços e Benchmarks - Fello AI",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzU3ZXZXZDbzllZWNMXzVhWW9RR3FSN0ZaQTg5bWtHZk44UGtKUHVmZ3pfYmhwVFZzdWdyZE5uLWZYemZuTWc?oc=5"
+        },
+        {
           "date": "2026-10-26",
           "title": "OpenAI e Anthropic cortam preços de LLMs em até 80% à medida que a concorrência de pesos abertos se intensifica - news.lavx.hu",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYVc4NnBPUktRWVBUWlJUZHQyU0FURXJNTTdUSlAyN3d3ck1EUjhTQUh3V3g2c0VyZW5ldGc2NEprSGJIdF9WbXpxTW1DWXJHdENTMW5CV0I4dHVGTkdkV3MwcWNRMktHYWlSalMzOTJKOEF3SEdfbXR4cWd3d0x0SUk3TVM4VTJxUXQweGVtTFhTWG4xSnVzaHRYeXZLOFJEaUJsdi1RZmhYc2RMbmFYWE94WlhIcUhpSjVhUFI0amZhazRFLTJDSXZoZS11TTRGQTc0VHppY1lCcDN0QkE?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-10-24",
           "title": "Moonshot limita capacidades de hacking do Kimi K3.1 Pro - TecheNet",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xLVZYSUlRekxiR1Jfc1NXdW9EaXNyN3RGRTlSaTd0VTZDOHZ6ME1EWDNoTFRINjE3Q3NMdVhjQy1QaTY5djVOWDFnWE9PbXg1Z2dhbmc3LVB0S0kyVFBQVlYxNnZaaHVYb21VT0lYOWx2YWM2RjFLU2J4a044dw?oc=5"
-        },
-        {
-          "date": "2026-10-24",
-          "title": "Moonshot AI vale 50 bilhões de dólares e mira a Bolsa de Hong Kong - Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc3ZKUEN6UEgxOFZERE9taEU1ZEg0dERuN0laREhhdUlOX1pwaVlsTjdKeEpveXJveVZBQjc0YTdtSkhaeHdISFdid3djUDJQYkJRbnhEWWlvdEpyZlJLSUJfZkhNX3d0QXJaV3hnRURqOEFvVFBaMXFTSlpNaVZHbU9ReEdHLUx3UFE?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -116,6 +116,11 @@
         "Alibaba Qwen 3.8"
       ],
       "evidence": [
+        {
+          "date": "2026-11-06",
+          "title": "Qwen 4 Release Date: What We Know So Far - Fello AI",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9ORFA3Z0MzRkwwRVAtRENDU3BfbTVlZkdqMTVzYkZRNURodlQ2eHJLc045aHF5NVlnaXJhS0MxbE9vQjNJ?oc=5"
+        },
         {
           "date": "2026-11-05",
           "title": "ERNIE-5.5-Flash vs Qwen 3.8 Flash: Base vs Produto - OrcaRouter",
@@ -160,11 +165,6 @@
           "date": "2026-10-22",
           "title": "MiniMax M3.1 Flash vs Qwen 3.8 Flash: Dois Designs, Um Preço - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MalcxMlZKbExkUDZfeFQzajUwM3ZMLUNBYU9tM0VLOVdIamNreDQ1SmZEV2Z1NWhWa0ExblIzd2w2ell2NHdBZ3NYaXJjcy10VVI3MzAtWERBbTdpYkwxRExrUlZOWEQwZWtBalF0YWtqT3hWRUtrUEtn?oc=5"
-        },
-        {
-          "date": "2026-10-20",
-          "title": "SKY-001: Modelo de Mundo de Engenharia da Skyfall vs GPT-6 Astra - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlTjRUdEJSbmsyUmk5WFFZQ1R3LUxkSW4tUVkwLThVUzJrLWd6SGNGb2xUX2xSbXhuX1B6N3FxQ3dtUUhRQXpLWnNhQjBJY1pWRlFjY2xic0VtVVlFMW9NQVQ2R3Q5dnBTby11Tl9mRGhZd1U?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
