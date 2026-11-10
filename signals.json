@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-10",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -467,6 +467,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-10",
+          "title": "Moonshot AI aluga chips avançados da Nvidia na China, diz Bloomberg - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON2l1aEFaa2xrUVBielVSNGJRbVN0Skhpd2FuZ0FXOUJmMnFqdWlEaENmSUh3SjVwRGRNMXdjc25TZFlJSzRTZDI4UGhZM2ppNTNSWHRiYi12a3NwamhkX1dKclJmbHJKSXpOcVVRNXUwTUx6VE1ZZFRGVkdLR2w0bnlLZ0FVZXI5VGNHUWJsdHBKUVptV3J5UEZta2R2Y3prOFpfWlI5SkNsZmN4aEpVTG5INjQ1a0h2Z2w0bDNUOA?oc=5"
+        },
+        {
           "date": "2026-11-05",
           "title": "Moonshot AI busca acesso a chips Blackwell da NVIDIA na Europa - Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRFVnNkVidjNvbkhwUXpTOFZaUV9rWmRabWlmT1ZHWWF6eXpmT1dtQ3prSmROVFctMjF4Tkd4QW45ZkotYk5IQTNxaFNCZlljTGNPcENGNk5SUXpIQml0SzlmM1ltRTN1SUFCeE1qZzJDaGx5NFRoeGV2X2xWYjZWREtlbE0yRWtGajZNYXp2dnVHNjJQeFZycXFPZFBXc2ppb29oMGVQZHFQbHZZV3BIM1d2R0VnMWhpY3c?oc=5"
@@ -510,11 +515,6 @@
           "date": "2026-07-30",
           "title": "A Moonshot AI é suspeita de treinar a Kimi K3 usando uma GPU Blackwell, cuja exportação é proibida. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS2dSX0FRdFRrbHJQRUZDSTdDN2pycFBaZzllSWNiaFdGMlZPdUp2RUd6XzB4RHBqMklwbVhQcUtqN2lkWDVNeFUwVVBKLXZpUEJ4REtxWHROekZwWng2ZEVaRmF1cDFhWEdkRjJNdThZak5YVFRaRDVXNXR1UFhZSWhsSzVPTDhrRy1fbEFEd2NTUWpmbFM2cUZ1ZzZwQQ?oc=5"
-        },
-        {
-          "date": "2026-07-22",
-          "title": "Casa Branca acusa Moonshot de violar controles de exportação dos EUA com hardware da NVIDIA - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbHlQQkxXRS1vNG52X0hUNDQyMHdyUFltQk1OZW52MVptWHkwbW12M21pOW13d2ZxU3pBdE9VNGlSYlJ0c2tpMm9DcmIzOUZHS1NjSEQ1UXNzSlVUWGVWclg4dV9ZclpkN3kxOVk3LUY5X1J5dG9fOUNOUTBJa3dQMFlDN1FRRzg0SDJXRWxqUXZXTDVOT21MM3NkWHFoZm5QbkxRNWZ1MklWNWhzMzJEelZ0ODh5S0NyMkl5bXJwOHFkNUhJbDZLeFhhdEhlQ2N5dVJVcnJ4dWZKN05RMDYzMQ?oc=5"
         }
       ],
       "title_en": "GPU saturation verified as genuine",
