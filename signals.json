@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-11",
+          "title": "ZoomGain-9B vs Qwen 3.8 8B: O oponente não existe - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uQXlFclBGcW44Y2lpUEEwaDRObi04azNUOW13ZklnZlVtUWhPSGF0cFFDWGtBbmF2M0YxdVpldUdrbEZKOVM3ZXdVTzd4RURxRV85OVVMbi1wLXJsanFzMERiR0prbkZq?oc=5"
+        },
+        {
+          "date": "2026-11-10",
+          "title": "ERNIE Light DT 1.0 vs Qwen 3.8 Flash: Mais caro, somente texto - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB5WFNKWWx2Szl5WGQzbGdpTUdYbkNhb3BabTNuRmxmR21GNmozc2JtaUxubV9sTjBpNWNPN19LNzZ4aVU5UkVuS3VKa2c0ZkF6MExCdmdWQTFZeUxlazFtSjlpWlhkRThnOTM2NmlFSlAtT0F1M2M4U3RR?oc=5"
+        },
+        {
           "date": "2026-11-06",
           "title": "Qwen 4 Release Date: What We Know So Far - Fello AI",
           "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9ORFA3Z0MzRkwwRVAtRENDU3BfbTVlZkdqMTVzYkZRNURodlQ2eHJLc045aHF5NVlnaXJhS0MxbE9vQjNJ?oc=5"
@@ -155,16 +165,6 @@
           "date": "2026-10-26",
           "title": "Qwen3.8-Flash-Next vs Gemini 3.8 Flash: A Prévia Barata Encontra o Agente Gerenciado - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41LXJId2dpS1NjMDlMQ0dqbXpRdXMtaGsxMWt1VlE1V2wyV1FBUUc3MDFSMEpLc1BfN1pKdDR2ZEo2OHJsSDdFajJwS3RzazRCN2hkeHpVdnUtMXpaekFiS3VldHNBMm16Wl9rbGxZOGtzeUw3eHZxYUsxZWtzZw?oc=5"
-        },
-        {
-          "date": "2026-10-26",
-          "title": "Kimi K3.1 Pro vs Qwen 4 Max: Apenas Um Deles Tem uma Tabela de Preços - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84S1I5WWlKUU5pdGdIY0lVLVU5TmtpZXpYSWJRdnNvNEdDczlZUVVXM2IxcTkwckJ0bGRqaFFScnBlODhWa2J2SllZZU5rcllfcHJhXy03SjZIbXh0Y09qcE9YaW9PcV9KbUQzZ1J3?oc=5"
-        },
-        {
-          "date": "2026-10-22",
-          "title": "MiniMax M3.1 Flash vs Qwen 3.8 Flash: Dois Designs, Um Preço - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MalcxMlZKbExkUDZfeFQzajUwM3ZMLUNBYU9tM0VLOVdIamNreDQ1SmZEV2Z1NWhWa0ExblIzd2w2ell2NHdBZ3NYaXJjcy10VVI3MzAtWERBbTdpYkwxRExrUlZOWEQwZWtBalF0YWtqT3hWRUtrUEtn?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
