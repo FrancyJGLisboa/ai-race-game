@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-13",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-13",
+          "title": "Tell 1 vs Qwen 3.8: 72 ms contra Melhor Chamada de Ferramentas - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5INEV4Vi1TalktU2RWc3NiaVFPRmp2SjlXQlF6eGJrbFZIQUV1U0t0aG95NkNLNGpONTNIUEZqWXdUZXNRUXY5ek95NlJhNHRLa1JWbHNfa01GN1pwVlltVkZR?oc=5"
+        },
+        {
           "date": "2026-11-11",
           "title": "ZoomGain-9B vs Qwen 3.8 8B: O oponente não existe - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uQXlFclBGcW44Y2lpUEEwaDRObi04azNUOW13ZklnZlVtUWhPSGF0cFFDWGtBbmF2M0YxdVpldUdrbEZKOVM3ZXdVTzd4RURxRV85OVVMbi1wLXJsanFzMERiR0prbkZq?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-10-27",
           "title": "ZwZ2-27B vs Qwen3.8-27B: Mesmo esqueleto, duas apostas muito diferentes - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CMnJTRS1SMTZ6eHNQNF9Pb1ZGT0s0YzVMcVh1MGFsSHlGd2dNeHF2UFVUaTE1NHdmWUVpWkNmejlIOHhIQzlfQnBNR0lPWHE4NFQxS3VrZ0FRd3MteTV4Rm91el95cEZlQ0E?oc=5"
-        },
-        {
-          "date": "2026-10-26",
-          "title": "Qwen3.8-Flash-Next vs Gemini 3.8 Flash: A Prévia Barata Encontra o Agente Gerenciado - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41LXJId2dpS1NjMDlMQ0dqbXpRdXMtaGsxMWt1VlE1V2wyV1FBUUc3MDFSMEpLc1BfN1pKdDR2ZEo2OHJsSDdFajJwS3RzazRCN2hkeHpVdnUtMXpaekFiS3VldHNBMm16Wl9rbGxZOGtzeUw3eHZxYUsxZWtzZw?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
