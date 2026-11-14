@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -187,6 +187,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-11",
+          "title": "A Microsoft se opõe a uma possível proibição da FCC aos transceptores ópticos chineses para data centers de IA - news.lavx.hu",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYmdRZV9TSWR3VHpqMU5RemlROXVtOC14alE2YnhzOHN3WTBseTFvWkhnX1BFRFhISV9ad0MwOFpDaVdJYmxpcEI2aXpVRjNZZERoRlhrSXRPUmU5X3k5a0UzcUJCN2Vqd0JINzhnU3Fpb1lwcmVKUXg4clR0SWxGWUd4UzJ1SXp4Nm9fLTkyS1ZVVWtKOWtLZ0RJQUIwcTBmVEZWQkJTU0hraXVZbFUzb3dmN0NKZFJnOXFnOThzR2VOM3E3RVBqekV1TnBRZ2ljbTYtUXZjdXk4Y2l4RkE?oc=5"
+        },
+        {
           "date": "2026-10-29",
           "title": "Primeiro filme feito 100% em IA generativa da China fracassa nas bilheterias - Omelete",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObUFGcDJvVVFKX0Zfc2FHZ1FaLXdoY1A4M003Wmd0dFlVVzJDVExWTVlvVGppeG4zZC1WSVVEVFVHeEx0UEJ5UnpuclR2RlExSWx4YTBuNGN2Zk1QUzRHQ05uTGhHSEo4UzRELWx4MzMyQzVpLVpTUmJQYl9UNU9vNkJTV0tldU14N1Nhbk5ObTlfdVN0dmFHN0hKOVpNdkw1eVREMHc5cWV3Xy0taFE?oc=5"
@@ -230,11 +235,6 @@
           "date": "2026-09-28",
           "title": "【TMGM Financial Recap】The Chinese And US Leaders Reach An Eight-Point Consensus, Leading To China-US Easing, But Hong Kong-Listed Chinese Concept Stocks Have Instead Declined - tmgm.com",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MY0FNRnozWC1wZ3VVTXBpYTNtX2Nvc1FOblN6Qk9IQU1TV09GRmFWcUUzUnZ4TTdPV3p3OG85dldpdDNHT0ZwVHVDSnpuTUhva2R2eFhKUTBjS0lKQjF1UWJNNDgzci1Na3lWdmVVcWROSHB1N0o4el9oRWc?oc=5"
-        },
-        {
-          "date": "2026-09-25",
-          "title": "‘Trump Wins Xi, Loses GOP!’: Massive Revolt Amid U.S.-China Summit; Cornyn Drops Midterms Bomb - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOTlU5LUtZOXVzampwQm0wa0l6TDhyTWMxazNkWHUwdFktWmtOUDB5UGRTZE5JREJyY2NsNWY4SWhxVmJXemRwRmJkdkI5MElfWDRLdUZCaTY2NnVPc0tTdkdFa0EyaWVQeGlrMzRGMjZYQXVrSUhWMVE2V3hEbDdiTFVtSlBnUnc0aWV5ZlptSkdkeWNmVU5RZENaNTlvci1pSDMwMVRoSXdpMkM3Y2FfUDhPUVpSSUpkR0dxeXVrd0phVkt2VWhCdHk4NGloalNseVRsR19fWUF5MExpSW5pOFhXcHVhaTNqeUlEYWdUd19nR005WjU1dEE2MlnSAYICQVVfeXFMTVVNRkg0Tmp3V055VnBrSjRKU3E1aVM2dTM4NHhUMjRNRUFGODc3ZTFrNE9iUGIzRTJFczY3Nm1jUDdDaml0eTl3YTBvaGpVNU45Qm5iRFItWmtmV054RUczMXl0UU5VUnFtem9XdFRyY29zamtteDhxdVFVRHRQTTdqNHhObk81MU5kaGpJTXR3SHZBMXRLTUNxbzJLaXlpSG02elZGbzRacW9xcnZkSWxEQXpodW9KWkJFRklEaFdBX09YWHQ1RV9QMzFGUVREbUhFd1pXSjEzT0ViT3dUWWNWdl9ic2Mxc1cyR0Z5Wi1uZ3BQSmFmZHlGTDdVYldsRWdB?oc=5"
         }
       ],
       "title_en": "US ban text actually published (not just signaling)",
