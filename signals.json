@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-16",
+          "title": "Sage-S2.1-Flash vs Qwen 3.8 Flash: 645 GB contra $0,15 - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50eGRWMUU3UGxWTUJndUZIM0U0SWZxQWxWUkQyLVhYeEE0MjM3TWxzVDY1MWdPZU5IQ3gwTWU3bzd2a05rWUJENFNNYTJhU2h3WWxYQVZvZFUzTnNTMWtDdHdhTGdjZ3Y4Wl9FcU5zRnZ2Um9LUlE?oc=5"
+        },
+        {
           "date": "2026-11-13",
           "title": "Tell 1 vs Qwen 3.8: 72 ms contra Melhor Chamada de Ferramentas - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5INEV4Vi1TalktU2RWc3NiaVFPRmp2SjlXQlF6eGJrbFZIQUV1U0t0aG95NkNLNGpONTNIUEZqWXdUZXNRUXY5ek95NlJhNHRLa1JWbHNfa01GN1pwVlltVkZR?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-10-27",
           "title": "LFM3-1.7B-Base vs Qwen3.8: Classe de peso errada, trabalho certo - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1penRHZmpmMWNtZ0JCdU1lMGZqVVc2SnlNLVlNR0xJUUFzOXZ3SVc1R3l3U21PbHZrVXhNR1pscGZNQi1Sc3VOR2V1ZEUybC1KMlo2SlRmNDFCZG1DcEpZR3VqdkozVlpLV3c3WQ?oc=5"
-        },
-        {
-          "date": "2026-10-27",
-          "title": "ZwZ2-27B vs Qwen3.8-27B: Mesmo esqueleto, duas apostas muito diferentes - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CMnJTRS1SMTZ6eHNQNF9Pb1ZGT0s0YzVMcVh1MGFsSHlGd2dNeHF2UFVUaTE1NHdmWUVpWkNmejlIOHhIQzlfQnBNR0lPWHE4NFQxS3VrZ0FRd3MteTV4Rm91el95cEZlQ0E?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
