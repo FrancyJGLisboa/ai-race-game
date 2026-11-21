@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -117,6 +117,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-20",
+          "title": "Inkling 2 Mini vs Qwen 3.8: a categoria que compete - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wTWJWZnJqWG5nOHVWN1JsTE1IdXVDc3JxTUV3OVc4Q1Z4WFkyVkE0Q09YUVMtRkhYbml0ZUh3dU9JemdVdWFyUXpjUTB4ZEV3YTN5Q0oyQmdBWUU0Z2x3Z3cwOTJoSlZwNXJfWA?oc=5"
+        },
+        {
           "date": "2026-11-16",
           "title": "Sage-S2.1-Flash vs Qwen 3.8 Flash: 645 GB contra $0,15 - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50eGRWMUU3UGxWTUJndUZIM0U0SWZxQWxWUkQyLVhYeEE0MjM3TWxzVDY1MWdPZU5IQ3gwTWU3bzd2a05rWUJENFNNYTJhU2h3WWxYQVZvZFUzTnNTMWtDdHdhTGdjZ3Y4Wl9FcU5zRnZ2Um9LUlE?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-10-29",
           "title": "Phonic 1 vs Qwen Audio 3.1: 82,0% vs 79,9% não é empate - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tRHVlSFd0V3NFbU9QSVh1R3p1VWd2WTBMNHJhQmFqQURkMnI4eFNVbUgzRi1IWHZsQ0FOZUJPZW1HMzRqb3NuNkxtOUw1aVZJMTlNNDVqV20wS1phd0VKSkIwMTFmNWFSRjYtbA?oc=5"
-        },
-        {
-          "date": "2026-10-27",
-          "title": "LFM3-1.7B-Base vs Qwen3.8: Classe de peso errada, trabalho certo - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1penRHZmpmMWNtZ0JCdU1lMGZqVVc2SnlNLVlNR0xJUUFzOXZ3SVc1R3l3U21PbHZrVXhNR1pscGZNQi1Sc3VOR2V1ZEUybC1KMlo2SlRmNDFCZG1DcEpZR3VqdkozVlpLV3c3WQ?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
