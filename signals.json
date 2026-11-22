@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -52,6 +52,11 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82ZXBoQUQ0VDNoMlJOeEYwWG1ZMjRLZDJDUWVadGxPOUlWLVQxaHVYdlpUZzRJQ3k4STRuODdqWmc0Sm5WdEFQTmNKd2hEQjAteVNhSHZsRUdtRWU1SXkwZ25FYS1XeHpOc0E?oc=5"
         },
         {
+          "date": "2026-11-16",
+          "title": "Cada vez mais empresas americanas estão usando modelos de IA como Kimi K3: EUA estão longe de estar satisfeitos - Terra",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNa3BQRkVXR095QnNSaHNJWFEtdVE3TUItSmxUbjRCT2hrZ2h4SWthNno0dExmNVloSDU2QjhlV2ZXeUJsS0RzTTNhZ1Ntb3RuY1hiLVcwdVNXdnhJd3NKYjRfd09mZHJ5QlFfUU40aGRoVHN2WUhRTnZFcVV2dW5SMjVndEJHbUloTHhqY251Nkd0bW5aVG1zTUVSZXA5RWxKb0VLQ3JlU1p1VGRnZHJoLWRFVWRxRXowM1hDWi15NEFqZmFHaFlJSlRRR0ZjZlNwM2IxLVp6RE0xRnBwWXZLZWk3YnFKclFuLVJjYUVwWGR6RGllakxvY3dLZHp5T1p3RlN1UmlEdDZEb1JUUHd5aW45ZXA?oc=5"
+        },
+        {
           "date": "2026-11-04",
           "title": "Kimi K3: O Modelo de Open Weights de 2,8B da Moonshot Explicado, Especificações, Preços e Benchmarks - Fello AI",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzU3ZXZXZDbzllZWNMXzVhWW9RR3FSN0ZaQTg5bWtHZk44UGtKUHVmZ3pfYmhwVFZzdWdyZE5uLWZYemZuTWc?oc=5"
@@ -90,11 +95,6 @@
           "date": "2026-10-25",
           "title": "Kimi K3.1 Pro vs Claude Fable 5.1: Um Quinto do Preço, Dois Pontos à Frente no Índice Independente - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VRVFJUV9YVzF4SFYzc2RpLXVUU3QzZkdjS1dLLVRnRUw1YjdvNlBKRzVKWE82R0N3QlpBdm1BWENyVUtGRzljUDZzMVR0b25TYUlsVmNtcENhT3hBYVdGMmF0NGlleVJyREtvSFg5VHBLSnF4SHc?oc=5"
-        },
-        {
-          "date": "2026-10-24",
-          "title": "Kimi K3.1 Pro: modelo chinês chega ao AI Gateway da Vercel - iMasters",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdFZkcDVJakREX2hVWWlEbE9KUHlhRjBXdHdteXFUUGR5emFxdDV6M1kyTXRtd3kxY0dYcks1X0NzeWZDTHNhOUVEUUR1QVV2dWpBTXRCZXNxVjZUTXd2a2JUQlg0WWNhX3Y2YWRRVXFkWTJRbzM3ODI3QmZVV1FjOVJJU1E3cmFZRW1BSGRHcGgwVnB6YzBtX3Q3RVQ4UFpSWkNXN2x3OVV0SnZMdDd1NXhvVmk?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -120,6 +120,11 @@
           "date": "2026-11-20",
           "title": "Inkling 2 Mini vs Qwen 3.8: a categoria que compete - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wTWJWZnJqWG5nOHVWN1JsTE1IdXVDc3JxTUV3OVc4Q1Z4WFkyVkE0Q09YUVMtRkhYbml0ZUh3dU9JemdVdWFyUXpjUTB4ZEV3YTN5Q0oyQmdBWUU0Z2x3Z3cwOTJoSlZwNXJfWA?oc=5"
+        },
+        {
+          "date": "2026-11-18",
+          "title": "Aion-1.0-Instruct-2.3B vs Qwen 3.8: Um componente do Windows encontra um cavalo de batalha de 27B - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PNnNRTGN6SlVWT1p5T3Y1aXJDeE9CQ2FZSm5Nem45OTZzcVRWblBFblAwVXkzb3NzTU1vOGlRTkltQTNqcVEtXzJqY3RNdTFBMk1mamZ1RUc2Ni1UVk9KdjI0TU9QVDNGUTZobTdGRkxfY3dDV3Jv?oc=5"
         },
         {
           "date": "2026-11-16",
@@ -160,11 +165,6 @@
           "date": "2026-11-02",
           "title": "Chega o Memdoor, cinco Qwen3.8-27B empatam com o Fable 5 no LiveCodeBench Hard - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUGgwSVE1U1dKR3dTOEtoUHFNLTRrZkRpUUd0MlhDQVU3S19KSS1sQklWdFhBYVdXX05DdUJHaXFsa3QyU0dHRjdfRzRGc0x1Ukp1NFQ0cFBsaDZxTWsxc2gzR292WlpEZGZfMnpKZ1lVeEFISWpWbTQtcExETEhXTlJNWFNhRWhmZlU1SzJ4TTg3QUJvR28xTy1GeHBGUQ?oc=5"
-        },
-        {
-          "date": "2026-10-29",
-          "title": "Phonic 1 vs Qwen Audio 3.1: 82,0% vs 79,9% não é empate - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tRHVlSFd0V3NFbU9QSVh1R3p1VWd2WTBMNHJhQmFqQURkMnI4eFNVbUgzRi1IWHZsQ0FOZUJPZW1HMzRqb3NuNkxtOUw1aVZJMTlNNDVqV20wS1phd0VKSkIwMTFmNWFSRjYtbA?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -327,6 +327,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-19",
+          "title": "Xi Jinping confirma apoio à IA de código aberto, mas o discurso é de julho - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVnZfRi1iMG1JbGlWVHdkM0dEMm8zam9TTjFaenlqaGlfYnkweFVRcWF1Z3JyeElMcVpCbU5JWExBNWdibFJpaWNJdllxd01EMTRqT1NIOGZibDNkYlVQY250M01qbnFhUUZKc0xJaTNYNmVzSFBYaFNwN1laMF9fMHpfa0N1OFFWYlM3Y3BHNkk2X3d3U2FqdW9zb1hLNjRJZEw0?oc=5"
+        },
+        {
           "date": "2026-09-17",
           "title": "China avança em governança global para regular IA, afirma NeLi - conjur.com.br",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdWVwMFhoOUlCb0VkQ2NJOHhnVWhWSjBvRXY0TUR0dlM0aUdlbndsN196a1JHNUVwVFZYdURCSW9CY0JGN21XcTNQTkg5Nl84VURPQm5qVnRHZENMdTNzVTNHeHI3d1hTeUV1LTVweldVZ253emhCNVBDNk9hbUZTNTU2MDhJR3p1QzJ6YWh2VmpOcHFMY2J1QjAzX0E?oc=5"
@@ -370,11 +375,6 @@
           "date": "2026-08-01",
           "title": "Brasil Busca Fortalecer Soberania Digital Em IA Com Aliança Chinesa - portalgurupi.com.br",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRU2UyTmNhYXIybEh3TkhXczFSRGJnMmJlRHF1b05wUzRCSEQtWnFJem1DNEQ5bGFEZDgwVnlYdV8yQWc1TURGMTBNT3VPb19uS0NxNXVfeDduY3FsM08wdEJkV3l4NHpmeG9ZSnJvZw?oc=5"
-        },
-        {
-          "date": "2026-08-01",
-          "title": "Brasil vê na Waico oportunidade para fortalecer soberania digital em IA - News Rondônia",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUlppMXNxTUFfRk1BREFXVklaVWgtczZ3eUItS2s3Mm1KZ0VPWVpYdlVhN1ltaWtZRmVLNWV0a2tKREdNSVcza25VSkM0UFVXekVjQnhrWFhVZTZtYWdhYm9Pd2E1QnJxSTViNEdBVExhRndOTld0LUFDZ3RMMkhfY05oOG1hTlhGaS1sRVNjbTNEVDlkX1Y4cmdrX3JLeV9pYlRXY3d3dS1ZNHdva3dDR3paTjJ0QkdHTmM1ZQ?oc=5"
         }
       ],
       "title_en": "WAICO lands concrete adoption commitments",
