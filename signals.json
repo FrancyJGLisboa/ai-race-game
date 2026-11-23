@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,6 +47,16 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-23",
+          "title": "GLM-5.4 vs Kimi K3.1 Pro: Pesos Abertos vs uma Licença Paga - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TSWY0aHdRS2MzQVFVOE5NNnNnczIzUzd6elhUSjVGUkp0aVIxYjJIUTh6SXJpU2FjTlVpVEE0STd6TlR5SW0tRjR3RkpRV3RpTG1IdXhrTkJHRjVZdmczbFM2SERsMzlnOVE?oc=5"
+        },
+        {
+          "date": "2026-11-19",
+          "title": "Melhor IA Grátis para Programação em 2026: DeepSeek V4 Pro, Qwen 3.6 e Kimi K2.6 Testados - Fello AI",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4R3h0bjVYYk1tWGktYzJaX19XM19vUWJYNVBhZGVHbS0yYnc4aWVaWFMxTkRGWDhMckpZc2E4TW13cFFQM01uejhMNEV0eTBycURmaVRITXJfTmlJNkFkZW53T21lczNX?oc=5"
+        },
+        {
           "date": "2026-11-17",
           "title": "Melhores Modelos de IA Open Source em 2026, Classificados e Comparados - Fello AI",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82ZXBoQUQ0VDNoMlJOeEYwWG1ZMjRLZDJDUWVadGxPOUlWLVQxaHVYdlpUZzRJQ3k4STRuODdqWmc0Sm5WdEFQTmNKd2hEQjAteVNhSHZsRUdtRWU1SXkwZ25FYS1XeHpOc0E?oc=5"
@@ -85,16 +95,6 @@
           "date": "2026-10-25",
           "title": "Pesos Abertos do Kimi K3.1 Pro: O que muda em 4 de novembro - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BS3hlLXF4VmZPSU9JWmJPTmVacDROc3pYbTdxZldmME9YMWN4eWxvSVFidnJPN0tXbzV3bWdGdlBRXzdRc3hDVFkyUU13bENhWk9VLTNuTF9OdTUzNnpSRTBVU1dBNnlMWEhtcg?oc=5"
-        },
-        {
-          "date": "2026-10-25",
-          "title": "Colocando o Kimi K3.1 Pro no Kimi Code CLI: Instalação, Login e a Armadilha do Windows - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvaElfeHJ1Ml9ENi05eEgxeDZJM21EZXBsZDlwYmRpQUNEQ1BiNHNYZ0ZLajRlUXhXQ3o1ZnFnQ3lCN0prTlQwc2VTcXUwRkFPc2Z3aHRORDlYMkczamhvTUhlMDgyNk5EVDFoYkt3?oc=5"
-        },
-        {
-          "date": "2026-10-25",
-          "title": "Kimi K3.1 Pro vs Claude Fable 5.1: Um Quinto do Preço, Dois Pontos à Frente no Índice Independente - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VRVFJUV9YVzF4SFYzc2RpLXVUU3QzZkdjS1dLLVRnRUw1YjdvNlBKRzVKWE82R0N3QlpBdm1BWENyVUtGRzljUDZzMVR0b25TYUlsVmNtcENhT3hBYVdGMmF0NGlleVJyREtvSFg5VHBLSnF4SHc?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -116,6 +116,11 @@
         "Alibaba Qwen 3.8"
       ],
       "evidence": [
+        {
+          "date": "2026-11-23",
+          "title": "MiniCPM5-15B-A2.5B vs Qwen 3.8: O que você pode comparar? - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Db3NfZHBsVkl4MjJOdGt4RDM2d1lQZkloVnQ5b3VhZjlwWnlBVk0yVEl1N0lzdjFTMDdhLWtheXpSQXFjTVRMZWJDVnZlRDhoQXg5YXpLNURxMmcyOWY4V3ZYaDdEYVJPU3JBVFdwTE5tdw?oc=5"
+        },
         {
           "date": "2026-11-20",
           "title": "Inkling 2 Mini vs Qwen 3.8: a categoria que compete - OrcaRouter",
@@ -160,11 +165,6 @@
           "date": "2026-11-03",
           "title": "Segurança do código gerado por IA no teste Veracode - NeoTeo",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRXlKVlRaS3pTYm5iY3lvYUx2Q0JUeVJrY1hJVjVKZzV1ZzFGTWpaNFNxcHBDMkhGbEo2NWY2YUk5bndtNXd4NGg2d0VnNnFhdGJWTlRLbDFjTVlZYlhTNU8tYm5zVDMyeWdCYlBwVnVtdEtzQVVUTXFWS0FYWElBemNLenhvN1h2ck1LdVBDS19WeFU?oc=5"
-        },
-        {
-          "date": "2026-11-02",
-          "title": "Chega o Memdoor, cinco Qwen3.8-27B empatam com o Fable 5 no LiveCodeBench Hard - Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUGgwSVE1U1dKR3dTOEtoUHFNLTRrZkRpUUd0MlhDQVU3S19KSS1sQklWdFhBYVdXX05DdUJHaXFsa3QyU0dHRjdfRzRGc0x1Ukp1NFQ0cFBsaDZxTWsxc2gzR292WlpEZGZfMnpKZ1lVeEFISWpWbTQtcExETEhXTlJNWFNhRWhmZlU1SzJ4TTg3QUJvR28xTy1GeHBGUQ?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
