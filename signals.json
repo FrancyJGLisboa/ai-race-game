@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -52,9 +52,24 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TSWY0aHdRS2MzQVFVOE5NNnNnczIzUzd6elhUSjVGUkp0aVIxYjJIUTh6SXJpU2FjTlVpVEE0STd6TlR5SW0tRjR3RkpRV3RpTG1IdXhrTkJHRjVZdmczbFM2SERsMzlnOVE?oc=5"
         },
         {
+          "date": "2026-11-20",
+          "title": "Cursor avalia deixar de usar modelos de pesos abertos desenvolvidos na China - NeoTeo",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcTN6R2J0YUZkNGpxZllLZndzQmZJdjF3VXlRVEFnVlRtRXlRaUNqOEtGZ1FSdHExcEpZZy1pZ1RHUWN2MkhUVk5ud2RiT2s3T3VWMGs0WFRtdWg4VHRBY2JBUVZBUTlxd29GQk9Ub2NUQjRqZmRmeEMwYjI1V25CSjV2QTJ6MWVSZHNRX2Ewd0JScTd2MDBlV0V6S3ZvSVR5TWRhQQ?oc=5"
+        },
+        {
+          "date": "2026-11-20",
+          "title": "Anysphere avalia afastar o Cursor de modelos chineses de pesos abertos - Unite.AI",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaXpkTHM1QWlYWVM1NVRlYlNEdzdHa28tV2xyeVppQmZJcUZCLVUyUGJaakxMRlk0b0VjUk1SdjkzemZpZzBFNHhEVnMwaUh6SHRUV1otbDIweEd3eGhRZE5IcGFDTnZ0LWs5QzhRWEM5Zlc5ZFgzVThOUmtZVW83blpRbU1oUHV0ZWVrUlh3WGJUaVB1ODIw?oc=5"
+        },
+        {
           "date": "2026-11-19",
           "title": "Melhor IA Grátis para Programação em 2026: DeepSeek V4 Pro, Qwen 3.6 e Kimi K2.6 Testados - Fello AI",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4R3h0bjVYYk1tWGktYzJaX19XM19vUWJYNVBhZGVHbS0yYnc4aWVaWFMxTkRGWDhMckpZc2E4TW13cFFQM01uejhMNEV0eTBycURmaVRITXJfTmlJNkFkZW53T21lczNX?oc=5"
+        },
+        {
+          "date": "2026-11-19",
+          "title": "Governo dos EUA avalia a obrigação de declarar o uso de IA chinesa - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc3dBN0lSaGtpX29QS0l1YUtvcXpYUzZLTjMweXJkMG9JWUVVTmk3c0l0aDJXVF92OFNoMF9oTU90VWNBMURJUzh0UElkYVJTcXMyWUxLNVJ3elY3TS0xdEdGMmpuYXFxMzByUVlzc1FmUEtzZXh3MW9OXzZVRGMtdzNXQlRwazRYelQzWVAyNGgxV1NTY3g1c0QxUXlfdFFk?oc=5"
         },
         {
           "date": "2026-11-17",
@@ -80,21 +95,6 @@
           "date": "2026-10-25",
           "title": "Moonshot AI limita capacidades de ciberataques do novo modelo Kimi K3.1 Pro - TugaTech",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObkFpdXhEcndERnBqS19ybC1IU1BWWGZLVU44MUNzSmRnUVY3NE56QTdYdjlWZWp0UXVKZGdWanU2TURkWlp3aFNpd01fbWFIYTFVeDdBemFHOUZ5LVZ2a0FwcWtraWx2VFNTdElIcUVzSUw4TDZXWVl4Z3lMT1FseTVVZFR0c2xyXzZmUTI4THdZRGJNRzE4UWM2VnVxaHFUa3ZOVVY2LTUzUQ?oc=5"
-        },
-        {
-          "date": "2026-10-25",
-          "title": "Kimi K3.1 Pro: Grátis para testar, habilidades de hacking deliberadamente enfraquecidas - Notebookcheck.info",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObWN4MkIzZWFmaEQzWE84VG82NjhJazJMMXdadjJJUUVVSmsxWnZPTm1ONHMwRlBaanJzVGtpeW1KODlkRk1VcGJUa3RvUnhRdnFzU0RfVGZjYXV4dDNhUlF6Zk9HbThUOEFucWlVMVMxVWtIRkxRTE5mMEhLcUFYLU1XOVRjMWNQTVk4NVhoM0I2WFRqa2dfSTQ3cXc3SVRhS3hZbzl5eGtvd05xSDJVcXVUQk56Qzc2SFVPYkV2ck1xQUp0T3F5cU8wTQ?oc=5"
-        },
-        {
-          "date": "2026-10-25",
-          "title": "Kimi K3.1 Pro: Moonshot Limita Ciber, 81,0% vs 90,5% - shattered.io",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DWEd2X2tfeW93M2NMV2pTd0NKYjFYcFVNOVJ3NkhZVG1QUFNDUkFVTEI1TWNVcUsyTk9OYWhwSTd2VDdRVVdDOVpZTm5ZMkdReEJPOGdGQ1JCTmpLMW5FSVpZbGxlZ3B2R3RwZVJDenJzdjItRmNkVy1UQzk?oc=5"
-        },
-        {
-          "date": "2026-10-25",
-          "title": "Pesos Abertos do Kimi K3.1 Pro: O que muda em 4 de novembro - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BS3hlLXF4VmZPSU9JWmJPTmVacDROc3pYbTdxZldmME9YMWN4eWxvSVFidnJPN0tXbzV3bWdGdlBRXzdRc3hDVFkyUU13bENhWk9VLTNuTF9OdTUzNnpSRTBVU1dBNnlMWEhtcg?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -122,9 +122,24 @@
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Db3NfZHBsVkl4MjJOdGt4RDM2d1lQZkloVnQ5b3VhZjlwWnlBVk0yVEl1N0lzdjFTMDdhLWtheXpSQXFjTVRMZWJDVnZlRDhoQXg5YXpLNURxMmcyOWY4V3ZYaDdEYVJPU3JBVFdwTE5tdw?oc=5"
         },
         {
+          "date": "2026-11-22",
+          "title": "LingSante-3.1-flash vs Qwen3.8 Flash: Custo por Caso - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51Mi0wUWszeTlnMkI4S1haOUJFZXI3eC1kM1Uyb1V6S0hSZlNId3lVaU0yNHdTRXd5QVNjVTViQlpQYjZPX3J4LUNXWjJMUlc3RlVEWXpqUTI2cEl6bHJwTGlORlFuYW90bnFhSWdSeVNsTDJ4WXVHa29PNA?oc=5"
+        },
+        {
+          "date": "2026-11-21",
+          "title": "DaisyRose 27B vs Qwen 3.8 27B: O que o RL puro mudou - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iR2U2bXBBS1ZES0hTTmZRN2o4MVR2ZGpIT0JlQ0JCclRxek9kTWRVUzJRMEticmRnVk5WRlZrNURtTkx4YmtlZzhkWUhuRVg3cnNRU0ctTmROajFhZEFtc3ZYVnJ3ejdpSVM3MUo4dFg?oc=5"
+        },
+        {
           "date": "2026-11-20",
           "title": "Inkling 2 Mini vs Qwen 3.8: a categoria que compete - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wTWJWZnJqWG5nOHVWN1JsTE1IdXVDc3JxTUV3OVc4Q1Z4WFkyVkE0Q09YUVMtRkhYbml0ZUh3dU9JemdVdWFyUXpjUTB4ZEV3YTN5Q0oyQmdBWUU0Z2x3Z3cwOTJoSlZwNXJfWA?oc=5"
+        },
+        {
+          "date": "2026-11-20",
+          "title": "LingSante-Pulse-1.0 vs Qwen 3.8: Codificador ou Raciocinador? - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xMFQwTnVPdTRRcFJQT1o0aWxlb3dkYTNoMmhTS0g3VHhFdlJzeEVEc1N3anlDdnpVT2JCdGdJdHVseTN5ZHdtQzh0eWJIZHFmd1BDNVBwMlZMYVhGRWJHMWptczlBSEhzbUI1QVZSMzlpMUE?oc=5"
         },
         {
           "date": "2026-11-18",
@@ -150,21 +165,6 @@
           "date": "2026-11-10",
           "title": "ERNIE Light DT 1.0 vs Qwen 3.8 Flash: Mais caro, somente texto - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB5WFNKWWx2Szl5WGQzbGdpTUdYbkNhb3BabTNuRmxmR21GNmozc2JtaUxubV9sTjBpNWNPN19LNzZ4aVU5UkVuS3VKa2c0ZkF6MExCdmdWQTFZeUxlazFtSjlpWlhkRThnOTM2NmlFSlAtT0F1M2M4U3RR?oc=5"
-        },
-        {
-          "date": "2026-11-06",
-          "title": "Qwen 4 Release Date: What We Know So Far - Fello AI",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9ORFA3Z0MzRkwwRVAtRENDU3BfbTVlZkdqMTVzYkZRNURodlQ2eHJLc045aHF5NVlnaXJhS0MxbE9vQjNJ?oc=5"
-        },
-        {
-          "date": "2026-11-05",
-          "title": "ERNIE-5.5-Flash vs Qwen 3.8 Flash: Base vs Produto - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12VEhlWGMybVhxMlRFbS1rZ2pPODhDYkNSeFJRUFgxSnY4ZF9hRDZ5ZFNJakJiTlF4dDhLZEN5QUlHUHJ4WHBjUGNETHMyUDh3bGRNUnBNMHM3UUpTUVlxS241X2pCWS1DWkliRTFEMFRJSkJzOEE?oc=5"
-        },
-        {
-          "date": "2026-11-03",
-          "title": "Segurança do código gerado por IA no teste Veracode - NeoTeo",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRXlKVlRaS3pTYm5iY3lvYUx2Q0JUeVJrY1hJVjVKZzV1ZzFGTWpaNFNxcHBDMkhGbEo2NWY2YUk5bndtNXd4NGg2d0VnNnFhdGJWTlRLbDFjTVlZYlhTNU8tYm5zVDMyeWdCYlBwVnVtdEtzQVVUTXFWS0FYWElBemNLenhvN1h2ck1LdVBDS19WeFU?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
