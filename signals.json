@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -397,6 +397,26 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-25",
+          "title": "As ações da empresa de IA Anthropic caem abaixo do preço do IPO. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYTWlrekN4dVY0UTN1OFNpTThsbHRicTFlSnJvR0NaX1RWRlgwYmgtU1RDelo4OWpZRDFiVlpnaDBlWjVjbjh5S29fbzJ2OGRTdnBBTjF2S3ROTnRoNGVjS01Nci1KT0k0cEpNaUVJQ3ROZmprTWRWYQ?oc=5"
+        },
+        {
+          "date": "2026-11-24",
+          "title": "Harga Saham Anthropic Turun di Bawah Harga IPO US$ 83 Pasca Melantai di Bursa - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9neHQ0UHd0dC02UThHOWcwVlRXMXdYMmpyTllNbzRwVUwtcnF2WXE4U2U2V3U1WlFKMGtxTGhFZ01jcmhZRnlKclYtYm92Wk8tYVhmZEFOTS0wWVkxRlZubDFYbTBHZnM1TXR5LUZKek9leTd5R0RCOGRmaDF3UjA?oc=5"
+        },
+        {
+          "date": "2026-11-19",
+          "title": "Chinesa Moonshot AI cancela acordo de US$ 150 milhões para acessar chips da Nvidia - Exame",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTW1xekZfd2tLbWI4b0dhOFhsd2ZOZmM0aU5iRVpGdVM3MmNyUTNGcy1ydkoxRmZoQ2lwY3c1dkN2dkY2T21SN1hoMVlkbFBXZWNjeDljY0oyTGtTNUZvV3J1TjNnYTJOSFBrTDM5ODRQMUVTVTFIb2hLbDliXzlxbVVIc1dnQVhHTUhmWVZFVThxVWVzbUc3eWhzRkJpRTdnSVNqUmdESjVVR19IbnlxY2NVMkIwaUZlNHFTM0RmcnZ2Zw?oc=5"
+        },
+        {
+          "date": "2026-11-19",
+          "title": "IPO da Anthropic abre caminho: 4 empresas de tecnologia que podem abrir capital - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Od1V6WUZxQTE2U2ZtY25MQ3pvNzF4ZjE1b3g3V3AzbVBjWGh3bVFvdVJsZDZzM0p3bFB0eUdNVTJzNGJjazdVUFZpYThrem5sRDVZckN2SU1UdEhNMVk5NGRHTkVrUQ?oc=5"
+        },
+        {
           "date": "2026-10-24",
           "title": "Moonshot AI vale 50 bilhões de dólares e mira a Bolsa de Hong Kong - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc3ZKUEN6UEgxOFZERE9taEU1ZEg0dERuN0laREhhdUlOX1pwaVlsTjdKeEpveXJveVZBQjc0YTdtSkhaeHdISFdid3djUDJQYkJRbnhEWWlvdEpyZlJLSUJfZkhNX3d0QXJaV3hnRURqOEFvVFBaMXFTSlpNaVZHbU9ReEdHLUx3UFE?oc=5"
@@ -425,26 +445,6 @@
           "date": "2026-10-22",
           "title": "DeepSeek capta US$ 15 bi e acelera planos de IPO na Bolsa de Xangai - Bora Investir",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzV2YnphZU1tNDdSWkgtLThCM1JhbExkQnpZMmZsZm9sbE52ejB5X21nQTV0SDRVZHc1SkdEbEdsTFFuSFhzdWNDRjc0YWlYTVZvWi11akdmT2V4SHc0YlhnZ1d1V3JoaGYyci1NakVJTG9TS3Q5Q0NBZ3dlLXNXOURaeTV5UDBvMFdtbS1HYWVDY0ZONTNHcFlxQm5pRjVTeWtGZFVveDVnSVRCUFRtYkxySUFZdw?oc=5"
-        },
-        {
-          "date": "2026-10-17",
-          "title": "Jovem prodígio da inteligência artificial, de 17 anos, deixa inesperadamente empresa chinesa. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM3NISE1yaFl6aV8yNFZvM0tjM3B0Tk1BaXYwY3FaNlFIRmE2NGhmVFE4RnZwSVFCejVaQXNiTG05UUhMZklQcExtc3NHRmZxVktkODFLelR3OFhVMGlrUFNBQnV6WmtuaWE1RjFLRE1wbUZpRkZ5Y3VNTmsyTzlxQVplaw?oc=5"
-        },
-        {
-          "date": "2026-10-13",
-          "title": "MNX impulsionado pela MegaETH é lançado com futuros pré-IPO para OpenAI, Anthropic e DeepSeek - CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbFZWRXNnQ2FEV3NmczNDMEhnSnNZbWFwZVVPWEZZTWh3VmhTNU9lQl9WTVYtVHpKMjZvUUVhWTJPaGI3RURPWVh0cHljUkE0aU5jWGdUa3hhUFVPajhxc1Q1aGx1Y2tNeUlTRlRRZGpWNWR6TGdGQ1JFWGptMHR6cW9nUWtlLTNOZXJ4ZlZWYms4NURHSzE2Z1N6S3ZKUXA2ODRBVUdBVHZSNnZ0RGRXOHFGZi00UXlNVkZIX1pRWEdwYnM?oc=5"
-        },
-        {
-          "date": "2026-10-12",
-          "title": "Startup Chinesa de IA Quer Valer US$ 50 Bilhões, Mas Enfrenta Acusação de Fraude - Forbes Brasil",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbDlzN19rN2dZZnNlMmEyNjctcFRfcnlHTy1WZjZEMkQ4cG92U2psQWVvd0lCVEl2Y2ZjVWxlMnJKRm1CNndLZ0hvc1pjQXNaRVM0blVaMnRRWlQ1b2RIbmhuUUxOUTFMa09DV2tyQndxb3pPV0lNQUNneDdnU0dhTUtGTlc1RzQteEJIbm8tUU52U2YyMG1mbURVSnA4SkxmWk9OQ3Z0NGx5ZUFobHR4b2hGTG05U2hEMnRsaFVOYw?oc=5"
-        },
-        {
-          "date": "2026-10-12",
-          "title": "Moonshot enfrenta disputa de acionistas de $700M às vésperas do IPO em Hong Kong - Cryptopolitan",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zSEw4ZjZWb1cyVW5wT3dMOHplMWlDSzVDOTBfUTA2d0JGTEwxeHhTMEpOdk1yTzVhQ2xxX2dLZ01qR2ZSMnRTU2ZpcVdLZm5oWDdGaGNrSUhUWUdaNjFKaUR5dGxsdnNEYzJIZmI0aElzaVVoc25Kd3owRUdNZw?oc=5"
         }
       ],
       "title_en": "Moonshot IPO prices at target (~US$30B+)",
