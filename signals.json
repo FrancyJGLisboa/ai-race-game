@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -47,9 +47,19 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-25",
+          "title": "Kimi K3.1 Pro vs Claude Mythos 5: Pesos Abertos vs um Modelo com Acesso Restrito - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE91TmFHRXFKRGlnRFZxT0NqRXZxakZ4MndGNWFkN1cya1kxbWlXdGJKMXZRQ2NWZjlNNlhIUVVSWl9POTFpeWhkWVgzaTByMW5ZcDNTOTVMT2RETHI5bGl0bWg1bUJ6cUxvQS1wTU5lOEpYMlN2?oc=5"
+        },
+        {
           "date": "2026-11-23",
           "title": "GLM-5.4 vs Kimi K3.1 Pro: Pesos Abertos vs uma Licença Paga - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TSWY0aHdRS2MzQVFVOE5NNnNnczIzUzd6elhUSjVGUkp0aVIxYjJIUTh6SXJpU2FjTlVpVEE0STd6TlR5SW0tRjR3RkpRV3RpTG1IdXhrTkJHRjVZdmczbFM2SERsMzlnOVE?oc=5"
+        },
+        {
+          "date": "2026-11-23",
+          "title": "Qual a melhor IA atualmente? Melhores IAs em novembro de 2026 - Fello AI",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OeVJRbkU3NWhYbWJfTUREa2J6ekRyT2JaNDExd0JpX0dYd2prLUNGb2dOSUZRdkZobWdZR1hvdDBYY0hCMkhrdXYwOEJqTk41UldJclVyM3ZHUQ?oc=5"
         },
         {
           "date": "2026-11-20",
@@ -85,16 +95,6 @@
           "date": "2026-11-04",
           "title": "Kimi K3: O Modelo de Open Weights de 2,8B da Moonshot Explicado, Especificações, Preços e Benchmarks - Fello AI",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzU3ZXZXZDbzllZWNMXzVhWW9RR3FSN0ZaQTg5bWtHZk44UGtKUHVmZ3pfYmhwVFZzdWdyZE5uLWZYemZuTWc?oc=5"
-        },
-        {
-          "date": "2026-10-26",
-          "title": "OpenAI e Anthropic cortam preços de LLMs em até 80% à medida que a concorrência de pesos abertos se intensifica - news.lavx.hu",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYVc4NnBPUktRWVBUWlJUZHQyU0FURXJNTTdUSlAyN3d3ck1EUjhTQUh3V3g2c0VyZW5ldGc2NEprSGJIdF9WbXpxTW1DWXJHdENTMW5CV0I4dHVGTkdkV3MwcWNRMktHYWlSalMzOTJKOEF3SEdfbXR4cWd3d0x0SUk3TVM4VTJxUXQweGVtTFhTWG4xSnVzaHRYeXZLOFJEaUJsdi1RZmhYc2RMbmFYWE94WlhIcUhpSjVhUFI0amZhazRFLTJDSXZoZS11TTRGQTc0VHppY1lCcDN0QkE?oc=5"
-        },
-        {
-          "date": "2026-10-25",
-          "title": "Moonshot AI limita capacidades de ciberataques do novo modelo Kimi K3.1 Pro - TugaTech",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObkFpdXhEcndERnBqS19ybC1IU1BWWGZLVU44MUNzSmRnUVY3NE56QTdYdjlWZWp0UXVKZGdWanU2TURkWlp3aFNpd01fbWFIYTFVeDdBemFHOUZ5LVZ2a0FwcWtraWx2VFNTdElIcUVzSUw4TDZXWVl4Z3lMT1FseTVVZFR0c2xyXzZmUTI4THdZRGJNRzE4UWM2VnVxaHFUa3ZOVVY2LTUzUQ?oc=5"
         }
       ],
       "title_en": "K3 weights published on schedule",
@@ -120,6 +120,11 @@
           "date": "2026-11-23",
           "title": "MiniCPM5-15B-A2.5B vs Qwen 3.8: O que você pode comparar? - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Db3NfZHBsVkl4MjJOdGt4RDM2d1lQZkloVnQ5b3VhZjlwWnlBVk0yVEl1N0lzdjFTMDdhLWtheXpSQXFjTVRMZWJDVnZlRDhoQXg5YXpLNURxMmcyOWY4V3ZYaDdEYVJPU3JBVFdwTE5tdw?oc=5"
+        },
+        {
+          "date": "2026-11-23",
+          "title": "WePocketModel1.0-4B vs Qwen 3.8: mesmo backbone, novas cabeças - OrcaRouter",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RVm9lbWRjZF9HRWpldHRzRG82YmFCaVNlVFJPbE81ZmJLVXRqd01xN2YyNHNCUTRMaW1sRTBUdkQ3dFhlZ3U4dUFkS2pHVWh0eTg0bTYzMmVTOVdERjlsODFNcl9qdHhPd1M3Q3JEckdiUk0?oc=5"
         },
         {
           "date": "2026-11-22",
@@ -160,11 +165,6 @@
           "date": "2026-11-11",
           "title": "ZoomGain-9B vs Qwen 3.8 8B: O oponente não existe - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uQXlFclBGcW44Y2lpUEEwaDRObi04azNUOW13ZklnZlVtUWhPSGF0cFFDWGtBbmF2M0YxdVpldUdrbEZKOVM3ZXdVTzd4RURxRV85OVVMbi1wLXJsanFzMERiR0prbkZq?oc=5"
-        },
-        {
-          "date": "2026-11-10",
-          "title": "ERNIE Light DT 1.0 vs Qwen 3.8 Flash: Mais caro, somente texto - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB5WFNKWWx2Szl5WGQzbGdpTUdYbkNhb3BabTNuRmxmR21GNmozc2JtaUxubV9sTjBpNWNPN19LNzZ4aVU5UkVuS3VKa2c0ZkF6MExCdmdWQTFZeUxlazFtSjlpWlhkRThnOTM2NmlFSlAtT0F1M2M4U3RR?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
@@ -327,6 +327,11 @@
       ],
       "evidence": [
         {
+          "date": "2026-11-26",
+          "title": "Avanços da China e EUA na IA podem criar “abismo colossal” a nível mundial, diz ONU - Público",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQktQYnN3TUFDaGo1YTdqZ3JmQ1Z3X0x0U3ZsNndSU0pvaEY2WlZEUDdfMDUyNGRMbjFKeFg5YS1MLUxIa2lUZ3lUZVpUc2FwYktodUhPSW5sTHlBSGh5a3FxU1dveE4xbERRUEpGajdtMi0ydVhHejRyd0RPRWZZaHVsZ2UwckMwTU42c3dzVk1uaU5CTlpRLTM4ZGJWeVVGRmhFN0tHTy13bXJvRy1TeDFEVFJidjZMbm9IMmJlNA?oc=5"
+        },
+        {
           "date": "2026-11-19",
           "title": "Xi Jinping confirma apoio à IA de código aberto, mas o discurso é de julho - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVnZfRi1iMG1JbGlWVHdkM0dEMm8zam9TTjFaenlqaGlfYnkweFVRcWF1Z3JyeElMcVpCbU5JWExBNWdibFJpaWNJdllxd01EMTRqT1NIOGZibDNkYlVQY250M01qbnFhUUZKc0xJaTNYNmVzSFBYaFNwN1laMF9fMHpfa0N1OFFWYlM3Y3BHNkk2X3d3U2FqdW9zb1hLNjRJZEw0?oc=5"
@@ -370,11 +375,6 @@
           "date": "2026-08-01",
           "title": "Brasil entra em organização internacional de inteligência artificial liderada pela China - Diário da Guanabara",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRnRiN3VTOFZ1bVg5RDYzNUYzMzNtOXJ6eDdxeE1aSmZtZGZxZVNlRWV0TE55S0h6VG1CbTltUG45M0FuTkNpN0hrMGpwYkotMHNfVjJhLWtBcU41QUotaThiQUFpMFRGV1BjbVRmcTIweTVkRXZ6VUhTQnZuSUxGOGp6emNnX18wT1FNMk4yS0pPM0VFTXc5Z21paTFnLVFNZk1kOE5IZXFadWZlWXAzYzNkdzc?oc=5"
-        },
-        {
-          "date": "2026-08-01",
-          "title": "Brasil Busca Fortalecer Soberania Digital Em IA Com Aliança Chinesa - portalgurupi.com.br",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRU2UyTmNhYXIybEh3TkhXczFSRGJnMmJlRHF1b05wUzRCSEQtWnFJem1DNEQ5bGFEZDgwVnlYdV8yQWc1TURGMTBNT3VPb19uS0NxNXVfeDduY3FsM08wdEJkV3l4NHpmeG9ZSnJvZw?oc=5"
         }
       ],
       "title_en": "WAICO lands concrete adoption commitments",
