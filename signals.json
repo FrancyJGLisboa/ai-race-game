@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "_como_editar": "Edite este arquivo direto no GitHub para atualizar o jogo sem tocar no código. Para adicionar um sinal novo: copie um bloco de 'signals' e mude id (único, sem espaços), title, note, date e L (verossimilhanças P(sinal confirmado | estado), entre 0 e 1 exclusivo, para coord/market/theater). Para resolver oficialmente um sinal quando a notícia sair: mude resolved de null para \"yes\" ou \"no\" — isso trava a resolução para todos os jogadores e pontua as previsões travadas. O campo 'evidence' é preenchido pelo robô diário (Action) a partir de queries — nunca edite resolved via robô; resolved continua manual e é o gabarito.",
   "past": [
     {
@@ -122,6 +122,11 @@
           "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9ORFA3Z0MzRkwwRVAtRENDU3BfbTVlZkdqMTVzYkZRNURodlQ2eHJLc045aHF5NVlnaXJhS0MxbE9vQjNJ?oc=5"
         },
         {
+          "date": "2026-11-27",
+          "title": "Novo competidor do Qwen 3.8 27bi: Inkling 2 Mini - iMasters",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRHB4RldXeDJwTDZtNzc2bnE2UmtYMHBHa2RsQXJQLVhybnQzb2lYaEgwdG5ONEV5d1pMTDNDelFLLVJHYmF6S045R2VOTVBmY2ZHQ3NFRGx6UlJPaEx5RzIyTVFNUTd3Q3c4cnZVdmRCODM4UXBWYnBTZWV2bFR3S2NBVC1MR0U?oc=5"
+        },
+        {
           "date": "2026-11-23",
           "title": "MiniCPM5-15B-A2.5B vs Qwen 3.8: O que você pode comparar? - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Db3NfZHBsVkl4MjJOdGt4RDM2d1lQZkloVnQ5b3VhZjlwWnlBVk0yVEl1N0lzdjFTMDdhLWtheXpSQXFjTVRMZWJDVnZlRDhoQXg5YXpLNURxMmcyOWY4V3ZYaDdEYVJPU3JBVFdwTE5tdw?oc=5"
@@ -160,11 +165,6 @@
           "date": "2026-11-16",
           "title": "Sage-S2.1-Flash vs Qwen 3.8 Flash: 645 GB contra $0,15 - OrcaRouter",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50eGRWMUU3UGxWTUJndUZIM0U0SWZxQWxWUkQyLVhYeEE0MjM3TWxzVDY1MWdPZU5IQ3gwTWU3bzd2a05rWUJENFNNYTJhU2h3WWxYQVZvZFUzTnNTMWtDdHdhTGdjZ3Y4Wl9FcU5zRnZ2Um9LUlE?oc=5"
-        },
-        {
-          "date": "2026-11-13",
-          "title": "Tell 1 vs Qwen 3.8: 72 ms contra Melhor Chamada de Ferramentas - OrcaRouter",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5INEV4Vi1TalktU2RWc3NiaVFPRmp2SjlXQlF6eGJrbFZIQUV1U0t0aG95NkNLNGpONTNIUEZqWXdUZXNRUXY5ek95NlJhNHRLa1JWbHNfa01GN1pwVlltVkZR?oc=5"
         }
       ],
       "title_en": "Qwen 3.8 benchmarks independently audited",
